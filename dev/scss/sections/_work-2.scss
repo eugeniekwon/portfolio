@@ -1,0 +1,154 @@
+/* =============
+    work-2
+============= */
+
+#work-2 {
+
+    #work-gallery {
+
+        @include md {
+            margin: 0px 25px;
+        }
+
+        @include lg {
+            margin: 0px;
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-areas: ". gallery-xl .";
+            grid-template-columns: auto 1200px auto;
+        }
+
+        >div {
+
+            @include xl{
+                grid-area: gallery-xl;
+            }
+
+            ul {
+                @include md {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 25px;
+                }
+
+                li {
+
+                    div {
+                        // align-items: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        // display: flex;
+                        height: 35vh;
+                        // justify-content: center;
+                        text-align: center;
+
+                        @include md {
+                            height: 30vh;
+                        }
+
+                        @include lg {
+                            height: 35vh;
+                        }
+
+                        a:link,
+                        a:visited {
+                            width: 100%;
+                            
+
+                            h4 {
+                                font-family: 'Inter', sans-serif;
+                                font-weight: 500;
+                                font-size: rem-calc(20);
+                                color: $white;
+
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            p {
+                                font-family: 'Inter', sans-serif;
+                                font-weight: 500;
+                                font-size: rem-calc(16);
+                                color: $white;
+
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            
+                        }
+
+    
+                    }
+                }
+            }
+
+
+            li:nth-child(1) {
+                >div {
+                    background-image: url("../img/work-2/proj-1.jpg");
+                    margin-bottom: 30px;
+
+                    @include md {
+                        margin: 0;
+                    }
+                }
+
+
+            }
+
+            li:nth-child(2) {
+                >div {
+                    background-image: url("../img/work-2/proj-2.jpg");
+                    margin-bottom: 30px;
+
+                    @include md {
+                        margin: 0;
+                    }
+                }
+
+
+            }
+
+            // li:nth-child(3) {
+            //     >div {
+            //         background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
+            //         margin-bottom: 30px;
+
+            //         @include md {
+            //             margin: 0;
+            //         }
+            //     }
+
+
+            // }
+
+            // li:nth-child(4) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-2.jpg");
+            //         margin-bottom: 90px;
+
+            //         @include md {
+            //             margin-bottom: 125px;
+            //         }
+            //     }
+
+
+            // }
+        }
+
+
+    }
+
+}

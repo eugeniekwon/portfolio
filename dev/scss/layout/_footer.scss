@@ -3,96 +3,111 @@
 ============= */
 
 footer {
+
     background-color: $gray;
     width: 100%;
     border-bottom: 1px solid $gray;
 
-    >div {
-        margin: 0px 10px;
-        padding-top: 30px;
-        color: $white;
-
-        @include md{
-            margin: 0px 106px;
+    #footer-xl{
+        @include xl{
+            display: grid;
+            grid-template-areas: ". footer-xl .";
+            grid-template-columns: auto 1200px auto;
         }
 
-        h4 {
-            font-family: 'Inter', sans-serif;
-            font-weight: 300;
-            font-size: rem-calc(20);
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            font-size: rem-calc(17);
-            margin-bottom: 15px;
-        }
-
-        h3 {
-            font-family: 'Noto Sans KR', sans-serif;
-            font-weight: 300;
-            font-size: rem-calc(17);
-            margin-bottom: 30px;
-        }
-
-        #email {
-            font-family: 'Inter', sans-serif;
-            font-weight: 300;
-            font-size: rem-calc(14);
-            margin-bottom: 15px;
-
-            ul {
-                align-items: center;
-                display: flex;
-                justify-content: flex-start;
-                margin-bottom: 15px;
-
-                li {
-                    margin-right: 10px;
-                }
+        >div {
+            margin: 0px 10px;
+            padding-top: 30px;
+            color: $white;
+    
+            @include md{
+                margin: 0px 106px;
             }
-        }
 
-
-        #social-media {
-            ul {
-                margin-bottom: 30px;
+            @include xl{
+                grid-area: footer-xl;
+            }
+    
+            h4 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
                 font-size: rem-calc(20);
-
-                align-items: center;
-                display: flex;
-                justify-content: flex-start;
-
-                li {
-                    margin-right: 10px;
-
-                    a:link,
-                    a:visited {
-                        color: $white;
-                    }
-
-                    a:hover {
-                        color: $white;
+                margin-bottom: 15px;
+            }
+    
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                font-size: rem-calc(17);
+                margin-bottom: 15px;
+            }
+    
+            h3 {
+                font-family: 'Noto Sans KR', sans-serif;
+                font-weight: 300;
+                font-size: rem-calc(17);
+                margin-bottom: 30px;
+            }
+    
+            #email {
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
+                font-size: rem-calc(14);
+                margin-bottom: 15px;
+    
+                ul {
+                    align-items: center;
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-bottom: 15px;
+    
+                    li {
+                        margin-right: 10px;
                     }
                 }
             }
+    
+    
+            #social-media {
+                ul {
+                    margin-bottom: 30px;
+                    font-size: rem-calc(20);
+    
+                    align-items: center;
+                    display: flex;
+                    justify-content: flex-start;
+    
+                    @include lg{
+                        font-size: rem-calc(25);
+                    }
+    
+                    li {
+                        margin-right: 10px;
+    
+                        a:link,
+                        a:visited {
+                            color: $white;
+                        }
+    
+                        a:hover {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+    
+            #copyright {
+                font-family: 'Inter', sans-serif;
+                font-size: rem-calc(10);
+                margin-bottom: 30px;
+            }
         }
 
-        #copyright {
-            font-family: 'Inter', sans-serif;
-            font-size: rem-calc(10);
-            margin-bottom: 30px;
-        }
+
     }
+    
 
-
-
-
-
-
-
+    
 
 
 }

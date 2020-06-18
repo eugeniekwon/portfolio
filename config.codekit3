@@ -46,6 +46,457 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/art-1/independent/ID-chae1.jpg": {
+		"ft": 16384,
+		"iS": 375582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-chae1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-chae2.jpg": {
+		"ft": 16384,
+		"iS": 440524,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-chae2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-chae3.jpg": {
+		"ft": 16384,
+		"iS": 400211,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-chae3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-david1.jpg": {
+		"ft": 16384,
+		"iS": 383189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-david1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-david2.jpg": {
+		"ft": 16384,
+		"iS": 513442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-david2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-david3.jpg": {
+		"ft": 16384,
+		"iS": 534394,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-david3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-hero.jpg": {
+		"ft": 16384,
+		"iS": 354661,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-sharm1.jpg": {
+		"ft": 16384,
+		"iS": 423673,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-sharm1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-sharm2.jpg": {
+		"ft": 16384,
+		"iS": 446552,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-sharm2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-sharm3.jpg": {
+		"ft": 16384,
+		"iS": 356484,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-sharm3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-yeg1.jpg": {
+		"ft": 16384,
+		"iS": 332327,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-yeg1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-yeg2.jpg": {
+		"ft": 16384,
+		"iS": 382187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-yeg2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/independent/ID-yeg3.jpg": {
+		"ft": 16384,
+		"iS": 338573,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/independent/ID-yeg3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/geo1.jpg": {
+		"ft": 16384,
+		"iS": 703114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/geo1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/geo2.jpg": {
+		"ft": 16384,
+		"iS": 384158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/geo2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light-hero-1.jpg": {
+		"ft": 16384,
+		"iS": 462690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light-hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light2.jpg": {
+		"ft": 16384,
+		"iS": 659699,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light3.jpg": {
+		"ft": 16384,
+		"iS": 569097,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light4.jpg": {
+		"ft": 16384,
+		"iS": 680413,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light5.jpg": {
+		"ft": 16384,
+		"iS": 338317,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/light/light6.jpg": {
+		"ft": 16384,
+		"iS": 475577,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/light/light6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/motion1.jpg": {
+		"ft": 16384,
+		"iS": 245980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/motion1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/motion2.jpg": {
+		"ft": 16384,
+		"iS": 400133,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/motion2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/motion3.jpg": {
+		"ft": 16384,
+		"iS": 547746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/motion3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/motion4.jpg": {
+		"ft": 16384,
+		"iS": 513244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/motion4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait-hero-1.jpg": {
+		"ft": 16384,
+		"iS": 385649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait-hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait2.jpg": {
+		"ft": 16384,
+		"iS": 503509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait3.jpg": {
+		"ft": 16384,
+		"iS": 486452,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait4.jpg": {
+		"ft": 16384,
+		"iS": 378471,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait5.jpg": {
+		"ft": 16384,
+		"iS": 727364,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/portraits/portrait6.jpg": {
+		"ft": 16384,
+		"iS": 592375,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/portraits/portrait6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/motion-hero-1.jpg": {
+		"ft": 16384,
+		"iS": 441240,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/motion-hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/motion2.jpg": {
+		"ft": 16384,
+		"iS": 328262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/motion2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/street1.jpg": {
+		"ft": 16384,
+		"iS": 531766,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/street1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/street2.jpg": {
+		"ft": 16384,
+		"iS": 542229,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/street2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/street3.jpg": {
+		"ft": 16384,
+		"iS": 400998,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/street3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/volscale1.jpg": {
+		"ft": 16384,
+		"iS": 565536,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/volscale1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/volscale2.jpg": {
+		"ft": 16384,
+		"iS": 522977,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/volscale2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/street/volscale3.jpg": {
+		"ft": 16384,
+		"iS": 393433,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/street/volscale3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-1.jpg": {
+		"ft": 16384,
+		"iS": 456425,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-2.jpg": {
+		"ft": 16384,
+		"iS": 53123,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -75,6 +526,38 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/deploy/light-photo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/light-photo.html",
+		"oF": 0
+		},
+	"/deploy/little-joys.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/little-joys.html",
+		"oF": 0
+		},
+	"/deploy/portraits.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/portraits.html",
+		"oF": 0
+		},
+	"/deploy/street-photo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/street-photo.html",
+		"oF": 0
 		},
 	"/deploy/woodmere.html": {
 		"cB": 0,
@@ -122,7 +605,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/art.html",
-		"oF": 3
+		"oF": 2
 		},
 	"/dev/footer.kit": {
 		"cB": 0,
@@ -169,6 +652,30 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/light-photo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/light-photo.html",
+		"oF": 2
+		},
+	"/dev/little-joys.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/little-joys.html",
+		"oF": 2
+		},
+	"/dev/portraits.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/portraits.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -313,7 +820,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_art.scss": {
+	"/dev/scss/sections/_art-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -321,12 +828,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_art.css",
+		"oAP": "/dev/scss/sections/_art-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_work.scss": {
+	"/dev/scss/sections/_little-joys.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -334,7 +841,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_work.css",
+		"oAP": "/dev/scss/sections/_little-joys.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_work-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_work-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_work-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_work-2.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -351,6 +884,14 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/street-photo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/street-photo.html",
+		"oF": 2
 		},
 	"/dev/woodmere.kit": {
 		"cB": 0,
