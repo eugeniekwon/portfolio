@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 0
+		},
+	"/deploy/art.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/art.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -19,6 +35,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/about-1/me.JPG": {
+		"ft": 16384,
+		"iS": 541210,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about-1/me.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -26,6 +53,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 0
+		},
+	"/deploy/js/scripts-min-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
@@ -38,21 +76,53 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/about.kit": {
+	"/deploy/woodmere.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/woodmere.html",
+		"oF": 0
+		},
+	"/deploy/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/work.html",
+		"oF": 0
+		},
+	"/dev/about-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/about.html",
-		"oF": 0
+		"oAP": "/dev/about-1.html",
+		"oF": 1
+		},
+	"/dev/about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 2
+		},
+	"/dev/art-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/art-1.html",
+		"oF": 1
 		},
 	"/dev/art.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/art.html",
-		"oF": 0
+		"oA": 0,
+		"oAP": "/deploy/art.html",
+		"oF": 3
 		},
 	"/dev/footer.kit": {
 		"cB": 0,
@@ -77,6 +147,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -219,7 +300,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_about.scss": {
+	"/dev/scss/sections/_about-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -227,7 +308,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_about.css",
+		"oAP": "/dev/scss/sections/_about-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -271,13 +352,37 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/work.kit": {
+	"/dev/woodmere.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/woodmere.html",
+		"oF": 2
+		},
+	"/dev/work-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/work.html",
-		"oF": 0
+		"oAP": "/dev/work-1.html",
+		"oF": 1
+		},
+	"/dev/work-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/work-2.html",
+		"oF": 1
+		},
+	"/dev/work.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/work.html",
+		"oF": 3
 		},
 	"/README.md": {
 		"cB": 0,

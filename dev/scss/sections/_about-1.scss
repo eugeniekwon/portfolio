@@ -1,0 +1,76 @@
+/* =============
+    about-1
+============= */
+#about {
+    @include xl{
+        display: grid;
+        grid-template-areas: ". about-xl .";
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div{
+        @include lg{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "aside article";
+        }
+
+        @include xl{
+            grid-area: about-xl;
+        }
+    
+        aside {
+            background-image: url("../img/about-1/me.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 65vh;
+    
+            @include md{
+                margin: 0px 394px 0px 25px;
+                height: 45vh;
+            }
+    
+            @include lg{
+                grid-area: aside;
+    
+                margin: 0px 50px 150px 45px;
+                height: 70vh;
+            }
+        }
+    
+        article {
+            font-family: 'Inter', sans-serif;
+            font-size: rem-calc(16);
+            font-weight: 300;
+            line-height: rem-calc(23);
+            margin: 30px 10px 90px 10px;
+            text-align: justify;
+    
+            @include md{
+                margin: 40px 106px 125px 300px;
+            }
+    
+            @include lg{
+                grid-area: article;
+                margin: 0px 45px 150px 50px;
+            }
+    
+            p {
+                margin-bottom: 15px;
+    
+                @include md{
+                    margin-bottom: 20px;
+                }
+            }
+    
+            span {
+                display: block;
+            }
+        }
+    }
+
+    
+
+    
+}
