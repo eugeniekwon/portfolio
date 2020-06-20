@@ -105,3 +105,50 @@ a:link,
 a:visited {
     text-decoration: none;
 }
+
+
+.portfolio-title{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(30);
+    font-weight: 600;
+    line-height: rem-calc(42);
+    margin: 30px 10px 0px 10px;
+    color: $gray;
+}
+
+.portfolio-subtitle{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(15);
+    font-weight: 600;
+    margin: 15px 10px 0px 10px;
+    color: $gray;
+}
+
+.portfolio-section{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(20);
+    font-weight: 400;
+    margin: 15px 10px 0px 10px;
+    color: $gray;
+}
+
+.portfolio-description{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(16);
+    font-weight: 300;
+    line-height: rem-calc(22);
+    margin: 15px 10px 0px 10px;
+    color: $gray;
+    text-align: justify;
+}
+
+.portfolio-last-description{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(16);
+    font-weight: 300;
+    line-height: rem-calc(22);
+    margin: 15px 10px 30px 10px;
+    color: $gray;
+    text-align: justify;
+}
+

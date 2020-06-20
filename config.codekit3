@@ -35,7 +35,7 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/about-1/me.JPG": {
+	"/deploy/img/about-1/me.jpg": {
 		"ft": 16384,
 		"iS": 541210,
 		"jF": 0,
@@ -543,6 +543,14 @@
 		"oAP": "/deploy/little-joys.html",
 		"oF": 0
 		},
+	"/deploy/philly-flower.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/philly-flower.html",
+		"oF": 0
+		},
 	"/deploy/portraits.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -653,6 +661,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/light-photo-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/light-photo-1.html",
+		"oF": 1
+		},
 	"/dev/light-photo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -661,6 +677,14 @@
 		"oAP": "/deploy/light-photo.html",
 		"oF": 2
 		},
+	"/dev/little-joys-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/little-joys-1.html",
+		"oF": 1
+		},
 	"/dev/little-joys.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -668,6 +692,30 @@
 		"oA": 0,
 		"oAP": "/deploy/little-joys.html",
 		"oF": 2
+		},
+	"/dev/philly-flower-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/philly-flower-1.html",
+		"oF": 1
+		},
+	"/dev/philly-flower.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/philly-flower.html",
+		"oF": 2
+		},
+	"/dev/portraits-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/portraits-1.html",
+		"oF": 1
 		},
 	"/dev/portraits.kit": {
 		"cB": 0,
@@ -833,7 +881,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_little-joys.scss": {
+	"/dev/scss/sections/_light-photo-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -841,7 +889,46 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_little-joys.css",
+		"oAP": "/dev/scss/sections/_light-photo-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_little-joys-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_little-joys-1.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_portraits-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_portraits-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_street-photo-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_street-photo-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -885,6 +972,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/street-photo-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/street-photo-1.html",
+		"oF": 0
+		},
 	"/dev/street-photo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -892,6 +987,14 @@
 		"oA": 0,
 		"oAP": "/deploy/street-photo.html",
 		"oF": 2
+		},
+	"/dev/woodmere-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/woodmere-1.html",
+		"oF": 1
 		},
 	"/dev/woodmere.kit": {
 		"cB": 0,

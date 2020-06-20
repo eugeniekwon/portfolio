@@ -384,6 +384,46 @@ a:link,
 a:visited {
   text-decoration: none; }
 
+.portfolio-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.625rem;
+  margin: 30px 10px 0px 10px;
+  color: #3F3F3F; }
+
+.portfolio-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin: 15px 10px 0px 10px;
+  color: #3F3F3F; }
+
+.portfolio-section {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 15px 10px 0px 10px;
+  color: #3F3F3F; }
+
+.portfolio-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin: 15px 10px 0px 10px;
+  color: #3F3F3F;
+  text-align: justify; }
+
+.portfolio-last-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin: 15px 10px 30px 10px;
+  color: #3F3F3F;
+  text-align: justify; }
+
 /* =============
     Typography
 ============= */
@@ -519,7 +559,7 @@ header {
         font-weight: 600; }
         @media (min-width: 992px) {
           header > div #nav-container ul li {
-            font-size: 1.25rem; } }
+            font-size: 1.125rem; } }
 /* =============
     Footer
 ============= */
@@ -866,7 +906,7 @@ footer {
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 35vh;
+  height: 30vh;
   justify-content: center;
   text-align: center; }
   @media (min-width: 768px) {
@@ -913,20 +953,176 @@ footer {
     #art #gallery > div li:nth-child(4) > div {
       margin-bottom: 125px; } }
 /* =============
-    little-joys
+    little-joys-1
 ============= */
 #little-joys #joy-gallery #joy-main #joy-hero {
   background-image: url("../img/art-1/independent/ID-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; }
+  background-size: 100%;
+  height: 30vh; }
 
-#little-joys #joy-gallery ul li div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#little-joys #joy-gallery ul li {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; }
+  background-size: 100%;
+  height: 30vh; }
+
+#little-joys #joy-gallery li:nth-child(1) {
+  background-image: url("../img/art-1/independent/ID-yeg1.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(2) {
+  background-image: url("../img/art-1/independent/ID-yeg2.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(3) {
+  background-image: url("../img/art-1/independent/ID-yeg3.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(4) {
+  background-image: url("../img/art-1/independent/ID-chae1.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(5) {
+  background-image: url("../img/art-1/independent/ID-chae2.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(6) {
+  background-image: url("../img/art-1/independent/ID-chae3.jpg");
+  height: 69vh; }
+
+#little-joys #joy-gallery li:nth-child(7) {
+  background-image: url("../img/art-1/independent/ID-david1.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(8) {
+  background-image: url("../img/art-1/independent/ID-david2.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(9) {
+  background-image: url("../img/art-1/independent/ID-david3.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(10) {
+  background-image: url("../img/art-1/independent/ID-sharm1.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(11) {
+  background-image: url("../img/art-1/independent/ID-sharm2.jpg"); }
+
+#little-joys #joy-gallery li:nth-child(12) {
+  background-image: url("../img/art-1/independent/ID-sharm3.jpg"); }
+
+/* =============
+    street-photo-1
+============= */
+#street-photo #street-gallery #street-main #street-hero {
+  background-image: url("../img/art-1/street/motion-hero-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+
+#street-photo #street-gallery ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+
+#street-photo #street-gallery li:nth-child(1) {
+  background-image: url("../img/art-1/street/motion2.jpg"); }
+
+#street-photo #street-gallery li:nth-child(2) {
+  background-image: url("../img/art-1/street/street1.jpg"); }
+
+#street-photo #street-gallery li:nth-child(3) {
+  background-image: url("../img/art-1/street/street2.jpg");
+  height: 69vh; }
+
+#street-photo #street-gallery li:nth-child(4) {
+  background-image: url("../img/art-1/street/street3.jpg");
+  height: 69vh; }
+
+#street-photo #street-gallery li:nth-child(5) {
+  background-image: url("../img/art-1/street/volscale1.jpg"); }
+
+#street-photo #street-gallery li:nth-child(6) {
+  background-image: url("../img/art-1/street/volscale2.jpg"); }
+
+#street-photo #street-gallery li:nth-child(7) {
+  background-image: url("../img/art-1/street/volscale3.jpg"); }
+
+/* =============
+    portraits-1
+============= */
+#portraits #portraits-gallery #portraits-main #portraits-hero {
+  background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+
+#portraits #portraits-gallery ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+
+#portraits #portraits-gallery li:nth-child(1) {
+  background-image: url("../img/art-1/portraits/portrait4.jpg");
+  height: 69vh; }
+
+#portraits #portraits-gallery li:nth-child(2) {
+  background-image: url("../img/art-1/portraits/portrait5.jpg");
+  height: 69vh; }
+
+#portraits #portraits-gallery li:nth-child(3) {
+  background-image: url("../img/art-1/portraits/portrait2.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(4) {
+  background-image: url("../img/art-1/portraits/motion1.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(5) {
+  background-image: url("../img/art-1/portraits/motion2.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(6) {
+  background-image: url("../img/art-1/portraits/portrait3.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(7) {
+  background-image: url("../img/art-1/portraits/motion3.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(8) {
+  background-image: url("../img/art-1/portraits/motion4.jpg"); }
+
+#portraits #portraits-gallery li:nth-child(9) {
+  background-image: url("../img/art-1/portraits/portrait6.jpg");
+  height: 69vh; }
+
+/* =============
+    light-photo-1
+============= */
+#light-photo #light-gallery #light-main #light-hero {
+  background-image: url("../img/art-1/light/light-hero-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 69vh; }
+
+#light-photo #light-gallery ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+
+#light-photo #light-gallery li:nth-child(1) {
+  background-image: url("../img/art-1/light/light2.jpg"); }
+
+#light-photo #light-gallery li:nth-child(2) {
+  background-image: url("../img/art-1/light/light3.jpg"); }
+
+#light-photo #light-gallery li:nth-child(3) {
+  background-image: url("../img/art-1/light/geo1.jpg"); }
+
+#light-photo #light-gallery li:nth-child(4) {
+  background-image: url("../img/art-1/light/geo2.jpg"); }
+
+#light-photo #light-gallery li:nth-child(5) {
+  background-image: url("../img/art-1/light/light4.jpg"); }
+
+#light-photo #light-gallery li:nth-child(6) {
+  background-image: url("../img/art-1/light/light5.jpg"); }
+
+#light-photo #light-gallery li:nth-child(7) {
+  background-image: url("../img/art-1/light/light6.jpg"); }
