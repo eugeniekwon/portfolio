@@ -389,40 +389,59 @@ a:visited {
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 2.625rem;
-  margin: 30px 10px 0px 10px;
+  margin: 30px 10px 15px 10px;
   color: #3F3F3F; }
-
+  @media (min-width: 768px) {
+    .portfolio-title {
+      margin: 40px 25px 20px 25px; } }
+  @media (min-width: 992px) {
+    .portfolio-title {
+      margin: 50px 45px 25px 45px; } }
 .portfolio-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
   font-weight: 600;
-  margin: 15px 10px 0px 10px;
+  margin: 0px 10px 30px 10px;
   color: #3F3F3F; }
-
+  @media (min-width: 768px) {
+    .portfolio-subtitle {
+      margin: 0px 25px 40px 25px; } }
+  @media (min-width: 992px) {
+    .portfolio-subtitle {
+      margin: 0px 45px 25px 45px; } }
 .portfolio-section {
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  margin: 15px 10px 0px 10px;
+  margin: 0px 10px 15px 10px;
   color: #3F3F3F; }
-
+  @media (min-width: 768px) {
+    .portfolio-section {
+      margin: 0px 0px 20px 0px; } }
+  @media (min-width: 992px) {
+    .portfolio-section {
+      margin: 0px 0px 25px 0px; } }
 .portfolio-description {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.375rem;
-  margin: 15px 10px 0px 10px;
+  margin: 0px 10px 30px 10px;
   color: #3F3F3F;
   text-align: justify; }
-
-.portfolio-last-description {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.375rem;
-  margin: 15px 10px 30px 10px;
-  color: #3F3F3F;
-  text-align: justify; }
+  @media (min-width: 768px) {
+    .portfolio-description {
+      margin: 0px 0px 40px 0px; } }
+  @media (min-width: 992px) {
+    .portfolio-description {
+      margin: 0px 0px 150px 0px; } }
+.pull-quotes {
+  font-family: 'Gelasio', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0px 10px 10px 10px;
+  color: #7E8E94;
+  text-align: center; }
 
 /* =============
     Typography
@@ -664,6 +683,9 @@ footer {
       grid-area: aside;
       height: 70vh;
       margin: 0px 50px 150px 45px; } }
+  @media (min-width: 1200px) {
+    #about > div aside {
+      height: 80vh; } }
 #about > div article {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
@@ -765,7 +787,8 @@ footer {
       #work-1 #work-1-xl #intro-description #location p span {
         display: block; }
   #work-1 #work-1-xl #scroll-button {
-    text-align: center; }
+    text-align: center;
+    scroll-behavior: smooth; }
     #work-1 #work-1-xl #scroll-button p {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
@@ -821,23 +844,26 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
-#work-2 #work-gallery > div ul li div {
+#work-2 #work-gallery > div ul li > div {
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
   height: 35vh;
+  justify-content: center;
   text-align: center; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div ul li div {
+    #work-2 #work-gallery > div ul li > div {
       height: 30vh; } }
   @media (min-width: 992px) {
-    #work-2 #work-gallery > div ul li div {
+    #work-2 #work-gallery > div ul li > div {
       height: 35vh; } }
-  #work-2 #work-gallery > div ul li div a:link,
-  #work-2 #work-gallery > div ul li div a:visited {
+  #work-2 #work-gallery > div ul li > div a:link,
+  #work-2 #work-gallery > div ul li > div a:visited {
     width: 100%; }
-    #work-2 #work-gallery > div ul li div a:link h4,
-    #work-2 #work-gallery > div ul li div a:visited h4 {
+    #work-2 #work-gallery > div ul li > div a:link h4,
+    #work-2 #work-gallery > div ul li > div a:visited h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
@@ -845,8 +871,8 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
-    #work-2 #work-gallery > div ul li div a:link p,
-    #work-2 #work-gallery > div ul li div a:visited p {
+    #work-2 #work-gallery > div ul li > div a:link p,
+    #work-2 #work-gallery > div ul li > div a:visited p {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1rem;
@@ -867,6 +893,144 @@ footer {
   @media (min-width: 768px) {
     #work-2 #work-gallery > div li:nth-child(2) > div {
       margin: 0; } }
+/* =============
+    woodmere-1
+============= */
+#woodmere #woodmere-hero {
+  background-image: url("../img/work-2/woodmere/tickets.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-hero {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #woodmere #woodmere-hero {
+      height: 90vh; } }
+  @media (min-width: 1200px) {
+    #woodmere #woodmere-hero {
+      height: 105vh; } }
+@media (min-width: 1200px) {
+  #woodmere #woodmere-main {
+    display: grid;
+    grid-template-areas: ". woodmere-description .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #woodmere #woodmere-main #woodmere-content {
+    grid-area: woodmere-description; } }
+
+@media (min-width: 768px) {
+  #woodmere #woodmere-main #woodmere-content ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 992px) {
+  #woodmere #woodmere-main #woodmere-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 768px) {
+  #woodmere #woodmere-main #woodmere-content ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #woodmere #woodmere-main #woodmere-content ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #woodmere #woodmere-main #woodmere-content ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1200px) {
+  #woodmere #woodmere-gallery {
+    display: grid;
+    grid-template-areas: ". woodmere-gallery .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #woodmere #woodmere-gallery > div {
+    grid-area: woodmere-gallery; } }
+
+@media (min-width: 992px) {
+  #woodmere #woodmere-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#woodmere #woodmere-gallery > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #woodmere #woodmere-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #woodmere #woodmere-gallery > div ul li div {
+      height: 50vh; } }
+#woodmere #woodmere-gallery > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/woodmere/logo1.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/woodmere/logo2-3.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/woodmere/colours.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/woodmere/business-card.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/woodmere/id-holder.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(6) > div {
+  background-image: url("../img/work-2/woodmere/tickets.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(7) > div {
+  background-image: url("../img/art-1/independent/ID-david1.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(8) > div {
+  background-image: url("../img/art-1/independent/ID-david2.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(9) > div {
+  background-image: url("../img/art-1/independent/ID-david3.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(10) > div {
+  background-image: url("../img/art-1/independent/ID-chae2.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(11) > div {
+  background-image: url("../img/art-1/independent/ID-chae1.jpg"); }
+
+#woodmere #woodmere-gallery > div li:nth-child(12) > div {
+  background-image: url("../img/art-1/independent/ID-chae3.jpg");
+  height: 69vh; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
+      height: 114vh; } }
+/* =============
+    philly-flower-1
+============= */
 /* =============
     art-1
 ============= */
@@ -945,7 +1109,14 @@ footer {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #art #gallery > div li:nth-child(3) > div {
-      margin: 0; } }
+      margin: 0;
+      background-position: -40px 0px; } }
+  @media (min-width: 992px) {
+    #art #gallery > div li:nth-child(3) > div {
+      background-position: -20px 0px; } }
+  @media (min-width: 1200px) {
+    #art #gallery > div li:nth-child(3) > div {
+      background-position: 0px 0px; } }
 #art #gallery > div li:nth-child(4) > div {
   background-image: url("../img/art-1/light/light-hero-1.jpg");
   margin-bottom: 90px; }
@@ -955,174 +1126,518 @@ footer {
 /* =============
     little-joys-1
 ============= */
-#little-joys #joy-gallery #joy-main #joy-hero {
+#little-joys #joy-hero {
   background-image: url("../img/art-1/independent/ID-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh; }
+  @media (min-width: 768px) {
+    #little-joys #joy-hero {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #little-joys #joy-hero {
+      height: 90vh; } }
+  @media (min-width: 1200px) {
+    #little-joys #joy-hero {
+      height: 105vh; } }
+@media (min-width: 1200px) {
+  #little-joys #joy-main {
+    display: grid;
+    grid-template-areas: ". joy-description .";
+    grid-template-columns: auto 1200px auto; } }
 
-#little-joys #joy-gallery ul li {
+@media (min-width: 1200px) {
+  #little-joys #joy-main #joy-content {
+    grid-area: joy-description; } }
+
+@media (min-width: 768px) {
+  #little-joys #joy-main #joy-content ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 992px) {
+  #little-joys #joy-main #joy-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 768px) {
+  #little-joys #joy-main #joy-content ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #little-joys #joy-main #joy-content ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #little-joys #joy-main #joy-content ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1200px) {
+  #little-joys #joy-gallery {
+    display: grid;
+    grid-template-areas: ". joy-gallery .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #little-joys #joy-gallery > div {
+    grid-area: joy-gallery; } }
+
+@media (min-width: 992px) {
+  #little-joys #joy-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#little-joys #joy-gallery > div ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
-
-#little-joys #joy-gallery li:nth-child(1) {
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #little-joys #joy-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #little-joys #joy-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #little-joys #joy-gallery > div ul li div {
+      height: 50vh; } }
+#little-joys #joy-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/independent/ID-yeg1.jpg"); }
 
-#little-joys #joy-gallery li:nth-child(2) {
+#little-joys #joy-gallery > div li:nth-child(2) > div {
   background-image: url("../img/art-1/independent/ID-yeg2.jpg"); }
 
-#little-joys #joy-gallery li:nth-child(3) {
+#little-joys #joy-gallery > div li:nth-child(3) > div {
   background-image: url("../img/art-1/independent/ID-yeg3.jpg"); }
 
-#little-joys #joy-gallery li:nth-child(4) {
-  background-image: url("../img/art-1/independent/ID-chae1.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(5) {
-  background-image: url("../img/art-1/independent/ID-chae2.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(6) {
-  background-image: url("../img/art-1/independent/ID-chae3.jpg");
-  height: 69vh; }
-
-#little-joys #joy-gallery li:nth-child(7) {
-  background-image: url("../img/art-1/independent/ID-david1.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(8) {
-  background-image: url("../img/art-1/independent/ID-david2.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(9) {
-  background-image: url("../img/art-1/independent/ID-david3.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(10) {
+#little-joys #joy-gallery > div li:nth-child(4) > div {
   background-image: url("../img/art-1/independent/ID-sharm1.jpg"); }
 
-#little-joys #joy-gallery li:nth-child(11) {
-  background-image: url("../img/art-1/independent/ID-sharm2.jpg"); }
-
-#little-joys #joy-gallery li:nth-child(12) {
+#little-joys #joy-gallery > div li:nth-child(5) > div {
   background-image: url("../img/art-1/independent/ID-sharm3.jpg"); }
 
+#little-joys #joy-gallery > div li:nth-child(6) > div {
+  background-image: url("../img/art-1/independent/ID-sharm2.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(7) > div {
+  background-image: url("../img/art-1/independent/ID-david1.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(8) > div {
+  background-image: url("../img/art-1/independent/ID-david2.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(9) > div {
+  background-image: url("../img/art-1/independent/ID-david3.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(10) > div {
+  background-image: url("../img/art-1/independent/ID-chae2.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(11) > div {
+  background-image: url("../img/art-1/independent/ID-chae1.jpg"); }
+
+#little-joys #joy-gallery > div li:nth-child(12) > div {
+  background-image: url("../img/art-1/independent/ID-chae3.jpg");
+  height: 69vh; }
+  @media (min-width: 768px) {
+    #little-joys #joy-gallery > div li:nth-child(12) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #little-joys #joy-gallery > div li:nth-child(12) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #little-joys #joy-gallery > div li:nth-child(12) > div {
+      height: 114vh; } }
 /* =============
     street-photo-1
 ============= */
-#street-photo #street-gallery #street-main #street-hero {
+#street-photo #street-hero {
   background-image: url("../img/art-1/street/motion-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh; }
+  @media (min-width: 768px) {
+    #street-photo #street-hero {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #street-photo #street-hero {
+      height: 90vh; } }
+  @media (min-width: 1200px) {
+    #street-photo #street-hero {
+      height: 105vh; } }
+@media (min-width: 1200px) {
+  #street-photo #street-main {
+    display: grid;
+    grid-template-areas: ". street-content .";
+    grid-template-columns: auto 1200px auto; } }
 
-#street-photo #street-gallery ul li {
+@media (min-width: 1200px) {
+  #street-photo #street-main #street-content {
+    grid-area: street-content; } }
+
+@media (min-width: 768px) {
+  #street-photo #street-main #street-content ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 992px) {
+  #street-photo #street-main #street-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 768px) {
+  #street-photo #street-main #street-content ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #street-photo #street-main #street-content ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #street-photo #street-main #street-content ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1200px) {
+  #street-photo #street-gallery {
+    display: grid;
+    grid-template-areas: ". street-gallery .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #street-photo #street-gallery > div {
+    grid-area: street-gallery; } }
+
+@media (min-width: 992px) {
+  #street-photo #street-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#street-photo #street-gallery > div ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
-
-#street-photo #street-gallery li:nth-child(1) {
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #street-photo #street-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #street-photo #street-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #street-photo #street-gallery > div ul li div {
+      height: 50vh; } }
+#street-photo #street-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/street/motion2.jpg"); }
 
-#street-photo #street-gallery li:nth-child(2) {
+#street-photo #street-gallery > div li:nth-child(2) > div {
   background-image: url("../img/art-1/street/street1.jpg"); }
 
-#street-photo #street-gallery li:nth-child(3) {
+#street-photo #street-gallery > div li:nth-child(3) > div {
   background-image: url("../img/art-1/street/street2.jpg");
   height: 69vh; }
-
-#street-photo #street-gallery li:nth-child(4) {
+  @media (min-width: 768px) {
+    #street-photo #street-gallery > div li:nth-child(3) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #street-photo #street-gallery > div li:nth-child(3) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #street-photo #street-gallery > div li:nth-child(3) > div {
+      height: 114vh; } }
+#street-photo #street-gallery > div li:nth-child(4) > div {
   background-image: url("../img/art-1/street/street3.jpg");
   height: 69vh; }
-
-#street-photo #street-gallery li:nth-child(5) {
+  @media (min-width: 768px) {
+    #street-photo #street-gallery > div li:nth-child(4) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #street-photo #street-gallery > div li:nth-child(4) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #street-photo #street-gallery > div li:nth-child(4) > div {
+      height: 114vh; } }
+#street-photo #street-gallery > div li:nth-child(5) > div {
   background-image: url("../img/art-1/street/volscale1.jpg"); }
 
-#street-photo #street-gallery li:nth-child(6) {
+#street-photo #street-gallery > div li:nth-child(6) > div {
   background-image: url("../img/art-1/street/volscale2.jpg"); }
 
-#street-photo #street-gallery li:nth-child(7) {
+#street-photo #street-gallery > div li:nth-child(7) > div {
   background-image: url("../img/art-1/street/volscale3.jpg"); }
 
 /* =============
     portraits-1
 ============= */
-#portraits #portraits-gallery #portraits-main #portraits-hero {
+#portraits #portraits-hero {
   background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh; }
+  @media (min-width: 768px) {
+    #portraits #portraits-hero {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #portraits #portraits-hero {
+      height: 90vh; } }
+  @media (min-width: 1200px) {
+    #portraits #portraits-hero {
+      height: 105vh; } }
+@media (min-width: 1200px) {
+  #portraits #portraits-main {
+    display: grid;
+    grid-template-areas: ". portraits-description .";
+    grid-template-columns: auto 1200px auto; } }
 
-#portraits #portraits-gallery ul li {
+@media (min-width: 1200px) {
+  #portraits #portraits-main #portraits-content {
+    grid-area: portraits-description; } }
+
+@media (min-width: 768px) {
+  #portraits #portraits-main #portraits-content ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 992px) {
+  #portraits #portraits-main #portraits-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 768px) {
+  #portraits #portraits-main #portraits-content ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #portraits #portraits-main #portraits-content ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #portraits #portraits-main #portraits-content ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1200px) {
+  #portraits #portraits-gallery {
+    display: grid;
+    grid-template-areas: ". portraits-gallery .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #portraits #portraits-gallery > div {
+    grid-area: portraits-gallery; } }
+
+@media (min-width: 992px) {
+  #portraits #portraits-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#portraits #portraits-gallery > div ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
-
-#portraits #portraits-gallery li:nth-child(1) {
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #portraits #portraits-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #portraits #portraits-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #portraits #portraits-gallery > div ul li div {
+      height: 50vh; } }
+#portraits #portraits-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/portraits/portrait4.jpg");
   height: 69vh; }
-
-#portraits #portraits-gallery li:nth-child(2) {
+  @media (min-width: 768px) {
+    #portraits #portraits-gallery > div li:nth-child(1) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #portraits #portraits-gallery > div li:nth-child(1) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #portraits #portraits-gallery > div li:nth-child(1) > div {
+      height: 114vh; } }
+#portraits #portraits-gallery > div li:nth-child(2) > div {
   background-image: url("../img/art-1/portraits/portrait5.jpg");
   height: 69vh; }
-
-#portraits #portraits-gallery li:nth-child(3) {
+  @media (min-width: 768px) {
+    #portraits #portraits-gallery > div li:nth-child(2) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #portraits #portraits-gallery > div li:nth-child(2) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #portraits #portraits-gallery > div li:nth-child(2) > div {
+      height: 114vh; } }
+#portraits #portraits-gallery > div li:nth-child(3) > div {
   background-image: url("../img/art-1/portraits/portrait2.jpg"); }
 
-#portraits #portraits-gallery li:nth-child(4) {
+#portraits #portraits-gallery > div li:nth-child(4) > div {
   background-image: url("../img/art-1/portraits/motion1.jpg"); }
 
-#portraits #portraits-gallery li:nth-child(5) {
+#portraits #portraits-gallery > div li:nth-child(5) > div {
   background-image: url("../img/art-1/portraits/motion2.jpg"); }
 
-#portraits #portraits-gallery li:nth-child(6) {
+#portraits #portraits-gallery > div li:nth-child(6) > div {
   background-image: url("../img/art-1/portraits/portrait3.jpg"); }
 
-#portraits #portraits-gallery li:nth-child(7) {
-  background-image: url("../img/art-1/portraits/motion3.jpg"); }
-
-#portraits #portraits-gallery li:nth-child(8) {
+#portraits #portraits-gallery > div li:nth-child(7) > div {
   background-image: url("../img/art-1/portraits/motion4.jpg"); }
 
-#portraits #portraits-gallery li:nth-child(9) {
+#portraits #portraits-gallery > div li:nth-child(8) > div {
+  background-image: url("../img/art-1/portraits/motion3.jpg"); }
+
+#portraits #portraits-gallery > div li:nth-child(9) > div {
   background-image: url("../img/art-1/portraits/portrait6.jpg");
   height: 69vh; }
-
+  @media (min-width: 768px) {
+    #portraits #portraits-gallery > div li:nth-child(9) > div {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #portraits #portraits-gallery > div li:nth-child(9) > div {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #portraits #portraits-gallery > div li:nth-child(9) > div {
+      height: 114vh; } }
 /* =============
     light-photo-1
 ============= */
-#light-photo #light-gallery #light-main #light-hero {
+#light-photo #light-hero {
   background-image: url("../img/art-1/light/light-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 69vh; }
+  @media (min-width: 768px) {
+    #light-photo #light-hero {
+      height: 110vh; } }
+  @media (min-width: 992px) {
+    #light-photo #light-hero {
+      height: 98vh; } }
+  @media (min-width: 1200px) {
+    #light-photo #light-hero {
+      height: 114vh; } }
+@media (min-width: 1200px) {
+  #light-photo #light-main {
+    display: grid;
+    grid-template-areas: ". light-description .";
+    grid-template-columns: auto 1200px auto; } }
 
-#light-photo #light-gallery ul li {
+@media (min-width: 1200px) {
+  #light-photo #light-main #light-content {
+    grid-area: light-description; } }
+
+@media (min-width: 768px) {
+  #light-photo #light-main #light-content ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 992px) {
+  #light-photo #light-main #light-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 768px) {
+  #light-photo #light-main #light-content ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #light-photo #light-main #light-content ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #light-photo #light-main #light-content ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1200px) {
+  #light-photo #light-gallery {
+    display: grid;
+    grid-template-areas: ". light-gallery .";
+    grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #light-photo #light-gallery > div {
+    grid-area: light-gallery; } }
+
+@media (min-width: 992px) {
+  #light-photo #light-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#light-photo #light-gallery > div ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
-
-#light-photo #light-gallery li:nth-child(1) {
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #light-photo #light-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #light-photo #light-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #light-photo #light-gallery > div ul li div {
+      height: 50vh; } }
+#light-photo #light-gallery li:nth-child(1) > div {
   background-image: url("../img/art-1/light/light2.jpg"); }
 
-#light-photo #light-gallery li:nth-child(2) {
+#light-photo #light-gallery li:nth-child(2) > div {
   background-image: url("../img/art-1/light/light3.jpg"); }
 
-#light-photo #light-gallery li:nth-child(3) {
+#light-photo #light-gallery li:nth-child(3) > div {
   background-image: url("../img/art-1/light/geo1.jpg"); }
 
-#light-photo #light-gallery li:nth-child(4) {
+#light-photo #light-gallery li:nth-child(4) > div {
   background-image: url("../img/art-1/light/geo2.jpg"); }
 
-#light-photo #light-gallery li:nth-child(5) {
+#light-photo #light-gallery li:nth-child(5) > div {
   background-image: url("../img/art-1/light/light4.jpg"); }
 
-#light-photo #light-gallery li:nth-child(6) {
+#light-photo #light-gallery li:nth-child(6) > div {
   background-image: url("../img/art-1/light/light5.jpg"); }
 
-#light-photo #light-gallery li:nth-child(7) {
+#light-photo #light-gallery li:nth-child(7) > div {
   background-image: url("../img/art-1/light/light6.jpg"); }

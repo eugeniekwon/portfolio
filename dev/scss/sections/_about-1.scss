@@ -36,6 +36,10 @@
                 height: 70vh;
                 margin: 0px 50px 150px 45px;
             }
+
+            @include xl{
+                height: 80vh;
+            }
         }
 
         article {

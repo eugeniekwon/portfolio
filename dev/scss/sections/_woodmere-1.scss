@@ -1,11 +1,11 @@
 /* =============
-    street-photo-1
+    woodmere-1
 ============= */
 
-#street-photo{
+#woodmere{
 
-    #street-hero{
-        background-image: url("../img/art-1/street/motion-hero-1.jpg");
+    #woodmere-hero{
+        background-image: url("../img/work-2/woodmere/tickets.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -13,8 +13,8 @@
         
         @include md{
             height: 50vh;
-        }   
-        
+        }
+
         @include lg{
             height: 90vh;
         }      
@@ -25,22 +25,21 @@
         
     }
 
-    #street-main{
+    #woodmere-main{
 
         @include xl{
             display: grid;
-            grid-template-areas: ". street-content .";
+            grid-template-areas: ". woodmere-description .";
             grid-template-columns: auto 1200px auto;
         }
 
-        #street-content{
-            
+        #woodmere-content{
+
             @include xl{
-                grid-area: street-content;
-                }
+                grid-area: woodmere-description;
+            }
 
             ul{
-                
                 @include md{
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
@@ -49,7 +48,7 @@
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
-
+    
                 @include lg{
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
@@ -59,46 +58,45 @@
                     margin: 0px 45px;
                     }
 
-                    
-
+    
                 li:nth-child(1){
                     @include md{
                         grid-area: objective;
                     }
                 }
-
+    
                 li:nth-child(2){
                     @include md{
                         grid-area: about;
                     }
                 }
-
+    
                 li:nth-child(3){
                     @include md{
                         grid-area: process;
                     }
                 }
-                
             }
-            
         }
-            
-        }
+        
+        
+    }
 
-    #street-gallery{
+    #woodmere-gallery{
 
         @include xl{
             display: grid;
-            grid-template-areas: ". street-gallery .";
+            grid-template-areas: ". woodmere-gallery .";
             grid-template-columns: auto 1200px auto;
         }
 
         >div{
+
             @include xl{
-                grid-area: street-gallery;
+                grid-area: woodmere-gallery;
 
             }
-            
+
             ul{
 
                 @include lg{
@@ -107,16 +105,15 @@
                     column-gap: 25px;
                     margin: 0px 25px;
                 }
-    
+        
                 li{
-                    
                     div{
     
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    height: 30vh;
+                    align-items: center;
     
                     @include md{
                         height: 50vh;
@@ -131,84 +128,100 @@
                     }
     
                     }
-                    
                 }
-            
-        
                 }
     
                 li:nth-child(1){
                     >div{
-                        background-image: url("../img/art-1/street/motion2.jpg");
+                        background-image: url("../img/work-2/woodmere/logo1.jpg");
                     }
                     
                 }
     
                 li:nth-child(2){
                     >div{
-                        background-image: url("../img/art-1/street/street1.jpg");
+                        background-image: url("../img/work-2/woodmere/logo2-3.jpg");
                     }
                     
                 }
     
                 li:nth-child(3){
                     >div{
-                        background-image: url("../img/art-1/street/street2.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
-
-                        @include lg{
-                            height: 98vh;
-                        }
-
-                        @include xl{
-                            height:  114vh;
-                        }
+                        background-image: url("../img/work-2/woodmere/colours.jpg");
                     }
+                    
                 }
-    
+
                 li:nth-child(4){
                     >div{
-                        background-image: url("../img/art-1/street/street3.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
-                        
-                        @include lg{
-                            height: 98vh;
-                        }
-
-                        @include xl{
-                            height:  114vh;
-                        }
+                        background-image: url("../img/work-2/woodmere/business-card.jpg");
                     }
                     
                 }
                 li:nth-child(5){
                     >div{
-                        background-image: url("../img/art-1/street/volscale1.jpg");
+                        background-image: url("../img/work-2/woodmere/id-holder.jpg");
                     }
                     
                 }
                 li:nth-child(6){
                     >div{
-                        background-image: url("../img/art-1/street/volscale2.jpg");
+                        background-image: url("../img/work-2/woodmere/tickets.jpg");
                     }
                     
                 }
+    
                 li:nth-child(7){
                     >div{
-                        background-image: url("../img/art-1/street/volscale3.jpg");
+                        background-image: url("../img/art-1/independent/ID-david1.jpg");
                     }
+                }
+                li:nth-child(8){
+                    >div{
+                        background-image: url("../img/art-1/independent/ID-david2.jpg");
+                    }
+                }
+                li:nth-child(9){
+                    >div{
+                        background-image: url("../img/art-1/independent/ID-david3.jpg");
+                    }
+                    
+                }
+
+                li:nth-child(10){
+                    >div{
+                        background-image: url("../img/art-1/independent/ID-chae2.jpg");
+                    }
+                    
+                }
+                li:nth-child(11){
+                    >div{
+                        background-image: url("../img/art-1/independent/ID-chae1.jpg");
+                    }
+                    
+                }
+                li:nth-child(12){
+                    >div{
+                        background-image: url("../img/art-1/independent/ID-chae3.jpg");
+                        height: 69vh;
+        
+                        @include md{
+                            height: 110vh;
+                        }
+    
+                        @include lg{
+                            height: 98vh;
+                        }
+    
+                        @include xl{
+                            height:  114vh;
+                        }
+                    }
+                    
                     
                 }
         }
-        
+
         
     }
     

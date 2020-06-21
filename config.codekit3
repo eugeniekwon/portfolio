@@ -35,7 +35,7 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/about-1/me.jpg": {
+	"/deploy/img/about-1/me.JPG": {
 		"ft": 16384,
 		"iS": 541210,
 		"jF": 0,
@@ -475,6 +475,116 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/philly-flower/all-devices.jpg": {
+		"ft": 16384,
+		"iS": 53123,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/all-devices.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/ipad.jpg": {
+		"ft": 16384,
+		"iS": 109530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/ipad.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/laptop.jpg": {
+		"ft": 16384,
+		"iS": 222581,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/mobile.jpg": {
+		"ft": 16384,
+		"iS": 365096,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-1.jpg": {
+		"ft": 16384,
+		"iS": 182517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-2.jpg": {
+		"ft": 16384,
+		"iS": 160781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-3.jpg": {
+		"ft": 16384,
+		"iS": 243527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-4.jpg": {
+		"ft": 16384,
+		"iS": 79730,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-5.jpg": {
+		"ft": 16384,
+		"iS": 243721,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/ui-kit.jpg": {
+		"ft": 16384,
+		"iS": 115403,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/ui-kit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/proj-1.jpg": {
 		"ft": 16384,
 		"iS": 456425,
@@ -492,6 +602,72 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/business-card.jpg": {
+		"ft": 16384,
+		"iS": 911913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/business-card.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/colours.jpg": {
+		"ft": 16384,
+		"iS": 64351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/colours.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/id-holder.jpg": {
+		"ft": 16384,
+		"iS": 487170,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/id-holder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/logo1.jpg": {
+		"ft": 16384,
+		"iS": 39816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/logo1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/logo2-3.jpg": {
+		"ft": 16384,
+		"iS": 63172,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/logo2-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/tickets.jpg": {
+		"ft": 16384,
+		"iS": 456425,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/tickets.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -907,6 +1083,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_philly-flower-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_philly-flower-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_portraits-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -929,6 +1118,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_street-photo-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_woodmere-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_woodmere-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
