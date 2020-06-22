@@ -173,51 +173,29 @@
     
                 li:nth-child(7){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david1.jpg");
+                        background-image: url("../img/work-2/woodmere/sketch-1.jpg");
                     }
                 }
                 li:nth-child(8){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david2.jpg");
+                        background-image: url("../img/work-2/woodmere/sketch-2.jpg");
                     }
                 }
                 li:nth-child(9){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david3.jpg");
+                        background-image: url("../img/work-2/woodmere/w-process-1.jpg");
                     }
-                    
                 }
 
                 li:nth-child(10){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-chae2.jpg");
+                        background-image: url("../img/work-2/woodmere/w-process-2.jpg");
                     }
-                    
                 }
                 li:nth-child(11){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-chae1.jpg");
+                        background-image: url("../img/work-2/woodmere/w-process-3.jpg");
                     }
-                    
-                }
-                li:nth-child(12){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-chae3.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
-    
-                        @include lg{
-                            height: 98vh;
-                        }
-    
-                        @include xl{
-                            height:  114vh;
-                        }
-                    }
-                    
                     
                 }
         }

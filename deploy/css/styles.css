@@ -1002,32 +1002,20 @@ footer {
   background-image: url("../img/work-2/woodmere/tickets.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(7) > div {
-  background-image: url("../img/art-1/independent/ID-david1.jpg"); }
+  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(8) > div {
-  background-image: url("../img/art-1/independent/ID-david2.jpg"); }
+  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(9) > div {
-  background-image: url("../img/art-1/independent/ID-david3.jpg"); }
+  background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(10) > div {
-  background-image: url("../img/art-1/independent/ID-chae2.jpg"); }
+  background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(11) > div {
-  background-image: url("../img/art-1/independent/ID-chae1.jpg"); }
+  background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(12) > div {
-  background-image: url("../img/art-1/independent/ID-chae3.jpg");
-  height: 69vh; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
-      height: 110vh; } }
-  @media (min-width: 992px) {
-    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
-      height: 98vh; } }
-  @media (min-width: 1200px) {
-    #woodmere #woodmere-gallery > div li:nth-child(12) > div {
-      height: 114vh; } }
 /* =============
     philly-flower-1
 ============= */

@@ -662,12 +662,67 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/sketch-1.jpg": {
+		"ft": 16384,
+		"iS": 177016,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/sketch-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/sketch-2.jpg": {
+		"ft": 16384,
+		"iS": 172707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/sketch-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/tickets.jpg": {
 		"ft": 16384,
 		"iS": 456425,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/tickets.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/w-process-1.jpg": {
+		"ft": 16384,
+		"iS": 168665,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/w-process-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/w-process-2.jpg": {
+		"ft": 16384,
+		"iS": 155972,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/w-process-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/w-process-3.jpg": {
+		"ft": 16384,
+		"iS": 172019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/w-process-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
