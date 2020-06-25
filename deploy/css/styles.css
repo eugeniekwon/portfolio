@@ -323,6 +323,14 @@ ul {
   ul li {
     list-style: none; }
 
+@media (min-width: 1200px) {
+  .content-layout {
+    display: grid;
+    grid-template-areas: ". grid-xl .";
+    grid-template-columns: auto 1440px auto; }
+    .content-layout > div {
+      grid-area: grid-xl; } }
+
 .spacing-for-header {
   margin-top: 58px; }
   @media (min-width: 768px) {
@@ -1022,19 +1030,68 @@ footer {
 #woodmere #woodmere-gallery > div li:nth-child(13) > div {
   background-image: url("../img/work-2/woodmere/app-4-f.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(14) > div {
+#woodmere #w-youtube-video-1 {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #woodmere #w-youtube-video-1 > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #woodmere #w-youtube-video-1 > div section {
+      width: 100%; }
+      #woodmere #w-youtube-video-1 > div section iframe {
+        width: 100%; }
+
+#woodmere #w-youtube-video-2 {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #woodmere #w-youtube-video-2 > div {
+    align-items: center;
+    display: flex;
+    grid-area: video; }
+    #woodmere #w-youtube-video-2 > div section {
+      width: 100%; }
+      #woodmere #w-youtube-video-2 > div section iframe {
+        width: 100%; }
+
+@media (min-width: 992px) {
+  #woodmere #woodmere-gallery-process > div > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#woodmere #woodmere-gallery-process > div > ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery-process > div > ul li div {
+      height: 50vh; } }
+  @media (min-width: 992px) {
+    #woodmere #woodmere-gallery-process > div > ul li div {
+      height: 43vh; } }
+  @media (min-width: 1200px) {
+    #woodmere #woodmere-gallery-process > div > ul li div {
+      height: 50vh; } }
+#woodmere #woodmere-gallery-process > div li:nth-child(1) > div {
   background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(15) > div {
+#woodmere #woodmere-gallery-process > div li:nth-child(2) > div {
   background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(16) > div {
+#woodmere #woodmere-gallery-process > div li:nth-child(3) > div {
   background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(17) > div {
+#woodmere #woodmere-gallery-process > div li:nth-child(4) > div {
   background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(18) > div {
+#woodmere #woodmere-gallery-process > div li:nth-child(5) > div {
   background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
 
 /* =============

@@ -223,38 +223,117 @@
                     }
                     
                 }
-    
-                li:nth-child(14){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/sketch-1.jpg");
-                    }
-                }
-                li:nth-child(15){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/sketch-2.jpg");
-                    }
-                }
-                li:nth-child(16){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/w-process-1.jpg");
-                    }
-                }
-
-                li:nth-child(17){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/w-process-2.jpg");
-                    }
-                }
-                li:nth-child(18){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/w-process-3.jpg");
-                    }
-                    
-                }
         }
-
-        
     }
+    
+    #w-youtube-video-1{
+        display: grid;
+        grid-template-areas: ". video .";
+        grid-template-columns: 10px auto 10px;
+
+        >div{
+            align-items: center;
+            display: flex;
+            grid-area: video;
+            justify-content: center;
+            
+            section{
+                width: 100%;
+
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    #w-youtube-video-2{
+        display: grid;
+        grid-template-areas: ". video .";
+        grid-template-columns: 10px auto 10px;
+
+        >div{
+            align-items: center;
+            display: flex;
+            grid-area: video;
+            // justify-content: center;
+
+            section{
+                width: 100%;
+
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #woodmere-gallery-process{
+        >div{
+            >ul{
+                @include lg{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    column-gap: 25px;
+                    margin: 0px 25px;
+                }
+        
+                li{
+                    div{
+    
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    height: 30vh;
+                    align-items: center;
+    
+                    @include md{
+                        height: 50vh;
+                    }
+    
+                    @include lg{
+                        height: 43vh;
+                    }
+
+                    @include xl{
+                        height:  50vh;
+                    }
+    
+                    }
+                }
+            }
+
+            li:nth-child(1){
+                >div{
+                    background-image: url("../img/work-2/woodmere/sketch-1.jpg");
+                }
+            }
+            li:nth-child(2){
+                >div{
+                    background-image: url("../img/work-2/woodmere/sketch-2.jpg");
+                }
+            }
+            li:nth-child(3){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-1.jpg");
+                }
+            }
+        
+            li:nth-child(4){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-2.jpg");
+                }
+            }
+            li:nth-child(5){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-3.jpg");
+                }
+                
+            }
+        }
+    }
+
     
     
     }
