@@ -397,7 +397,7 @@ a:visited {
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 2.625rem;
-  margin: 30px 10px 15px 10px;
+  margin: 30px 0px 15px 0px;
   color: #3F3F3F; }
   @media (min-width: 768px) {
     .portfolio-title {
@@ -901,6 +901,24 @@ footer {
   @media (min-width: 768px) {
     #work-2 #work-gallery > div li:nth-child(2) > div {
       margin: 0; } }
+#work-2 #work-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/proj-2.jpg");
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    #work-2 #work-gallery > div li:nth-child(3) > div {
+      margin: 0; } }
+#work-2 #work-gallery > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/proj-2.jpg");
+  margin-bottom: 90px; }
+  @media (min-width: 768px) {
+    #work-2 #work-gallery > div li:nth-child(4) > div {
+      margin-bottom: 125px; } }
+#work-2 #work-gallery > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/proj-5.jpg");
+  margin-bottom: 90px; }
+  @media (min-width: 768px) {
+    #work-2 #work-gallery > div li:nth-child(5) > div {
+      margin-bottom: 125px; } }
 /* =============
     woodmere-1
 ============= */
@@ -993,10 +1011,14 @@ footer {
       height: 50vh; } }
 #woodmere #woodmere-gallery > div li:nth-child(1) > div {
   background-image: url("../img/work-2/woodmere/logo1.jpg"); }
-
+  @media (min-width: 992px) {
+    #woodmere #woodmere-gallery > div li:nth-child(1) > div {
+      background-size: 110%; } }
 #woodmere #woodmere-gallery > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/logo2-3.jpg"); }
-
+  background-image: url("../img/work-2/woodmere/logo2and3.jpg"); }
+  @media (min-width: 992px) {
+    #woodmere #woodmere-gallery > div li:nth-child(2) > div {
+      background-size: 80%; } }
 #woodmere #woodmere-gallery > div li:nth-child(3) > div {
   background-image: url("../img/work-2/woodmere/colours.jpg"); }
 
@@ -1007,27 +1029,24 @@ footer {
   background-image: url("../img/work-2/woodmere/app-1-f.jpg"); }
 
 #woodmere #woodmere-gallery > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/woodmere/app-2-f.jpg"); }
-
-#woodmere #woodmere-gallery > div li:nth-child(7) > div {
   background-image: url("../img/work-2/woodmere/id-holder.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(8) > div {
+#woodmere #woodmere-gallery > div li:nth-child(7) > div {
   background-image: url("../img/work-2/woodmere/app-5-f.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(9) > div {
+#woodmere #woodmere-gallery > div li:nth-child(8) > div {
   background-image: url("../img/work-2/woodmere/tickets.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(10) > div {
+#woodmere #woodmere-gallery > div li:nth-child(9) > div {
   background-image: url("../img/work-2/woodmere/ticket-1.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(11) > div {
+#woodmere #woodmere-gallery > div li:nth-child(10) > div {
   background-image: url("../img/work-2/woodmere/ticket-2.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(12) > div {
+#woodmere #woodmere-gallery > div li:nth-child(11) > div {
   background-image: url("../img/work-2/woodmere/app-3-f.jpg"); }
 
-#woodmere #woodmere-gallery > div li:nth-child(13) > div {
+#woodmere #woodmere-gallery > div li:nth-child(12) > div {
   background-image: url("../img/work-2/woodmere/app-4-f.jpg"); }
 
 #woodmere #w-youtube-video-1 {
@@ -1707,3 +1726,7 @@ footer {
 
 #light-photo #light-gallery li:nth-child(7) > div {
   background-image: url("../img/art-1/light/light6.jpg"); }
+
+/* =============
+    copenhagen-1
+============= */

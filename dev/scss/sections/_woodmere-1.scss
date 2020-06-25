@@ -134,13 +134,20 @@
                 li:nth-child(1){
                     >div{
                         background-image: url("../img/work-2/woodmere/logo1.jpg");
+
+                        @include lg{
+                            background-size: 110%;
+                        }
                     }
                     
                 }
     
                 li:nth-child(2){
                     >div{
-                        background-image: url("../img/work-2/woodmere/logo2-3.jpg");
+                        background-image: url("../img/work-2/woodmere/logo2and3.jpg");
+                        @include lg{
+                            background-size: 80%;
+                        }
                     }
                     
                 }
@@ -166,43 +173,36 @@
                     
                 }
 
+
                 li:nth-child(6){
-                    >div{
-                        background-image: url("../img/work-2/woodmere/app-2-f.jpg");
-                    }
-                    
-                }
-
-
-                li:nth-child(7){
                     >div{
                         background-image: url("../img/work-2/woodmere/id-holder.jpg");
                     }
                     
                 }
 
-                li:nth-child(8){
+                li:nth-child(7){
                     >div{
                         background-image: url("../img/work-2/woodmere/app-5-f.jpg");
                     }
                     
                 }
 
-                li:nth-child(9){
+                li:nth-child(8){
                     >div{
                         background-image: url("../img/work-2/woodmere/tickets.jpg");
                     }
                     
                 }
 
-                li:nth-child(10){
+                li:nth-child(9){
                     >div{
                         background-image: url("../img/work-2/woodmere/ticket-1.jpg");
                     }
                     
                 }
 
-                li:nth-child(11){
+                li:nth-child(10){
                     >div{
                         background-image: url("../img/work-2/woodmere/ticket-2.jpg");
                     }
@@ -210,14 +210,14 @@
                 }
 
 
-                li:nth-child(12){
+                li:nth-child(11){
                     >div{
                         background-image: url("../img/work-2/woodmere/app-3-f.jpg");
                     }
                     
                 }
 
-                li:nth-child(13){
+                li:nth-child(12){
                     >div{
                         background-image: url("../img/work-2/woodmere/app-4-f.jpg");
                     }
@@ -307,6 +307,7 @@
             li:nth-child(1){
                 >div{
                     background-image: url("../img/work-2/woodmere/sketch-1.jpg");
+                    
                 }
             }
             li:nth-child(2){

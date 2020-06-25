@@ -25,6 +25,14 @@
 		"oAP": "/deploy/art.html",
 		"oF": 0
 		},
+	"/deploy/copenhagen.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/copenhagen.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -607,9 +615,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/proj-5.jpg": {
+		"ft": 16384,
+		"iS": 101887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/app-1-f.jpg": {
 		"ft": 16384,
-		"iS": 38413,
+		"iS": 41108,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-1-f.jpg",
@@ -620,7 +639,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-2-f.jpg": {
 		"ft": 16384,
-		"iS": 28084,
+		"iS": 26388,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-2-f.jpg",
@@ -631,7 +650,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-3-f.jpg": {
 		"ft": 16384,
-		"iS": 52214,
+		"iS": 57483,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-3-f.jpg",
@@ -642,7 +661,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-4-f.jpg": {
 		"ft": 16384,
-		"iS": 44294,
+		"iS": 46883,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-4-f.jpg",
@@ -653,7 +672,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-5-f.jpg": {
 		"ft": 16384,
-		"iS": 82094,
+		"iS": 106720,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-5-f.jpg",
@@ -675,7 +694,7 @@
 		},
 	"/deploy/img/work-2/woodmere/colours.jpg": {
 		"ft": 16384,
-		"iS": 64351,
+		"iS": 47627,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/colours.jpg",
@@ -697,7 +716,7 @@
 		},
 	"/deploy/img/work-2/woodmere/logo1.jpg": {
 		"ft": 16384,
-		"iS": 39816,
+		"iS": 23019,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/logo1.jpg",
@@ -706,12 +725,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/logo2-3.jpg": {
+	"/deploy/img/work-2/woodmere/logo2and3.jpg": {
 		"ft": 16384,
 		"iS": 63172,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/logo2-3.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/logo2and3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -741,7 +760,7 @@
 		},
 	"/deploy/img/work-2/woodmere/ticket-1.jpg": {
 		"ft": 16384,
-		"iS": 39995,
+		"iS": 97835,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/ticket-1.jpg",
@@ -752,7 +771,7 @@
 		},
 	"/deploy/img/work-2/woodmere/ticket-2.jpg": {
 		"ft": 16384,
-		"iS": 36541,
+		"iS": 92225,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/ticket-2.jpg",
@@ -785,7 +804,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-1.jpg": {
 		"ft": 16384,
-		"iS": 168665,
+		"iS": 97629,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-1.jpg",
@@ -796,7 +815,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-2.jpg": {
 		"ft": 16384,
-		"iS": 155972,
+		"iS": 89376,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-2.jpg",
@@ -807,7 +826,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-3.jpg": {
 		"ft": 16384,
-		"iS": 172019,
+		"iS": 101853,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-3.jpg",
@@ -934,20 +953,52 @@
 		"oAP": "/deploy/art.html",
 		"oF": 2
 		},
-	"/dev/footer.kit": {
+	"/dev/copenhagen-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/footer.html",
+		"oAP": "/dev/copenhagen-1.html",
 		"oF": 0
 		},
-	"/dev/header.kit": {
+	"/dev/copenhagen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/copenhagen.html",
+		"oF": 2
+		},
+	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/header.html",
+		"oAP": "/dev/global/footer.html",
+		"oF": 0
+		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
+	"/dev/global/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/header.html",
+		"oF": 0
+		},
+	"/dev/global/scripts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -1209,6 +1260,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_art-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_copenhagen-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_copenhagen-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
