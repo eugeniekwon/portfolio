@@ -11,29 +11,6 @@ ul {
     }
 }
 
-// .grid-container{
-//     display: grid;
-//     grid-template-columns: 10px auto 10px;
-//     grid-template-areas: ". container .";
-
-//     @include md{
-//         grid-template-columns: 25px auto 25px;
-//     }
-
-//     @include lg{
-//         grid-template-columns: 45px auto 45px;
-//     }
-
-//     @include xl{
-//         grid-template-columns: auto 1440px auto;
-//     }
-
-//     >div{
-//         grid-area: container;
-//     }
-
-// }
-
 
 .main-hero-grid{
     display: grid;

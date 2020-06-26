@@ -8,12 +8,6 @@ footer {
     width: 100%;
     border-bottom: 1px solid $gray;
 
-    #footer-xl{
-        @include xl{
-            display: grid;
-            grid-template-areas: ". footer-xl .";
-            grid-template-columns: auto 1200px auto;
-        }
 
         >div {
             margin: 0px 10px;
@@ -22,10 +16,6 @@ footer {
     
             @include md{
                 margin: 0px 106px;
-            }
-
-            @include xl{
-                grid-area: footer-xl;
             }
     
             h4 {
@@ -104,7 +94,6 @@ footer {
         }
 
 
-    }
     
 
     

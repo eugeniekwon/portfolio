@@ -616,65 +616,57 @@ footer {
   background-color: #3F3F3F;
   width: 100%;
   border-bottom: 1px solid #3F3F3F; }
-  @media (min-width: 1440px) {
-    footer #footer-xl {
-      display: grid;
-      grid-template-areas: ". footer-xl .";
-      grid-template-columns: auto 1200px auto; } }
-  footer #footer-xl > div {
+  footer > div {
     margin: 0px 10px;
     padding-top: 30px;
     color: #fff; }
     @media (min-width: 768px) {
-      footer #footer-xl > div {
+      footer > div {
         margin: 0px 106px; } }
-    @media (min-width: 1440px) {
-      footer #footer-xl > div {
-        grid-area: footer-xl; } }
-    footer #footer-xl > div h4 {
+    footer > div h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 300;
       font-size: 1.25rem;
       margin-bottom: 15px; }
-    footer #footer-xl > div h2 {
+    footer > div h2 {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
       font-size: 1.0625rem;
       margin-bottom: 15px; }
-    footer #footer-xl > div h3 {
+    footer > div h3 {
       font-family: 'Noto Sans KR', sans-serif;
       font-weight: 300;
       font-size: 1.0625rem;
       margin-bottom: 30px; }
-    footer #footer-xl > div #email {
+    footer > div #email {
       font-family: 'Inter', sans-serif;
       font-weight: 300;
       font-size: 0.875rem;
       margin-bottom: 15px; }
-      footer #footer-xl > div #email ul {
+      footer > div #email ul {
         align-items: center;
         display: flex;
         justify-content: flex-start;
         margin-bottom: 15px; }
-        footer #footer-xl > div #email ul li {
+        footer > div #email ul li {
           margin-right: 10px; }
-    footer #footer-xl > div #social-media ul {
+    footer > div #social-media ul {
       margin-bottom: 30px;
       font-size: 1.25rem;
       align-items: center;
       display: flex;
       justify-content: flex-start; }
       @media (min-width: 1025px) {
-        footer #footer-xl > div #social-media ul {
+        footer > div #social-media ul {
           font-size: 1.5625rem; } }
-      footer #footer-xl > div #social-media ul li {
+      footer > div #social-media ul li {
         margin-right: 10px; }
-        footer #footer-xl > div #social-media ul li a:link,
-        footer #footer-xl > div #social-media ul li a:visited {
+        footer > div #social-media ul li a:link,
+        footer > div #social-media ul li a:visited {
           color: #fff; }
-        footer #footer-xl > div #social-media ul li a:hover {
+        footer > div #social-media ul li a:hover {
           color: #fff; }
-    footer #footer-xl > div #copyright {
+    footer > div #copyright {
       font-family: 'Inter', sans-serif;
       font-size: 0.625rem;
       margin-bottom: 30px; }
@@ -1007,68 +999,221 @@ footer {
   #woodmere #woodmere-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "w1 w1" "w2 w2" "w3 w3" "w4 w5" "w7 w6" "w8 w8" "w9 w10" "w12 w11";
     column-gap: 25px;
     margin: 0px 25px; } }
 
-@media (min-width: 1440px) {
-  #woodmere #woodmere-gallery > div ul {
-    margin: 0px; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery > div ul #w1 {
+    grid-area: w1; } }
 
-#woodmere #woodmere-gallery > div ul li div {
+#woodmere #woodmere-gallery > div ul #w1 > div {
+  background-image: url("../img/work-2/woodmere/logo1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh;
   align-items: center; }
   @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div ul li div {
+    #woodmere #woodmere-gallery > div ul #w1 > div {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #woodmere #woodmere-gallery > div ul li div {
+    #woodmere #woodmere-gallery > div ul #w1 > div {
+      height: 80vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery > div ul #w2 {
+    grid-area: w2; } }
+
+#woodmere #woodmere-gallery > div ul #w2 > div {
+  background-image: url("../img/work-2/woodmere/logo2and3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery > div ul #w2 > div {
       height: 50vh; } }
-#woodmere #woodmere-gallery > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/woodmere/logo1.jpg"); }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div li:nth-child(1) > div {
-      background-size: 110%; } }
-#woodmere #woodmere-gallery > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/logo2and3.jpg"); }
+    #woodmere #woodmere-gallery > div ul #w2 > div {
+      height: 80vh;
+      background-size: 60%; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery > div ul #w3 {
+    grid-area: w3; } }
+
+#woodmere #woodmere-gallery > div ul #w3 > div {
+  background-image: url("../img/work-2/woodmere/colours.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery > div ul #w3 > div {
+      height: 50vh; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div li:nth-child(2) > div {
-      background-size: 80%; } }
-#woodmere #woodmere-gallery > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/woodmere/colours.jpg"); }
+    #woodmere #woodmere-gallery > div ul #w3 > div {
+      height: 80vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery > div #w4 {
+    grid-area: w4; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/woodmere/business-card.jpg"); }
+#woodmere #woodmere-gallery > div #w4 > div {
+  background-image: url("../img/work-2/woodmere/business-card.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery > div #w4 > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery > div #w4 > div {
+      height: 40vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w5 {
+    grid-area: w5; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(5) > div {
-  background-image: url("../img/work-2/woodmere/app-1-f.jpg"); }
+#woodmere #woodmere-gallery #w5 > div {
+  background-image: url("../img/work-2/woodmere/app-1-f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w5 > div {
+      height: 50vh;
+      background-size: 130%; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w5 > div {
+      height: 40vh;
+      background-size: 150%; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w6 {
+    grid-area: w6; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/woodmere/id-holder.jpg"); }
+#woodmere #woodmere-gallery #w6 > div {
+  background-image: url("../img/work-2/woodmere/id-holder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w6 > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w6 > div {
+      height: 40vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w7 {
+    grid-area: w7; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/woodmere/app-5-f.jpg"); }
+#woodmere #woodmere-gallery #w7 > div {
+  background-image: url("../img/work-2/woodmere/app-5-f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w7 > div {
+      height: 50vh;
+      background-size: 130%; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w7 > div {
+      height: 40vh;
+      background-size: 150%; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w8 {
+    grid-area: w8; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/woodmere/tickets.jpg"); }
+#woodmere #woodmere-gallery #w8 > div {
+  background-image: url("../img/work-2/woodmere/tickets.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w8 > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w8 > div {
+      height: 80vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w9 {
+    grid-area: w9; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/woodmere/ticket-1.jpg"); }
+#woodmere #woodmere-gallery #w9 > div {
+  background-image: url("../img/work-2/woodmere/ticket-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w9 > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w9 > div {
+      height: 30vh;
+      background-position: 0px -120px; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w10 {
+    grid-area: w10; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/woodmere/ticket-2.jpg"); }
+#woodmere #woodmere-gallery #w10 > div {
+  background-image: url("../img/work-2/woodmere/ticket-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w10 > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w10 > div {
+      height: 30vh;
+      background-position: 0px -140px; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w11 {
+    grid-area: w11; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(11) > div {
-  background-image: url("../img/work-2/woodmere/app-3-f.jpg"); }
+#woodmere #woodmere-gallery #w11 > div {
+  background-image: url("../img/work-2/woodmere/app-3-f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 25vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w11 > div {
+      height: 45vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w11 > div {
+      height: 40vh; } }
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery #w12 {
+    grid-area: w12; } }
 
-#woodmere #woodmere-gallery > div li:nth-child(12) > div {
-  background-image: url("../img/work-2/woodmere/app-4-f.jpg"); }
-
+#woodmere #woodmere-gallery #w12 > div {
+  background-image: url("../img/work-2/woodmere/app-4-f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 25vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery #w12 > div {
+      height: 45vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery #w12 > div {
+      height: 40vh; } }
 #woodmere #w-youtube-video-1 {
   display: grid;
   grid-template-areas: ". video .";
@@ -1083,59 +1228,257 @@ footer {
       #woodmere #w-youtube-video-1 > div section iframe {
         width: 100%; }
 
-#woodmere #w-youtube-video-2 {
-  display: grid;
-  grid-template-areas: ". video .";
-  grid-template-columns: 10px auto 10px; }
-  #woodmere #w-youtube-video-2 > div {
-    align-items: center;
-    display: flex;
-    grid-area: video; }
-    #woodmere #w-youtube-video-2 > div section {
-      width: 100%; }
-      #woodmere #w-youtube-video-2 > div section iframe {
-        width: 100%; }
-
 @media (min-width: 1025px) {
-  #woodmere #woodmere-gallery-process > div > ul {
+  #woodmere #woodmere-gallery-process-1 > div > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
 
-#woodmere #woodmere-gallery-process > div > ul li div {
+#woodmere #woodmere-gallery-process-1 > div > ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-gallery-process-1 > div > ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #woodmere #woodmere-gallery-process-1 > div > ul li div {
+      height: 50vh; } }
+#woodmere #woodmere-gallery-process-1 > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
+
+#woodmere #woodmere-gallery-process-1 > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
+
+@media (min-width: 1025px) {
+  #woodmere #woodmere-gallery-process-2 > div > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#woodmere #woodmere-gallery-process-2 > div > ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh;
   align-items: center; }
   @media (min-width: 768px) {
-    #woodmere #woodmere-gallery-process > div > ul li div {
-      height: 50vh; } }
-  @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery-process > div > ul li div {
+    #woodmere #woodmere-gallery-process-2 > div > ul li div {
       height: 43vh; } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery-process-2 > div > ul li div {
+      background-size: 150%; } }
   @media (min-width: 1440px) {
-    #woodmere #woodmere-gallery-process > div > ul li div {
+    #woodmere #woodmere-gallery-process-2 > div > ul li div {
       height: 50vh; } }
-#woodmere #woodmere-gallery-process > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
-
-#woodmere #woodmere-gallery-process > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
-
-#woodmere #woodmere-gallery-process > div li:nth-child(3) > div {
+#woodmere #woodmere-gallery-process-2 > div li:nth-child(1) > div {
   background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
 
-#woodmere #woodmere-gallery-process > div li:nth-child(4) > div {
+#woodmere #woodmere-gallery-process-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
 
-#woodmere #woodmere-gallery-process > div li:nth-child(5) > div {
+#woodmere #woodmere-gallery-process-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
 
 /* =============
     philly-flower-1
 ============= */
+#philly-flower #philly-flower-hero {
+  background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-hero {
+      height: 90vh; } }
+  @media (min-width: 1440px) {
+    #philly-flower #philly-flower-hero {
+      height: 105vh; } }
+@media (min-width: 768px) {
+  #philly-flower #philly-flower-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #philly-flower #philly-flower-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #philly-flower #philly-flower-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #philly-flower #philly-flower-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #philly-flower #philly-flower-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "p1 p1" "p2 p3" "p4 p5" "p6 p6";
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p1 {
+    grid-area: p1; } }
+
+#philly-flower #philly-flower-gallery > div ul #p1 > div {
+  background-image: url("../img/work-2/philly-flower/photo-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p1 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p1 > div {
+      height: 95vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p2 {
+    grid-area: p2; } }
+
+#philly-flower #philly-flower-gallery > div ul #p2 > div {
+  background-image: url("../img/work-2/philly-flower/photo-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p2 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p2 > div {
+      height: 47vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p3 {
+    grid-area: p3; } }
+
+#philly-flower #philly-flower-gallery > div ul #p3 > div {
+  background-image: url("../img/work-2/philly-flower/photo-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p3 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p3 > div {
+      height: 47vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p4 {
+    grid-area: p4; } }
+
+#philly-flower #philly-flower-gallery > div ul #p4 > div {
+  background-image: url("../img/work-2/philly-flower/photo-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p4 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p4 > div {
+      height: 47vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p5 {
+    grid-area: p5; } }
+
+#philly-flower #philly-flower-gallery > div ul #p5 > div {
+  background-image: url("../img/work-2/philly-flower/photo-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p5 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p5 > div {
+      height: 47vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery > div ul #p6 {
+    grid-area: p6; } }
+
+#philly-flower #philly-flower-gallery > div ul #p6 > div {
+  background-image: url("../img/work-2/philly-flower/ui-kit.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 28vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery > div ul #p6 > div {
+      height: 46vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery > div ul #p6 > div {
+      height: 85vh; } }
+@media (min-width: 1025px) {
+  #philly-flower #philly-flower-gallery-process > div > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#philly-flower #philly-flower-gallery-process > div > ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #philly-flower #philly-flower-gallery-process > div > ul li div {
+      height: 43vh; } }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery-process > div > ul li div {
+      background-size: 150%; } }
+  @media (min-width: 1440px) {
+    #philly-flower #philly-flower-gallery-process > div > ul li div {
+      height: 50vh; } }
+#philly-flower #philly-flower-gallery-process > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/philly-flower/laptop.jpg"); }
+
+#philly-flower #philly-flower-gallery-process > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/philly-flower/ipad.jpg"); }
+  @media (min-width: 1025px) {
+    #philly-flower #philly-flower-gallery-process > div li:nth-child(2) > div {
+      background-position: -80px 0px; } }
+#philly-flower #philly-flower-gallery-process > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/philly-flower/mobile.jpg"); }
+
 /* =============
     art-1
 ============= */

@@ -568,17 +568,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/philly-flower/all-devices.jpg": {
-		"ft": 16384,
-		"iS": 53123,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/all-devices.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/philly-flower/ipad.jpg": {
 		"ft": 16384,
 		"iS": 109530,
@@ -607,6 +596,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/philly-flower-hero.jpg": {
+		"ft": 16384,
+		"iS": 826109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/philly-flower-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -713,7 +713,7 @@
 		},
 	"/deploy/img/work-2/proj-5.jpg": {
 		"ft": 16384,
-		"iS": 101887,
+		"iS": 826109,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-5.jpg",
