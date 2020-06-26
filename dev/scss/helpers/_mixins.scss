@@ -142,14 +142,3 @@ html {
 // @include xl{
 //     grid-template-columns: repeat(4, 1fr);
 // }
-
-// Extra large devices
-@mixin xxl {
-    @media (min-width: #{$screen-xxl-min}) {
-        @content;
-    }
-}
-//Usage
-// @include xxl{
-//     grid-template-columns: repeat(4, 1fr);
-// }

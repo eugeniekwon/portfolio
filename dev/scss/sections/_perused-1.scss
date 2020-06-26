@@ -1,11 +1,11 @@
 /* =============
-    little-joys-1
+    perused-1
 ============= */
 
-#little-joys{
+#perused{
 
-    #joy-hero{
-        background-image: url("../img/art-1/independent/ID-hero.jpg");
+    #perused-hero{
+        background-image: url("../img/work-2/perused/perused-hero.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -25,7 +25,7 @@
         
     }
 
-    #joy-main{
+    #perused-main{
 
         >div{
 
@@ -51,7 +51,7 @@
                 @include xl{
                     margin: 0px;
                 }
- 
+
     
                 li:nth-child(1){
                     @include md{
@@ -76,20 +76,20 @@
         
     }
 
-
-    #joy-gallery{
+    #perused-gallery{
 
         >div{
 
+
             ul{
 
-                @include lg{
-                    display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    column-gap: 25px;
-                    margin: 0px 25px;
-                }
-
+                // @include lg{
+                //     display: grid;
+                //     grid-template-columns: repeat(2,1fr);
+                //     column-gap: 25px;
+                //     margin: 0px 25px;
+                // }
+                
                 @include xl{
                     margin: 0px;
                 }
@@ -112,7 +112,7 @@
                     }
 
                     @include xl{
-                        height: 53vh;
+                        height:  100vh;
                     }
     
                     }
@@ -121,98 +121,167 @@
     
                 li:nth-child(1){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-yeg1.jpg");
+                        background-image: url("../img/work-2/perused/perused-contents.jpg");
+
+                        @include lg{
+                            background-size: 110%;
+                        }
                     }
                     
                 }
     
                 li:nth-child(2){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-yeg2.jpg");
+                        background-image: url("../img/work-2/woodmere/logo2and3.jpg");
+                        @include lg{
+                            background-size: 80%;
+                        }
                     }
                     
                 }
     
                 li:nth-child(3){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-yeg3.jpg");
+                        background-image: url("../img/work-2/woodmere/colours.jpg");
                     }
                     
                 }
 
                 li:nth-child(4){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-sharm1.jpg");
+                        background-image: url("../img/work-2/woodmere/business-card.jpg");
                     }
                     
                 }
+
                 li:nth-child(5){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-sharm3.jpg");
+                        background-image: url("../img/work-2/woodmere/app-1-f.jpg");
                     }
                     
                 }
+
+
                 li:nth-child(6){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-sharm2.jpg");
+                        background-image: url("../img/work-2/woodmere/id-holder.jpg");
                     }
                     
                 }
-    
+
                 li:nth-child(7){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david1.jpg");
+                        background-image: url("../img/work-2/woodmere/app-5-f.jpg");
                     }
+                    
                 }
+
                 li:nth-child(8){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david2.jpg");
+                        background-image: url("../img/work-2/woodmere/tickets.jpg");
                     }
+                    
                 }
+
                 li:nth-child(9){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-david3.jpg");
+                        background-image: url("../img/work-2/woodmere/ticket-1.jpg");
                     }
                     
                 }
 
                 li:nth-child(10){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-chae2.jpg");
+                        background-image: url("../img/work-2/woodmere/ticket-2.jpg");
                     }
                     
                 }
+
+
                 li:nth-child(11){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-chae1.jpg");
+                        background-image: url("../img/work-2/woodmere/app-3-f.jpg");
                     }
                     
                 }
+
                 li:nth-child(12){
                     >div{
-                        background-image: url("../img/art-1/independent/ID-chae3.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
-    
-                        @include lg{
-                            height: 98vh;
-                        }
-
-                        @include xl{
-                            height: 120vh;
-                        }
-    
+                        background-image: url("../img/work-2/woodmere/app-4-f.jpg");
                     }
-                    
                     
                 }
         }
-
-        
     }
+    
+    
+
+    #perused-gallery-process{
+        >div{
+            >ul{
+                @include lg{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    column-gap: 25px;
+                    margin: 0px 25px;
+                }
+        
+                li{
+                    div{
+    
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    height: 30vh;
+                    align-items: center;
+    
+                    @include md{
+                        height: 50vh;
+                    }
+    
+                    @include lg{
+                        height: 43vh;
+                    }
+
+                    @include xl{
+                        height:  50vh;
+                    }
+    
+                    }
+                }
+            }
+
+            li:nth-child(1){
+                >div{
+                    background-image: url("../img/work-2/woodmere/sketch-1.jpg");
+                    
+                }
+            }
+            li:nth-child(2){
+                >div{
+                    background-image: url("../img/work-2/woodmere/sketch-2.jpg");
+                }
+            }
+            li:nth-child(3){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-1.jpg");
+                }
+            }
+        
+            li:nth-child(4){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-2.jpg");
+                }
+            }
+            li:nth-child(5){
+                >div{
+                    background-image: url("../img/work-2/woodmere/w-process-3.jpg");
+                }
+                
+            }
+        }
+    }
+
     
     
     }

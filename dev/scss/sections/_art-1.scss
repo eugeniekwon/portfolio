@@ -4,7 +4,7 @@
 
 #art {
 
-    #gallery {
+    >div {
 
         @include md {
             margin: 0px 25px;
@@ -13,18 +13,6 @@
         @include lg {
             margin: 0px;
         }
-
-        @include xl{
-            display: grid;
-            grid-template-areas: ". gallery-xl .";
-            grid-template-columns: auto 1200px auto;
-        }
-
-        >div {
-
-            @include xl{
-                grid-area: gallery-xl;
-            }
 
             ul {
                 @include md {
@@ -49,9 +37,11 @@
                         height: 30vh;
                         justify-content: center;
                         text-align: center;
+                        margin-bottom: 30px;
 
                         @include md {
                             height: 30vh;
+                            margin: 0px;
                         }
 
                         @include lg {
@@ -83,35 +73,20 @@
             li:nth-child(1) {
                 >div {
                     background-image: url("../img/art-1/independent/ID-hero.jpg");
-                    margin-bottom: 30px;
-
-                    @include md {
-                        margin: 0;
-                    }
                 }
-
-
             }
 
             li:nth-child(2) {
                 >div {
                     background-image: url("../img/art-1/street/motion-hero-1.jpg");
-                    margin-bottom: 30px;
-
-                    @include md {
-                        margin: 0;
-                    }
                 }
-
             }
 
             li:nth-child(3) {
                 >div {
                     background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
-                    margin-bottom: 30px;
 
                     @include md {
-                        margin: 0;
                         background-position: -40px 0px;
                     }
 
@@ -123,8 +98,6 @@
                         background-position: 0px 0px;
                     }
                 }
-
-
             }
 
             li:nth-child(4) {
@@ -139,11 +112,5 @@
 
 
             }
-        }
-
-
     }
-
-
-
 }

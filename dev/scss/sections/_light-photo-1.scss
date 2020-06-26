@@ -4,177 +4,169 @@
 
 #light-photo {
 
-    #light-hero {
-        background-image: url("../img/art-1/light/light-hero-1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 69vh;
-        // background-attachment: fixed;
-
-        @include md{
-            height: 110vh;
-        }
-
-        @include lg{
-            height: 98vh;
-        }
-
-        @include xl{
-            height:  114vh;
-        }
-    }
+        #light-hero {
+            background-image: url("../img/art-1/light/light-hero-1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 69vh;
+            // background-attachment: fixed;
     
-
-    #light-main {
-
-        @include xl{
-            display: grid;
-            grid-template-areas: ". light-description .";
-            grid-template-columns: auto 1200px auto;
-        }
-
-        #light-content{
-
+            @include md{
+                height: 110vh;
+            }
+    
+            @include lg{
+                height: 98vh;
+            }
+    
             @include xl{
-                grid-area: light-description;
-            }
-
-            ul{
-                @include md{
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
-                    column-gap: 75px;
-                    margin: 0px 25px;
-                }
-    
-                @include lg{
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 1fr);
-                    grid-template-areas: "objective about process";
-                    column-gap: 100px;
-                    margin: 0px 45px;
-                    }
-
-    
-                li:nth-child(1){
-                    @include md{
-                        grid-area: objective;
-                    }
-                }
-    
-                li:nth-child(2){
-                    @include md{
-                        grid-area: about;
-                    }
-                }
-    
-                li:nth-child(3){
-                    @include md{
-                        grid-area: process;
-                    }
-                }
+                height:  114vh;
             }
         }
-    }
+        
+        #light-main {
 
-    #light-gallery {
+            >div{
 
-        @include xl{
-            display: grid;
-            grid-template-areas: ". light-gallery .";
-            grid-template-columns: auto 1200px auto;
-        }
-
-        >div{
-
-            @include xl{
-                grid-area: light-gallery;
-
-            }
-
-            ul {
-
-                @include lg{
-                    display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    column-gap: 25px;
-                    margin: 0px 25px;
-                }
-
-                li {
-
-                    div{
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                    height: 30vh;
-                    align-items: center;
-    
+                ul{
                     @include md{
-                        height: 50vh;
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: repeat(2, 1fr);
+                        grid-template-areas: "objective about" "process .";
+                        column-gap: 75px;
+                        margin: 0px 25px;
                     }
+        
+                    @include lg{
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-rows: repeat(1, 1fr);
+                        grid-template-areas: "objective about process";
+                        column-gap: 100px;
+                        margin: 0px 45px;
+                        }
+
+                    @include xl{
+                        margin: 0px;
+                    }
+    
+        
+                    li:nth-child(1){
+                        @include md{
+                            grid-area: objective;
+                        }
+                    }
+        
+                    li:nth-child(2){
+                        @include md{
+                            grid-area: about;
+                        }
+                    }
+        
+                    li:nth-child(3){
+                        @include md{
+                            grid-area: process;
+                        }
+                    }
+                }
+            }
+            
+                
+            }
+        
+    
+        #light-gallery {
+            >div{
+                ul {
     
                     @include lg{
-                        height: 43vh;
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        column-gap: 25px;
+                        margin: 0px 25px;
                     }
 
                     @include xl{
-                        height:  50vh;
+                        margin: 0px;
                     }
     
-                    }
-                    }
+                    li {
     
-                }
-    
-    
-            }
-    
-            li:nth-child(1) {
-                >div{
-                    background-image: url("../img/art-1/light/light2.jpg");
-                }
-            }
-    
-            li:nth-child(2) {
-                >div{
-                    background-image: url("../img/art-1/light/light3.jpg");
-                }
-            }
-    
-            li:nth-child(3) {
-                >div{
-                    background-image: url("../img/art-1/light/geo1.jpg");
-                }
-            }
-    
-            li:nth-child(4) {
-                >div{
-                    background-image: url("../img/art-1/light/geo2.jpg");
-                }
-            }
-    
-            li:nth-child(5) {
-                >div{
-                    background-image: url("../img/art-1/light/light4.jpg");
-                }
-                }
-                
-            li:nth-child(6) {
-                >div{
-                    background-image: url("../img/art-1/light/light5.jpg");
-                }
-            }
-    
-            li:nth-child(7) {
-                >div{
-                    background-image: url("../img/art-1/light/light6.jpg");
-                }
-            }
-        } 
+                        div{
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        height: 30vh;
+                        align-items: center;
+        
+                        @include md{
+                            height: 50vh;
+                        }
+        
+                        @include lg{
+                            height: 43vh;
+                        }
 
+                        @include xl{
+                            height: 53vh;
+                        }
+        
+                        }
+                        }
+        
+                    }
+        
+        
+                }
+        
+                li:nth-child(1) {
+                    >div{
+                        background-image: url("../img/art-1/light/light2.jpg");
+                    }
+                }
+        
+                li:nth-child(2) {
+                    >div{
+                        background-image: url("../img/art-1/light/light3.jpg");
+                    }
+                }
+        
+                li:nth-child(3) {
+                    >div{
+                        background-image: url("../img/art-1/light/geo1.jpg");
+                    }
+                }
+        
+                li:nth-child(4) {
+                    >div{
+                        background-image: url("../img/art-1/light/geo2.jpg");
+                    }
+                }
+        
+                li:nth-child(5) {
+                    >div{
+                        background-image: url("../img/art-1/light/light4.jpg");
+                    }
+                    }
+                    
+                li:nth-child(6) {
+                    >div{
+                        background-image: url("../img/art-1/light/light5.jpg");
+                    }
+                }
+        
+                li:nth-child(7) {
+                    >div{
+                        background-image: url("../img/art-1/light/light6.jpg");
+                    }
+                }
+            }
+    
+                
+    
     }
+    
+
+

@@ -2,22 +2,12 @@
     about-1
 ============= */
 #about {
-    @include xl {
-        display: grid;
-        grid-template-areas: ". about-xl .";
-        grid-template-columns: auto 1200px auto;
-    }
-
     >div {
         @include lg {
             display: grid;
             grid-template-areas: "aside article";
             grid-template-columns: 50% auto;
-        }
-
-        @include xl {
-            grid-area: about-xl;
-        }
+        } 
 
         aside {
             background-image: url("../img/about-1/me.jpg");
@@ -58,6 +48,7 @@
                 grid-area: article;
                 margin: 0px 45px 150px 50px;
             }
+
 
             p {
                 margin-bottom: 15px;

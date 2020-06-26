@@ -323,7 +323,27 @@ ul {
   ul li {
     list-style: none; }
 
-@media (min-width: 1200px) {
+.main-hero-grid {
+  display: grid;
+  grid-template-columns: 0px auto 0px;
+  grid-template-areas: ". container ."; }
+  @media (min-width: 1440px) {
+    .main-hero-grid {
+      grid-template-columns: auto 1025px auto; } }
+  .main-hero-grid > div {
+    grid-area: container; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0px auto 0px;
+  grid-template-areas: ". container ."; }
+  @media (min-width: 1440px) {
+    .grid-container {
+      grid-template-columns: auto 1200px auto; } }
+  .grid-container > div {
+    grid-area: container; }
+
+@media (min-width: 1440px) {
   .content-layout {
     display: grid;
     grid-template-areas: ". grid-xl .";
@@ -336,7 +356,7 @@ ul {
   @media (min-width: 768px) {
     .spacing-for-header {
       margin-top: 60px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .spacing-for-header {
       margin-top: 80px; } }
 .big-spacing {
@@ -344,7 +364,7 @@ ul {
   @media (min-width: 768px) {
     .big-spacing {
       margin-bottom: 125px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .big-spacing {
       margin-bottom: 150px; } }
 .medium-spacing {
@@ -352,7 +372,7 @@ ul {
   @media (min-width: 768px) {
     .medium-spacing {
       margin-bottom: 40px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .medium-spacing {
       margin-bottom: 50px; } }
 .small-spacing {
@@ -360,7 +380,7 @@ ul {
   @media (min-width: 768px) {
     .small-spacing {
       margin-bottom: 20px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .small-spacing {
       margin-bottom: 25px; } }
 .show-for-md {
@@ -370,7 +390,7 @@ ul {
       display: block; } }
 .show-for-lg {
   display: none; }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .show-for-lg {
       display: block; } }
 .show-for-mobile {
@@ -385,26 +405,30 @@ ul {
       display: flex !important; } }
 .show-for-desktop {
   display: none !important; }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .show-for-desktop {
       display: flex !important; } }
 a:link,
 a:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.25s; }
 
 .portfolio-title {
   font-family: 'Inter', sans-serif;
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 2.625rem;
-  margin: 30px 0px 15px 0px;
+  margin: 30px 10px 15px 10px;
   color: #3F3F3F; }
   @media (min-width: 768px) {
     .portfolio-title {
       margin: 40px 25px 20px 25px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .portfolio-title {
       margin: 50px 45px 25px 45px; } }
+  @media (min-width: 1440px) {
+    .portfolio-title {
+      margin: 50px 0px 25px 0px; } }
 .portfolio-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
@@ -414,9 +438,12 @@ a:visited {
   @media (min-width: 768px) {
     .portfolio-subtitle {
       margin: 0px 25px 40px 25px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .portfolio-subtitle {
       margin: 0px 45px 25px 45px; } }
+  @media (min-width: 1440px) {
+    .portfolio-subtitle {
+      margin: 0px 0px 25px 0px; } }
 .portfolio-section {
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
@@ -426,7 +453,7 @@ a:visited {
   @media (min-width: 768px) {
     .portfolio-section {
       margin: 0px 0px 20px 0px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .portfolio-section {
       margin: 0px 0px 25px 0px; } }
 .portfolio-description {
@@ -440,7 +467,7 @@ a:visited {
   @media (min-width: 768px) {
     .portfolio-description {
       margin: 0px 0px 40px 0px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     .portfolio-description {
       margin: 0px 0px 150px 0px; } }
 .pull-quotes {
@@ -489,14 +516,14 @@ textarea {
 #nav-container ul {
   height: 100%;
   text-align: right; }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #nav-container ul {
       display: flex;
       justify-content: flex-end; } }
   #nav-container ul li {
     margin-bottom: 30px;
     padding-right: 25px; }
-    @media (min-width: 992px) {
+    @media (min-width: 1025px) {
       #nav-container ul li {
         align-items: center;
         display: flex;
@@ -531,28 +558,23 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000; }
-  @media (min-width: 1200px) {
-    header {
-      display: grid;
-      grid-template-areas: ". header-xl .";
-      grid-template-columns: auto 1200px auto; } }
   header > div {
     display: grid;
     grid-template-areas: "logo burger" "nav nav";
     grid-template-columns: 80% auto; }
-    @media (min-width: 992px) {
+    @media (min-width: 1025px) {
       header > div {
         grid-template-areas: "logo nav";
         grid-template-columns: 50% auto; } }
-    @media (min-width: 1200px) {
-      header > div {
-        grid-area: header-xl; } }
     header > div #logo-container {
       grid-area: logo;
       padding: 15px 25px; }
-      @media (min-width: 992px) {
+      @media (min-width: 1025px) {
         header > div #logo-container {
           padding: 25px 45px; } }
+      @media (min-width: 1440px) {
+        header > div #logo-container {
+          padding: 25px 0px; } }
       header > div #logo-container h1 {
         color: #7E8E94;
         font-family: 'Inter', sans-serif;
@@ -565,7 +587,7 @@ header {
       grid-area: burger;
       justify-content: flex-end;
       padding: 15px 25px; }
-      @media (min-width: 992px) {
+      @media (min-width: 1025px) {
         header > div #burger-container {
           display: none !important; } }
       header > div #burger-container i {
@@ -576,7 +598,7 @@ header {
       background-color: #fff;
       display: none;
       grid-area: nav; }
-      @media (min-width: 992px) {
+      @media (min-width: 1025px) {
         header > div #nav-container {
           background-color: #fff;
           display: grid !important; } }
@@ -584,7 +606,7 @@ header {
         font-family: 'Inter', sans-serif;
         font-size: 1rem;
         font-weight: 600; }
-        @media (min-width: 992px) {
+        @media (min-width: 1025px) {
           header > div #nav-container ul li {
             font-size: 1.125rem; } }
 /* =============
@@ -594,7 +616,7 @@ footer {
   background-color: #3F3F3F;
   width: 100%;
   border-bottom: 1px solid #3F3F3F; }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     footer #footer-xl {
       display: grid;
       grid-template-areas: ". footer-xl .";
@@ -606,7 +628,7 @@ footer {
     @media (min-width: 768px) {
       footer #footer-xl > div {
         margin: 0px 106px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       footer #footer-xl > div {
         grid-area: footer-xl; } }
     footer #footer-xl > div h4 {
@@ -642,7 +664,7 @@ footer {
       align-items: center;
       display: flex;
       justify-content: flex-start; }
-      @media (min-width: 992px) {
+      @media (min-width: 1025px) {
         footer #footer-xl > div #social-media ul {
           font-size: 1.5625rem; } }
       footer #footer-xl > div #social-media ul li {
@@ -660,21 +682,11 @@ footer {
 /* =============
     about-1
 ============= */
-@media (min-width: 1200px) {
-  #about {
-    display: grid;
-    grid-template-areas: ". about-xl .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #about > div {
     display: grid;
     grid-template-areas: "aside article";
     grid-template-columns: 50% auto; } }
-
-@media (min-width: 1200px) {
-  #about > div {
-    grid-area: about-xl; } }
 
 #about > div aside {
   background-image: url("../img/about-1/me.jpg");
@@ -686,12 +698,12 @@ footer {
     #about > div aside {
       height: 45vh;
       margin: 0px 394px 0px 25px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #about > div aside {
       grid-area: aside;
       height: 70vh;
       margin: 0px 50px 150px 45px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #about > div aside {
       height: 80vh; } }
 #about > div article {
@@ -704,7 +716,7 @@ footer {
   @media (min-width: 768px) {
     #about > div article {
       margin: 40px 106px 125px 300px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #about > div article {
       grid-area: article;
       margin: 0px 45px 150px 50px; } }
@@ -725,55 +737,52 @@ footer {
   background-color: #fff;
   width: 100%;
   color: #3F3F3F; }
-  @media (min-width: 1200px) {
-    #work-1 {
-      display: grid;
-      grid-template-areas: ". work-1-xl .";
-      grid-template-columns: auto 1200px auto; } }
-  @media (min-width: 1200px) {
-    #work-1 #work-1-xl {
-      grid-area: work-1-xl; } }
-  #work-1 #work-1-xl #intro {
+  @media (min-width: 768px) {
+    #work-1 > div div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; } }
+  #work-1 > div div #intro {
     padding: 100px 131px 0px 10px;
     margin: 0px; }
     @media (min-width: 768px) {
-      #work-1 #work-1-xl #intro {
-        padding: 100px 394px 0px 10px; } }
-    @media (min-width: 992px) {
-      #work-1 #work-1-xl #intro {
-        padding: 150px 594px 0px 10px; } }
-    #work-1 #work-1-xl #intro h1 {
+      #work-1 > div div #intro {
+        padding: 0px 60px 0px 100px; } }
+    @media (min-width: 1025px) {
+      #work-1 > div div #intro {
+        padding: 0px 40px 0px 121px; } }
+    #work-1 > div div #intro h1 {
       font-family: 'Inter', sans-serif;
       font-size: 2.5rem;
       font-weight: 700;
       text-align: right;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
-        #work-1 #work-1-xl #intro h1 {
+        #work-1 > div div #intro h1 {
           font-size: 4.375rem;
           margin-bottom: 20px; } }
-      @media (min-width: 992px) {
-        #work-1 #work-1-xl #intro h1 {
+      @media (min-width: 1025px) {
+        #work-1 > div div #intro h1 {
           font-size: 5rem;
           margin-bottom: 20px; } }
-    #work-1 #work-1-xl #intro h3 {
+    #work-1 > div div #intro h3 {
       font-family: 'Gelasio', serif;
       font-size: 1rem;
       font-weight: 700;
       text-align: right;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
-        #work-1 #work-1-xl #intro h3 {
+        #work-1 > div div #intro h3 {
           font-size: 1.0625rem;
           margin-bottom: 20px; } }
-      @media (min-width: 992px) {
-        #work-1 #work-1-xl #intro h3 {
+      @media (min-width: 1025px) {
+        #work-1 > div div #intro h3 {
           font-size: 1.125rem;
           margin-bottom: 20px; } }
   @media (min-width: 768px) {
-    #work-1 #work-1-xl #intro-description {
-      margin-bottom: 125px; } }
-  #work-1 #work-1-xl #intro-description p {
+    #work-1 > div div #intro-description {
+      padding-top: 350px; } }
+  #work-1 > div div #intro-description p {
     font-family: 'Gelasio', serif;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -781,41 +790,47 @@ footer {
     text-align: left;
     margin: 30px 10px 90px 170px; }
     @media (min-width: 768px) {
-      #work-1 #work-1-xl #intro-description p {
+      #work-1 > div div #intro-description p {
         font-size: 1.0625rem;
         line-height: 1.625rem;
-        margin: 0px 150px 20px 470px; } }
-    @media (min-width: 992px) {
-      #work-1 #work-1-xl #intro-description p {
-        margin: 0px 372px 20px 470px; } }
-  #work-1 #work-1-xl #intro-description #location {
+        margin: 0px 140px 25px 60px; } }
+    @media (min-width: 1025px) {
+      #work-1 > div div #intro-description p {
+        margin: 0px 370px 20px 40px; } }
+  #work-1 > div div #intro-description #location {
     line-height: 1.625rem; }
-    #work-1 #work-1-xl #intro-description #location p {
+    #work-1 > div div #intro-description #location p {
       font-size: 1.0625rem; }
-      #work-1 #work-1-xl #intro-description #location p span {
+      #work-1 > div div #intro-description #location p span {
         display: block; }
-  #work-1 #work-1-xl #scroll-button {
+  #work-1 #scroll-button {
     text-align: center;
     scroll-behavior: smooth; }
-    #work-1 #work-1-xl #scroll-button p {
+    @media (min-width: 768px) {
+      #work-1 #scroll-button {
+        margin-top: 100px; } }
+    #work-1 #scroll-button p {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
-        #work-1 #work-1-xl #scroll-button p {
+        #work-1 #scroll-button p {
           margin-bottom: 25px; } }
-    #work-1 #work-1-xl #scroll-button a:link,
-    #work-1 #work-1-xl #scroll-button a:visited {
+    #work-1 #scroll-button a:link,
+    #work-1 #scroll-button a:visited {
       color: #3F3F3F;
       text-decoration: none;
       transition: 0.25s; }
-    #work-1 #work-1-xl #scroll-button a:hover,
-    #work-1 #work-1-xl #scroll-button a:active {
+    #work-1 #scroll-button a:hover,
+    #work-1 #scroll-button a:active {
       color: #3F3F3F; }
-    #work-1 #work-1-xl #scroll-button > div {
+    #work-1 #scroll-button > div {
       padding-bottom: 15px; }
       @media (min-width: 768px) {
-        #work-1 #work-1-xl #scroll-button > div {
+        #work-1 #scroll-button > div {
           padding-bottom: 25px; } }
-      #work-1 #work-1-xl #scroll-button > div hr {
+      @media (min-width: 1025px) {
+        #work-1 #scroll-button > div {
+          padding-bottom: 125px; } }
+      #work-1 #scroll-button > div hr {
         background-color: white;
         width: 130px; }
 
@@ -823,36 +838,26 @@ footer {
     work-2
 ============= */
 @media (min-width: 768px) {
-  #work-2 #work-gallery {
+  #work-2 {
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #work-2 #work-gallery {
+@media (min-width: 1025px) {
+  #work-2 {
     margin: 0px; } }
 
-@media (min-width: 1200px) {
-  #work-2 #work-gallery {
-    display: grid;
-    grid-template-areas: ". gallery-xl .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #work-2 #work-gallery > div {
-    grid-area: gallery-xl; } }
-
 @media (min-width: 768px) {
-  #work-2 #work-gallery > div ul {
+  #work-2 > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px; } }
 
-@media (min-width: 992px) {
-  #work-2 #work-gallery > div ul {
+@media (min-width: 1025px) {
+  #work-2 > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
-#work-2 #work-gallery > div ul li > div {
+#work-2 > div ul li div {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -862,16 +867,16 @@ footer {
   justify-content: center;
   text-align: center; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div ul li > div {
+    #work-2 > div ul li div {
       height: 30vh; } }
-  @media (min-width: 992px) {
-    #work-2 #work-gallery > div ul li > div {
+  @media (min-width: 1025px) {
+    #work-2 > div ul li div {
       height: 35vh; } }
-  #work-2 #work-gallery > div ul li > div a:link,
-  #work-2 #work-gallery > div ul li > div a:visited {
+  #work-2 > div ul li div a:link,
+  #work-2 > div ul li div a:visited {
     width: 100%; }
-    #work-2 #work-gallery > div ul li > div a:link h4,
-    #work-2 #work-gallery > div ul li > div a:visited h4 {
+    #work-2 > div ul li div a:link h4,
+    #work-2 > div ul li div a:visited h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
@@ -879,8 +884,8 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
-    #work-2 #work-gallery > div ul li > div a:link p,
-    #work-2 #work-gallery > div ul li > div a:visited p {
+    #work-2 > div ul li div a:link p,
+    #work-2 > div ul li div a:visited p {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1rem;
@@ -888,37 +893,64 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+    #work-2 > div ul li div a:link span,
+    #work-2 > div ul li div a:visited span {
+      display: block; }
 
-#work-2 #work-gallery > div li:nth-child(1) > div {
+#work-2 > div li:nth-child(1) > div {
   background-image: url("../img/work-2/proj-1.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div li:nth-child(1) > div {
+    #work-2 > div li:nth-child(1) > div {
       margin: 0; } }
-#work-2 #work-gallery > div li:nth-child(2) > div {
+#work-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/proj-2.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div li:nth-child(2) > div {
+    #work-2 > div li:nth-child(2) > div {
       margin: 0; } }
-#work-2 #work-gallery > div li:nth-child(3) > div {
+#work-2 > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/proj-3.jpg");
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(3) > div {
+      margin: 0; } }
+#work-2 > div li:nth-child(4) > div {
   background-image: url("../img/work-2/proj-2.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div li:nth-child(3) > div {
+    #work-2 > div li:nth-child(4) > div {
       margin: 0; } }
-#work-2 #work-gallery > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/proj-2.jpg");
-  margin-bottom: 90px; }
+#work-2 > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/proj-5.jpg");
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div li:nth-child(4) > div {
-      margin-bottom: 125px; } }
-#work-2 #work-gallery > div li:nth-child(5) > div {
+    #work-2 > div li:nth-child(5) > div {
+      margin: 0; } }
+#work-2 > div li:nth-child(6) > div {
+  background-image: url("../img/work-2/proj-5.jpg");
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(6) > div {
+      margin: 0; } }
+#work-2 > div li:nth-child(7) > div {
   background-image: url("../img/work-2/proj-5.jpg");
   margin-bottom: 90px; }
   @media (min-width: 768px) {
-    #work-2 #work-gallery > div li:nth-child(5) > div {
-      margin-bottom: 125px; } }
+    #work-2 > div li:nth-child(7) > div {
+      margin-bottmo: 125px; } }
+#work-2 > div li:nth-child(8) > div {
+  background-image: url("../img/work-2/proj-5.jpg");
+  margin-bottom: 90px; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(8) > div {
+      margin-bottmo: 125px; } }
+#work-2 > div li:nth-child(9) > div {
+  background-image: url("../img/work-2/proj-5.jpg");
+  margin-bottom: 90px; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(9) > div {
+      margin-bottmo: 125px; } }
 /* =============
     woodmere-1
 ============= */
@@ -931,24 +963,14 @@ footer {
   @media (min-width: 768px) {
     #woodmere #woodmere-hero {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #woodmere #woodmere-hero {
       height: 90vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #woodmere #woodmere-hero {
       height: 105vh; } }
-@media (min-width: 1200px) {
-  #woodmere #woodmere-main {
-    display: grid;
-    grid-template-areas: ". woodmere-description .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #woodmere #woodmere-main #woodmere-content {
-    grid-area: woodmere-description; } }
-
 @media (min-width: 768px) {
-  #woodmere #woodmere-main #woodmere-content ul {
+  #woodmere #woodmere-main > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -956,8 +978,8 @@ footer {
     column-gap: 75px;
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #woodmere #woodmere-main #woodmere-content ul {
+@media (min-width: 1025px) {
+  #woodmere #woodmere-main > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -965,34 +987,32 @@ footer {
     column-gap: 100px;
     margin: 0px 45px; } }
 
+@media (min-width: 1440px) {
+  #woodmere #woodmere-main > div ul {
+    margin: 0px; } }
+
 @media (min-width: 768px) {
-  #woodmere #woodmere-main #woodmere-content ul li:nth-child(1) {
+  #woodmere #woodmere-main > div ul li:nth-child(1) {
     grid-area: objective; } }
 
 @media (min-width: 768px) {
-  #woodmere #woodmere-main #woodmere-content ul li:nth-child(2) {
+  #woodmere #woodmere-main > div ul li:nth-child(2) {
     grid-area: about; } }
 
 @media (min-width: 768px) {
-  #woodmere #woodmere-main #woodmere-content ul li:nth-child(3) {
+  #woodmere #woodmere-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1200px) {
-  #woodmere #woodmere-gallery {
-    display: grid;
-    grid-template-areas: ". woodmere-gallery .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #woodmere #woodmere-gallery > div {
-    grid-area: woodmere-gallery; } }
-
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #woodmere #woodmere-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #woodmere #woodmere-gallery > div ul {
+    margin: 0px; } }
 
 #woodmere #woodmere-gallery > div ul li div {
   background-position: center;
@@ -1003,20 +1023,20 @@ footer {
   @media (min-width: 768px) {
     #woodmere #woodmere-gallery > div ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #woodmere #woodmere-gallery > div ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #woodmere #woodmere-gallery > div ul li div {
       height: 50vh; } }
 #woodmere #woodmere-gallery > div li:nth-child(1) > div {
   background-image: url("../img/work-2/woodmere/logo1.jpg"); }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #woodmere #woodmere-gallery > div li:nth-child(1) > div {
       background-size: 110%; } }
 #woodmere #woodmere-gallery > div li:nth-child(2) > div {
   background-image: url("../img/work-2/woodmere/logo2and3.jpg"); }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #woodmere #woodmere-gallery > div li:nth-child(2) > div {
       background-size: 80%; } }
 #woodmere #woodmere-gallery > div li:nth-child(3) > div {
@@ -1076,7 +1096,7 @@ footer {
       #woodmere #w-youtube-video-2 > div section iframe {
         width: 100%; }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #woodmere #woodmere-gallery-process > div > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1092,10 +1112,10 @@ footer {
   @media (min-width: 768px) {
     #woodmere #woodmere-gallery-process > div > ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #woodmere #woodmere-gallery-process > div > ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #woodmere #woodmere-gallery-process > div > ul li div {
       height: 50vh; } }
 #woodmere #woodmere-gallery-process > div li:nth-child(1) > div {
@@ -1120,36 +1140,26 @@ footer {
     art-1
 ============= */
 @media (min-width: 768px) {
-  #art #gallery {
+  #art > div {
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #art #gallery {
+@media (min-width: 1025px) {
+  #art > div {
     margin: 0px; } }
 
-@media (min-width: 1200px) {
-  #art #gallery {
-    display: grid;
-    grid-template-areas: ". gallery-xl .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #art #gallery > div {
-    grid-area: gallery-xl; } }
-
 @media (min-width: 768px) {
-  #art #gallery > div ul {
+  #art > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px; } }
 
-@media (min-width: 992px) {
-  #art #gallery > div ul {
+@media (min-width: 1025px) {
+  #art > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
-#art #gallery > div ul li div {
+#art > div ul li div {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1157,56 +1167,50 @@ footer {
   display: flex;
   height: 30vh;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #art #gallery > div ul li div {
-      height: 30vh; } }
-  @media (min-width: 992px) {
-    #art #gallery > div ul li div {
+    #art > div ul li div {
+      height: 30vh;
+      margin: 0px; } }
+  @media (min-width: 1025px) {
+    #art > div ul li div {
       height: 35vh; } }
-  #art #gallery > div ul li div a:link,
-  #art #gallery > div ul li div a:visited {
+  #art > div ul li div a:link,
+  #art > div ul li div a:visited {
     width: 100%; }
-    #art #gallery > div ul li div a:link h4,
-    #art #gallery > div ul li div a:visited h4 {
+    #art > div ul li div a:link h4,
+    #art > div ul li div a:visited h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
       color: #fff; }
-    #art #gallery > div ul li div a:link span,
-    #art #gallery > div ul li div a:visited span {
+    #art > div ul li div a:link span,
+    #art > div ul li div a:visited span {
       display: block; }
 
-#art #gallery > div li:nth-child(1) > div {
-  background-image: url("../img/art-1/independent/ID-hero.jpg");
-  margin-bottom: 30px; }
+#art > div li:nth-child(1) > div {
+  background-image: url("../img/art-1/independent/ID-hero.jpg"); }
+
+#art > div li:nth-child(2) > div {
+  background-image: url("../img/art-1/street/motion-hero-1.jpg"); }
+
+#art > div li:nth-child(3) > div {
+  background-image: url("../img/art-1/portraits/portrait-hero-1.jpg"); }
   @media (min-width: 768px) {
-    #art #gallery > div li:nth-child(1) > div {
-      margin: 0; } }
-#art #gallery > div li:nth-child(2) > div {
-  background-image: url("../img/art-1/street/motion-hero-1.jpg");
-  margin-bottom: 30px; }
-  @media (min-width: 768px) {
-    #art #gallery > div li:nth-child(2) > div {
-      margin: 0; } }
-#art #gallery > div li:nth-child(3) > div {
-  background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
-  margin-bottom: 30px; }
-  @media (min-width: 768px) {
-    #art #gallery > div li:nth-child(3) > div {
-      margin: 0;
+    #art > div li:nth-child(3) > div {
       background-position: -40px 0px; } }
-  @media (min-width: 992px) {
-    #art #gallery > div li:nth-child(3) > div {
+  @media (min-width: 1025px) {
+    #art > div li:nth-child(3) > div {
       background-position: -20px 0px; } }
-  @media (min-width: 1200px) {
-    #art #gallery > div li:nth-child(3) > div {
+  @media (min-width: 1440px) {
+    #art > div li:nth-child(3) > div {
       background-position: 0px 0px; } }
-#art #gallery > div li:nth-child(4) > div {
+#art > div li:nth-child(4) > div {
   background-image: url("../img/art-1/light/light-hero-1.jpg");
   margin-bottom: 90px; }
   @media (min-width: 768px) {
-    #art #gallery > div li:nth-child(4) > div {
+    #art > div li:nth-child(4) > div {
       margin-bottom: 125px; } }
 /* =============
     little-joys-1
@@ -1220,24 +1224,14 @@ footer {
   @media (min-width: 768px) {
     #little-joys #joy-hero {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #little-joys #joy-hero {
       height: 90vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #little-joys #joy-hero {
       height: 105vh; } }
-@media (min-width: 1200px) {
-  #little-joys #joy-main {
-    display: grid;
-    grid-template-areas: ". joy-description .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #little-joys #joy-main #joy-content {
-    grid-area: joy-description; } }
-
 @media (min-width: 768px) {
-  #little-joys #joy-main #joy-content ul {
+  #little-joys #joy-main > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1245,8 +1239,8 @@ footer {
     column-gap: 75px;
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #little-joys #joy-main #joy-content ul {
+@media (min-width: 1025px) {
+  #little-joys #joy-main > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -1254,34 +1248,32 @@ footer {
     column-gap: 100px;
     margin: 0px 45px; } }
 
+@media (min-width: 1440px) {
+  #little-joys #joy-main > div ul {
+    margin: 0px; } }
+
 @media (min-width: 768px) {
-  #little-joys #joy-main #joy-content ul li:nth-child(1) {
+  #little-joys #joy-main > div ul li:nth-child(1) {
     grid-area: objective; } }
 
 @media (min-width: 768px) {
-  #little-joys #joy-main #joy-content ul li:nth-child(2) {
+  #little-joys #joy-main > div ul li:nth-child(2) {
     grid-area: about; } }
 
 @media (min-width: 768px) {
-  #little-joys #joy-main #joy-content ul li:nth-child(3) {
+  #little-joys #joy-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1200px) {
-  #little-joys #joy-gallery {
-    display: grid;
-    grid-template-areas: ". joy-gallery .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #little-joys #joy-gallery > div {
-    grid-area: joy-gallery; } }
-
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #little-joys #joy-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #little-joys #joy-gallery > div ul {
+    margin: 0px; } }
 
 #little-joys #joy-gallery > div ul li div {
   background-position: center;
@@ -1292,12 +1284,12 @@ footer {
   @media (min-width: 768px) {
     #little-joys #joy-gallery > div ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #little-joys #joy-gallery > div ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #little-joys #joy-gallery > div ul li div {
-      height: 50vh; } }
+      height: 53vh; } }
 #little-joys #joy-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/independent/ID-yeg1.jpg"); }
 
@@ -1337,12 +1329,12 @@ footer {
   @media (min-width: 768px) {
     #little-joys #joy-gallery > div li:nth-child(12) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #little-joys #joy-gallery > div li:nth-child(12) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #little-joys #joy-gallery > div li:nth-child(12) > div {
-      height: 114vh; } }
+      height: 120vh; } }
 /* =============
     street-photo-1
 ============= */
@@ -1355,24 +1347,14 @@ footer {
   @media (min-width: 768px) {
     #street-photo #street-hero {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #street-photo #street-hero {
       height: 90vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #street-photo #street-hero {
       height: 105vh; } }
-@media (min-width: 1200px) {
-  #street-photo #street-main {
-    display: grid;
-    grid-template-areas: ". street-content .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #street-photo #street-main #street-content {
-    grid-area: street-content; } }
-
 @media (min-width: 768px) {
-  #street-photo #street-main #street-content ul {
+  #street-photo #street-main ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1380,8 +1362,8 @@ footer {
     column-gap: 75px;
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #street-photo #street-main #street-content ul {
+@media (min-width: 1025px) {
+  #street-photo #street-main ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -1389,87 +1371,85 @@ footer {
     column-gap: 100px;
     margin: 0px 45px; } }
 
+@media (min-width: 1440px) {
+  #street-photo #street-main ul {
+    margin: 0px; } }
+
 @media (min-width: 768px) {
-  #street-photo #street-main #street-content ul li:nth-child(1) {
+  #street-photo #street-main ul li:nth-child(1) {
     grid-area: objective; } }
 
 @media (min-width: 768px) {
-  #street-photo #street-main #street-content ul li:nth-child(2) {
+  #street-photo #street-main ul li:nth-child(2) {
     grid-area: about; } }
 
 @media (min-width: 768px) {
-  #street-photo #street-main #street-content ul li:nth-child(3) {
+  #street-photo #street-main ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1200px) {
-  #street-photo #street-gallery {
-    display: grid;
-    grid-template-areas: ". street-gallery .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #street-photo #street-gallery > div {
-    grid-area: street-gallery; } }
-
-@media (min-width: 992px) {
-  #street-photo #street-gallery > div ul {
+@media (min-width: 1025px) {
+  #street-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
 
-#street-photo #street-gallery > div ul li div {
+@media (min-width: 1440px) {
+  #street-gallery > div ul {
+    margin: 0px; } }
+
+#street-gallery > div ul li div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 30vh;
   align-items: center; }
   @media (min-width: 768px) {
-    #street-photo #street-gallery > div ul li div {
+    #street-gallery > div ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
-    #street-photo #street-gallery > div ul li div {
+  @media (min-width: 1025px) {
+    #street-gallery > div ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
-    #street-photo #street-gallery > div ul li div {
-      height: 50vh; } }
-#street-photo #street-gallery > div li:nth-child(1) > div {
+  @media (min-width: 1440px) {
+    #street-gallery > div ul li div {
+      height: 53vh; } }
+#street-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/street/motion2.jpg"); }
 
-#street-photo #street-gallery > div li:nth-child(2) > div {
+#street-gallery > div li:nth-child(2) > div {
   background-image: url("../img/art-1/street/street1.jpg"); }
 
-#street-photo #street-gallery > div li:nth-child(3) > div {
+#street-gallery > div li:nth-child(3) > div {
   background-image: url("../img/art-1/street/street2.jpg");
   height: 69vh; }
   @media (min-width: 768px) {
-    #street-photo #street-gallery > div li:nth-child(3) > div {
+    #street-gallery > div li:nth-child(3) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
-    #street-photo #street-gallery > div li:nth-child(3) > div {
+  @media (min-width: 1025px) {
+    #street-gallery > div li:nth-child(3) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
-    #street-photo #street-gallery > div li:nth-child(3) > div {
-      height: 114vh; } }
-#street-photo #street-gallery > div li:nth-child(4) > div {
+  @media (min-width: 1440px) {
+    #street-gallery > div li:nth-child(3) > div {
+      height: 120vh; } }
+#street-gallery > div li:nth-child(4) > div {
   background-image: url("../img/art-1/street/street3.jpg");
   height: 69vh; }
   @media (min-width: 768px) {
-    #street-photo #street-gallery > div li:nth-child(4) > div {
+    #street-gallery > div li:nth-child(4) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
-    #street-photo #street-gallery > div li:nth-child(4) > div {
+  @media (min-width: 1025px) {
+    #street-gallery > div li:nth-child(4) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
-    #street-photo #street-gallery > div li:nth-child(4) > div {
-      height: 114vh; } }
-#street-photo #street-gallery > div li:nth-child(5) > div {
+  @media (min-width: 1440px) {
+    #street-gallery > div li:nth-child(4) > div {
+      height: 120vh; } }
+#street-gallery > div li:nth-child(5) > div {
   background-image: url("../img/art-1/street/volscale1.jpg"); }
 
-#street-photo #street-gallery > div li:nth-child(6) > div {
+#street-gallery > div li:nth-child(6) > div {
   background-image: url("../img/art-1/street/volscale2.jpg"); }
 
-#street-photo #street-gallery > div li:nth-child(7) > div {
+#street-gallery > div li:nth-child(7) > div {
   background-image: url("../img/art-1/street/volscale3.jpg"); }
 
 /* =============
@@ -1484,24 +1464,14 @@ footer {
   @media (min-width: 768px) {
     #portraits #portraits-hero {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #portraits #portraits-hero {
       height: 90vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #portraits #portraits-hero {
       height: 105vh; } }
-@media (min-width: 1200px) {
-  #portraits #portraits-main {
-    display: grid;
-    grid-template-areas: ". portraits-description .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #portraits #portraits-main #portraits-content {
-    grid-area: portraits-description; } }
-
 @media (min-width: 768px) {
-  #portraits #portraits-main #portraits-content ul {
+  #portraits #portraits-main > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1509,8 +1479,8 @@ footer {
     column-gap: 75px;
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #portraits #portraits-main #portraits-content ul {
+@media (min-width: 1025px) {
+  #portraits #portraits-main > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -1518,34 +1488,32 @@ footer {
     column-gap: 100px;
     margin: 0px 45px; } }
 
+@media (min-width: 1440px) {
+  #portraits #portraits-main > div ul {
+    margin: 0px; } }
+
 @media (min-width: 768px) {
-  #portraits #portraits-main #portraits-content ul li:nth-child(1) {
+  #portraits #portraits-main > div ul li:nth-child(1) {
     grid-area: objective; } }
 
 @media (min-width: 768px) {
-  #portraits #portraits-main #portraits-content ul li:nth-child(2) {
+  #portraits #portraits-main > div ul li:nth-child(2) {
     grid-area: about; } }
 
 @media (min-width: 768px) {
-  #portraits #portraits-main #portraits-content ul li:nth-child(3) {
+  #portraits #portraits-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1200px) {
-  #portraits #portraits-gallery {
-    display: grid;
-    grid-template-areas: ". portraits-gallery .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #portraits #portraits-gallery > div {
-    grid-area: portraits-gallery; } }
-
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #portraits #portraits-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #portraits #portraits-gallery > div ul {
+    margin: 0px; } }
 
 #portraits #portraits-gallery > div ul li div {
   background-position: center;
@@ -1556,36 +1524,36 @@ footer {
   @media (min-width: 768px) {
     #portraits #portraits-gallery > div ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #portraits #portraits-gallery > div ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #portraits #portraits-gallery > div ul li div {
-      height: 50vh; } }
+      height: 53vh; } }
 #portraits #portraits-gallery > div li:nth-child(1) > div {
   background-image: url("../img/art-1/portraits/portrait4.jpg");
   height: 69vh; }
   @media (min-width: 768px) {
     #portraits #portraits-gallery > div li:nth-child(1) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #portraits #portraits-gallery > div li:nth-child(1) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #portraits #portraits-gallery > div li:nth-child(1) > div {
-      height: 114vh; } }
+      height: 120vh; } }
 #portraits #portraits-gallery > div li:nth-child(2) > div {
   background-image: url("../img/art-1/portraits/portrait5.jpg");
   height: 69vh; }
   @media (min-width: 768px) {
     #portraits #portraits-gallery > div li:nth-child(2) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #portraits #portraits-gallery > div li:nth-child(2) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #portraits #portraits-gallery > div li:nth-child(2) > div {
-      height: 114vh; } }
+      height: 120vh; } }
 #portraits #portraits-gallery > div li:nth-child(3) > div {
   background-image: url("../img/art-1/portraits/portrait2.jpg"); }
 
@@ -1610,12 +1578,12 @@ footer {
   @media (min-width: 768px) {
     #portraits #portraits-gallery > div li:nth-child(9) > div {
       height: 110vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #portraits #portraits-gallery > div li:nth-child(9) > div {
       height: 98vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #portraits #portraits-gallery > div li:nth-child(9) > div {
-      height: 114vh; } }
+      height: 120vh; } }
 /* =============
     light-photo-1
 ============= */
@@ -1628,24 +1596,14 @@ footer {
   @media (min-width: 768px) {
     #light-photo #light-hero {
       height: 110vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #light-photo #light-hero {
       height: 98vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #light-photo #light-hero {
       height: 114vh; } }
-@media (min-width: 1200px) {
-  #light-photo #light-main {
-    display: grid;
-    grid-template-areas: ". light-description .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #light-photo #light-main #light-content {
-    grid-area: light-description; } }
-
 @media (min-width: 768px) {
-  #light-photo #light-main #light-content ul {
+  #light-photo #light-main > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1653,8 +1611,8 @@ footer {
     column-gap: 75px;
     margin: 0px 25px; } }
 
-@media (min-width: 992px) {
-  #light-photo #light-main #light-content ul {
+@media (min-width: 1025px) {
+  #light-photo #light-main > div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -1662,34 +1620,32 @@ footer {
     column-gap: 100px;
     margin: 0px 45px; } }
 
+@media (min-width: 1440px) {
+  #light-photo #light-main > div ul {
+    margin: 0px; } }
+
 @media (min-width: 768px) {
-  #light-photo #light-main #light-content ul li:nth-child(1) {
+  #light-photo #light-main > div ul li:nth-child(1) {
     grid-area: objective; } }
 
 @media (min-width: 768px) {
-  #light-photo #light-main #light-content ul li:nth-child(2) {
+  #light-photo #light-main > div ul li:nth-child(2) {
     grid-area: about; } }
 
 @media (min-width: 768px) {
-  #light-photo #light-main #light-content ul li:nth-child(3) {
+  #light-photo #light-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1200px) {
-  #light-photo #light-gallery {
-    display: grid;
-    grid-template-areas: ". light-gallery .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 1200px) {
-  #light-photo #light-gallery > div {
-    grid-area: light-gallery; } }
-
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #light-photo #light-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #light-photo #light-gallery > div ul {
+    margin: 0px; } }
 
 #light-photo #light-gallery > div ul li div {
   background-position: center;
@@ -1700,12 +1656,12 @@ footer {
   @media (min-width: 768px) {
     #light-photo #light-gallery > div ul li div {
       height: 50vh; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1025px) {
     #light-photo #light-gallery > div ul li div {
       height: 43vh; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #light-photo #light-gallery > div ul li div {
-      height: 50vh; } }
+      height: 53vh; } }
 #light-photo #light-gallery li:nth-child(1) > div {
   background-image: url("../img/art-1/light/light2.jpg"); }
 
@@ -1730,3 +1686,232 @@ footer {
 /* =============
     copenhagen-1
 ============= */
+#copenhagen #copenhagen-hero {
+  background-image: url("../img/work-2/copenhagen/copenhagen-total.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #copenhagen #copenhagen-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #copenhagen #copenhagen-hero {
+      height: 90vh; } }
+  @media (min-width: 1440px) {
+    #copenhagen #copenhagen-hero {
+      height: 105vh; } }
+@media (min-width: 768px) {
+  #copenhagen #copenhagen-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #copenhagen #copenhagen-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #copenhagen #copenhagen-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #copenhagen #copenhagen-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #copenhagen #copenhagen-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #copenhagen #copenhagen-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1025px) {
+  #copenhagen #copenhagen-gallery > div ul {
+    margin: 0px 25px;
+    column-gap: 25px; } }
+
+@media (min-width: 1440px) {
+  #copenhagen #copenhagen-gallery > div ul {
+    margin: 0px; } }
+
+#copenhagen #copenhagen-gallery > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 18vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #copenhagen #copenhagen-gallery > div ul li div {
+      height: 25vh; } }
+  @media (min-width: 1025px) {
+    #copenhagen #copenhagen-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #copenhagen #copenhagen-gallery > div ul li div {
+      height: 60vh; } }
+#copenhagen #copenhagen-gallery > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/copenhagen/copenhagen-poster.jpg"); }
+
+#copenhagen #copenhagen-gallery > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/copenhagen/copenhagen-postcard.jpg"); }
+
+#copenhagen #copenhagen-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/copenhagen/copenhagen-stamps.jpg"); }
+
+/* =============
+    perused-1
+============= */
+#perused #perused-hero {
+  background-image: url("../img/work-2/perused/perused-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #perused #perused-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #perused #perused-hero {
+      height: 90vh; } }
+  @media (min-width: 1440px) {
+    #perused #perused-hero {
+      height: 105vh; } }
+@media (min-width: 768px) {
+  #perused #perused-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #perused #perused-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #perused #perused-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #perused #perused-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #perused #perused-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+@media (min-width: 1440px) {
+  #perused #perused-gallery > div ul {
+    margin: 0px; } }
+
+#perused #perused-gallery > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #perused #perused-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #perused #perused-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #perused #perused-gallery > div ul li div {
+      height: 100vh; } }
+#perused #perused-gallery > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/perused/perused-contents.jpg"); }
+  @media (min-width: 1025px) {
+    #perused #perused-gallery > div li:nth-child(1) > div {
+      background-size: 110%; } }
+#perused #perused-gallery > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/woodmere/logo2and3.jpg"); }
+  @media (min-width: 1025px) {
+    #perused #perused-gallery > div li:nth-child(2) > div {
+      background-size: 80%; } }
+#perused #perused-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/woodmere/colours.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/woodmere/business-card.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/woodmere/app-1-f.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(6) > div {
+  background-image: url("../img/work-2/woodmere/id-holder.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(7) > div {
+  background-image: url("../img/work-2/woodmere/app-5-f.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(8) > div {
+  background-image: url("../img/work-2/woodmere/tickets.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(9) > div {
+  background-image: url("../img/work-2/woodmere/ticket-1.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(10) > div {
+  background-image: url("../img/work-2/woodmere/ticket-2.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(11) > div {
+  background-image: url("../img/work-2/woodmere/app-3-f.jpg"); }
+
+#perused #perused-gallery > div li:nth-child(12) > div {
+  background-image: url("../img/work-2/woodmere/app-4-f.jpg"); }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process > div > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+#perused #perused-gallery-process > div > ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #perused #perused-gallery-process > div > ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #perused #perused-gallery-process > div > ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #perused #perused-gallery-process > div > ul li div {
+      height: 50vh; } }
+#perused #perused-gallery-process > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
+
+#perused #perused-gallery-process > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
+
+#perused #perused-gallery-process > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
+
+#perused #perused-gallery-process > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
+
+#perused #perused-gallery-process > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }

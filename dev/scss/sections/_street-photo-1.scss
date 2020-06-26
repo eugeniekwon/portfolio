@@ -25,19 +25,8 @@
         
     }
 
-    #street-main{
 
-        @include xl{
-            display: grid;
-            grid-template-areas: ". street-content .";
-            grid-template-columns: auto 1200px auto;
-        }
-
-        #street-content{
-            
-            @include xl{
-                grid-area: street-content;
-                }
+        #street-main{
 
             ul{
                 
@@ -58,8 +47,10 @@
                     column-gap: 100px;
                     margin: 0px 45px;
                     }
-
                     
+                @include xl{
+                    margin: 0px;
+                }
 
                 li:nth-child(1){
                     @include md{
@@ -87,17 +78,7 @@
 
     #street-gallery{
 
-        @include xl{
-            display: grid;
-            grid-template-areas: ". street-gallery .";
-            grid-template-columns: auto 1200px auto;
-        }
-
         >div{
-            @include xl{
-                grid-area: street-gallery;
-
-            }
             
             ul{
 
@@ -106,6 +87,10 @@
                     grid-template-columns: repeat(2,1fr);
                     column-gap: 25px;
                     margin: 0px 25px;
+                }
+
+                @include xl{
+                    margin: 0px;
                 }
     
                 li{
@@ -127,7 +112,7 @@
                     }
 
                     @include xl{
-                        height:  50vh;
+                        height: 53vh;
                     }
     
                     }
@@ -165,7 +150,7 @@
                         }
 
                         @include xl{
-                            height:  114vh;
+                            height: 120vh;
                         }
                     }
                 }
@@ -184,9 +169,10 @@
                         }
 
                         @include xl{
-                            height:  114vh;
+                            height: 120vh;
                         }
                     }
+
                     
                 }
                 li:nth-child(5){
@@ -210,7 +196,6 @@
         }
         
         
-    }
     
     
     }

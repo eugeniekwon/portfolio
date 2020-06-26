@@ -17,6 +17,14 @@
 		"oAP": "/deploy/about.html",
 		"oF": 0
 		},
+	"/deploy/aesop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/aesop.html",
+		"oF": 0
+		},
 	"/deploy/art.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -483,6 +491,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg": {
+		"ft": 16384,
+		"iS": 98177,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/copenhagen/copenhagen-poster.jpg": {
+		"ft": 16384,
+		"iS": 115402,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg": {
+		"ft": 16384,
+		"iS": 46202,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/copenhagen/copenhagen-total-2550.jpg": {
+		"ft": 16384,
+		"iS": 196090,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total-2550.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/copenhagen/copenhagen-total.jpg": {
+		"ft": 16384,
+		"iS": 179795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/perused-contents.jpg": {
+		"ft": 16384,
+		"iS": 472391,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/perused-contents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/perused-hero.jpg": {
+		"ft": 16384,
+		"iS": 183851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/perused-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/philly-flower/all-devices.jpg": {
 		"ft": 16384,
 		"iS": 53123,
@@ -610,6 +695,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-3.jpg": {
+		"ft": 16384,
+		"iS": 183851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -881,6 +977,14 @@
 		"oAP": "/deploy/little-joys.html",
 		"oF": 0
 		},
+	"/deploy/perused.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/perused.html",
+		"oF": 0
+		},
 	"/deploy/philly-flower.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -935,6 +1039,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/about.html",
+		"oF": 2
+		},
+	"/dev/aesop-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/aesop-1.html",
+		"oF": 1
+		},
+	"/dev/aesop.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/aesop.html",
 		"oF": 2
 		},
 	"/dev/art-1.kit": {
@@ -1061,6 +1181,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/little-joys.html",
+		"oF": 2
+		},
+	"/dev/perused-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/perused-1.html",
+		"oF": 0
+		},
+	"/dev/perused.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/perused.html",
 		"oF": 2
 		},
 	"/dev/philly-flower-1.kit": {
@@ -1251,6 +1387,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_aesop-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_aesop-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_art-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1300,6 +1449,19 @@
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_little-joys-1.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_perused-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_perused-1.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
