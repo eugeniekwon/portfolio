@@ -60,11 +60,34 @@
 
             span {
                 display: block;
+                font-weight: 600;
+                a:link,
+                a:visited{
+                    color: $light-blue;
+                    transition: 0.25s;
+                }
+
+                a:hover,
+                a:active{
+                    color: $dark-blue;
+                }
             }
 
             p:nth-child(5){
-                font-weight: 500;
+                font-weight: 600;
+
+                a:link,
+                a:visited{
+                    color: $light-blue;
+                    transition: 0.25s;
+                }
+
+                a:hover,
+                a:active{
+                    color: $dark-blue;
+                }
             }
+
         }
     }
 }

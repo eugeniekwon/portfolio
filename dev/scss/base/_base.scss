@@ -239,3 +239,28 @@ a:visited {
 }
 
 
+.image-container {
+    position: relative;
+    height: 35vh;
+
+    @include md{
+        height: 30vh;
+    }
+
+    @include md{
+        height: 35vh;
+    }
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .4);
+    transition: 0.25s;
+}

@@ -1,3 +1,27 @@
 /* =============
     Buttons
 ============= */
+.button {
+    align-items: center;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(20);
+    font-weight: 600;
+    justify-content: center;
+
+    a:link,
+    a:visited {
+        background-color: $white;
+        border: 2px solid $light-blue;
+        border-radius: 5px;
+        color: $light-blue;
+        padding: 10px 20px;
+        transition: 0.25s;
+    }
+
+    a:hover,
+    a:active {
+        background-color: $light-blue;
+        color: $white;
+    }
+}

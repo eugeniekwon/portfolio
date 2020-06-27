@@ -478,6 +478,28 @@ a:visited {
   color: #7E8E94;
   text-align: center; }
 
+.image-container {
+  position: relative;
+  height: 35vh; }
+  @media (min-width: 768px) {
+    .image-container {
+      height: 30vh; } }
+  @media (min-width: 768px) {
+    .image-container {
+      height: 35vh; } }
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; }
+
+.image-container:hover .after {
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+  transition: 0.25s; }
+
 /* =============
     Typography
 ============= */
@@ -495,6 +517,26 @@ i {
 /* =============
     Buttons
 ============= */
+.button {
+  align-items: center;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  justify-content: center; }
+  .button a:link,
+  .button a:visited {
+    background-color: #fff;
+    border: 2px solid #7E8E94;
+    border-radius: 5px;
+    color: #7E8E94;
+    padding: 10px 20px;
+    transition: 0.25s; }
+  .button a:hover,
+  .button a:active {
+    background-color: #7E8E94;
+    color: #fff; }
+
 /* =============
     Forms
 ============= */
@@ -718,9 +760,24 @@ footer {
       #about > div article p {
         margin-bottom: 20px; } }
   #about > div article span {
-    display: block; }
+    display: block;
+    font-weight: 600; }
+    #about > div article span a:link,
+    #about > div article span a:visited {
+      color: #7E8E94;
+      transition: 0.25s; }
+    #about > div article span a:hover,
+    #about > div article span a:active {
+      color: #4C5559; }
   #about > div article p:nth-child(5) {
-    font-weight: 500; }
+    font-weight: 600; }
+    #about > div article p:nth-child(5) a:link,
+    #about > div article p:nth-child(5) a:visited {
+      color: #7E8E94;
+      transition: 0.25s; }
+    #about > div article p:nth-child(5) a:hover,
+    #about > div article p:nth-child(5) a:active {
+      color: #4C5559; }
 
 /* =============
     work-1
@@ -926,13 +983,13 @@ footer {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/proj-5.jpg");
+  background-image: url("../img/work-2/proj-7.jpg");
   margin-bottom: 90px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
       margin-bottmo: 125px; } }
 #work-2 > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/proj-5.jpg");
+  background-image: url("../img/work-2/proj-8.jpg");
   margin-bottom: 90px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(8) > div {
@@ -2112,6 +2169,58 @@ footer {
   background-image: url("../img/work-2/copenhagen/copenhagen-stamps.jpg"); }
 
 /* =============
+    aesop-1
+============= */
+#aesop #aesop-hero {
+  background-image: url("../img/work-2/perused/perused-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #aesop #aesop-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #aesop #aesop-hero {
+      height: 90vh; } }
+  @media (min-width: 1440px) {
+    #aesop #aesop-hero {
+      height: 105vh; } }
+@media (min-width: 768px) {
+  #aesop #aesop-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #aesop #aesop-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #aesop #aesop-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #aesop #aesop-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #aesop #aesop-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #aesop #aesop-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+/* =============
     perused-1
 ============= */
 #perused #perused-hero {
@@ -2258,3 +2367,114 @@ footer {
 
 #perused #perused-gallery-process > div li:nth-child(5) > div {
   background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
+
+/* =============
+    luis-barragan-1
+============= */
+#luis-barragan #luis-barragan-hero {
+  background-image: url("../img/work-2/proj-7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 69vh; }
+  @media (min-width: 768px) {
+    #luis-barragan #luis-barragan-hero {
+      height: 110vh; } }
+  @media (min-width: 1025px) {
+    #luis-barragan #luis-barragan-hero {
+      height: 98vh; } }
+  @media (min-width: 1440px) {
+    #luis-barragan #luis-barragan-hero {
+      height: 114vh; } }
+@media (min-width: 768px) {
+  #luis-barragan #luis-barragan-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #luis-barragan #luis-barragan-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #luis-barragan #luis-barragan-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #luis-barragan #luis-barragan-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #luis-barragan #luis-barragan-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #luis-barragan #luis-barragan-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+/* =============
+    bodoni-1
+============= */
+/* =============
+    ocean-dumping-1
+============= */
+#ocean-dumping #ocean-dumping-hero {
+  background-image: url("../img/work-2/ocean-dumping/ocean-dumping.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 69vh; }
+  @media (min-width: 768px) {
+    #ocean-dumping #ocean-dumping-hero {
+      height: 110vh; } }
+  @media (min-width: 1025px) {
+    #ocean-dumping #ocean-dumping-hero {
+      height: 98vh; } }
+  @media (min-width: 1440px) {
+    #ocean-dumping #ocean-dumping-hero {
+      height: 114vh; } }
+@media (min-width: 768px) {
+  #ocean-dumping #ocean-dumping-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-dumping-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #ocean-dumping #ocean-dumping-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #ocean-dumping #ocean-dumping-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #ocean-dumping #ocean-dumping-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #ocean-dumping #ocean-dumping-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+/* =============
+    home-kitchen-1
+============= */

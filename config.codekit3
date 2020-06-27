@@ -33,6 +33,14 @@
 		"oAP": "/deploy/art.html",
 		"oF": 0
 		},
+	"/deploy/bodoni.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/bodoni.html",
+		"oF": 0
+		},
 	"/deploy/copenhagen.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -51,7 +59,7 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/about-1/me.jpg": {
+	"/deploy/img/about-1/me.JPG": {
 		"ft": 16384,
 		"iS": 541210,
 		"jF": 0,
@@ -546,6 +554,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/luis-barragan/luis-barragan.jpg": {
+		"ft": 16384,
+		"iS": 122349,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg": {
+		"ft": 16384,
+		"iS": 167138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/perused/perused-contents.jpg": {
 		"ft": 16384,
 		"iS": 472391,
@@ -717,6 +747,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-7.jpg": {
+		"ft": 16384,
+		"iS": 122349,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-8.jpg": {
+		"ft": 16384,
+		"iS": 167138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -977,6 +1029,22 @@
 		"oAP": "/deploy/little-joys.html",
 		"oF": 0
 		},
+	"/deploy/luis-barragan.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/luis-barragan.html",
+		"oF": 0
+		},
+	"/deploy/ocean-dumping.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ocean-dumping.html",
+		"oF": 0
+		},
 	"/deploy/perused.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1073,6 +1141,22 @@
 		"oAP": "/deploy/art.html",
 		"oF": 2
 		},
+	"/dev/bodoni-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/bodoni-1.html",
+		"oF": 0
+		},
+	"/dev/bodoni.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/bodoni.html",
+		"oF": 2
+		},
 	"/dev/copenhagen-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1120,6 +1204,22 @@
 		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
+		},
+	"/dev/home-kitchen-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/home-kitchen-1.html",
+		"oF": 1
+		},
+	"/dev/home-kitchen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/home-kitchen.html",
+		"oF": 2
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -1181,6 +1281,38 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/little-joys.html",
+		"oF": 2
+		},
+	"/dev/luis-barragan-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/luis-barragan-1.html",
+		"oF": 0
+		},
+	"/dev/luis-barragan.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/luis-barragan.html",
+		"oF": 2
+		},
+	"/dev/ocean-dumping-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/ocean-dumping-1.html",
+		"oF": 0
+		},
+	"/dev/ocean-dumping.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ocean-dumping.html",
 		"oF": 2
 		},
 	"/dev/perused-1.kit": {
@@ -1413,6 +1545,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_bodoni-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_bodoni-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_copenhagen-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1422,6 +1567,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_copenhagen-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_home-kitchen-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_home-kitchen-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1449,6 +1607,32 @@
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_little-joys-1.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_luis-barragan-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_luis-barragan-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_ocean-dumping-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_ocean-dumping-1.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
