@@ -8,7 +8,7 @@
         background-image: url("../img/art-1/independent/ID-hero.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 30vh;
         
         @include md{
@@ -21,6 +21,7 @@
         
         @include xl{
             height: 105vh;
+            // background-attachment: fixed;
         }  
         
     }

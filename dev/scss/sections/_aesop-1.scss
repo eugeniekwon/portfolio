@@ -6,7 +6,7 @@
 #aesop{
 
     #aesop-hero{
-        background-image: url("../img/work-2/perused/perused-hero.jpg");
+        background-image: url("../img/work-2/aesop/aesop-1.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -77,4 +77,184 @@
         
     }
 
+    #aesop-main-work{
+
+        >div{
+
+            ul{
+        
+                li{
+                    div{
+    
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    height: 30vh;
+                    align-items: center;
+    
+                    @include md{
+                        height: 50vh;
+                    }
+    
+                    @include lg{
+                        height: 43vh;
+                    }
+
+                    @include xl{
+                        height: 70vh;
+                    }
+    
+                    }
+                }
+                }
+    
+                li:nth-child(1){
+                    >div{
+                        background-image: url("../img/work-2/aesop/aesop-final-1.jpg");
+                    }
+                    
+                }
+    
+                li:nth-child(2){
+                    >div{
+                        background-image: url("../img/work-2/aesop/aesop-final-2.jpg");
+                    }
+                    
+                }
+    
+              
+        }
+
+    }
+
+   
+
+
+        #aesop-gallery-1{
+
+            >div{
+    
+                ul{
+    
+                    @include lg{
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        column-gap: 25px;
+                        margin: 0px 25px;
+                    }
+    
+                    @include xl{
+                        margin: 0px;
+                    }
+            
+                    li{
+                        div{
+        
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        height: 30vh;
+                        align-items: center;
+        
+                        @include md{
+                            height: 50vh;
+                        }
+        
+                        @include lg{
+                            height: 43vh;
+                        }
+    
+                        @include xl{
+                            height: 53vh;
+                        }
+        
+                        }
+                    }
+                    }
+        
+                    li:nth-child(1){
+                        >div{
+                            background-image: url("../img/work-2/aesop/aesop-1.jpg");
+                        }
+                        
+                    }
+        
+                    li:nth-child(2){
+                        >div{
+                            background-image: url("../img/work-2/aesop/aesop-2.jpg");
+                        }
+                        
+                    }
+        
+                  
+            }
+    
+        }
+
+        #aesop-gallery-2{
+
+            >div{
+    
+                ul{
+    
+                    @include lg{
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        column-gap: 25px;
+                        margin: 0px 25px;
+                    }
+    
+                    @include xl{
+                        margin: 0px;
+                    }
+            
+                    li{
+                        div{
+        
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        height: 30vh;
+                        align-items: center;
+        
+                        @include md{
+                            height: 50vh;
+                        }
+        
+                        @include lg{
+                            height: 43vh;
+                        }
+    
+                        @include xl{
+                            height: 53vh;
+                        }
+        
+                        }
+                    }
+                    }
+        
+                    li:nth-child(1){
+                        >div{
+                            background-image: url("../img/work-2/aesop/aesop-sketch-1.jpg");
+                        }
+                        
+                    }
+        
+                    li:nth-child(2){
+                        >div{
+                            background-image: url("../img/work-2/aesop/aesop-sketch-2.jpg");
+                        }
+                        
+                    }
+        
+                    li:nth-child(3){
+                        >div{
+                            background-image: url("../img/work-2/aesop/aesop-sketch-3.jpg");
+                        }
+                        
+                    }
+                  
+            }
+    
+        }
 }

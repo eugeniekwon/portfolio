@@ -1,3 +1,180 @@
 /* =============
     bodoni-1
 ============= */
+
+#bodoni{
+
+    #bodoni-hero{
+        background-image: url("../img/work-2/proj-9.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        // background-attachment: fixed;
+        
+        @include md{
+            height: 50vh;
+        }
+
+        @include lg{
+            height: 90vh;
+
+        }      
+        
+        @include xl{
+            height: 105vh;
+        }  
+        
+    }
+
+    #bodoni-main{
+
+        >div{
+
+            ul{
+                @include md{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: "objective about" "process .";
+                    column-gap: 75px;
+                    margin: 0px 25px;
+                }
+    
+                @include lg{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-areas: "objective about process";
+                    column-gap: 100px;
+                    margin: 0px 45px;
+                    }
+
+                @include xl{
+                    margin: 0px;
+                }
+
+    
+                li:nth-child(1){
+                    @include md{
+                        grid-area: objective;
+                    }
+                }
+    
+                li:nth-child(2){
+                    @include md{
+                        grid-area: about;
+                    }
+                }
+    
+                li:nth-child(3){
+                    @include md{
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
+
+    #bodoni-main-work{
+
+        >div{
+            background-image: url("../img/work-2/bodoni/bodoni-final.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 30vh;
+            align-items: center;
+    
+            @include md{
+                height: 50vh;
+            }
+    
+            @include lg{
+                height: 43vh;
+            }
+    
+            @include xl{
+                height: 120vh;
+            }
+    
+        }
+        
+        }
+
+
+        #bodoni-gallery{
+
+            >div{
+    
+                ul{
+    
+                    @include lg{
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        column-gap: 25px;
+                        margin: 0px 25px;
+                    }
+    
+                    @include xl{
+                        margin: 0px;
+                    }
+            
+                    li{
+                        div{
+        
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        height: 30vh;
+                        align-items: center;
+        
+                        @include md{
+                            height: 50vh;
+                        }
+        
+                        @include lg{
+                            height: 43vh;
+                        }
+    
+                        @include xl{
+                            height: 53vh;
+                        }
+        
+                        }
+                    }
+                    }
+        
+                    li:nth-child(1){
+                        >div{
+                            background-image: url("../img/work-2/bodoni/bodoni-sketch-1.jpg");
+                        }
+                        
+                    }
+        
+                    li:nth-child(2){
+                        >div{
+                            background-image: url("../img/work-2/bodoni/bodoni-sketch-2.jpg");
+                        }
+                        
+                    }
+        
+                    li:nth-child(3){
+                        >div{
+                            background-image: url("../img/work-2/bodoni/bodoni-sketch-3.jpg");
+                        }
+                        
+                    }
+                  
+            }
+    
+            
+        }
+    }
+
+
+
+    

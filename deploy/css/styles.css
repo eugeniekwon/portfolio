@@ -497,7 +497,7 @@ a:visited {
 
 .image-container:hover .after {
   display: block;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   transition: 0.25s; }
 
 /* =============
@@ -739,7 +739,7 @@ footer {
       margin: 0px 50px 150px 45px; } }
   @media (min-width: 1440px) {
     #about > div aside {
-      height: 80vh; } }
+      height: 75vh; } }
 #about > div article {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
@@ -965,7 +965,7 @@ footer {
     #work-2 > div li:nth-child(3) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/proj-2.jpg");
+  background-image: url("../img/work-2/proj-4.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
@@ -977,7 +977,7 @@ footer {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/proj-5.jpg");
+  background-color: #7E8E94;
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
@@ -995,7 +995,7 @@ footer {
     #work-2 > div li:nth-child(8) > div {
       margin-bottmo: 125px; } }
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-5.jpg");
+  background-image: url("../img/work-2/proj-9.jpg");
   margin-bottom: 90px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(9) > div {
@@ -1584,7 +1584,19 @@ footer {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
-      color: #fff; }
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #art > div ul li div a:link p,
+    #art > div ul li div a:visited p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
     #art > div ul li div a:link span,
     #art > div ul li div a:visited span {
       display: block; }
@@ -1619,7 +1631,7 @@ footer {
   background-image: url("../img/art-1/independent/ID-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 30vh; }
   @media (min-width: 768px) {
     #little-joys #joy-hero {
@@ -2172,7 +2184,7 @@ footer {
     aesop-1
 ============= */
 #aesop #aesop-hero {
-  background-image: url("../img/work-2/perused/perused-hero.jpg");
+  background-image: url("../img/work-2/aesop/aesop-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -2219,6 +2231,94 @@ footer {
 @media (min-width: 768px) {
   #aesop #aesop-main > div ul li:nth-child(3) {
     grid-area: process; } }
+
+#aesop #aesop-main-work > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #aesop #aesop-main-work > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #aesop #aesop-main-work > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #aesop #aesop-main-work > div ul li div {
+      height: 70vh; } }
+#aesop #aesop-main-work > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/aesop/aesop-final-1.jpg"); }
+
+#aesop #aesop-main-work > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/aesop/aesop-final-2.jpg"); }
+
+@media (min-width: 1025px) {
+  #aesop #aesop-gallery-1 > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #aesop #aesop-gallery-1 > div ul {
+    margin: 0px; } }
+
+#aesop #aesop-gallery-1 > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #aesop #aesop-gallery-1 > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #aesop #aesop-gallery-1 > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #aesop #aesop-gallery-1 > div ul li div {
+      height: 53vh; } }
+#aesop #aesop-gallery-1 > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/aesop/aesop-1.jpg"); }
+
+#aesop #aesop-gallery-1 > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/aesop/aesop-2.jpg"); }
+
+@media (min-width: 1025px) {
+  #aesop #aesop-gallery-2 > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #aesop #aesop-gallery-2 > div ul {
+    margin: 0px; } }
+
+#aesop #aesop-gallery-2 > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #aesop #aesop-gallery-2 > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #aesop #aesop-gallery-2 > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #aesop #aesop-gallery-2 > div ul li div {
+      height: 53vh; } }
+#aesop #aesop-gallery-2 > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/aesop/aesop-sketch-1.jpg"); }
+
+#aesop #aesop-gallery-2 > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/aesop/aesop-sketch-2.jpg"); }
+
+#aesop #aesop-gallery-2 > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/aesop/aesop-sketch-3.jpg"); }
 
 /* =============
     perused-1
@@ -2423,6 +2523,106 @@ footer {
 /* =============
     bodoni-1
 ============= */
+#bodoni #bodoni-hero {
+  background-image: url("../img/work-2/proj-9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #bodoni #bodoni-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #bodoni #bodoni-hero {
+      height: 90vh; } }
+  @media (min-width: 1440px) {
+    #bodoni #bodoni-hero {
+      height: 105vh; } }
+@media (min-width: 768px) {
+  #bodoni #bodoni-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "objective about" "process .";
+    column-gap: 75px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #bodoni #bodoni-main > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "objective about process";
+    column-gap: 100px;
+    margin: 0px 45px; } }
+
+@media (min-width: 1440px) {
+  #bodoni #bodoni-main > div ul {
+    margin: 0px; } }
+
+@media (min-width: 768px) {
+  #bodoni #bodoni-main > div ul li:nth-child(1) {
+    grid-area: objective; } }
+
+@media (min-width: 768px) {
+  #bodoni #bodoni-main > div ul li:nth-child(2) {
+    grid-area: about; } }
+
+@media (min-width: 768px) {
+  #bodoni #bodoni-main > div ul li:nth-child(3) {
+    grid-area: process; } }
+
+#bodoni #bodoni-main-work > div {
+  background-image: url("../img/work-2/bodoni/bodoni-final.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #bodoni #bodoni-main-work > div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #bodoni #bodoni-main-work > div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #bodoni #bodoni-main-work > div {
+      height: 120vh; } }
+@media (min-width: 1025px) {
+  #bodoni #bodoni-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #bodoni #bodoni-gallery > div ul {
+    margin: 0px; } }
+
+#bodoni #bodoni-gallery > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #bodoni #bodoni-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #bodoni #bodoni-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #bodoni #bodoni-gallery > div ul li div {
+      height: 53vh; } }
+#bodoni #bodoni-gallery > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/bodoni/bodoni-sketch-1.jpg"); }
+
+#bodoni #bodoni-gallery > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/bodoni/bodoni-sketch-2.jpg"); }
+
+#bodoni #bodoni-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/bodoni/bodoni-sketch-3.jpg"); }
+
 /* =============
     ocean-dumping-1
 ============= */
@@ -2474,6 +2674,44 @@ footer {
 @media (min-width: 768px) {
   #ocean-dumping #ocean-dumping-main > div ul li:nth-child(3) {
     grid-area: process; } }
+
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
+@media (min-width: 1440px) {
+  #ocean-dumping #ocean-gallery > div ul {
+    margin: 0px; } }
+
+#ocean-dumping #ocean-gallery > div ul li div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #ocean-dumping #ocean-gallery > div ul li div {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #ocean-dumping #ocean-gallery > div ul li div {
+      height: 43vh; } }
+  @media (min-width: 1440px) {
+    #ocean-dumping #ocean-gallery > div ul li div {
+      height: 53vh; } }
+#ocean-dumping #ocean-gallery > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-1.jpg"); }
+
+#ocean-dumping #ocean-gallery > div li:nth-child(2) > div {
+  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-2.jpg"); }
+
+#ocean-dumping #ocean-gallery > div li:nth-child(3) > div {
+  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-3.jpg"); }
+
+#ocean-dumping #ocean-gallery > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-4.jpg"); }
 
 /* =============
     home-kitchen-1
