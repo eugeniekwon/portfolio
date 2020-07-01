@@ -479,7 +479,6 @@ a:visited {
   text-align: center; }
 
 .image-container {
-  position: relative;
   height: 35vh; }
   @media (min-width: 768px) {
     .image-container {
@@ -487,17 +486,19 @@ a:visited {
   @media (min-width: 768px) {
     .image-container {
       height: 35vh; } }
-.image-container .after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.image-container:hover .after {
-  display: block;
-  background: rgba(0, 0, 0, 0.5);
-  transition: 0.25s; }
+  .image-container a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .image-container a > div {
+      display: none;
+      transition: 0.25s; }
+    .image-container a:hover, .image-container a:active {
+      background-color: rgba(0, 0, 0, 0.25); }
+      .image-container a:hover > div, .image-container a:active > div {
+        display: block; }
 
 /* =============
     Typography
@@ -905,7 +906,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
-#work-2 > div ul li div {
+#work-2 > div ul li > div {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -915,12 +916,12 @@ footer {
   justify-content: center;
   text-align: center; }
   @media (min-width: 768px) {
-    #work-2 > div ul li div {
+    #work-2 > div ul li > div {
       height: 30vh; } }
   @media (min-width: 1025px) {
-    #work-2 > div ul li div {
+    #work-2 > div ul li > div {
       height: 35vh; } }
-  #work-2 > div ul li div h4 {
+  #work-2 > div ul li > div h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
@@ -928,7 +929,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center; }
-  #work-2 > div ul li div p {
+  #work-2 > div ul li > div p {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1rem;
@@ -936,7 +937,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center; }
-  #work-2 > div ul li div span {
+  #work-2 > div ul li > div span {
     display: block; }
 
 #work-2 > div li:nth-child(1) > div {
