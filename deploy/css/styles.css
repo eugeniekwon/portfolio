@@ -494,6 +494,12 @@ a:visited {
           background-color: rgba(0, 0, 0, 0.5); }
           .image-container a:hover > div, .image-container a:active > div {
             display: block; } }
+.first {
+  background: #fff; }
+
+.second {
+  background: #fff; }
+
 /* =============
     Typography
 ============= */
