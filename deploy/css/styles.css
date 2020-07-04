@@ -398,16 +398,6 @@ ul {
   @media (min-width: 768px) {
     .show-for-mobile {
       display: none !important; } }
-.show-for-tablet {
-  display: none !important; }
-  @media (min-width: 768px) {
-    .show-for-tablet {
-      display: flex !important; } }
-.show-for-desktop {
-  display: none !important; }
-  @media (min-width: 1025px) {
-    .show-for-desktop {
-      display: flex !important; } }
 a:link,
 a:visited {
   text-decoration: none;
@@ -480,26 +470,30 @@ a:visited {
 
 .image-container {
   height: 35vh; }
-  @media (min-width: 768px) {
-    .image-container {
-      height: 30vh; } }
-  @media (min-width: 768px) {
-    .image-container {
-      height: 35vh; } }
   .image-container a {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; }
-    .image-container a > div {
-      display: none;
-      transition: 0.25s; }
-    .image-container a:hover, .image-container a:active {
-      background-color: rgba(0, 0, 0, 0.25); }
-      .image-container a:hover > div, .image-container a:active > div {
-        display: block; }
-
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.45); }
+  @media (min-width: 1025px) {
+    .image-container {
+      height: 35vh; }
+      .image-container a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0); }
+        .image-container a > div {
+          display: none;
+          transition: 0.25s; }
+        .image-container a:hover, .image-container a:active {
+          background-color: rgba(0, 0, 0, 0.5); }
+          .image-container a:hover > div, .image-container a:active > div {
+            display: block; } }
 /* =============
     Typography
 ============= */
@@ -978,22 +972,21 @@ footer {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
   background-image: url("../img/work-2/proj-7.jpg");
-  margin-bottom: 90px; }
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
-      margin-bottmo: 125px; } }
+      margin-bottom: 0px; } }
 #work-2 > div li:nth-child(8) > div {
   background-image: url("../img/work-2/proj-8.jpg");
-  margin-bottom: 90px; }
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(8) > div {
-      margin-bottmo: 125px; } }
+      margin-bottom: 0px; } }
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-9.jpg");
-  margin-bottom: 90px; }
+  background-image: url("../img/work-2/proj-9.jpg"); }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(9) > div {
-      margin-bottmo: 125px; } }
+      margin-bottom: 125px; } }
 /* =============
     woodmere-1
 ============= */
@@ -1553,7 +1546,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
-#art > div ul li div {
+#art > div ul li > div {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1564,17 +1557,17 @@ footer {
   text-align: center;
   margin-bottom: 30px; }
   @media (min-width: 768px) {
-    #art > div ul li div {
+    #art > div ul li > div {
       height: 30vh;
       margin: 0px; } }
   @media (min-width: 1025px) {
-    #art > div ul li div {
+    #art > div ul li > div {
       height: 35vh; } }
-  #art > div ul li div a:link,
-  #art > div ul li div a:visited {
+  #art > div ul li > div a:link,
+  #art > div ul li > div a:visited {
     width: 100%; }
-    #art > div ul li div a:link h4,
-    #art > div ul li div a:visited h4 {
+    #art > div ul li > div a:link h4,
+    #art > div ul li > div a:visited h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
@@ -1582,8 +1575,8 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
-    #art > div ul li div a:link p,
-    #art > div ul li div a:visited p {
+    #art > div ul li > div a:link p,
+    #art > div ul li > div a:visited p {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1rem;
@@ -1591,8 +1584,8 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
-    #art > div ul li div a:link span,
-    #art > div ul li div a:visited span {
+    #art > div ul li > div a:link span,
+    #art > div ul li > div a:visited span {
       display: block; }
 
 #art > div li:nth-child(1) > div {
@@ -2093,7 +2086,7 @@ footer {
     copenhagen-1
 ============= */
 #copenhagen #copenhagen-hero {
-  background-image: url("../img/work-2/copenhagen/copenhagen-total.jpg");
+  background-image: url("../img/work-2/copenhagen/copenhagen-total-new.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -672,6 +672,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/copenhagen/copenhagen-total-new.jpg": {
+		"ft": 16384,
+		"iS": 407454,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total-new.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/copenhagen/copenhagen-total.jpg": {
 		"ft": 16384,
 		"iS": 179795,
@@ -1321,14 +1332,6 @@
 		"oAP": "/deploy/work.html",
 		"oF": 0
 		},
-	"/dev/about-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/about-1.html",
-		"oF": 1
-		},
 	"/dev/about.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1336,14 +1339,6 @@
 		"oA": 0,
 		"oAP": "/deploy/about.html",
 		"oF": 2
-		},
-	"/dev/aesop-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/aesop-1.html",
-		"oF": 1
 		},
 	"/dev/aesop.kit": {
 		"cB": 0,
@@ -1353,14 +1348,6 @@
 		"oAP": "/deploy/aesop.html",
 		"oF": 2
 		},
-	"/dev/art-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/art-1.html",
-		"oF": 1
-		},
 	"/dev/art.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1368,14 +1355,6 @@
 		"oA": 0,
 		"oAP": "/deploy/art.html",
 		"oF": 2
-		},
-	"/dev/bodoni-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/bodoni-1.html",
-		"oF": 0
 		},
 	"/dev/bodoni.kit": {
 		"cB": 0,
@@ -1385,13 +1364,141 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 2
 		},
-	"/dev/copenhagen-1.kit": {
+	"/dev/content/about-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/copenhagen-1.html",
-		"oF": 0
+		"oAP": "/deploy/about-1.html",
+		"oF": 3
+		},
+	"/dev/content/art/art-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/art-1.html",
+		"oF": 1
+		},
+	"/dev/content/art/light-photo-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/light-photo-1.html",
+		"oF": 1
+		},
+	"/dev/content/art/little-joys-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/little-joys-1.html",
+		"oF": 1
+		},
+	"/dev/content/art/portraits-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/portraits-1.html",
+		"oF": 1
+		},
+	"/dev/content/art/street-photo-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/street-photo-1.html",
+		"oF": 1
+		},
+	"/dev/content/home/work-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/home/work-1.html",
+		"oF": 1
+		},
+	"/dev/content/home/work-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/home/work-2.html",
+		"oF": 1
+		},
+	"/dev/content/work/aesop-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/aesop-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/bodoni-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/bodoni-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/copenhagen-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/copenhagen-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/home-kitchen-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/home-kitchen-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/luis-barragan-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/luis-barragan-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/ocean-dumping-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/ocean-dumping-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/perused-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/perused-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/philly-flower-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/philly-flower-1.html",
+		"oF": 1
+		},
+	"/dev/content/work/woodmere-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/woodmere-1.html",
+		"oF": 1
 		},
 	"/dev/copenhagen.kit": {
 		"cB": 0,
@@ -1405,40 +1512,32 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/global/footer.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/global/head.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/global/header.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/global/header.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/global/scripts.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/global/scripts.html",
-		"oF": 0
-		},
-	"/dev/home-kitchen-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/home-kitchen-1.html",
 		"oF": 1
 		},
 	"/dev/home-kitchen.kit": {
@@ -1468,14 +1567,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/light-photo-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/light-photo-1.html",
-		"oF": 1
-		},
 	"/dev/light-photo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1483,14 +1574,6 @@
 		"oA": 0,
 		"oAP": "/deploy/light-photo.html",
 		"oF": 2
-		},
-	"/dev/little-joys-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/little-joys-1.html",
-		"oF": 1
 		},
 	"/dev/little-joys.kit": {
 		"cB": 0,
@@ -1500,14 +1583,6 @@
 		"oAP": "/deploy/little-joys.html",
 		"oF": 2
 		},
-	"/dev/luis-barragan-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/luis-barragan-1.html",
-		"oF": 0
-		},
 	"/dev/luis-barragan.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1515,14 +1590,6 @@
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
 		"oF": 2
-		},
-	"/dev/ocean-dumping-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/ocean-dumping-1.html",
-		"oF": 0
 		},
 	"/dev/ocean-dumping.kit": {
 		"cB": 0,
@@ -1532,14 +1599,6 @@
 		"oAP": "/deploy/ocean-dumping.html",
 		"oF": 2
 		},
-	"/dev/perused-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/perused-1.html",
-		"oF": 0
-		},
 	"/dev/perused.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1548,14 +1607,6 @@
 		"oAP": "/deploy/perused.html",
 		"oF": 2
 		},
-	"/dev/philly-flower-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/philly-flower-1.html",
-		"oF": 1
-		},
 	"/dev/philly-flower.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1563,14 +1614,6 @@
 		"oA": 0,
 		"oAP": "/deploy/philly-flower.html",
 		"oF": 2
-		},
-	"/dev/portraits-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/portraits-1.html",
-		"oF": 1
 		},
 	"/dev/portraits.kit": {
 		"cB": 0,
@@ -1957,14 +2000,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/street-photo-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/street-photo-1.html",
-		"oF": 0
-		},
 	"/dev/street-photo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1972,14 +2007,6 @@
 		"oA": 0,
 		"oAP": "/deploy/street-photo.html",
 		"oF": 2
-		},
-	"/dev/woodmere-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/woodmere-1.html",
-		"oF": 1
 		},
 	"/dev/woodmere.kit": {
 		"cB": 0,
@@ -1989,29 +2016,13 @@
 		"oAP": "/deploy/woodmere.html",
 		"oF": 2
 		},
-	"/dev/work-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/work-1.html",
-		"oF": 1
-		},
-	"/dev/work-2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/work-2.html",
-		"oF": 1
-		},
 	"/dev/work.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/work.html",
-		"oF": 3
+		"oF": 2
 		},
 	"/README.md": {
 		"cB": 0,
