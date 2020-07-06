@@ -722,24 +722,25 @@ footer {
     grid-template-areas: "aside article";
     grid-template-columns: 50% auto; } }
 
-#about > div aside {
-  background-image: url("../img/about-1/me.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 65vh; }
+#about > div aside img {
+  object-fit: contain;
+  object-position: center;
+  height: 65vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #about > div aside {
-      height: 45vh;
-      margin: 0px 394px 0px 25px; } }
+    #about > div aside img {
+      height: 45vh; } }
   @media (min-width: 1025px) {
-    #about > div aside {
-      grid-area: aside;
-      height: 70vh;
-      margin: 0px 50px 150px 45px; } }
-  @media (min-width: 1440px) {
-    #about > div aside {
-      height: 75vh; } }
+    #about > div aside img {
+      height: 100%; } }
+@media (min-width: 768px) {
+  #about > div aside {
+    margin: 0px 394px 0px 25px; } }
+
+@media (min-width: 1025px) {
+  #about > div aside {
+    margin: 0px 50px 150px 45px; } }
+
 #about > div article {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
@@ -996,21 +997,20 @@ footer {
 /* =============
     woodmere-1
 ============= */
-#woodmere #woodmere-hero {
-  background-image: url("../img/work-2/woodmere/tickets.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+#woodmere #woodmere-hero img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #woodmere #woodmere-hero {
+    #woodmere #woodmere-hero img {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-hero {
+    #woodmere #woodmere-hero img {
       height: 90vh; } }
   @media (min-width: 1440px) {
-    #woodmere #woodmere-hero {
-      height: 105vh; } }
+    #woodmere #woodmere-hero img {
+      height: 90vh; } }
 @media (min-width: 768px) {
   #woodmere #woodmere-main > div ul {
     display: grid;
@@ -1045,225 +1045,71 @@ footer {
   #woodmere #woodmere-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery > div ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "w1 w1" "w2 w2" "w3 w3" "w4 w5" "w7 w6" "w8 w8" "w9 w10" "w12 w11";
-    column-gap: 25px;
-    margin: 0px 25px; } }
-
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery > div ul #w1 {
-    grid-area: w1; } }
-
-#woodmere #woodmere-gallery > div ul #w1 > div {
-  background-image: url("../img/work-2/woodmere/logo1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
+#woodmere #woodmere-gallery > div ul {
+  display: grid;
+  grid-template-rows: repeat(10, 250px);
+  gap: 20px; }
   @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div ul #w1 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul {
+      grid-template-rows: repeat(10, 500px); } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div ul #w1 > div {
-      height: 80vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery > div ul #w2 {
-    grid-area: w2; } }
-
-#woodmere #woodmere-gallery > div ul #w2 > div {
-  background-image: url("../img/work-2/woodmere/logo2and3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 90%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div ul #w2 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul {
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-rows: repeat(7, 400px);
+      grid-template-areas: "w1 w1" "w2 w2" "w3 w3" "w4 w5" "w7 w6" "w8 w8" "w9 w10";
+      column-gap: 25px;
+      margin: 0px 25px; } }
+  #woodmere #woodmere-gallery > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+    @media (min-width: 1025px) {
+      #woodmere #woodmere-gallery > div ul li img {
+        object-fit: contain; } }
+  #woodmere #woodmere-gallery > div ul li:nth-child(1) img {
+    object-fit: contain; }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div ul #w2 > div {
-      height: 80vh;
-      background-size: 60%; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery > div ul #w3 {
-    grid-area: w3; } }
-
-#woodmere #woodmere-gallery > div ul #w3 > div {
-  background-image: url("../img/work-2/woodmere/colours.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div ul #w3 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(1) {
+      grid-area: w1; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div ul #w3 > div {
-      height: 80vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery > div #w4 {
-    grid-area: w4; } }
-
-#woodmere #woodmere-gallery > div #w4 > div {
-  background-image: url("../img/work-2/woodmere/business-card.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery > div #w4 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(2) {
+      grid-area: w2; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery > div #w4 > div {
-      height: 40vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w5 {
-    grid-area: w5; } }
-
-#woodmere #woodmere-gallery #w5 > div {
-  background-image: url("../img/work-2/woodmere/app-1-f.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w5 > div {
-      height: 50vh;
-      background-size: 130%; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(3) {
+      grid-area: w3; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w5 > div {
-      height: 40vh;
-      background-size: 150%; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w6 {
-    grid-area: w6; } }
-
-#woodmere #woodmere-gallery #w6 > div {
-  background-image: url("../img/work-2/woodmere/id-holder.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w6 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(4) {
+      grid-area: w4; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w6 > div {
-      height: 40vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w7 {
-    grid-area: w7; } }
-
-#woodmere #woodmere-gallery #w7 > div {
-  background-image: url("../img/work-2/woodmere/app-5-f.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w7 > div {
-      height: 50vh;
-      background-size: 130%; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(5) {
+      grid-area: w5; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w7 > div {
-      height: 40vh;
-      background-size: 150%; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w8 {
-    grid-area: w8; } }
-
-#woodmere #woodmere-gallery #w8 > div {
-  background-image: url("../img/work-2/woodmere/tickets.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w8 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(6) {
+      grid-area: w6; }
+      #woodmere #woodmere-gallery > div ul li:nth-child(6) img {
+        object-fit: cover; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w8 > div {
-      height: 80vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w9 {
-    grid-area: w9; } }
-
-#woodmere #woodmere-gallery #w9 > div {
-  background-image: url("../img/work-2/woodmere/ticket-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w9 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(7) {
+      grid-area: w7; }
+      #woodmere #woodmere-gallery > div ul li:nth-child(7) img {
+        object-fit: cover; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w9 > div {
-      height: 30vh;
-      background-position: 0px -120px; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w10 {
-    grid-area: w10; } }
-
-#woodmere #woodmere-gallery #w10 > div {
-  background-image: url("../img/work-2/woodmere/ticket-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w10 > div {
-      height: 50vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(8) {
+      grid-area: w8; }
+      #woodmere #woodmere-gallery > div ul li:nth-child(8) img {
+        object-fit: cover; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w10 > div {
-      height: 30vh;
-      background-position: 0px -140px; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w11 {
-    grid-area: w11; } }
-
-#woodmere #woodmere-gallery #w11 > div {
-  background-image: url("../img/work-2/woodmere/app-3-f.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 25vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w11 > div {
-      height: 45vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(9) {
+      grid-area: w9; }
+      #woodmere #woodmere-gallery > div ul li:nth-child(9) img {
+        object-fit: cover; } }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w11 > div {
-      height: 40vh; } }
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery #w12 {
-    grid-area: w12; } }
-
-#woodmere #woodmere-gallery #w12 > div {
-  background-image: url("../img/work-2/woodmere/app-4-f.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 25vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery #w12 > div {
-      height: 45vh; } }
-  @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery #w12 > div {
-      height: 40vh; } }
+    #woodmere #woodmere-gallery > div ul li:nth-child(10) {
+      grid-area: w10; }
+      #woodmere #woodmere-gallery > div ul li:nth-child(10) img {
+        object-fit: cover; } }
 #woodmere #w-youtube-video-1 {
   display: grid;
   grid-template-areas: ". video .";
@@ -1278,80 +1124,50 @@ footer {
       #woodmere #w-youtube-video-1 > div section iframe {
         width: 100%; }
 
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery-process-1 > div > ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 25px;
-    margin: 0px 25px; } }
-
-#woodmere #woodmere-gallery-process-1 > div > ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery-process-1 > div > ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #woodmere #woodmere-gallery-process-1 > div > ul li div {
-      height: 50vh; } }
-#woodmere #woodmere-gallery-process-1 > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
-
-#woodmere #woodmere-gallery-process-1 > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
-
-@media (min-width: 1025px) {
-  #woodmere #woodmere-gallery-process-2 > div > ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 25px;
-    margin: 0px 25px; } }
-
-#woodmere #woodmere-gallery-process-2 > div > ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #woodmere #woodmere-gallery-process-2 > div > ul li div {
-      height: 43vh; } }
+#woodmere #woodmere-gallery-process-1 > div ul {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px; }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery-process-2 > div > ul li div {
-      background-size: 150%; } }
-  @media (min-width: 1440px) {
-    #woodmere #woodmere-gallery-process-2 > div > ul li div {
-      height: 50vh; } }
-#woodmere #woodmere-gallery-process-2 > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
+    #woodmere #woodmere-gallery-process-1 > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr); } }
+  #woodmere #woodmere-gallery-process-1 > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
 
-#woodmere #woodmere-gallery-process-2 > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
-
-#woodmere #woodmere-gallery-process-2 > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
+#woodmere #woodmere-gallery-process-2 > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-gallery-process-2 > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(3, 1fr); } }
+  #woodmere #woodmere-gallery-process-2 > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
 
 /* =============
     philly-flower-1
 ============= */
-#philly-flower #philly-flower-hero {
-  background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+#philly-flower #philly-flower-hero img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #philly-flower #philly-flower-hero {
+    #philly-flower #philly-flower-hero img {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-hero {
+    #philly-flower #philly-flower-hero img {
       height: 90vh; } }
-  @media (min-width: 1440px) {
-    #philly-flower #philly-flower-hero {
-      height: 105vh; } }
 @media (min-width: 768px) {
   #philly-flower #philly-flower-main > div ul {
     display: grid;
@@ -1386,148 +1202,56 @@ footer {
   #philly-flower #philly-flower-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "p1 p1" "p2 p3" "p4 p5" "p6 p6";
-    column-gap: 25px;
-    margin: 0px 25px; } }
-
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p1 {
-    grid-area: p1; } }
-
-#philly-flower #philly-flower-gallery > div ul #p1 > div {
-  background-image: url("../img/work-2/philly-flower/photo-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p1 > div {
-      height: 46vh; } }
+#philly-flower #philly-flower-gallery > div ul {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px; }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p1 > div {
-      height: 95vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p2 {
-    grid-area: p2; } }
-
-#philly-flower #philly-flower-gallery > div ul #p2 > div {
-  background-image: url("../img/work-2/philly-flower/photo-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p2 > div {
-      height: 46vh; } }
+    #philly-flower #philly-flower-gallery > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "p1 p1" "p2 p3" "p4 p5" "p6 p6";
+      gap: 20px; } }
+  #philly-flower #philly-flower-gallery > div ul li img {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p2 > div {
-      height: 47vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p3 {
-    grid-area: p3; } }
-
-#philly-flower #philly-flower-gallery > div ul #p3 > div {
-  background-image: url("../img/work-2/philly-flower/photo-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p3 > div {
-      height: 46vh; } }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(1) {
+      grid-area: p1; }
+      #philly-flower #philly-flower-gallery > div ul li:nth-child(1) img {
+        object-fit: cover; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p3 > div {
-      height: 47vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p4 {
-    grid-area: p4; } }
-
-#philly-flower #philly-flower-gallery > div ul #p4 > div {
-  background-image: url("../img/work-2/philly-flower/photo-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p4 > div {
-      height: 46vh; } }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(2) {
+      grid-area: p2; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p4 > div {
-      height: 47vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p5 {
-    grid-area: p5; } }
-
-#philly-flower #philly-flower-gallery > div ul #p5 > div {
-  background-image: url("../img/work-2/philly-flower/photo-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p5 > div {
-      height: 46vh; } }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(3) {
+      grid-area: p3; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p5 > div {
-      height: 47vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery > div ul #p6 {
-    grid-area: p6; } }
-
-#philly-flower #philly-flower-gallery > div ul #p6 > div {
-  background-image: url("../img/work-2/philly-flower/ui-kit.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 28vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery > div ul #p6 > div {
-      height: 46vh; } }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(4) {
+      grid-area: p4; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery > div ul #p6 > div {
-      height: 85vh; } }
-@media (min-width: 1025px) {
-  #philly-flower #philly-flower-gallery-process > div > ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 25px;
-    margin: 0px 25px; } }
-
-#philly-flower #philly-flower-gallery-process > div > ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #philly-flower #philly-flower-gallery-process > div > ul li div {
-      height: 43vh; } }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(5) {
+      grid-area: p5; } }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery-process > div > ul li div {
-      background-size: 150%; } }
-  @media (min-width: 1440px) {
-    #philly-flower #philly-flower-gallery-process > div > ul li div {
-      height: 50vh; } }
-#philly-flower #philly-flower-gallery-process > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/philly-flower/laptop.jpg"); }
-
-#philly-flower #philly-flower-gallery-process > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/philly-flower/ipad.jpg"); }
+    #philly-flower #philly-flower-gallery > div ul li:nth-child(6) {
+      grid-area: p6; } }
+#philly-flower #philly-flower-gallery-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px; }
   @media (min-width: 1025px) {
-    #philly-flower #philly-flower-gallery-process > div li:nth-child(2) > div {
-      background-position: -80px 0px; } }
-#philly-flower #philly-flower-gallery-process > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/philly-flower/mobile.jpg"); }
+    #philly-flower #philly-flower-gallery-process > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr); } }
+  #philly-flower #philly-flower-gallery-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
 
 /* =============
     art-1

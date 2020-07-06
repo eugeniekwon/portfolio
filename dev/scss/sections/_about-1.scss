@@ -10,25 +10,27 @@
         } 
 
         aside {
-            background-image: url("../img/about-1/me.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 65vh;
+            img{
+                object-fit: contain;
+                object-position: center;
+                height: 65vh;
+                width: 100%;
 
-            @include md {
-                height: 45vh;
+                @include md{
+                    height: 45vh;
+                }
+
+                @include lg{
+                    height: 100%;
+                }
+            }
+
+            @include md{
                 margin: 0px 394px 0px 25px;
             }
 
-            @include lg {
-                grid-area: aside;
-                height: 70vh;
+            @include lg{
                 margin: 0px 50px 150px 45px;
-            }
-
-            @include xl{
-                height: 75vh;
             }
         }
 

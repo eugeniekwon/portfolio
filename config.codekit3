@@ -529,61 +529,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/aesop/aesop-final-1.jpg": {
-		"ft": 16384,
-		"iS": 244623,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/aesop/aesop-final-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/aesop/aesop-final-2.jpg": {
-		"ft": 16384,
-		"iS": 224370,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/aesop/aesop-final-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/aesop/aesop-sketch-1.jpg": {
-		"ft": 16384,
-		"iS": 138691,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/aesop/aesop-sketch-2.jpg": {
-		"ft": 16384,
-		"iS": 156365,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/aesop/aesop-sketch-3.jpg": {
-		"ft": 16384,
-		"iS": 243643,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/bodoni/bodoni-final.jpg": {
 		"ft": 16384,
 		"iS": 328188,
@@ -817,7 +762,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/ipad.jpg": {
 		"ft": 16384,
-		"iS": 109530,
+		"iS": 972623,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/ipad.jpg",
@@ -828,7 +773,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/laptop.jpg": {
 		"ft": 16384,
-		"iS": 222581,
+		"iS": 1298837,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/laptop.jpg",
@@ -839,7 +784,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/mobile.jpg": {
 		"ft": 16384,
-		"iS": 365096,
+		"iS": 1308770,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/mobile.jpg",
@@ -859,64 +804,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/philly-flower/photo-1.jpg": {
-		"ft": 16384,
-		"iS": 182517,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/photo-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/philly-flower/photo-2.jpg": {
-		"ft": 16384,
-		"iS": 160781,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/photo-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/philly-flower/photo-3.jpg": {
-		"ft": 16384,
-		"iS": 243527,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/photo-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/philly-flower/photo-4.jpg": {
-		"ft": 16384,
-		"iS": 79730,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/photo-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/philly-flower/photo-5.jpg": {
-		"ft": 16384,
-		"iS": 243721,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/philly-flower/photo-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/philly-flower/ui-kit.jpg": {
 		"ft": 16384,
-		"iS": 115403,
+		"iS": 130082,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/ui-kit.jpg",
@@ -1081,7 +971,7 @@
 		},
 	"/deploy/img/work-2/woodmere/colours.jpg": {
 		"ft": 16384,
-		"iS": 47627,
+		"iS": 90150,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/colours.jpg",
@@ -1103,7 +993,7 @@
 		},
 	"/deploy/img/work-2/woodmere/logo1.jpg": {
 		"ft": 16384,
-		"iS": 23019,
+		"iS": 84930,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/logo1.jpg",
@@ -1114,7 +1004,7 @@
 		},
 	"/deploy/img/work-2/woodmere/logo2and3.jpg": {
 		"ft": 16384,
-		"iS": 63172,
+		"iS": 81941,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/logo2and3.jpg",
@@ -1140,39 +1030,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/sketch-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/ticket-1.jpg": {
-		"ft": 16384,
-		"iS": 97835,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/ticket-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/ticket-2.jpg": {
-		"ft": 16384,
-		"iS": 92225,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/ticket-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/ticket-3.jpg": {
-		"ft": 16384,
-		"iS": 52215,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/ticket-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

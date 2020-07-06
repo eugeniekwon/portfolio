@@ -2,90 +2,98 @@
     woodmere-1
 ============= */
 
-#woodmere{
+#woodmere {
 
     #woodmere-hero{
-        background-image: url("../img/work-2/woodmere/tickets.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 30vh;
-        
-        @include md{
-            height: 50vh;
-        }
+        img{
+            object-fit: cover;
+            object-position: center;
+            height: 30vh;
+            width: 100%;
 
-        @include lg{
-            height: 90vh;
-        }      
-        
-        @include xl{
-            height: 105vh;
-        }  
-        
+                    @include md {
+                        height: 50vh;
+                    }
+            
+                    @include lg {
+                        height: 90vh;
+                    }
+            
+                    @include xl {
+                        height: 90vh;
+                    }
+        }
     }
 
-    #woodmere-main{
+    #woodmere-main {
 
-        >div{
+        >div {
 
-            ul{
-                @include md{
+            ul {
+                @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
+                    grid-template-areas: "objective about""process .";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
-    
-                @include lg{
+
+                @include lg {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
                     column-gap: 100px;
                     margin: 0px 45px;
-                    }
+                }
 
-                @include xl{
+                @include xl {
                     margin: 0px;
                 }
 
-    
-                li:nth-child(1){
-                    @include md{
+
+                li:nth-child(1) {
+                    @include md {
                         grid-area: objective;
                     }
                 }
-    
-                li:nth-child(2){
-                    @include md{
+
+                li:nth-child(2) {
+                    @include md {
                         grid-area: about;
                     }
                 }
-    
-                li:nth-child(3){
-                    @include md{
+
+                li:nth-child(3) {
+                    @include md {
                         grid-area: process;
                     }
                 }
             }
         }
-        
-        
+
+
     }
 
-    #woodmere-gallery{
+    #woodmere-gallery {
 
-        >div{
+        >div {
 
+            ul {
+                display: grid;
+                grid-template-rows: repeat(10, 250px);
+                gap: 20px;
 
-            ul{
+                @include md{
+                    grid-template-rows: repeat(10, 500px);
+                }
+
 
                 @include lg{
                     display: grid;
-                    grid-template-columns: repeat(2,1fr);
+                    grid-template-columns: 50% auto;
+                    grid-template-rows: repeat(7, 400px);
                     grid-template-areas: 
                     "w1 w1"
                     "w2 w2"
@@ -93,480 +101,207 @@
                     "w4 w5"
                     "w7 w6"
                     "w8 w8"
-                    "w9 w10"
-                    "w12 w11"
-
-                    ;
+                    "w9 w10";
                     column-gap: 25px;
                     margin: 0px 25px;
 
                 }
-                
-                // @include xl{
-                //     margin: 0px;
-                // }
-        
-                #w1{
 
-                    @include lg{
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                        @include lg{
+                            object-fit: contain;
+                        }
+                        
+                    }
+
+                }
+
+                li:nth-child(1) {
+                    img{
+                        object-fit: contain;
+                    }
+
+                    @include lg {
                         grid-area: w1;
                     }
 
-                    >div{
-                    background-image: url("../img/work-2/woodmere/logo1.jpg");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                    height: 30vh;
-                    align-items: center;
-    
-                    @include md{
-                        height: 50vh;
-                    }
-    
-                    @include lg{
-                        height: 80vh;
-                    }
-
-                    }
-                    
                 }
-    
-                #w2{
 
-                    @include lg{
+                li:nth-child(2) {
+
+                    @include lg {
                         grid-area: w2;
-                    }
-
-                    >div{
-                        background-image: url("../img/work-2/woodmere/logo2and3.jpg");
-                        
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 90%;
-                    height: 30vh;
-                    align-items: center;
-
-    
-                    @include md{
-                        height: 50vh;
-                    }
-    
-                    @include lg{
-                        height: 80vh;
-                        background-size: 60%;
-                    }
-    
-                    }
-                
-                    }
-
-                    #w3{
-                        @include lg{
-                            grid-area: w3;
-                        }
-                        
-                        >div{
-                        background-image: url("../img/work-2/woodmere/colours.jpg");
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 80vh;
-                        }
-
-    
-                        
-        
-                        }
-                        }
-                        
-                    }
-    
-                    #w4{
-                        @include lg{
-                            grid-area: w4;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/business-card.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                        }
-        
-                        }
-                        }
-                        
-                    }
-    
-                    #w5{
-                        @include lg{
-                            grid-area: w5;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/app-1-f.jpg");
-    
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                            background-size: 130%;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                            background-size: 150%;
-                        }
-                            
-                            
-                        }
-                        
-                    }
-    
-    
-                    #w6{
-                        @include lg{
-                            grid-area: w6;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/id-holder.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                        }
-    
-                        }
-                        
-                    }
-    
-                    #w7{
-                        @include lg{
-                            grid-area: w7;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/app-5-f.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                            background-size: 130%;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                            background-size: 150%;
-                        }
-    
-                        }
-                        
-                    }
-    
-                    #w8{
-                        @include lg{
-                            grid-area: w8;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/tickets.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 80vh;
-                        }
-
-                        }
-                        
-                    }
-    
-                    #w9{
-                        @include lg{
-                            grid-area: w9;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/ticket-1.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                      
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 30vh;
-                            background-position: 0px -120px;
-                        }
-
-                        }
-                        
-                    }
-    
-                    #w10{
-                        @include lg{
-                            grid-area: w10;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/ticket-2.jpg");
-                            background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-                      
-        
-                        @include md{
-                            height: 50vh;
-                        }
-        
-                        @include lg{
-                            height: 30vh;
-                            background-position: 0px -140px;
-
-                        }
-    
-                        }
-                        
-                    }
-    
-    
-                    #w11{
-                        @include lg{
-                            grid-area: w11;
-                        }
-                        >div{
-                            background-image: url("../img/work-2/woodmere/app-3-f.jpg");
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: 100%;
-                            height: 25vh;
-                            align-items: center;
-                        
-        
-                        @include md{
-                            height: 45vh;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                        }
-    
-          
-                        }
-                        
-                    }
-    
-                    #w12{
-
-                        @include lg{
-                            grid-area: w12;
-                        }
-                        >div{
-                        background-image: url("../img/work-2/woodmere/app-4-f.jpg");
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 25vh;
-                        align-items: center;
-                        
-        
-                        @include md{
-                            height: 45vh;
-                        }
-        
-                        @include lg{
-                            height: 40vh;
-                        }
-    
-                        }
-                        
-                    }
                     
+                    }
+
                 }
 
-                #w-youtube-video-1{
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: w3;
+                    }
+
+                }
+
+
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: w4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: w5;
+                    }
+
+                }
+
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: w6;
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: w7;
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: w8;
+                        img{
+                            object-fit: cover;
+                        }
+                        
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    @include lg {
+                        grid-area: w9;
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                li:nth-child(10) {
+                    @include lg {
+                        grid-area: w10;
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+
+    #w-youtube-video-1 {
+        display: grid;
+        grid-template-areas: ". video .";
+        grid-template-columns: 10px auto 10px;
+
+        >div {
+            align-items: center;
+            display: flex;
+            grid-area: video;
+            justify-content: center;
+
+            section {
+                width: 100%;
+
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    #woodmere-gallery-process-1 {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                gap: 20px;
+
+                @include lg{
                     display: grid;
-                    grid-template-areas: ". video .";
-                    grid-template-columns: 10px auto 10px;
-            
-                    >div{
-                        align-items: center;
-                        display: flex;
-                        grid-area: video;
-                        justify-content: center;
-                        
-                        section{
-                            width: 100%;
-            
-                            iframe{
-                                width: 100%;
-                            }
-                        }
-                    }
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-columns: repeat(2,1fr);
+
                 }
-            
-            
-                #woodmere-gallery-process-1{
-                    >div{
-                        >ul{
-                            @include lg{
-                                display: grid;
-                                grid-template-columns: repeat(2,1fr);
-                                column-gap: 25px;
-                                margin: 0px 25px;
-                            }
-                    
-                            li{
-                                div{
-                
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: 100%;
-                                height: 28vh;
-                                align-items: center;
-                
-                                @include md{
-                                    height: 43vh;
-                                }
-            
-                                @include xl{
-                                    height:  50vh;
-                                }
-                
-                                }
-                            }
-                        }
-            
-                        li:nth-child(1){
-                            >div{
-                                background-image: url("../img/work-2/woodmere/sketch-1.jpg");
-                                
-                            }
-                        }
-                        li:nth-child(2){
-                            >div{
-                                background-image: url("../img/work-2/woodmere/sketch-2.jpg");
-                            }
-                        }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
                     }
                 }
 
+            }
 
-                #woodmere-gallery-process-2{
-                    >div{
-                        >ul{
-                            @include lg{
-                                display: grid;
-                                grid-template-columns: repeat(3,1fr);
-                                column-gap: 25px;
-                                margin: 0px 25px;
-                            }
-                    
-                            li{
-                                div{
-                
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: 100%;
-                                height: 30vh;
-                                align-items: center;
-                
-                                @include md{
-                                    height: 43vh;
-                                }
-                
-                                @include lg{
-                                    background-size: 150%;
-                                }
-            
-                                @include xl{
-                                    height:  50vh;
-                                }
-                
-                                }
-                            }
-                        }
-            
-                        li:nth-child(1){
-                            >div{
-                                background-image: url("../img/work-2/woodmere/w-process-1.jpg");
-                            }
-                        }
-                    
-                        li:nth-child(2){
-                            >div{
-                                background-image: url("../img/work-2/woodmere/w-process-2.jpg");
-                            }
-                        }
-                        li:nth-child(3){
-                            >div{
-                                background-image: url("../img/work-2/woodmere/w-process-3.jpg");
-                            }
-                            
-                        }
+        }
+    }
+
+    #woodmere-gallery-process-2 {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                gap: 20px;
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
                     }
-                }
-            
-                
-                
-
 
                 }
-    
-                
-    
-    
-    
 
-    
+            }
+        }
+    }
 
-
-   
+}
