@@ -529,6 +529,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/aesop/aesop-final-1.jpg": {
+		"ft": 16384,
+		"iS": 331035,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/aesop/aesop-final-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/aesop/aesop-final-2.jpg": {
+		"ft": 16384,
+		"iS": 295100,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/aesop/aesop-final-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/aesop/aesop-sketch-1.jpg": {
+		"ft": 16384,
+		"iS": 218257,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/aesop/aesop-sketch-2.jpg": {
+		"ft": 16384,
+		"iS": 245052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/aesop/aesop-sketch-3.jpg": {
+		"ft": 16384,
+		"iS": 379174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/bodoni/bodoni-final.jpg": {
 		"ft": 16384,
 		"iS": 328188,
@@ -799,6 +854,61 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/philly-flower-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-1.jpg": {
+		"ft": 16384,
+		"iS": 758800,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-2.jpg": {
+		"ft": 16384,
+		"iS": 526663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-3.jpg": {
+		"ft": 16384,
+		"iS": 788976,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-4.jpg": {
+		"ft": 16384,
+		"iS": 252348,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/photo-5.jpg": {
+		"ft": 16384,
+		"iS": 943050,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/photo-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

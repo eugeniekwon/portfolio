@@ -214,7 +214,7 @@ a:visited {
     font-family: 'Inter', sans-serif;
     font-size: rem-calc(16);
     font-weight: 300;
-    line-height: rem-calc(22);
+    line-height: rem-calc(24);
     margin: 0px 10px 30px 10px;
     color: $gray;
     text-align: justify;
@@ -231,11 +231,19 @@ a:visited {
 
 .pull-quotes{
     font-family: 'Gelasio', serif;
-    font-size: rem-calc(28);
+    font-size: rem-calc(22);
     font-weight: 700;
     margin: 0px 10px 10px 10px;
     color: $light-blue;
     text-align: center;
+
+    @include md{
+        font-size: rem-calc(26);
+    }
+
+    @include lg{
+        font-size: rem-calc(28);
+    }
 }
 
 

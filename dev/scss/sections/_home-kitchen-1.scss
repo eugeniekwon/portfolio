@@ -1,3 +1,85 @@
 /* =============
     home-kitchen-1
 ============= */
+
+#home-kitchen{
+
+    #home-kitchen-hero{
+        background-image: url("../img/art-1/independent/ID-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        
+        @include md{
+            height: 50vh;
+        }
+
+        @include lg{
+            height: 90vh;
+        }      
+        
+        @include xl{
+            height: 105vh;
+            // background-attachment: fixed;
+        }  
+        
+    }
+
+    #home-kitchen-main{
+
+        >div{
+
+            ul{
+                @include md{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: "objective about" "process .";
+                    column-gap: 75px;
+                    margin: 0px 25px;
+                }
+    
+                @include lg{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-areas: "objective about process";
+                    column-gap: 100px;
+                    margin: 0px 45px;
+                    }
+
+                @include xl{
+                    margin: 0px;
+                }
+
+                li{
+                    span{
+                        font-weight: 500;
+                    }
+                }
+ 
+    
+                li:nth-child(1){
+                    @include md{
+                        grid-area: objective;
+                    }
+                }
+    
+                li:nth-child(2){
+                    @include md{
+                        grid-area: about;
+                    }
+                }
+    
+                li:nth-child(3){
+                    @include md{
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}

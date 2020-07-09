@@ -52,6 +52,22 @@
                     margin: 0px;
                 }
 
+                li{
+                    span{
+                        display: block;
+                        margin-bottom: 15px;
+
+                        @include md {
+                        margin-bottom: 20px;
+                        }
+
+                        @include lg {
+                            margin-bottom: 25px;
+                        }
+
+                    }
+                }
+
 
                 li:nth-child(1) {
                     @include md {

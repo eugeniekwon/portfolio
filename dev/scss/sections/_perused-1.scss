@@ -52,6 +52,12 @@
                     margin: 0px;
                 }
 
+                li{
+                    span{
+                        font-weight: 500;
+                    }
+                }
+
     
                 li:nth-child(1){
                     @include md{
