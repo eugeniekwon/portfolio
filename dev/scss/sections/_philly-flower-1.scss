@@ -5,21 +5,18 @@
 #philly-flower{
 
     #philly-flower-hero{
+        background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 30vh;
 
-        img{
-            object-fit: cover;
-            object-position: center;
-            height: 30vh;
-            width: 100%;
+        @include md {
+            height: 50vh;
+        }
 
-                    @include md {
-                        height: 50vh;
-                    }
-            
-                    @include lg {
-                        height: 90vh;
-                    }
-
+        @include lg {
+            height: 100vh;
         }
         
     }
@@ -33,7 +30,7 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
+                    grid-template-areas: "objective about" ". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
@@ -75,6 +72,28 @@
         
     }
 
+    #philly-flower-main-screenshot{
+        
+        >div{
+            img{
+                object-fit: contain;
+                object-position: center;
+                height: 30vh;
+                width: 100%;
+    
+                        @include md {
+                            height: 47vh;
+                        }
+                
+                        @include lg {
+                            height: 100vh;
+                        }
+            }
+        }
+            
+        
+    }
+
 
     #philly-flower-gallery{
 
@@ -84,18 +103,21 @@
             ul{
 
                 display: grid;
-                grid-template-rows: repeat(6, 1fr);
+                grid-template-rows: repeat(6, 29vh);
                 gap: 20px;
+
+                @include md{
+                    grid-template-rows: repeat(6, 47vh);
+                }
 
                 @include lg{
                     display: grid;
-                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 50vh);
                     grid-template-columns: repeat(2,1fr);
                     grid-template-areas: 
-                    "p1 p1"
-                    "p2 p3"
-                    "p4 p5"
-                    "p6 p6";
+                    "p1 p2"
+                    "p3 p4"
+                    "p5 p5";
                     gap: 20px;
                 }
 
@@ -113,9 +135,6 @@
 
                     @include lg{
                         grid-area: p1;
-                        img{
-                            object-fit: cover;
-                        }
                         
                     }
 
@@ -243,10 +262,7 @@
                                 // }
                                 }
 
-                                li:nth-child(6){
-                                    @include lg{
-                                        grid-area: p6;
-                                    }
+                               
                                     // >div{
                                     //     background-image: url("../img/work-2/philly-flower/ui-kit.jpg");
                                     //     background-position: center;
@@ -265,7 +281,7 @@
                                     // }
                     
                                     // }
-                                    }
+                                    
                     }
     
                     
@@ -279,13 +295,19 @@
                         ul{
 
                             display: grid;
-                            grid-template-rows: repeat(3, 1fr);
+                            grid-template-rows: repeat(3, 32vh);
                             gap: 20px;
+
+                            @include md{
+                                grid-template-rows: repeat(3, 45vh);
+                            }
 
                             @include lg{
                                 display: grid;
                                 grid-template-columns: repeat(3,1fr);
-                                grid-template-rows: repeat(1, 1fr);
+                                grid-template-rows: repeat(1, 40vh);
+                                grid-template-areas: 
+                                "ps1 ps2 ps3";
                             }
 
                             li {
@@ -326,7 +348,21 @@
 
                         
 
-            
+                        li:nth-child(1){
+                            @include lg{
+                                grid-area: ps1;
+                            }
+                        }
+                        li:nth-child(2){
+                            @include lg{
+                                grid-area: ps2;
+                            }
+                        }
+                        li:nth-child(3){
+                            @include lg{
+                                grid-area: ps3;
+                            }
+                        }
 
                 
             

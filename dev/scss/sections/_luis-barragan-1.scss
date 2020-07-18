@@ -8,20 +8,15 @@
         background-image: url("../img/work-2/proj-7.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100%;
-        height: 69vh;
-        // background-attachment: fixed;
+        background-size: cover;
+        height: 30vh;
 
-        @include md{
-            height: 110vh;
+        @include md {
+            height: 50vh;
         }
 
-        @include lg{
-            height: 98vh;
-        }
-
-        @include xl{
-            height:  114vh;
+        @include lg {
+            height: 100vh;
         }
     }
     
@@ -34,7 +29,7 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
+                    grid-template-areas: "objective about" ". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }

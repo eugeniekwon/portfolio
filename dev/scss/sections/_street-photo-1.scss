@@ -34,7 +34,7 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
+                    grid-template-areas: "objective about" ". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }

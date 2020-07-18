@@ -10,20 +10,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 30vh;
-        // background-attachment: fixed;
-        
-        @include md{
+
+        @include md {
             height: 50vh;
         }
 
-        @include lg{
-            height: 90vh;
-
-        }      
-        
-        @include xl{
-            height: 105vh;
-        }  
+        @include lg {
+            height: 100vh;
+        }
         
     }
 
@@ -36,7 +30,7 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" "process .";
+                    grid-template-areas: "objective about" ". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
@@ -81,27 +75,50 @@
 
     #bodoni-main-work{
 
-        >div{
-            background-image: url("../img/work-2/bodoni/bodoni-final.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            height: 30vh;
-            align-items: center;
+        // >div{
+        //     background-image: url("../img/work-2/bodoni/bodoni-final.jpg");
+        //     background-position: center;
+        //     background-repeat: no-repeat;
+        //     background-size: 100%;
+        //     height: 30vh;
+        //     align-items: center;
     
-            @include md{
-                height: 50vh;
+        //     @include md{
+        //         height: 50vh;
+        //     }
+    
+        //     @include lg{
+        //         height: 90vh;
+        //     }
+    
+        //     @include xl{
+        //         height: 120vh;
+        //     }
+    
+        // }
+
+            >div{
+                img{
+                    object-fit: cover;
+                    object-position: center;
+                    height: 30vh;
+                    width: 100%;
+        
+                            @include md {
+                                height: 50vh;
+                            }
+                    
+                            @include lg {
+                                height: 100vh;
+                            }
+                    
+                            @include xl {
+                                height: 100vh;
+                            }
+                }
             }
-    
-            @include lg{
-                height: 90vh;
-            }
-    
-            @include xl{
-                height: 120vh;
-            }
-    
-        }
+        
+
         
         }
 
@@ -117,57 +134,110 @@
                         grid-template-columns: repeat(3,1fr);
                         column-gap: 25px;
                         margin: 0px 25px;
+                        grid-template-areas: "b1 b2 b3";
                     }
     
                     @include xl{
                         margin: 0px;
                     }
             
-                    li{
-                        div{
+                    // li{
+                    //     div{
         
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
+                    //     background-position: center;
+                    //     background-repeat: no-repeat;
+                    //     background-size: 100%;
+                    //     height: 30vh;
+                    //     align-items: center;
         
-                        @include md{
-                            height: 50vh;
-                        }
+                    //     @include md{
+                    //         height: 50vh;
+                    //     }
         
-                        @include lg{
-                            height: 43vh;
+                    //     @include lg{
+                    //         height: 43vh;
+                    //     }
+    
+                    //     @include xl{
+                    //         height: 35vh;
+                    //     }
+        
+                    //     }
+                    // }
+
+                    li {
+                        img {
+    
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+    
+                            @include lg{
+                                object-fit: contain;
+                            }
+                            
                         }
     
-                        @include xl{
-                            height: 35vh;
-                        }
-        
-                        }
                     }
+
+                    }
+
+                    
+
+                    li:nth-child(1) {
+                        img{
+                            object-fit: contain;
+                        }
+    
+                        @include lg {
+                            grid-area: b1;
+                        }
+    
+                    }
+
+                    li:nth-child(2) {
+                        img{
+                            object-fit: contain;
+                        }
+    
+                        @include lg {
+                            grid-area: b2;
+                        }
+    
+                    }
+
+                    li:nth-child(3) {
+                        img{
+                            object-fit: contain;
+                        }
+    
+                        @include lg {
+                            grid-area: b3;
+                        }
+    
                     }
         
-                    li:nth-child(1){
-                        >div{
-                            background-image: url("../img/work-2/bodoni/bodoni-sketch-1.jpg");
-                        }
+                    // li:nth-child(1){
+                    //     >div{
+                    //         background-image: url("../img/work-2/bodoni/bodoni-sketch-1.jpg");
+                    //     }
                         
-                    }
+                    // }
         
-                    li:nth-child(2){
-                        >div{
-                            background-image: url("../img/work-2/bodoni/bodoni-sketch-2.jpg");
-                        }
+                    // li:nth-child(2){
+                    //     >div{
+                    //         background-image: url("../img/work-2/bodoni/bodoni-sketch-2.jpg");
+                    //     }
                         
-                    }
+                    // }
         
-                    li:nth-child(3){
-                        >div{
-                            background-image: url("../img/work-2/bodoni/bodoni-sketch-3.jpg");
-                        }
+                    // li:nth-child(3){
+                    //     >div{
+                    //         background-image: url("../img/work-2/bodoni/bodoni-sketch-3.jpg");
+                    //     }
                         
-                    }
+                    // }
                   
             }
     
