@@ -1479,7 +1479,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/footer.html",
 		"oF": 1
 		},
@@ -1487,7 +1487,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/head.html",
 		"oF": 1
 		},
@@ -1495,7 +1495,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/header.html",
 		"oF": 1
 		},
@@ -1503,7 +1503,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
 		"oF": 1
 		},

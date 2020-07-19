@@ -625,8 +625,8 @@ header {
       header > div #logo-container h1 {
         color: #89a6ad;
         font-family: 'Inter', sans-serif;
-        font-size: 1.5625rem;
-        font-weight: 700;
+        font-size: 1.4375rem;
+        font-weight: 600;
         grid-area: heading; }
     header > div #burger-container {
       align-items: center;
@@ -660,16 +660,19 @@ header {
     Footer
 ============= */
 footer {
-  background-color: #3F3F3F;
+  background-color: #fff;
   width: 100%;
-  border-bottom: 1px solid #3F3F3F; }
+  border-bottom: 1px solid #fff; }
   footer > div {
     margin: 0px 10px;
     padding-top: 30px;
-    color: #fff; }
+    color: #3F3F3F; }
     @media (min-width: 768px) {
       footer > div {
         margin: 0px 106px; } }
+    @media (min-width: 1440px) {
+      footer > div {
+        margin: 0px; } }
     footer > div h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 300;
@@ -697,6 +700,9 @@ footer {
         margin-bottom: 15px; }
         footer > div #email ul li {
           margin-right: 10px; }
+          footer > div #email ul li a:link,
+          footer > div #email ul li a:visited {
+            color: #3F3F3F; }
     footer > div #social-media ul {
       margin-bottom: 30px;
       font-size: 1.25rem;
@@ -710,12 +716,13 @@ footer {
         margin-right: 10px; }
         footer > div #social-media ul li a:link,
         footer > div #social-media ul li a:visited {
-          color: #fff; }
+          color: #000; }
         footer > div #social-media ul li a:hover {
-          color: #fff; }
+          color: #000; }
     footer > div #copyright {
       font-family: 'Inter', sans-serif;
-      font-size: 0.625rem;
+      font-size: 0.75rem;
+      color: #3F3F3F;
       margin-bottom: 30px; }
 
 /* =============
@@ -791,7 +798,7 @@ footer {
 #work-1 {
   background-color: #fff;
   width: 100%;
-  color: #4C5559; }
+  color: #3F3F3F; }
   @media (min-width: 768px) {
     #work-1 > div div {
       display: flex;
@@ -808,17 +815,17 @@ footer {
         padding: 0px 40px 0px 121px; } }
     #work-1 > div div #intro h1 {
       font-family: 'Inter', sans-serif;
-      font-size: 2.5rem;
+      font-size: 1.875rem;
       font-weight: 700;
       text-align: right;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1 {
-          font-size: 4.375rem;
+          font-size: 3.75rem;
           margin-bottom: 20px; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1 {
-          font-size: 5rem;
+          font-size: 4.375rem;
           margin-bottom: 20px; } }
     #work-1 > div div #intro h3 {
       font-family: 'Gelasio', serif;
@@ -828,11 +835,11 @@ footer {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h3 {
-          font-size: 1.0625rem;
+          font-size: 1rem;
           margin-bottom: 20px; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h3 {
-          font-size: 1.125rem;
+          font-size: 1rem;
           margin-bottom: 20px; } }
   @media (min-width: 768px) {
     #work-1 > div div #intro-description {
@@ -1902,39 +1909,24 @@ footer {
   #copenhagen #copenhagen-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-@media (min-width: 1025px) {
-  #copenhagen #copenhagen-gallery > div ul {
-    margin: 0px 25px;
-    column-gap: 25px; } }
-
 @media (min-width: 1440px) {
   #copenhagen #copenhagen-gallery > div ul {
     margin: 0px; } }
 
-#copenhagen #copenhagen-gallery > div ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 18vh;
-  align-items: center; }
+#copenhagen #copenhagen-gallery > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #copenhagen #copenhagen-gallery > div ul li div {
-      height: 25vh; } }
+    #copenhagen #copenhagen-gallery > div ul li img {
+      height: 50vh; } }
   @media (min-width: 1025px) {
-    #copenhagen #copenhagen-gallery > div ul li div {
-      height: 43vh; } }
+    #copenhagen #copenhagen-gallery > div ul li img {
+      height: 100vh; } }
   @media (min-width: 1440px) {
-    #copenhagen #copenhagen-gallery > div ul li div {
-      height: 60vh; } }
-#copenhagen #copenhagen-gallery > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/copenhagen/copenhagen-poster.jpg"); }
-
-#copenhagen #copenhagen-gallery > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/copenhagen/copenhagen-postcard.jpg"); }
-
-#copenhagen #copenhagen-gallery > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/copenhagen/copenhagen-stamps.jpg"); }
-
+    #copenhagen #copenhagen-gallery > div ul li img {
+      height: 100vh; } }
 /* =============
     aesop-1
 ============= */
@@ -2295,70 +2287,54 @@ footer {
   #luis-barragan #luis-barragan-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
-#luis-barragan #luis-barragan-main-work > div {
-  background-image: url("../img/work-2/luis-barragan/luis-barragan.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
+#luis-barragan #luis-barragan-main-work > div img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #luis-barragan #luis-barragan-main-work > div {
+    #luis-barragan #luis-barragan-main-work > div img {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #luis-barragan #luis-barragan-main-work > div {
-      height: 80vh; } }
-  @media (min-width: 1440px) {
-    #luis-barragan #luis-barragan-main-work > div {
-      height: 120vh; } }
+    #luis-barragan #luis-barragan-main-work > div img {
+      height: 100vh; } }
 @media (min-width: 1025px) {
   #luis-barragan #luis-barragan-gallery > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 25px;
-    margin: 0px 25px; } }
+    grid-template-areas: "ls1 ls2";
+    column-gap: 25px; } }
 
-@media (min-width: 1440px) {
-  #luis-barragan #luis-barragan-gallery > div ul {
-    margin: 0px; } }
-
-#luis-barragan #luis-barragan-gallery > div ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+#luis-barragan #luis-barragan-gallery > div ul li img {
+  object-fit: cover;
+  object-position: center;
   height: 30vh;
-  align-items: center; }
+  width: 100%; }
   @media (min-width: 768px) {
-    #luis-barragan #luis-barragan-gallery > div ul li div {
+    #luis-barragan #luis-barragan-gallery > div ul li img {
+      height: 40vh; } }
+  @media (min-width: 1025px) {
+    #luis-barragan #luis-barragan-gallery > div ul li img {
+      height: 40vh; } }
+@media (min-width: 1025px) {
+  #luis-barragan #luis-barragan-gallery > div ul li:nth-child(1) {
+    grid-area: ls1; } }
+
+@media (min-width: 1025px) {
+  #luis-barragan #luis-barragan-gallery > div ul li:nth-child(2) {
+    grid-area: ls2; } }
+
+#luis-barragan #luis-barragan-sketches > div img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #luis-barragan #luis-barragan-sketches > div img {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #luis-barragan #luis-barragan-gallery > div ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #luis-barragan #luis-barragan-gallery > div ul li div {
-      height: 35vh; } }
-#luis-barragan #luis-barragan-gallery > div ul li:nth-child(1) > div {
-  background-image: url("../img/work-2/luis-barragan/luis-barragan-sketch-1.jpg"); }
-
-#luis-barragan #luis-barragan-gallery > div ul li:nth-child(2) > div {
-  background-image: url("../img/work-2/luis-barragan/luis-barragan-sketch-2.jpg"); }
-
-#luis-barragan #luis-barragan-sketches > div {
-  background-image: url("../img/work-2/luis-barragan/luis-barragan-sketches.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
-  @media (min-width: 768px) {
-    #luis-barragan #luis-barragan-sketches > div {
-      height: 50vh; } }
-  @media (min-width: 1025px) {
-    #luis-barragan #luis-barragan-sketches > div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #luis-barragan #luis-barragan-sketches > div {
-      height: 50vh; } }
+    #luis-barragan #luis-barragan-sketches > div img {
+      height: 60vh; } }
 /* =============
     bodoni-1
 ============= */
@@ -2526,38 +2502,39 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
-    margin: 0px 25px; } }
+    margin: 0px 25px;
+    grid-template-areas: "o1 o2" "o3 o4"; } }
 
 @media (min-width: 1440px) {
   #ocean-dumping #ocean-gallery > div ul {
     margin: 0px; } }
 
-#ocean-dumping #ocean-gallery > div ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  align-items: center; }
+#ocean-dumping #ocean-gallery > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 35vh;
+  width: 100%; }
   @media (min-width: 768px) {
-    #ocean-dumping #ocean-gallery > div ul li div {
-      height: 50vh; } }
-  @media (min-width: 1025px) {
-    #ocean-dumping #ocean-gallery > div ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #ocean-dumping #ocean-gallery > div ul li div {
+    #ocean-dumping #ocean-gallery > div ul li img {
       height: 53vh; } }
-#ocean-dumping #ocean-gallery > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-1.jpg"); }
+  @media (min-width: 1025px) {
+    #ocean-dumping #ocean-gallery > div ul li img {
+      height: 60vh; } }
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-gallery > div li:nth-child(1) {
+    grid-area: o1; } }
 
-#ocean-dumping #ocean-gallery > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-2.jpg"); }
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-gallery > div li:nth-child(2) {
+    grid-area: o2; } }
 
-#ocean-dumping #ocean-gallery > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-3.jpg"); }
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-gallery > div li:nth-child(3) {
+    grid-area: o3; } }
 
-#ocean-dumping #ocean-gallery > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/ocean-dumping/ocean-dumping-4.jpg"); }
+@media (min-width: 1025px) {
+  #ocean-dumping #ocean-gallery > div li:nth-child(4) {
+    grid-area: o4; } }
 
 /* =============
     home-kitchen-1

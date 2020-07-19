@@ -4,18 +4,22 @@
 
 footer {
 
-    background-color: $gray;
+    background-color: $white;
     width: 100%;
-    border-bottom: 1px solid $gray;
+    border-bottom: 1px solid $white;
 
 
         >div {
             margin: 0px 10px;
             padding-top: 30px;
-            color: $white;
+            color: $gray;
     
             @include md{
                 margin: 0px 106px;
+            }
+            
+            @include xl{
+                margin: 0px;
             }
     
             h4 {
@@ -53,6 +57,11 @@ footer {
     
                     li {
                         margin-right: 10px;
+                        a:link,
+                        a:visited{
+                            color: $gray;
+                        }
+                        
                     }
                 }
             }
@@ -76,11 +85,11 @@ footer {
     
                         a:link,
                         a:visited {
-                            color: $white;
+                            color: $black;
                         }
     
                         a:hover {
-                            color: $white;
+                            color: $black;
                         }
                     }
                 }
@@ -88,7 +97,8 @@ footer {
     
             #copyright {
                 font-family: 'Inter', sans-serif;
-                font-size: rem-calc(10);
+                font-size: rem-calc(12);
+                color: $gray;
                 margin-bottom: 30px;
             }
         }
