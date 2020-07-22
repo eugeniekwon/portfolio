@@ -4,9 +4,9 @@
 
 #work-1 {
 
-        background-color: $white;
+        background-color: $gray;
         width: 100%;
-        color: $gray;
+        color: $white;
 
     >div{
 
@@ -73,7 +73,7 @@
             #intro-description {
         
                 @include md{
-                    padding-top: 350px;
+                    padding-top: 280px;
                 }
         
                 p {
@@ -118,29 +118,29 @@
     #scroll-button {
         text-align: center;
         scroll-behavior: smooth;
+
         @include md{
-            margin-top: 100px;
+            margin-top: 80px;
         }
         
+        // p{
+        //     margin-bottom: 15px;
 
-        p{
-            margin-bottom: 15px;
-
-            @include md{
-                margin-bottom: 25px;
-            }
-        }
+        //     @include md{
+        //         margin-bottom: 25px;
+        //     }
+        // }
         
         a:link,
         a:visited {
-            color: $gray;
+            color: $white;
             text-decoration: none;
             transition: 0.25s;
         }
 
         a:hover,
         a:active {
-            color: $gray;
+            color: $white;
         }
 
         >div{
@@ -151,7 +151,7 @@
             }
 
             @include lg{
-                padding-bottom: 125px;
+                padding-bottom: 50px;
             }
             
             hr{
