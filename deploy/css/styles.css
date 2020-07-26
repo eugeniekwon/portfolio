@@ -835,89 +835,94 @@ footer {
     work-1
 ============= */
 #work-1 {
-  background-color: #3F3F3F;
+  background-color: #fff;
   width: 100%;
-  color: #fff; }
+  color: #3F3F3F; }
   @media (min-width: 768px) {
     #work-1 > div div {
       display: flex;
       align-items: center;
       justify-content: flex-start; } }
   #work-1 > div div #intro {
-    padding: 100px 131px 0px 10px;
+    padding: 100px 131px 0px 25px;
     margin: 0px; }
     @media (min-width: 768px) {
       #work-1 > div div #intro {
-        padding: 0px 60px 0px 100px; } }
+        padding: 0px 60px 0px 60px; } }
     @media (min-width: 1025px) {
       #work-1 > div div #intro {
-        padding: 0px 40px 0px 121px; } }
+        padding: 0px 60px 0px 60px; } }
+    @media (min-width: 1440px) {
+      #work-1 > div div #intro {
+        padding: 0px 60px 0px 0px; } }
     #work-1 > div div #intro h1 {
       font-family: 'Inter', sans-serif;
       font-size: 1.875rem;
       font-weight: 700;
-      text-align: right;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
+        #work-1 > div div #intro h1 {
+          font-size: 2.5rem;
+          margin-bottom: 20px; } }
+      @media (min-width: 1025px) {
+        #work-1 > div div #intro h1 {
+          font-size: 3.125rem;
+          margin-bottom: 20px; } }
+      @media (min-width: 1440px) {
         #work-1 > div div #intro h1 {
           font-size: 3.75rem;
           margin-bottom: 20px; } }
-      @media (min-width: 1025px) {
-        #work-1 > div div #intro h1 {
-          font-size: 4.375rem;
-          margin-bottom: 20px; } }
-    #work-1 > div div #intro h3 {
-      font-family: 'Gelasio', serif;
-      font-size: 1rem;
-      font-weight: 700;
-      text-align: right;
-      margin-bottom: 15px; }
+    #work-1 > div div #intro h1:nth-child(2) {
+      font-size: 1.25rem;
+      font-weight: 500; }
       @media (min-width: 768px) {
-        #work-1 > div div #intro h3 {
-          font-size: 1rem;
-          margin-bottom: 20px; } }
+        #work-1 > div div #intro h1:nth-child(2) {
+          font-size: 1.5625rem; } }
       @media (min-width: 1025px) {
-        #work-1 > div div #intro h3 {
-          font-size: 1rem;
-          margin-bottom: 20px; } }
+        #work-1 > div div #intro h1:nth-child(2) {
+          font-size: 2.1875rem; } }
+      @media (min-width: 1440px) {
+        #work-1 > div div #intro h1:nth-child(2) {
+          font-size: 2.8125rem; } }
   @media (min-width: 768px) {
     #work-1 > div div #intro-description {
       padding-top: 280px; } }
   #work-1 > div div #intro-description p {
     font-family: 'Gelasio', serif;
     font-size: 1rem;
-    line-height: 1.5rem;
     font-weight: 700;
-    text-align: left;
-    margin: 30px 10px 90px 170px; }
+    margin: 30px 40px 90px 40px; }
     @media (min-width: 768px) {
       #work-1 > div div #intro-description p {
         font-size: 1.0625rem;
-        line-height: 1.625rem;
-        margin: 0px 140px 25px 60px; } }
+        margin: 0px 100px 25px 60px; } }
     @media (min-width: 1025px) {
       #work-1 > div div #intro-description p {
-        margin: 0px 370px 20px 40px; } }
-  #work-1 > div div #intro-description #location {
-    line-height: 1.625rem; }
-    #work-1 > div div #intro-description #location p {
-      font-size: 1.0625rem; }
-      #work-1 > div div #intro-description #location p span {
-        display: block; }
+        font-size: 1.25rem;
+        margin: 0px 300px 20px 40px; } }
+    @media (min-width: 1440px) {
+      #work-1 > div div #intro-description p {
+        font-size: 1.25rem;
+        margin: 0px 40px 20px 250px; } }
   #work-1 #scroll-button {
     text-align: center;
     scroll-behavior: smooth; }
     @media (min-width: 768px) {
       #work-1 #scroll-button {
         margin-top: 80px; } }
+    #work-1 #scroll-button p {
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        #work-1 #scroll-button p {
+          margin-bottom: 25px; } }
     #work-1 #scroll-button a:link,
     #work-1 #scroll-button a:visited {
-      color: #fff;
+      color: #3F3F3F;
       text-decoration: none;
       transition: 0.25s; }
     #work-1 #scroll-button a:hover,
     #work-1 #scroll-button a:active {
-      color: #fff; }
+      color: #3F3F3F; }
     #work-1 #scroll-button > div {
       padding-bottom: 15px; }
       @media (min-width: 768px) {
@@ -968,6 +973,9 @@ footer {
   @media (min-width: 1025px) {
     #work-2 > div ul li > div {
       height: 35vh; } }
+  @media (min-width: 1440px) {
+    #work-2 > div ul li > div {
+      height: 45vh; } }
   #work-2 > div ul li > div h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;

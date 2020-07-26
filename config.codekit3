@@ -67,15 +67,15 @@
 		"oAP": "/deploy/home-kitchen.html",
 		"oF": 0
 		},
-	"/deploy/img/about-1/me.JPG": {
+	"/deploy/img/about-1/me.jpg": {
 		"ft": 16384,
-		"iS": 541210,
+		"iS": 2186727,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/about-1/me.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/art-1/independent/ID-chae1.jpg": {
@@ -505,6 +505,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/background.JPG": {
+		"ft": 16384,
+		"iS": 1796369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/work-2/aesop/aesop-1.jpg": {

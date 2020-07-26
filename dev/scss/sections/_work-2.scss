@@ -46,6 +46,10 @@
                             height: 35vh;
                         }
 
+                        @include xl {
+                            height: 45vh;
+                        }
+
                             h4 {
                                 font-family: 'Inter', sans-serif;
                                 font-weight: 500;
