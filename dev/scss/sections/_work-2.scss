@@ -27,7 +27,9 @@
                     gap: 25px;
                 }
 
+
                 li {
+                    
                     >div {
                         align-items: center;
                         background-repeat: no-repeat;
@@ -37,6 +39,11 @@
                         height: 35vh;
                         justify-content: center;
                         text-align: center;
+                        
+                        // a:hover{
+                        //     transition: .25s;
+                        //     transform: scale(1.1);
+                        // }
 
                         @include md {
                             height: 30vh;
@@ -76,6 +83,8 @@
                                 display: block;
                             }
 
+                            
+
                     }
                 }
             }
@@ -85,10 +94,12 @@
                 >div {
                     background-image: url("../img/work-2/proj-1.jpg");
                     margin-bottom: 30px;
+                    
 
                     @include md {
                         margin: 0;
                     }
+
                 }
 
 

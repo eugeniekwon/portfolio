@@ -507,17 +507,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/background.JPG": {
-		"ft": 16384,
-		"iS": 1796369,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/deploy/img/work-2/aesop/aesop-1.jpg": {
 		"ft": 16384,
 		"iS": 909529,
@@ -1208,17 +1197,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/deploy/js/scripts-min-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1533,6 +1511,28 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/home-scroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/home-scroll-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -3532,7 +3532,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap, ScrollToPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

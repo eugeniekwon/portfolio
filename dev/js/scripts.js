@@ -1,3 +1,8 @@
+
+// @codekit-prepend "home-scroll.js";
+// @codekit-prepend "click.js";
+
+
 var $burger = $("#burger-icon");
 var $nav = $('nav[data-nav]');
 var $navA = $('nav[data-nav] a');
