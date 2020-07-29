@@ -25,3 +25,55 @@
         color: $white;
     }
 }
+
+
+.scroll-button{
+
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(20);
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 30px;
+    color: $gray;
+    cursor: pointer;
+    padding: 0px;
+    margin:0;
+    border: none;
+    text-align: center;
+
+    
+}
+
+button:focus {outline:0;}
+
+button:link,
+button:visited{
+    color: $gray;
+
+    @include lg{
+        transition: 0.25s;
+        color: $gray;
+        font-family: 'Inter', sans-serif;
+        font-size: rem-calc(16);
+        font-weight: 600;
+        background-color: transparent;
+        border-radius: 30px;
+        color: $gray;
+        cursor: pointer;
+        // padding: 0px;
+        margin:0;
+        border: none;
+        text-align: center;
+    }
+    
+}
+
+button:hover,
+button:active{
+    color: $gray;
+    @include lg{
+        color: $light-blue;
+    }
+    
+    
+}

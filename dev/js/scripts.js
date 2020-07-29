@@ -1,6 +1,13 @@
 
 // @codekit-prepend "home-scroll.js";
-// @codekit-prepend "click.js";
+
+// @codekit-prepend "main-nav/burger-animation.js";
+// @codekit-prepend "main-nav/burger-mouse-events.js";
+// @codekit-prepend "main-nav/click.js";
+// @codekit-prepend "main-nav/nav-global.js";
+
+
+// @codekit-prepend "fancybox.js";
 
 
 var $burger = $("#burger-icon");

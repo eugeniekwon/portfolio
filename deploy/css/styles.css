@@ -505,6 +505,14 @@ a:visited {
 .second {
   background: #fff; }
 
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .line > div {
+    border-top: 2px solid #3F3F3F;
+    width: 130px; }
+
 /* =============
     Typography
 ============= */
@@ -542,6 +550,47 @@ i {
     background-color: #89a6ad;
     color: #fff; }
 
+.scroll-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 30px;
+  color: #3F3F3F;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0;
+  border: none;
+  text-align: center; }
+
+button:focus {
+  outline: 0; }
+
+button:link,
+button:visited {
+  color: #3F3F3F; }
+  @media (min-width: 1025px) {
+    button:link,
+    button:visited {
+      transition: 0.25s;
+      color: #3F3F3F;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: transparent;
+      border-radius: 30px;
+      color: #3F3F3F;
+      cursor: pointer;
+      margin: 0;
+      border: none;
+      text-align: center; } }
+button:hover,
+button:active {
+  color: #3F3F3F; }
+  @media (min-width: 1025px) {
+    button:hover,
+    button:active {
+      color: #89a6ad; } }
 /* =============
     Forms
 ============= */
@@ -744,7 +793,7 @@ footer {
       height: 45vh; } }
   @media (min-width: 1025px) {
     #about > div aside img {
-      height: 70vh; } }
+      height: 73vh; } }
 @media (min-width: 768px) {
   #about > div aside {
     margin: 0px 394px 0px 25px; } }
@@ -755,7 +804,7 @@ footer {
 
 #about > div article {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 300;
   line-height: 1.4375rem;
   margin: 30px 10px 90px 10px;
@@ -877,13 +926,13 @@ footer {
       font-weight: 500; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1:nth-child(2) {
-          font-size: 1.5625rem; } }
+          font-size: 1.125rem; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1:nth-child(2) {
-          font-size: 2.1875rem; } }
+          font-size: 1.5625rem; } }
       @media (min-width: 1440px) {
         #work-1 > div div #intro h1:nth-child(2) {
-          font-size: 2.8125rem; } }
+          font-size: 2.1875rem; } }
   @media (min-width: 768px) {
     #work-1 > div div #intro-description {
       padding-top: 280px; } }
@@ -905,36 +954,23 @@ footer {
         font-size: 1.25rem;
         margin: 0px 40px 20px 250px; } }
   #work-1 #scroll-button {
-    text-align: center;
-    scroll-behavior: smooth; }
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     @media (min-width: 768px) {
       #work-1 #scroll-button {
         margin-top: 80px; } }
     #work-1 #scroll-button p {
-      margin-bottom: 15px; }
+      font-family: 'Gelasio', serif;
+      font-size: 1rem;
+      display: inline-block;
+      padding-bottom: 10px; }
       @media (min-width: 768px) {
         #work-1 #scroll-button p {
-          margin-bottom: 25px; } }
-    #work-1 #scroll-button a:link,
-    #work-1 #scroll-button a:visited {
-      color: #3F3F3F;
-      text-decoration: none;
-      transition: 0.25s; }
-    #work-1 #scroll-button a:hover,
-    #work-1 #scroll-button a:active {
-      color: #3F3F3F; }
-    #work-1 #scroll-button > div {
-      padding-bottom: 15px; }
-      @media (min-width: 768px) {
-        #work-1 #scroll-button > div {
-          padding-bottom: 25px; } }
+          padding-bottom: 15px; } }
       @media (min-width: 1025px) {
-        #work-1 #scroll-button > div {
-          padding-bottom: 50px; } }
-      #work-1 #scroll-button > div hr {
-        background-color: white;
-        width: 130px; }
-
+        #work-1 #scroll-button p {
+          padding-bottom: 25px; } }
 /* =============
     work-2
 ============= */

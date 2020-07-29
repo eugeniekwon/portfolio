@@ -301,3 +301,17 @@ a:visited {
 
     background: $white;
 }
+
+
+.line {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >div{
+        border-top: 2px solid $gray;
+        width: 130px;
+    }
+
+}
