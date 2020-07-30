@@ -78,8 +78,10 @@
 
     #street-gallery{
 
+        
+
         >div{
-            
+
             ul{
 
                 @include lg{
@@ -92,107 +94,338 @@
                 @include xl{
                     margin: 0px;
                 }
-    
+        
                 li{
-                    
-                    div{
-    
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-                        height: 30vh;
-                        align-items: center;
-    
-                    @include md{
-                        height: 50vh;
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                        object-position: center;
+                        width: 100%;
+                        
                     }
-    
-                    @include lg{
-                        height: 43vh;
-                    }
-
-                    @include xl{
-                        height: 53vh;
-                    }
-    
-                    }
-                    
+                
                 }
+                }
+
+            // @include lg{
+            //     display: grid;
+            //     grid-template-columns: repeat(2,1fr);
+            //     grid-template-areas: "g1 g2" "g3 g4" "g5 g6";
+            //     column-gap: 25px;
+            //     margin: 0px 25px;
+            // }
+
+            // @include xl{
+            //     margin: 0px;
+            // }
+            
+            // ul {
+            //     display: grid;
+            //     margin-bottom: 20px;
+
+            //     li {
+            //         img {
+            //             height: 100%;
+            //             object-fit: contain;
+            //             object-position: center;
+            //             width: 100%;
+            //         }
+            //     }
+            // }
+            
+            // ul:nth-child(1) {
+            //     display: grid;
+            //     gap: 20px;
+            //     grid-template-rows: repeat(2, 280px);
+
+            //     @include md{
+            //         grid-template-rows: repeat(2, 552px);
+            //     }
+
+            //     @include lg{
+            //         grid-template-rows: repeat(1, 390px);
+            //         grid-template-columns: (2, 1fr);
+            //         grid-template-areas: "g1 g2";
+            //     }
+
+            //     li {
+            //         img:nth-child(1){
+            //             @include lg{
+            //                 grid-area: g1;
+            //             }
+            //         }
+
+            //         img:nth-child(2){
+            //             @include lg{
+            //                 grid-area: g2;
+            //             }
+            //         }
+            //     }
+            // }
+
+            // ul:nth-child(1){
+    
+            //     li{
+                    
+            //         img{
+            //             // align-items: center;
+            //             // background-position: center;
+            //             // background-repeat: no-repeat;
+            //             // background-size: 100%;
+
+            //             height: 31vh;
+            //             object-fit: contain;
+            //             object-position: center;
+            //             width: 100%;
+                        
+    
+            //             @include md{
+            //                 height: 50vh;
+            //             }
+    
+            //             @include lg{
+            //                 height: 43vh;
+            //             }
+
+            //             @include xl{
+            //                 height: 53vh;
+            //             }
+    
+            //         }
+                    
+            //     }
             
         
-                }
-    
-                li:nth-child(1){
-                    >div{
-                        background-image: url("../img/art-1/street/motion2.jpg");
-                    }
-                    
-                }
-    
-                li:nth-child(2){
-                    >div{
-                        background-image: url("../img/art-1/street/street1.jpg");
-                    }
-                    
-                }
-    
-                li:nth-child(3){
-                    >div{
-                        background-image: url("../img/art-1/street/street2.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
+            //     }
 
-                        @include lg{
-                            height: 98vh;
-                        }
+            // ul:nth-child(2) {
+            //     display: grid;
+            //     gap: 20px;
+            //     grid-template-rows: repeat(2, 595px);
 
-                        @include xl{
-                            height: 120vh;
-                        }
-                    }
-                }
+            //     @include md{
+            //         grid-template-rows: repeat(2, 1205px);
+            //     }
+
+            //     @include lg{
+            //         grid-template-rows: repeat(1, 805px);
+            //         grid-template-columns: (2, 1fr);
+            //         grid-template-areas: "g1 g2";
+            //     }
+
+            //     li {
+            //         img:nth-child(1){
+            //             @include lg{
+            //                 grid-area: g1;
+            //             }
+            //         }
+
+            //         img:nth-child(2){
+            //             @include lg{
+            //                 grid-area: g2;
+            //             }
+            //         }
+            //     }
+            // }
+
+            // ul:nth-child(3) {
+            //     display: grid;
+            //     gap: 20px;
+            //     grid-template-rows: repeat(2, 280px);
+
+            //     @include md{
+            //         grid-template-rows: repeat(2, 552px);
+            //     }
+
+            //     @include lg{
+            //         grid-template-rows: repeat(1, 390px);
+            //         // grid-template-columns: (2, 1fr);
+            //         grid-template-areas: "g5 g6" "g7 .";
+            //     }
+
+            //     li {
+            //         img:nth-child(1){
+            //             @include lg{
+            //                 grid-area: g5;
+            //             }
+            //         }
+
+            //         img:nth-child(2){
+            //             @include lg{
+            //                 grid-area: g6;
+            //             }
+            //         }
+
+            //         img:nth-child(3){
+            //             @include lg{
+            //                 grid-area: g7;
+            //             }
+            //         }
+            //     }
+            // }
+
+            
+
+                // ul:nth-child(2){
     
-                li:nth-child(4){
-                    >div{
-                        background-image: url("../img/art-1/street/street3.jpg");
-                        height: 69vh;
-        
-                        @include md{
-                            height: 110vh;
-                        }
+                //     li{
                         
-                        @include lg{
-                            height: 98vh;
-                        }
+                //         img{
+                //             // align-items: center;
+                //             // background-position: center;
+                //             // background-repeat: no-repeat;
+                //             // background-size: 100%;
+    
+                //             height: 70vh;
+                //             object-fit: contain;
+                //             object-position: center;
+                //             width: 100%;
+                            
+        
+                //             @include md{
+                //                 height: 113vh;
+                //             }
+        
+                //             @include lg{
+                //                 height: 43vh;
+                //             }
+    
+                //             @include xl{
+                //                 height: 53vh;
+                //             }
+        
+                //         }
+                        
+                //     }
+                
+            
+                //     }
 
-                        @include xl{
-                            height: 120vh;
-                        }
-                    }
+
+
+                // ul:nth-child(3){
+    
+                //     li{
+                        
+                //         img{
+                //             // align-items: center;
+                //             // background-position: center;
+                //             // background-repeat: no-repeat;
+                //             // background-size: 100%;
+    
+                //             height: 31vh;
+                //             object-fit: contain;
+                //             object-position: center;
+                //             width: 100%;
+                            
+        
+                //             @include md{
+                //                 height: 50vh;
+                //             }
+        
+                //             @include lg{
+                //                 height: 43vh;
+                //             }
+    
+                //             @include xl{
+                //                 height: 53vh;
+                //             }
+        
+                //         }
+                        
+                //     }
+                
+            
+                //     }
+    
+
+            // ul:nth-child(2){
+            //     height: 69vh;
+        
+            //             @include md{
+            //                 height: 110vh;
+            //             }
+
+            //             @include lg{
+            //                 height: 98vh;
+            //             }
+
+            //             @include xl{
+            //                 height: 120vh;
+            //             }
+            // }
+    
+                // li:nth-child(1){
+                //     >div{
+                //         background-image: url("../img/art-1/street/motion2.jpg");
+                //     }
+                    
+                // }
+    
+                // li:nth-child(2){
+                //     >div{
+                //         background-image: url("../img/art-1/street/street1.jpg");
+                //     }
+                    
+                // }
+    
+                // li:nth-child(3){
+                //     >div{
+                //         background-image: url("../img/art-1/street/street2.jpg");
+                //         height: 69vh;
+        
+                //         @include md{
+                //             height: 110vh;
+                //         }
+
+                //         @include lg{
+                //             height: 98vh;
+                //         }
+
+                //         @include xl{
+                //             height: 120vh;
+                //         }
+                //     }
+                // }
+    
+                // li:nth-child(4){
+                //     >div{
+                //         background-image: url("../img/art-1/street/street3.jpg");
+                //         height: 69vh;
+        
+                //         @include md{
+                //             height: 110vh;
+                //         }
+                        
+                //         @include lg{
+                //             height: 98vh;
+                //         }
+
+                //         @include xl{
+                //             height: 120vh;
+                //         }
+                //     }
 
                     
-                }
-                li:nth-child(5){
-                    >div{
-                        background-image: url("../img/art-1/street/volscale1.jpg");
-                    }
+                // }
+                // li:nth-child(5){
+                //     >div{
+                //         background-image: url("../img/art-1/street/volscale1.jpg");
+                //     }
                     
-                }
-                li:nth-child(6){
-                    >div{
-                        background-image: url("../img/art-1/street/volscale2.jpg");
-                    }
+                // }
+                // li:nth-child(6){
+                //     >div{
+                //         background-image: url("../img/art-1/street/volscale2.jpg");
+                //     }
                     
-                }
-                li:nth-child(7){
-                    >div{
-                        background-image: url("../img/art-1/street/volscale3.jpg");
-                    }
+                // }
+                // li:nth-child(7){
+                //     >div{
+                //         background-image: url("../img/art-1/street/volscale3.jpg");
+                //     }
                     
-                }
+                // }
         }
         
         

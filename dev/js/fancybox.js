@@ -9,6 +9,10 @@ $('[data-fancybox="gallery"]').fancybox({
         "fullScreen",
         // "download",
         // "thumbs",
-        "close"
+        "close",
+        "loop"
       ]
+
+    
 });
+

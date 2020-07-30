@@ -1,0 +1,11 @@
+
+
+.fancybox-button, .fancybox-button:link, .fancybox-button:visited{
+    color: $white;
+    background-color: $dark-blue;
+}
+
+.fancybox-caption, .fancybox-infobar, .fancybox-navigation .fancybox-button, .fancybox-toolbar {
+    opacity: 0.6;
+    visibility: hidden;
+}

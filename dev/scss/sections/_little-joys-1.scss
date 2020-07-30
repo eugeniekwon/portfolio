@@ -111,7 +111,6 @@
 
             // }
 
-
             ul{
 
                 @include lg{
@@ -126,120 +125,127 @@
                 }
         
                 li{
-                    div{
-    
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                    height: 30vh;
-                    align-items: center;
-    
-                    @include md{
-                        height: 50vh;
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                        object-position: center;
+                        width: 100%;
+                        
                     }
+                    // div{
     
-                    @include lg{
-                        height: 43vh;
-                    }
+                    // background-position: center;
+                    // background-repeat: no-repeat;
+                    // background-size: 100%;
+                    // height: 30vh;
+                    // align-items: center;
+    
+                    // @include md{
+                    //     height: 50vh;
+                    // }
+    
+                    // @include lg{
+                    //     height: 43vh;
+                    // }
 
-                    @include xl{
-                        height: 53vh;
-                    }
+                    // @include xl{
+                    //     height: 53vh;
+                    // }
     
-                    }
+                    // }
                 }
                 }
     
-                li:nth-child(1){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-yeg1.jpg");
-                    }
+                // li:nth-child(1){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-yeg1.jpg");
+                //     }
                     
-                }
+                // }
     
-                li:nth-child(2){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-yeg2.jpg");
-                    }
+                // li:nth-child(2){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-yeg2.jpg");
+                //     }
                     
-                }
+                // }
     
-                li:nth-child(3){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-yeg3.jpg");
-                    }
+                // li:nth-child(3){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-yeg3.jpg");
+                //     }
                     
-                }
+                // }
 
-                li:nth-child(4){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-sharm1.jpg");
-                    }
+                // li:nth-child(4){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-sharm1.jpg");
+                //     }
                     
-                }
-                li:nth-child(5){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-sharm3.jpg");
-                    }
+                // }
+                // li:nth-child(5){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-sharm3.jpg");
+                //     }
                     
-                }
-                li:nth-child(6){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-sharm2.jpg");
-                    }
+                // }
+                // li:nth-child(6){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-sharm2.jpg");
+                //     }
                     
-                }
+                // }
     
-                li:nth-child(7){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-david1.jpg");
-                    }
-                }
-                li:nth-child(8){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-david2.jpg");
-                    }
-                }
-                li:nth-child(9){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-david3.jpg");
-                    }
+                // li:nth-child(7){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-david1.jpg");
+                //     }
+                // }
+                // li:nth-child(8){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-david2.jpg");
+                //     }
+                // }
+                // li:nth-child(9){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-david3.jpg");
+                //     }
                     
-                }
+                // }
 
-                li:nth-child(10){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-chae2.jpg");
-                    }
+                // li:nth-child(10){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-chae2.jpg");
+                //     }
                     
-                }
-                li:nth-child(11){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-chae1.jpg");
-                    }
+                // }
+                // li:nth-child(11){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-chae1.jpg");
+                //     }
                     
-                }
-                li:nth-child(12){
-                    >div{
-                        background-image: url("../img/art-1/independent/ID-chae3.jpg");
-                        height: 69vh;
+                // }
+                // li:nth-child(12){
+                //     >div{
+                //         background-image: url("../img/art-1/independent/ID-chae3.jpg");
+                //         height: 69vh;
         
-                        @include md{
-                            height: 110vh;
-                        }
+                //         @include md{
+                //             height: 110vh;
+                //         }
     
-                        @include lg{
-                            height: 98vh;
-                        }
+                //         @include lg{
+                //             height: 98vh;
+                //         }
 
-                        @include xl{
-                            height: 120vh;
-                        }
+                //         @include xl{
+                //             height: 120vh;
+                //         }
     
-                    }
+                //     }
                     
                     
-                }
+                // }
         
 
         

@@ -45,6 +45,10 @@
                         }
 
                         @include lg {
+                            height: 32vh;
+                        }
+
+                        @include xl {
                             height: 35vh;
                         }
 

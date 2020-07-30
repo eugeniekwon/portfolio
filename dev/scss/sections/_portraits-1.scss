@@ -79,8 +79,8 @@
     #portraits-gallery {
 
         >div{
-
-            ul {
+            
+            ul{
 
                 @include lg{
                     display: grid;
@@ -92,123 +92,148 @@
                 @include xl{
                     margin: 0px;
                 }
+        
+                li{
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                        object-position: center;
+                        width: 100%;
+                        
+                    }
                 
-                li {
-                    div{
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                    height: 30vh;
-                    align-items: center;
-    
-                    @include md{
-                        height: 50vh;
-                    }
-    
-                    @include lg{
-                        height: 43vh;
-                    }
-
-                    @include xl{
-                        height: 53vh;
-                    }
-                    }
                 }
-            }
+                }
+
+            // ul {
+
+            //     @include lg{
+            //         display: grid;
+            //         grid-template-columns: repeat(2,1fr);
+            //         column-gap: 25px;
+            //         margin: 0px 25px;
+            //     }
+
+            //     @include xl{
+            //         margin: 0px;
+            //     }
+                
+            //     li {
+            //         div{
+            //         background-position: center;
+            //         background-repeat: no-repeat;
+            //         background-size: 100%;
+            //         height: 30vh;
+            //         align-items: center;
     
-            li:nth-child(1) {
-                >div{
-                    background-image: url("../img/art-1/portraits/portrait4.jpg");
-                    height: 69vh;
+            //         @include md{
+            //             height: 50vh;
+            //         }
+    
+            //         @include lg{
+            //             height: 43vh;
+            //         }
+
+            //         @include xl{
+            //             height: 53vh;
+            //         }
+            //         }
+            //     }
+            // }
+    
+            // li:nth-child(1) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/portrait4.jpg");
+            //         height: 69vh;
         
-                    @include md{
-                        height: 110vh;
-                    }
+            //         @include md{
+            //             height: 110vh;
+            //         }
 
-                    @include lg{
-                        height: 98vh;
-                    }
+            //         @include lg{
+            //             height: 98vh;
+            //         }
 
-                    @include xl{
-                        height: 120vh;
-                    }
-                }   
-            }
+            //         @include xl{
+            //             height: 120vh;
+            //         }
+            //     }   
+            // }
     
-            li:nth-child(2) {
-                >div{
-                    background-image: url("../img/art-1/portraits/portrait5.jpg");
-                    height: 69vh;
+            // li:nth-child(2) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/portrait5.jpg");
+            //         height: 69vh;
         
-                    @include md{
-                        height: 110vh;
-                    }
+            //         @include md{
+            //             height: 110vh;
+            //         }
 
-                    @include lg{
-                        height: 98vh;
-                    }
+            //         @include lg{
+            //             height: 98vh;
+            //         }
 
-                    @include xl{
-                        height: 120vh;
-                    }
-                }
-            }
+            //         @include xl{
+            //             height: 120vh;
+            //         }
+            //     }
+            // }
     
-            li:nth-child(3) {
-                >div{
-                    background-image: url("../img/art-1/portraits/portrait2.jpg");
-                }
-            }
+            // li:nth-child(3) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/portrait2.jpg");
+            //     }
+            // }
     
-            li:nth-child(4) {
-                >div{
-                    background-image: url("../img/art-1/portraits/motion1.jpg");
-                }
-            }
+            // li:nth-child(4) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/motion1.jpg");
+            //     }
+            // }
     
-            li:nth-child(5) {
-                >div{
-                    background-image: url("../img/art-1/portraits/motion2.jpg");
-                }
-            }
+            // li:nth-child(5) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/motion2.jpg");
+            //     }
+            // }
     
-            li:nth-child(6) {
-                >div{
-                    background-image: url("../img/art-1/portraits/portrait3.jpg");
-                } 
-            }
+            // li:nth-child(6) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/portrait3.jpg");
+            //     } 
+            // }
     
-            li:nth-child(7) {
-                >div{
-                    background-image: url("../img/art-1/portraits/motion4.jpg");
-                } 
-            }
+            // li:nth-child(7) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/motion4.jpg");
+            //     } 
+            // }
     
-            li:nth-child(8) {
-                >div{
-                    background-image: url("../img/art-1/portraits/motion3.jpg");
-                }
-            }
+            // li:nth-child(8) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/motion3.jpg");
+            //     }
+            // }
     
-            li:nth-child(9) {
-                >div{
-                    background-image: url("../img/art-1/portraits/portrait6.jpg");
-                    height: 69vh;
+            // li:nth-child(9) {
+            //     >div{
+            //         background-image: url("../img/art-1/portraits/portrait6.jpg");
+            //         height: 69vh;
         
-                    @include md{
-                        height: 110vh;
-                    }
+            //         @include md{
+            //             height: 110vh;
+            //         }
 
-                    @include lg{
-                        height: 98vh;
-                    }
+            //         @include lg{
+            //             height: 98vh;
+            //         }
 
-                    @include xl{
-                        height: 120vh;
-                    }
+            //         @include xl{
+            //             height: 120vh;
+            //         }
 
-                }
-            }
+            //     }
+            // }
         }
     }
 
