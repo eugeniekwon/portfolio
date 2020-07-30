@@ -507,6 +507,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/logo.png": {
+		"ft": 32768,
+		"iS": 392,
+		"oA": 0,
+		"oAP": "/deploy/img/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/work-2/aesop/aesop-1.jpg": {
 		"ft": 16384,
 		"iS": 909529,
@@ -628,39 +639,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg": {
-		"ft": 16384,
-		"iS": 98177,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/copenhagen/copenhagen-poster.jpg": {
-		"ft": 16384,
-		"iS": 115402,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-poster.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg": {
-		"ft": 16384,
-		"iS": 46202,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/copenhagen/copenhagen-total-2550.jpg": {
 		"ft": 16384,
 		"iS": 196090,
@@ -729,7 +707,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan.jpg": {
 		"ft": 16384,
-		"iS": 122595,
+		"iS": 178005,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan.jpg",
@@ -784,7 +762,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg": {
 		"ft": 16384,
-		"iS": 167138,
+		"iS": 225614,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg",
@@ -982,7 +960,7 @@
 		},
 	"/deploy/img/work-2/proj-7.jpg": {
 		"ft": 16384,
-		"iS": 122595,
+		"iS": 178005,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-7.jpg",
@@ -1004,7 +982,7 @@
 		},
 	"/deploy/img/work-2/proj-9.jpg": {
 		"ft": 16384,
-		"iS": 173309,
+		"iS": 281520,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-9.jpg",
