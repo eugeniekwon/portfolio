@@ -11,17 +11,19 @@
 
         aside {
             img{
-                object-fit: contain;
-                object-position: center;
-                height: 65vh;
+                object-fit: cover;
+                object-position: 0px -95px;
+                height: 55vh;
                 width: 100%;
 
                 @include md{
                     height: 45vh;
+                    object-position: 0px -50px;
                 }
 
                 @include lg{
                     height: 73vh;
+                    object-position: 0px -75px;
                 }
             }
 
