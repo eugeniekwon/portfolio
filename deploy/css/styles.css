@@ -921,15 +921,15 @@ footer {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1 {
-          font-size: 2.5rem;
+          font-size: 2.1875rem;
           margin-bottom: 20px; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1 {
-          font-size: 3.125rem;
+          font-size: 2.8125rem;
           margin-bottom: 20px; } }
       @media (min-width: 1440px) {
         #work-1 > div div #intro h1 {
-          font-size: 3.75rem;
+          font-size: 3.125rem;
           margin-bottom: 20px; } }
     #work-1 > div div #intro h1:nth-child(2) {
       font-size: 1.25rem;
@@ -950,6 +950,7 @@ footer {
     font-family: 'Gelasio', serif;
     font-size: 1rem;
     font-weight: 700;
+    text-align: right;
     margin: 30px 40px 90px 40px; }
     @media (min-width: 768px) {
       #work-1 > div div #intro-description p {
@@ -962,7 +963,7 @@ footer {
     @media (min-width: 1440px) {
       #work-1 > div div #intro-description p {
         font-size: 1.25rem;
-        margin: 0px 40px 20px 250px; } }
+        margin: 0px 0px 20px 260px; } }
   #work-1 #scroll-button {
     display: flex;
     align-items: center;
@@ -1048,7 +1049,7 @@ footer {
     #work-2 > div li:nth-child(1) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/proj-2.jpg");
+  background-color: #89a6ad;
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(2) > div {
@@ -1072,7 +1073,7 @@ footer {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-color: #89a6ad;
+  background-image: url("../img/work-2/proj-2.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
@@ -2482,3 +2483,79 @@ footer {
 @media (min-width: 768px) {
   #home-kitchen #home-kitchen-main > div ul li:nth-child(3) {
     grid-area: process; } }
+
+#home-kitchen #home-kitchen-main-screenshot > div img {
+  object-fit: contain;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #home-kitchen #home-kitchen-main-screenshot > div img {
+      height: 47vh; } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-main-screenshot > div img {
+      height: 100vh; } }
+#home-kitchen #home-kitchen-gallery > div ul {
+  display: grid;
+  grid-template-rows: repeat(6, 29vh);
+  gap: 20px; }
+  @media (min-width: 768px) {
+    #home-kitchen #home-kitchen-gallery > div ul {
+      grid-template-rows: repeat(6, 47vh); } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 50vh);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "p1 p2" "p3 p4" "p5 p5";
+      gap: 20px; } }
+  #home-kitchen #home-kitchen-gallery > div ul li img {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul li:nth-child(1) {
+      grid-area: p1; } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul li:nth-child(2) {
+      grid-area: p2; } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul li:nth-child(3) {
+      grid-area: p3; } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul li:nth-child(4) {
+      grid-area: p4; } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery > div ul li:nth-child(5) {
+      grid-area: p5; } }
+#home-kitchen #home-kitchen-gallery-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 32vh);
+  gap: 20px; }
+  @media (min-width: 768px) {
+    #home-kitchen #home-kitchen-gallery-process > div ul {
+      grid-template-rows: repeat(3, 45vh); } }
+  @media (min-width: 1025px) {
+    #home-kitchen #home-kitchen-gallery-process > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 40vh);
+      grid-template-areas: "ps1 ps2 ps3"; } }
+  #home-kitchen #home-kitchen-gallery-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+@media (min-width: 1025px) {
+  #home-kitchen #home-kitchen-gallery-process > div li:nth-child(1) {
+    grid-area: ps1; } }
+
+@media (min-width: 1025px) {
+  #home-kitchen #home-kitchen-gallery-process > div li:nth-child(2) {
+    grid-area: ps2; } }
+
+@media (min-width: 1025px) {
+  #home-kitchen #home-kitchen-gallery-process > div li:nth-child(3) {
+    grid-area: ps3; } }

@@ -2,9 +2,9 @@
     home-kitchen-1
 ============= */
 
-#home-kitchen{
+#home-kitchen {
 
-    #home-kitchen-hero{
+    #home-kitchen-hero {
         // background-image: url("../img/art-1/independent/ID-hero.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -18,63 +18,225 @@
         @include lg {
             height: 100vh;
         }
-        
+
     }
 
-    #home-kitchen-main{
+    #home-kitchen-main {
 
-        >div{
+        >div {
 
-            ul{
-                @include md{
+            ul {
+                @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" ". process";
+                    grid-template-areas: "objective about"". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
-    
-                @include lg{
+
+                @include lg {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
                     column-gap: 100px;
                     margin: 0px 45px;
-                    }
+                }
 
-                @include xl{
+                @include xl {
                     margin: 0px;
                 }
 
-                li{
-                    span{
+                li {
+                    span {
                         font-weight: 500;
                     }
                 }
- 
-    
-                li:nth-child(1){
-                    @include md{
+
+
+                li:nth-child(1) {
+                    @include md {
                         grid-area: objective;
                     }
                 }
-    
-                li:nth-child(2){
-                    @include md{
+
+                li:nth-child(2) {
+                    @include md {
                         grid-area: about;
                     }
                 }
-    
-                li:nth-child(3){
-                    @include md{
+
+                li:nth-child(3) {
+                    @include md {
                         grid-area: process;
                     }
                 }
             }
         }
-        
-        
+
+
     }
+
+
+    #home-kitchen-main-screenshot {
+
+        >div {
+            img {
+                object-fit: contain;
+                object-position: center;
+                height: 30vh;
+                width: 100%;
+
+                @include md {
+                    height: 47vh;
+                }
+
+                @include lg {
+                    height: 100vh;
+                }
+            }
+        }
+
+
+    }
+
+
+    #home-kitchen-gallery {
+
+        >div {
+
+
+            ul {
+
+                display: grid;
+                grid-template-rows: repeat(6, 29vh);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(6, 47vh);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(3, 50vh);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                        "p1 p2"
+                        "p3 p4"
+                        "p5 p5";
+                    gap: 20px;
+                }
+
+                li {
+                    img {
+                        object-fit: contain;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: p1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: p2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: p3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: p4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: p5;
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+    }
+
+    #home-kitchen-gallery-process {
+        >div {
+            ul {
+
+                display: grid;
+                grid-template-rows: repeat(3, 32vh);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(3, 45vh);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 40vh);
+                    grid-template-areas:
+                        "ps1 ps2 ps3";
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+                }
+
+            }
+
+
+            li:nth-child(1) {
+                @include lg {
+                    grid-area: ps1;
+                }
+            }
+
+            li:nth-child(2) {
+                @include lg {
+                    grid-area: ps2;
+                }
+            }
+
+            li:nth-child(3) {
+                @include lg {
+                    grid-area: ps3;
+                }
+            }
+        }
+    }
+
+
+
 }

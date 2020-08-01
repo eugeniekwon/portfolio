@@ -705,6 +705,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/home-kitchen/ui-kit-home.jpg": {
+		"ft": 16384,
+		"iS": 128426,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/ui-kit-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketch-1.jpg": {
 		"ft": 16384,
 		"iS": 103131,
@@ -1026,7 +1037,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-1-f.jpg": {
 		"ft": 16384,
-		"iS": 41108,
+		"iS": 131137,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-1-f.jpg",
@@ -1037,7 +1048,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-2-f.jpg": {
 		"ft": 16384,
-		"iS": 26388,
+		"iS": 83353,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-2-f.jpg",
@@ -1048,7 +1059,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-3-f.jpg": {
 		"ft": 16384,
-		"iS": 57483,
+		"iS": 149600,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-3-f.jpg",
@@ -1059,7 +1070,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-4-f.jpg": {
 		"ft": 16384,
-		"iS": 46883,
+		"iS": 123961,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-4-f.jpg",
@@ -1070,7 +1081,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-5-f.jpg": {
 		"ft": 16384,
-		"iS": 106720,
+		"iS": 364531,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-5-f.jpg",
@@ -1136,7 +1147,7 @@
 		},
 	"/deploy/img/work-2/woodmere/sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 177016,
+		"iS": 1102246,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/sketch-1.jpg",
@@ -1147,7 +1158,7 @@
 		},
 	"/deploy/img/work-2/woodmere/sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 172707,
+		"iS": 1101370,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/sketch-2.jpg",
