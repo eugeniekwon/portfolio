@@ -802,7 +802,7 @@ footer {
       object-position: 0px -50px; } }
   @media (min-width: 1025px) {
     #about > div aside img {
-      height: 73vh;
+      height: 72vh;
       object-position: 0px -75px; } }
 @media (min-width: 768px) {
   #about > div aside {
@@ -816,7 +816,7 @@ footer {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
   font-weight: 300;
-  line-height: 1.4375rem;
+  line-height: 1.375rem;
   margin: 30px 10px 90px 10px;
   text-align: justify; }
   @media (min-width: 768px) {
