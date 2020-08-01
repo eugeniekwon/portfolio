@@ -705,6 +705,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/home-kitchen/photo-1.jpg": {
+		"ft": 16384,
+		"iS": 124731,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-2.jpg": {
+		"ft": 16384,
+		"iS": 43401,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-3.jpg": {
+		"ft": 16384,
+		"iS": 94635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-4.jpg": {
+		"ft": 16384,
+		"iS": 143229,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-5.jpg": {
+		"ft": 16384,
+		"iS": 115652,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-6.jpg": {
+		"ft": 16384,
+		"iS": 33550,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/photo-7.jpg": {
+		"ft": 16384,
+		"iS": 30846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/photo-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/home-kitchen/ui-kit-home.jpg": {
 		"ft": 16384,
 		"iS": 128426,
