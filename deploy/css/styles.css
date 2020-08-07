@@ -814,9 +814,9 @@ footer {
 
 #about > div article {
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.90625rem;
   font-weight: 300;
-  line-height: 1.375rem;
+  line-height: 1.4375rem;
   margin: 30px 10px 90px 10px;
   text-align: justify; }
   @media (min-width: 768px) {
@@ -1049,8 +1049,9 @@ footer {
     #work-2 > div li:nth-child(1) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(2) > div {
-  background-color: #89a6ad;
-  margin-bottom: 30px; }
+  background-image: url("../img/work-2/proj-2.jpg");
+  margin-bottom: 30px;
+  background-size: 130%; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(2) > div {
       margin: 0; } }
@@ -1073,7 +1074,7 @@ footer {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/proj-2.jpg");
+  background-image: url("../img/work-2/proj-6.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
@@ -2437,6 +2438,7 @@ footer {
     home-kitchen-1
 ============= */
 #home-kitchen #home-kitchen-hero {
+  background-image: url("../img/work-2/home-kitchen/home-kitchen.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

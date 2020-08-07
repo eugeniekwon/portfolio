@@ -705,6 +705,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/home-kitchen/home-kitchen.jpg": {
+		"ft": 16384,
+		"iS": 448431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/home-kitchen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/home.jpg": {
+		"ft": 16384,
+		"iS": 1838734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/ipad.jpg": {
+		"ft": 16384,
+		"iS": 286273,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/ipad.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/laptop.jpg": {
+		"ft": 16384,
+		"iS": 1240935,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/mobile.jpg": {
+		"ft": 16384,
+		"iS": 1170802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/home-kitchen/photo-1.jpg": {
 		"ft": 16384,
 		"iS": 124731,
@@ -883,7 +938,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg": {
 		"ft": 16384,
-		"iS": 225614,
+		"iS": 221736,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg",
@@ -1037,7 +1092,7 @@
 		},
 	"/deploy/img/work-2/proj-2.jpg": {
 		"ft": 16384,
-		"iS": 826109,
+		"iS": 448431,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-2.jpg",
@@ -1079,6 +1134,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/proj-6.jpg": {
+		"ft": 16384,
+		"iS": 826109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/proj-7.jpg": {
 		"ft": 16384,
 		"iS": 178005,
@@ -1092,7 +1158,7 @@
 		},
 	"/deploy/img/work-2/proj-8.jpg": {
 		"ft": 16384,
-		"iS": 167138,
+		"iS": 184705,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-8.jpg",
@@ -1257,7 +1323,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-1.jpg": {
 		"ft": 16384,
-		"iS": 97629,
+		"iS": 212781,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-1.jpg",
@@ -1268,7 +1334,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-2.jpg": {
 		"ft": 16384,
-		"iS": 89376,
+		"iS": 161679,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-2.jpg",
@@ -1279,7 +1345,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-3.jpg": {
 		"ft": 16384,
-		"iS": 101853,
+		"iS": 224149,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-3.jpg",
@@ -1685,6 +1751,28 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/art.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/art-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/parallax.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/parallax-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

@@ -12,13 +12,17 @@
         background-size: cover;
         height: 30vh;
 
-        @include md {
-            height: 50vh;
-        }
+            @include md {
+                height: 50vh;
+            }
+    
+            @include lg {
+                height: 100vh;
+            }
+        
+        
 
-        @include lg {
-            height: 100vh;
-        }
+        
     }
 
     #woodmere-main {
