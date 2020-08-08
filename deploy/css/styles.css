@@ -462,17 +462,17 @@ a:visited {
       margin: 0px 0px 150px 0px; } }
 .pull-quotes {
   font-family: 'Gelasio', serif;
-  font-size: 1.375rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   margin: 0px 10px 10px 10px;
   color: #89a6ad;
   text-align: center; }
   @media (min-width: 768px) {
     .pull-quotes {
-      font-size: 1.625rem; } }
+      font-size: 1.1875rem; } }
   @media (min-width: 1025px) {
     .pull-quotes {
-      font-size: 1.75rem; } }
+      font-size: 1.25rem; } }
 .image-container {
   height: 35vh; }
   .image-container a {
@@ -1980,7 +1980,7 @@ footer {
     perused-1
 ============= */
 #perused #perused-hero {
-  background-image: url("../img/work-2/perused/perused-hero.jpg");
+  background-image: url("../img/work-2/perused/cover-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -2028,101 +2028,133 @@ footer {
   #perused #perused-main > div ul li:nth-child(3) {
     grid-area: process; } }
 
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 g10";
+    column-gap: 25px;
+    margin: 0px 25px; } }
+
 @media (min-width: 1440px) {
   #perused #perused-gallery > div ul {
     margin: 0px; } }
 
-#perused #perused-gallery > div ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+#perused #perused-gallery > div ul li img {
+  object-fit: cover;
+  object-position: center;
   height: 30vh;
-  align-items: center; }
+  width: 100%; }
   @media (min-width: 768px) {
-    #perused #perused-gallery > div ul li div {
+    #perused #perused-gallery > div ul li img {
       height: 50vh; } }
   @media (min-width: 1025px) {
-    #perused #perused-gallery > div ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #perused #perused-gallery > div ul li div {
-      height: 100vh; } }
-#perused #perused-gallery > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/perused/perused-contents.jpg"); }
-  @media (min-width: 1025px) {
-    #perused #perused-gallery > div li:nth-child(1) > div {
-      background-size: 110%; } }
-#perused #perused-gallery > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/logo2and3.jpg"); }
-  @media (min-width: 1025px) {
-    #perused #perused-gallery > div li:nth-child(2) > div {
-      background-size: 80%; } }
-#perused #perused-gallery > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/woodmere/colours.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/woodmere/business-card.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(5) > div {
-  background-image: url("../img/work-2/woodmere/app-1-f.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/woodmere/id-holder.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/woodmere/app-5-f.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/woodmere/tickets.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/woodmere/ticket-1.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/woodmere/ticket-2.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(11) > div {
-  background-image: url("../img/work-2/woodmere/app-3-f.jpg"); }
-
-#perused #perused-gallery > div li:nth-child(12) > div {
-  background-image: url("../img/work-2/woodmere/app-4-f.jpg"); }
+    #perused #perused-gallery > div ul li img {
+      height: 63vh; } }
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(1) > div {
+    grid-area: g1; } }
 
 @media (min-width: 1025px) {
-  #perused #perused-gallery-process > div > ul {
+  #perused #perused-gallery > div li:nth-child(2) > div {
+    grid-area: g2; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(3) > div {
+    grid-area: g3; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(4) > div {
+    grid-area: g4; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(5) > div {
+    grid-area: g5; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(6) > div {
+    grid-area: g6; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(7) > div {
+    grid-area: g7; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(8) > div {
+    grid-area: g8; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(9) > div {
+    grid-area: g9; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery > div li:nth-child(10) > div {
+    grid-area: g10; } }
+
+#perused #p-colour-palette > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #perused #p-colour-palette > div ul li img {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #perused #p-colour-palette > div ul li img {
+      height: 50vh;
+      object-fit: contain; } }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8";
     column-gap: 25px;
     margin: 0px 25px; } }
 
-#perused #perused-gallery-process > div > ul li div {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+#perused #perused-gallery-process-1 > div > ul li img {
+  object-fit: cover;
+  object-position: center;
   height: 30vh;
-  align-items: center; }
+  width: 100%; }
   @media (min-width: 768px) {
-    #perused #perused-gallery-process > div > ul li div {
-      height: 50vh; } }
+    #perused #perused-gallery-process-1 > div > ul li img {
+      height: 45vh; } }
   @media (min-width: 1025px) {
-    #perused #perused-gallery-process > div > ul li div {
-      height: 43vh; } }
-  @media (min-width: 1440px) {
-    #perused #perused-gallery-process > div > ul li div {
-      height: 50vh; } }
-#perused #perused-gallery-process > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/woodmere/sketch-1.jpg"); }
+    #perused #perused-gallery-process-1 > div > ul li img {
+      height: 50vh;
+      object-fit: contain; } }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(1) > div {
+    grid-area: g1; } }
 
-#perused #perused-gallery-process > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/woodmere/sketch-2.jpg"); }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(2) > div {
+    grid-area: g2; } }
 
-#perused #perused-gallery-process > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/woodmere/w-process-1.jpg"); }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(3) > div {
+    grid-area: g3; } }
 
-#perused #perused-gallery-process > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/woodmere/w-process-2.jpg"); }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(4) > div {
+    grid-area: g4; } }
 
-#perused #perused-gallery-process > div li:nth-child(5) > div {
-  background-image: url("../img/work-2/woodmere/w-process-3.jpg"); }
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(5) > div {
+    grid-area: g5; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(6) > div {
+    grid-area: g6; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(7) > div {
+    grid-area: g7; } }
+
+@media (min-width: 1025px) {
+  #perused #perused-gallery-process-1 > div > ul li:nth-child(8) > div {
+    grid-area: g8; } }
 
 /* =============
     luis-barragan-1
