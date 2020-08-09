@@ -792,18 +792,10 @@ footer {
     grid-template-columns: 50% auto; } }
 
 #about > div aside img {
-  object-fit: cover;
-  object-position: 0px -95px;
-  height: 55vh;
+  object-position: center;
+  object-fit: contain;
   width: 100%; }
-  @media (min-width: 768px) {
-    #about > div aside img {
-      height: 45vh;
-      object-position: 0px -50px; } }
-  @media (min-width: 1025px) {
-    #about > div aside img {
-      height: 72vh;
-      object-position: 0px -75px; } }
+
 @media (min-width: 768px) {
   #about > div aside {
     margin: 0px 394px 0px 25px; } }
