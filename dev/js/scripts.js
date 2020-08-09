@@ -4,6 +4,7 @@
 // @codekit-prepend "scrollTrigger/work.js";
 // @codekit-prepend "scrollTrigger/art.js";
 // @codekit-prepend "scrollTrigger/parallax.js";
+// @codekit-prepend "scrollTrigger/404Error.js";
 
 // @codekit-prepend "main-nav/burger-animation.js";
 // @codekit-prepend "main-nav/burger-mouse-events.js";

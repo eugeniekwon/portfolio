@@ -383,6 +383,9 @@ ul {
   @media (min-width: 1025px) {
     .small-spacing {
       margin-bottom: 25px; } }
+.xs-spacing {
+  margin-bottom: 10px; }
+
 .show-for-md {
   display: none; }
   @media (min-width: 768px) {
@@ -405,16 +408,18 @@ a:visited {
 
 .portfolio-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.5625rem;
   font-weight: 600;
   line-height: 2.625rem;
   margin: 30px 10px 15px 10px;
   color: #3F3F3F; }
   @media (min-width: 768px) {
     .portfolio-title {
+      font-size: 1.75rem;
       margin: 40px 25px 20px 25px; } }
   @media (min-width: 1025px) {
     .portfolio-title {
+      font-size: 1.875rem;
       margin: 50px 45px 25px 45px; } }
   @media (min-width: 1440px) {
     .portfolio-title {
@@ -1415,14 +1420,13 @@ footer {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #art > div ul li > div {
-      height: 30vh;
-      margin: 0px; } }
+      height: 30vh; } }
   @media (min-width: 1025px) {
     #art > div ul li > div {
       height: 32vh; } }
   @media (min-width: 1440px) {
     #art > div ul li > div {
-      height: 35vh; } }
+      height: 45vh; } }
   #art > div ul li > div a:link,
   #art > div ul li > div a:visited {
     width: 100%; }
@@ -2591,3 +2595,72 @@ footer {
 @media (min-width: 1025px) {
   #home-kitchen #home-kitchen-gallery-process > div li:nth-child(3) {
     grid-area: ps3; } }
+
+/* =============
+    404-error-1
+============= */
+#error > div #error-intro-text {
+  margin: 0px 10px; }
+  @media (min-width: 768px) {
+    #error > div #error-intro-text {
+      margin: 0px 50px; } }
+  @media (min-width: 1440px) {
+    #error > div #error-intro-text {
+      margin: 0px; } }
+  #error > div #error-intro-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    color: #89a6ad; }
+    @media (min-width: 768px) {
+      #error > div #error-intro-text h1 {
+        font-size: 1.5625rem;
+        line-height: 2.0625rem; } }
+    @media (min-width: 1025px) {
+      #error > div #error-intro-text h1 {
+        font-size: 1.875rem;
+        line-height: 2.375rem; } }
+  #error > div #error-intro-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #3F3F3F; }
+    @media (min-width: 768px) {
+      #error > div #error-intro-text h2 {
+        font-size: 1.25rem; } }
+    @media (min-width: 1025px) {
+      #error > div #error-intro-text h2 {
+        font-size: 1.375rem;
+        line-height: 1.875rem; } }
+  #error > div #error-intro-text h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3F3F3F; }
+    @media (min-width: 768px) {
+      #error > div #error-intro-text h3 {
+        font-size: 1rem; } }
+    @media (min-width: 1025px) {
+      #error > div #error-intro-text h3 {
+        font-size: 1rem; } }
+  #error > div #error-intro-text p {
+    font-family: 'Gelasio', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; }
+    @media (min-width: 768px) {
+      #error > div #error-intro-text p {
+        font-size: 1.125rem; } }
+    @media (min-width: 1025px) {
+      #error > div #error-intro-text p {
+        font-size: 1.25rem; } }
+  #error > div #error-intro-text a:link,
+  #error > div #error-intro-text a:visited {
+    color: #89a6ad;
+    cursor: pointer;
+    transition: 0.25s; }
+  #error > div #error-intro-text a:hover,
+  #error > div #error-intro-text a:active {
+    color: #3F3F3F; }

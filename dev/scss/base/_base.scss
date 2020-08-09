@@ -102,6 +102,10 @@ ul {
     }
 }
 
+.xs-spacing{
+    margin-bottom: 10px;
+}
+
 
 
 .show-for-md {
@@ -153,17 +157,19 @@ a:visited {
 
 .portfolio-title{
     font-family: 'Inter', sans-serif;
-    font-size: rem-calc(30);
+    font-size: rem-calc(25);
     font-weight: 600;
     line-height: rem-calc(42);
     margin: 30px 10px 15px 10px;
     color: $gray;
 
     @include md{
+        font-size: rem-calc(28);
         margin: 40px 25px 20px 25px;
     }
 
     @include lg{
+        font-size: rem-calc(30);
         margin: 50px 45px 25px 45px;
     }
 

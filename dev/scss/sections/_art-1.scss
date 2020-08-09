@@ -39,9 +39,21 @@
                         text-align: center;
                         margin-bottom: 30px;
 
+                        // @include md {
+                        //     height: 30vh;
+                        //     margin: 0px;
+                        // }
+
+                        // @include lg {
+                        //     height: 32vh;
+                        // }
+
+                        // @include xl {
+                        //     height: 35vh;
+                        // }
+
                         @include md {
                             height: 30vh;
-                            margin: 0px;
                         }
 
                         @include lg {
@@ -49,7 +61,7 @@
                         }
 
                         @include xl {
-                            height: 35vh;
+                            height: 45vh;
                         }
 
                         a:link,

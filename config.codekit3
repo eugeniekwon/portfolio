@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/404-error.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/404-error.html",
+		"oF": 0
+		},
 	"/deploy/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -520,7 +528,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-1.jpg": {
 		"ft": 16384,
-		"iS": 909529,
+		"iS": 128825,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-1.jpg",
@@ -531,7 +539,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-2.jpg": {
 		"ft": 16384,
-		"iS": 874148,
+		"iS": 118274,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-2.jpg",
@@ -542,7 +550,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-final-1.jpg": {
 		"ft": 16384,
-		"iS": 331035,
+		"iS": 107813,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-final-1.jpg",
@@ -553,7 +561,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-final-2.jpg": {
 		"ft": 16384,
-		"iS": 295100,
+		"iS": 94014,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-final-2.jpg",
@@ -564,7 +572,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 218257,
+		"iS": 74642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-1.jpg",
@@ -575,7 +583,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 245052,
+		"iS": 89602,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-2.jpg",
@@ -586,7 +594,7 @@
 		},
 	"/deploy/img/work-2/aesop/aesop-sketch-3.jpg": {
 		"ft": 16384,
-		"iS": 379174,
+		"iS": 124719,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/aesop/aesop-sketch-3.jpg",
@@ -597,7 +605,7 @@
 		},
 	"/deploy/img/work-2/bodoni/bodoni-final.jpg": {
 		"ft": 16384,
-		"iS": 328188,
+		"iS": 109848,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/bodoni/bodoni-final.jpg",
@@ -608,7 +616,7 @@
 		},
 	"/deploy/img/work-2/bodoni/bodoni-sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 133415,
+		"iS": 45122,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/bodoni/bodoni-sketch-1.jpg",
@@ -619,7 +627,7 @@
 		},
 	"/deploy/img/work-2/bodoni/bodoni-sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 111416,
+		"iS": 37311,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/bodoni/bodoni-sketch-2.jpg",
@@ -630,7 +638,7 @@
 		},
 	"/deploy/img/work-2/bodoni/bodoni-sketch-3.jpg": {
 		"ft": 16384,
-		"iS": 232310,
+		"iS": 72753,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/bodoni/bodoni-sketch-3.jpg",
@@ -641,7 +649,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg": {
 		"ft": 16384,
-		"iS": 195018,
+		"iS": 55236,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg",
@@ -652,7 +660,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-poster.jpg": {
 		"ft": 16384,
-		"iS": 295416,
+		"iS": 78448,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-poster.jpg",
@@ -663,7 +671,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg": {
 		"ft": 16384,
-		"iS": 107091,
+		"iS": 29643,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg",
@@ -674,7 +682,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-total-2550.jpg": {
 		"ft": 16384,
-		"iS": 196090,
+		"iS": 49910,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total-2550.jpg",
@@ -685,7 +693,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-total-new.jpg": {
 		"ft": 16384,
-		"iS": 407454,
+		"iS": 100961,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total-new.jpg",
@@ -696,7 +704,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-total.jpg": {
 		"ft": 16384,
-		"iS": 179795,
+		"iS": 44591,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-total.jpg",
@@ -707,7 +715,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/home-kitchen.jpg": {
 		"ft": 16384,
-		"iS": 448431,
+		"iS": 91973,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/home-kitchen.jpg",
@@ -718,7 +726,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/home.jpg": {
 		"ft": 16384,
-		"iS": 1838734,
+		"iS": 319762,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/home.jpg",
@@ -729,7 +737,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/ipad.jpg": {
 		"ft": 16384,
-		"iS": 286273,
+		"iS": 63777,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/ipad.jpg",
@@ -740,7 +748,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/laptop.jpg": {
 		"ft": 16384,
-		"iS": 1240935,
+		"iS": 198013,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/laptop.jpg",
@@ -751,7 +759,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/mobile.jpg": {
 		"ft": 16384,
-		"iS": 1170802,
+		"iS": 213446,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/mobile.jpg",
@@ -762,7 +770,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-1.jpg": {
 		"ft": 16384,
-		"iS": 124731,
+		"iS": 118547,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-1.jpg",
@@ -773,7 +781,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-2.jpg": {
 		"ft": 16384,
-		"iS": 43401,
+		"iS": 40561,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-2.jpg",
@@ -784,7 +792,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-3.jpg": {
 		"ft": 16384,
-		"iS": 94635,
+		"iS": 89484,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-3.jpg",
@@ -795,7 +803,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-4.jpg": {
 		"ft": 16384,
-		"iS": 143229,
+		"iS": 136945,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-4.jpg",
@@ -806,7 +814,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-5.jpg": {
 		"ft": 16384,
-		"iS": 115652,
+		"iS": 109172,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-5.jpg",
@@ -817,7 +825,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-6.jpg": {
 		"ft": 16384,
-		"iS": 33550,
+		"iS": 32068,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-6.jpg",
@@ -828,7 +836,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/photo-7.jpg": {
 		"ft": 16384,
-		"iS": 30846,
+		"iS": 28665,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/photo-7.jpg",
@@ -839,7 +847,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/ui-kit-home.jpg": {
 		"ft": 16384,
-		"iS": 128426,
+		"iS": 39939,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/ui-kit-home.jpg",
@@ -850,7 +858,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 103131,
+		"iS": 40005,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan-sketch-1.jpg",
@@ -861,7 +869,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 161015,
+		"iS": 51712,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan-sketch-2.jpg",
@@ -872,7 +880,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketches.jpg": {
 		"ft": 16384,
-		"iS": 382798,
+		"iS": 86727,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan-sketches.jpg",
@@ -883,7 +891,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan.jpg": {
 		"ft": 16384,
-		"iS": 178005,
+		"iS": 55655,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan.jpg",
@@ -894,7 +902,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-1.jpg": {
 		"ft": 16384,
-		"iS": 136629,
+		"iS": 45057,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping-1.jpg",
@@ -905,7 +913,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-2.jpg": {
 		"ft": 16384,
-		"iS": 117525,
+		"iS": 39629,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping-2.jpg",
@@ -916,7 +924,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-3.jpg": {
 		"ft": 16384,
-		"iS": 121938,
+		"iS": 40534,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping-3.jpg",
@@ -927,7 +935,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-4.jpg": {
 		"ft": 16384,
-		"iS": 113735,
+		"iS": 38146,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping-4.jpg",
@@ -938,7 +946,7 @@
 		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg": {
 		"ft": 16384,
-		"iS": 221736,
+		"iS": 73403,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/ocean-dumping/ocean-dumping.jpg",
@@ -949,7 +957,7 @@
 		},
 	"/deploy/img/work-2/perused/colours.jpg": {
 		"ft": 16384,
-		"iS": 118258,
+		"iS": 37789,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/colours.jpg",
@@ -960,7 +968,7 @@
 		},
 	"/deploy/img/work-2/perused/contents-process-1.jpg": {
 		"ft": 16384,
-		"iS": 1170606,
+		"iS": 220898,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/contents-process-1.jpg",
@@ -971,18 +979,18 @@
 		},
 	"/deploy/img/work-2/perused/contents.jpg": {
 		"ft": 16384,
-		"iS": 990483,
+		"iS": 144295,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/contents.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/cover-2.jpg": {
 		"ft": 16384,
-		"iS": 953922,
+		"iS": 158456,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/cover-2.jpg",
@@ -993,7 +1001,7 @@
 		},
 	"/deploy/img/work-2/perused/cover-hero.jpg": {
 		"ft": 16384,
-		"iS": 622113,
+		"iS": 101883,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/cover-hero.jpg",
@@ -1004,7 +1012,7 @@
 		},
 	"/deploy/img/work-2/perused/cover.jpg": {
 		"ft": 16384,
-		"iS": 813560,
+		"iS": 128002,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/cover.jpg",
@@ -1015,62 +1023,62 @@
 		},
 	"/deploy/img/work-2/perused/fp-1.jpg": {
 		"ft": 16384,
-		"iS": 1766169,
+		"iS": 344115,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/fp-2.jpg": {
 		"ft": 16384,
-		"iS": 1215412,
+		"iS": 265894,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/fp-3.jpg": {
 		"ft": 16384,
-		"iS": 2017257,
+		"iS": 397408,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/fp-4.jpg": {
 		"ft": 16384,
-		"iS": 1415661,
+		"iS": 325710,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/fp-5.jpg": {
 		"ft": 16384,
-		"iS": 2297997,
+		"iS": 490545,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/initial-studies-1.jpg": {
 		"ft": 16384,
-		"iS": 1366918,
+		"iS": 228696,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/initial-studies-1.jpg",
@@ -1081,7 +1089,7 @@
 		},
 	"/deploy/img/work-2/perused/initial-studies-2.jpg": {
 		"ft": 16384,
-		"iS": 1338056,
+		"iS": 234006,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/initial-studies-2.jpg",
@@ -1092,7 +1100,7 @@
 		},
 	"/deploy/img/work-2/perused/initial-type-studies-1.jpg": {
 		"ft": 16384,
-		"iS": 1131840,
+		"iS": 123433,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/initial-type-studies-1.jpg",
@@ -1103,7 +1111,7 @@
 		},
 	"/deploy/img/work-2/perused/initial-type-studies-2.jpg": {
 		"ft": 16384,
-		"iS": 161629,
+		"iS": 48687,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/initial-type-studies-2.jpg",
@@ -1114,7 +1122,7 @@
 		},
 	"/deploy/img/work-2/perused/layout-sketches.jpg": {
 		"ft": 16384,
-		"iS": 488481,
+		"iS": 68306,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/layout-sketches.jpg",
@@ -1125,7 +1133,7 @@
 		},
 	"/deploy/img/work-2/perused/masthead-process.jpg": {
 		"ft": 16384,
-		"iS": 140665,
+		"iS": 59112,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/masthead-process.jpg",
@@ -1136,7 +1144,7 @@
 		},
 	"/deploy/img/work-2/perused/mobile.jpg": {
 		"ft": 16384,
-		"iS": 691888,
+		"iS": 109281,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/mobile.jpg",
@@ -1147,7 +1155,7 @@
 		},
 	"/deploy/img/work-2/perused/moodboard.jpg": {
 		"ft": 16384,
-		"iS": 1370929,
+		"iS": 263128,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/moodboard.jpg",
@@ -1158,18 +1166,18 @@
 		},
 	"/deploy/img/work-2/perused/opening.jpg": {
 		"ft": 16384,
-		"iS": 1151361,
+		"iS": 161783,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/opening.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/work-2/perused/perused-covers.jpg": {
 		"ft": 16384,
-		"iS": 420598,
+		"iS": 69031,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/perused-covers.jpg",
@@ -1180,7 +1188,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/ipad.jpg": {
 		"ft": 16384,
-		"iS": 972623,
+		"iS": 106410,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/ipad.jpg",
@@ -1191,7 +1199,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/laptop.jpg": {
 		"ft": 16384,
-		"iS": 1298837,
+		"iS": 146668,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/laptop.jpg",
@@ -1202,7 +1210,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/mobile.jpg": {
 		"ft": 16384,
-		"iS": 1308770,
+		"iS": 195591,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/mobile.jpg",
@@ -1213,7 +1221,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/philly-flower-hero.jpg": {
 		"ft": 16384,
-		"iS": 826109,
+		"iS": 158184,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/philly-flower-hero.jpg",
@@ -1224,7 +1232,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/photo-1.jpg": {
 		"ft": 16384,
-		"iS": 758800,
+		"iS": 123545,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/photo-1.jpg",
@@ -1235,7 +1243,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/photo-2.jpg": {
 		"ft": 16384,
-		"iS": 526663,
+		"iS": 122838,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/photo-2.jpg",
@@ -1246,7 +1254,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/photo-3.jpg": {
 		"ft": 16384,
-		"iS": 788976,
+		"iS": 187395,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/photo-3.jpg",
@@ -1257,7 +1265,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/photo-4.jpg": {
 		"ft": 16384,
-		"iS": 252348,
+		"iS": 59245,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/photo-4.jpg",
@@ -1268,7 +1276,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/photo-5.jpg": {
 		"ft": 16384,
-		"iS": 943050,
+		"iS": 175763,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/photo-5.jpg",
@@ -1279,7 +1287,7 @@
 		},
 	"/deploy/img/work-2/philly-flower/ui-kit.jpg": {
 		"ft": 16384,
-		"iS": 130082,
+		"iS": 40013,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/ui-kit.jpg",
@@ -1389,7 +1397,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-1-f.jpg": {
 		"ft": 16384,
-		"iS": 131137,
+		"iS": 42440,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-1-f.jpg",
@@ -1400,7 +1408,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-2-f.jpg": {
 		"ft": 16384,
-		"iS": 83353,
+		"iS": 32476,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-2-f.jpg",
@@ -1411,7 +1419,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-3-f.jpg": {
 		"ft": 16384,
-		"iS": 149600,
+		"iS": 45163,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-3-f.jpg",
@@ -1422,7 +1430,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-4-f.jpg": {
 		"ft": 16384,
-		"iS": 123961,
+		"iS": 39985,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-4-f.jpg",
@@ -1433,7 +1441,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app-5-f.jpg": {
 		"ft": 16384,
-		"iS": 364531,
+		"iS": 107671,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-5-f.jpg",
@@ -1444,7 +1452,7 @@
 		},
 	"/deploy/img/work-2/woodmere/business-card.jpg": {
 		"ft": 16384,
-		"iS": 911913,
+		"iS": 241744,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/business-card.jpg",
@@ -1455,7 +1463,7 @@
 		},
 	"/deploy/img/work-2/woodmere/colours.jpg": {
 		"ft": 16384,
-		"iS": 90150,
+		"iS": 30644,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/colours.jpg",
@@ -1466,7 +1474,7 @@
 		},
 	"/deploy/img/work-2/woodmere/id-holder.jpg": {
 		"ft": 16384,
-		"iS": 487170,
+		"iS": 138151,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/id-holder.jpg",
@@ -1477,7 +1485,7 @@
 		},
 	"/deploy/img/work-2/woodmere/logo1.jpg": {
 		"ft": 16384,
-		"iS": 84930,
+		"iS": 28481,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/logo1.jpg",
@@ -1488,7 +1496,7 @@
 		},
 	"/deploy/img/work-2/woodmere/logo2and3.jpg": {
 		"ft": 16384,
-		"iS": 81941,
+		"iS": 27557,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/logo2and3.jpg",
@@ -1499,7 +1507,7 @@
 		},
 	"/deploy/img/work-2/woodmere/sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 1102246,
+		"iS": 159063,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/sketch-1.jpg",
@@ -1510,7 +1518,7 @@
 		},
 	"/deploy/img/work-2/woodmere/sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 1101370,
+		"iS": 161640,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/sketch-2.jpg",
@@ -1521,7 +1529,7 @@
 		},
 	"/deploy/img/work-2/woodmere/tickets.jpg": {
 		"ft": 16384,
-		"iS": 456425,
+		"iS": 185304,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/tickets.jpg",
@@ -1532,7 +1540,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-1.jpg": {
 		"ft": 16384,
-		"iS": 212781,
+		"iS": 69026,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-1.jpg",
@@ -1543,7 +1551,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-2.jpg": {
 		"ft": 16384,
-		"iS": 161679,
+		"iS": 55822,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-2.jpg",
@@ -1554,7 +1562,7 @@
 		},
 	"/deploy/img/work-2/woodmere/w-process-3.jpg": {
 		"ft": 16384,
-		"iS": 224149,
+		"iS": 70868,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/w-process-3.jpg",
@@ -1662,6 +1670,14 @@
 		"oAP": "/deploy/work.html",
 		"oF": 0
 		},
+	"/dev/404-error.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/404-error.html",
+		"oF": 2
+		},
 	"/dev/about.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1693,6 +1709,14 @@
 		"oA": 0,
 		"oAP": "/deploy/bodoni.html",
 		"oF": 2
+		},
+	"/dev/content/404-error-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/404-error-1.html",
+		"oF": 1
 		},
 	"/dev/content/about-1.kit": {
 		"cB": 0,
@@ -1963,6 +1987,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/scrollTrigger/404Error.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/404Error-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scrollTrigger/art.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2219,6 +2254,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_404-error-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_404-error-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_about-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2228,7 +2276,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_about-1.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
