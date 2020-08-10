@@ -2,9 +2,9 @@
     philly-flower-1
 ============= */
 
-#philly-flower{
+#philly-flower {
 
-    #philly-flower-hero{
+    #philly-flower-hero {
         background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -18,106 +18,105 @@
         @include lg {
             height: 100vh;
         }
-        
+
     }
 
-    #philly-flower-main{
+    #philly-flower-main {
 
-        >div{
+        >div {
 
-            ul{
-                @include md{
+            ul {
+                @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" ". process";
+                    grid-template-areas: "objective about"". process";
                     column-gap: 75px;
                     margin: 0px 25px;
                 }
-    
-                @include lg{
+
+                @include lg {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
                     column-gap: 100px;
                     margin: 0px 45px;
-                    }
+                }
 
-                @include xl{
+                @include xl {
                     margin: 0px;
                 }
 
-    
-                li:nth-child(1){
-                    @include md{
+
+                li:nth-child(1) {
+                    @include md {
                         grid-area: objective;
                     }
                 }
-    
-                li:nth-child(2){
-                    @include md{
+
+                li:nth-child(2) {
+                    @include md {
                         grid-area: about;
                     }
                 }
-    
-                li:nth-child(3){
-                    @include md{
+
+                li:nth-child(3) {
+                    @include md {
                         grid-area: process;
                     }
                 }
             }
         }
-        
-        
+
+
     }
 
-    #philly-flower-main-screenshot{
-        
-        >div{
-            img{
+    #philly-flower-main-screenshot {
+
+        >div {
+            img {
                 object-fit: contain;
                 object-position: center;
                 height: 30vh;
                 width: 100%;
-    
-                        @include md {
-                            height: 47vh;
-                        }
-                
-                        @include lg {
-                            height: 100vh;
-                        }
+
+                @include md {
+                    height: 47vh;
+                }
+
+                @include lg {
+                    height: 100vh;
+                }
             }
         }
-            
-        
+
+
     }
 
 
-    #philly-flower-gallery{
+    #philly-flower-gallery {
 
-        >div{
+        >div {
 
 
-            ul{
+            ul {
 
                 display: grid;
-                grid-template-rows: repeat(6, 29vh);
+                grid-template-rows: repeat(4, 29vh);
                 gap: 20px;
 
-                @include md{
-                    grid-template-rows: repeat(6, 47vh);
+                @include md {
+                    grid-template-rows: repeat(4, 47vh);
                 }
 
-                @include lg{
+                @include lg {
                     display: grid;
-                    grid-template-rows: repeat(3, 50vh);
-                    grid-template-columns: repeat(2,1fr);
-                    grid-template-areas: 
-                    "p1 p2"
-                    "p3 p4"
-                    "p5 p5";
+                    grid-template-rows: repeat(2, 50vh);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                        "p1 p2"
+                        "p3 p4";
                     gap: 20px;
                 }
 
@@ -129,13 +128,13 @@
                         width: 100%;
                     }
                 }
-                
-        
-                li:nth-child(1){
 
-                    @include lg{
+
+                li:nth-child(1) {
+
+                    @include lg {
                         grid-area: p1;
-                        
+
                     }
 
                     // >div{
@@ -145,251 +144,219 @@
                     // background-size: 100%;
                     // height: 30vh;
                     // align-items: center;
-    
+
                     // @include md{
                     //     height: 46vh;
                     // }
-    
+
                     // @include lg{
                     //     height: 95vh;
                     // }
 
                     // }
-                    
-                }
-    
-                li:nth-child(2){
 
-                    @include lg{
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
                         grid-area: p2;
                     }
 
                     // >div{
                     //     background-image: url("../img/work-2/philly-flower/photo-2.jpg");
-                        
+
                     // background-position: center;
                     // background-repeat: no-repeat;
                     // background-size: 100%;
                     // height: 28vh;
                     // align-items: center;
 
-    
+
                     // @include md{
                     //     height: 46vh;
                     // }
-    
+
                     // @include lg{
                     //     height: 47vh;
                     // }
-    
+
                     // }
-                
-                    }
-
-                    li:nth-child(3){
-                        @include lg{
-                            grid-area: p3;
-                        }
-                        
-                        // >div{
-                        // background-image: url("../img/work-2/philly-flower/photo-3.jpg");
-                        // background-position: center;
-                        // background-repeat: no-repeat;
-                        // background-size: 100%;
-                        // height: 28vh;
-                        // align-items: center;
-                        
-        
-                        // @include md{
-                        //     height: 46vh;
-                        // }
-        
-                        // @include lg{
-                        //     height: 47vh;
-                        // }
-
-    
-                        
-        
-                        // }
-                        }
-                        
-                        li:nth-child(4){
-                            @include lg{
-                                grid-area: p4;
-                            }
-                            // >div{
-                            //     background-image: url("../img/work-2/philly-flower/photo-4.jpg");
-                            //     background-position: center;
-                            // background-repeat: no-repeat;
-                            // background-size: 100%;
-                            // height: 28vh;
-                            // align-items: center;
-                            
-            
-                            // @include md{
-                            //     height: 46vh;
-                            // }
-            
-                            // @include lg{
-                            //     height: 47vh;
-                            // }
-            
-                            // }
-                            }
-
-                            li:nth-child(5){
-                                @include lg{
-                                    grid-area: p5;
-                                    
-                                }
-                                // >div{
-                                // background-image: url("../img/work-2/philly-flower/photo-5.jpg");
-                                // background-position: center;
-                                // background-repeat: no-repeat;
-                                // background-size: 100%;
-                                // height: 28vh;
-                                // align-items: center;
-                                
-                
-                                // @include md{
-                                //     height: 46vh;
-                                // }
-                
-                                // @include lg{
-                                //     height: 47vh;
-                                // }
-                
-                                // }
-                                }
-
-                               
-                                    // >div{
-                                    //     background-image: url("../img/work-2/philly-flower/ui-kit.jpg");
-                                    //     background-position: center;
-                                    // background-repeat: no-repeat;
-                                    // background-size: 100%;
-                                    // height: 28vh;
-                                    // align-items: center;
-                                    
-                    
-                                    // @include md{
-                                    //     height: 46vh;
-                                    // }
-                    
-                                    // @include lg{
-                                    //     height: 85vh;
-                                    // }
-                    
-                                    // }
-                                    
-                    }
-    
-                    
-                        
-                    }
 
                 }
 
-                #philly-flower-gallery-process{
-                    >div{
-                        ul{
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: p3;
+                    }
 
-                            display: grid;
-                            grid-template-rows: repeat(3, 32vh);
-                            gap: 20px;
-
-                            @include md{
-                                grid-template-rows: repeat(3, 45vh);
-                            }
-
-                            @include lg{
-                                display: grid;
-                                grid-template-columns: repeat(3,1fr);
-                                grid-template-rows: repeat(1, 40vh);
-                                grid-template-areas: 
-                                "ps1 ps2 ps3";
-                            }
-
-                            li {
-                                img {
-                                    object-fit: cover;
-                                    object-position: center;
-                                    height: 100%;
-                                    width: 100%;
-            
-                                }
-                            }
-                    
-                            // li{
-                            //     div{
-                
-                            //     background-position: center;
-                            //     background-repeat: no-repeat;
-                            //     background-size: 100%;
-                            //     height: 30vh;
-                            //     align-items: center;
-                
-                            //     @include md{
-                            //         height: 43vh;
-                            //     }
-                
-                            //     @include lg{
-                            //         background-size: 150%;
-                            //     }
-            
-                            //     @include xl{
-                            //         height:  50vh;
-                            //     }
-                
-                            //     }
-                            // }
-                        }
+                    // >div{
+                    // background-image: url("../img/work-2/philly-flower/photo-3.jpg");
+                    // background-position: center;
+                    // background-repeat: no-repeat;
+                    // background-size: 100%;
+                    // height: 28vh;
+                    // align-items: center;
 
 
-                        
+                    // @include md{
+                    //     height: 46vh;
+                    // }
 
-                        li:nth-child(1){
-                            @include lg{
-                                grid-area: ps1;
-                            }
-                        }
-                        li:nth-child(2){
-                            @include lg{
-                                grid-area: ps2;
-                            }
-                        }
-                        li:nth-child(3){
-                            @include lg{
-                                grid-area: ps3;
-                            }
-                        }
+                    // @include lg{
+                    //     height: 47vh;
+                    // }
 
-                
-            
-                        // li:nth-child(1){
-                        //     >div{
-                        //         background-image: url("../img/work-2/philly-flower/laptop.jpg");
-                        //     }
-                        // }
-                    
-                        // li:nth-child(2){
-                        //     >div{
-                        //         background-image: url("../img/work-2/philly-flower/ipad.jpg");
-                        //         @include lg{
-                        //             background-position: -80px 0px;
-                        //         }
-                                
-                        //     }
-                        // }
-                        // li:nth-child(3){
-                        //     >div{
-                        //         background-image: url("../img/work-2/philly-flower/mobile.jpg");
-                        //     }
-                            
-                        // }
+
+
+
+                    // }
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: p4;
+                    }
+
+                    // >div{
+                    //     background-image: url("../img/work-2/philly-flower/photo-4.jpg");
+                    //     background-position: center;
+                    // background-repeat: no-repeat;
+                    // background-size: 100%;
+                    // height: 28vh;
+                    // align-items: center;
+
+
+                    // @include md{
+                    //     height: 46vh;
+                    // }
+
+                    // @include lg{
+                    //     height: 47vh;
+                    // }
+
+                    // }
+                }
+
+            }
+
+        }
+
+    }
+
+    #philly-ui-kit {
+        >div {
+
+            img {
+                object-fit: contain;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    #philly-flower-gallery-process {
+        >div {
+            ul {
+
+                display: grid;
+                grid-template-rows: repeat(3, 32vh);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(3, 45vh);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 40vh);
+                    grid-template-areas:
+                        "ps1 ps2 ps3";
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
                     }
                 }
-            
+
+                // li{
+                //     div{
+
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-size: 100%;
+                //     height: 30vh;
+                //     align-items: center;
+
+                //     @include md{
+                //         height: 43vh;
+                //     }
+
+                //     @include lg{
+                //         background-size: 150%;
+                //     }
+
+                //     @include xl{
+                //         height:  50vh;
+                //     }
+
+                //     }
+                // }
+            }
+
+
+
+
+            li:nth-child(1) {
+                @include lg {
+                    grid-area: ps1;
+                }
+            }
+
+            li:nth-child(2) {
+                @include lg {
+                    grid-area: ps2;
+                }
+            }
+
+            li:nth-child(3) {
+                @include lg {
+                    grid-area: ps3;
+                }
+            }
+
+
+
+            // li:nth-child(1){
+            //     >div{
+            //         background-image: url("../img/work-2/philly-flower/laptop.jpg");
+            //     }
+            // }
+
+            // li:nth-child(2){
+            //     >div{
+            //         background-image: url("../img/work-2/philly-flower/ipad.jpg");
+            //         @include lg{
+            //             background-position: -80px 0px;
+            //         }
+
+            //     }
+            // }
+            // li:nth-child(3){
+            //     >div{
+            //         background-image: url("../img/work-2/philly-flower/mobile.jpg");
+            //     }
+
+            // }
+        }
+    }
+
 
 }
