@@ -1,6 +1,6 @@
-/* =============
-    parallax
-============= */
+// /* =============
+//     parallax
+// ============= */
 
 // gsap.to("#woodmere-hero",{scrollTrigger:{
 //     trigger: "#woodmere-hero",
@@ -8,6 +8,6 @@
 //     pinSpacing: false,
 //     start: "start 76",
 //     end: "bottom 76",
-//     id: "#hero"
-//     // markers: true
+//     id: "#hero",
+//     markers: true
 // }})

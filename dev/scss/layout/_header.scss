@@ -11,75 +11,105 @@ header {
 
     >div {
         display: grid;
-        grid-template-areas: "logo burger"
-            "nav nav";
-        grid-template-columns: 80% auto;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px 0px;
+        // grid-template-areas: "logo burger"
+        //     "nav nav";
+        // grid-template-columns: 80% auto;
 
-        @include lg {
-            grid-template-areas: "logo nav";
-            grid-template-columns: 50% auto;
-        }
+        // @include lg {
+        //     grid-template-areas: "logo nav";
+        //     grid-template-columns: 50% auto;
+        // }
 
         #logo-container {
-            grid-area: logo;
-            padding: 15px 25px;
-
-            @include lg {
-                padding: 25px 45px;
-            }
-
-            @include xl{
-                padding: 25px 0px;
-            }
+            // grid-area: logo;
 
             h1 {
                 color: $light-blue;
                 font-family: 'Inter', sans-serif;
-                font-size: rem-calc(23);
+                font-size: rem-calc(22);
                 font-weight: 600;
                 grid-area: heading;
+                padding-left: 15px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include md {
+                    padding-left: 30px;
+                    justify-content: flex-start;
+                    width: initial;
+                }
+
+                @include lg {
+                    padding-left: 25px;
+                    width: initial;
+                }
+    
+                @include xl{
+                    // padding-left: 25px;
+                }
             }
         }
 
         #burger-container {
             align-items: center;
             display: flex;
-            grid-area: burger;
+            // grid-area: burger;
             justify-content: flex-end;
-            padding: 15px 25px;
+            padding-right: 15px;
 
-            @include lg {
-                display: none !important;
+            @include md{
+                padding-right: 30px;
             }
 
-            i {
-                color: $light-blue;
+            // @include lg {
+            //     display: none !important;
+            // }
+
+            #burger{
                 cursor: pointer;
-                font-size: rem-calc(25);
-            }
-        }
-
-        #nav-container {
-            background-color: $white;
-            display: none;
-            grid-area: nav;
-
-            @include lg {
-                background-color: $white;
-                display: grid !important;
-            }
-
-            ul {
-                li {
-                    font-family: 'Inter', sans-serif;
-                    font-size: rem-calc(16);
-                    font-weight: 600;
-
-                    @include lg {
-                        font-size: rem-calc(18);
+                transition: 0.25s;
+    
+                .lines{
+                    stroke: $light-blue !important;
+                    transition: 0.25s;
+                }
+    
+                &:hover{
+    
+                    .lines{
+                        stroke: $dark-blue !important;
                     }
                 }
             }
         }
+
+        // #nav-container {
+        //     background-color: $white;
+        //     display: none;
+        //     grid-area: nav;
+
+        //     @include lg {
+        //         background-color: $white;
+        //         display: grid !important;
+        //     }
+
+        //     ul {
+        //         li {
+        //             font-family: 'Inter', sans-serif;
+        //             font-size: rem-calc(16);
+        //             font-weight: 600;
+
+        //             @include lg {
+        //                 font-size: rem-calc(18);
+        //             }
+        //         }
+        //     }
+        // }
+
+        
     }
 }

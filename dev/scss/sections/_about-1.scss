@@ -124,11 +124,12 @@
                 li{
                     a:link,
                     a:visited{
-                    color: $white;
-                    background-color: $black;
+                    color: $gray;
+                    background-color: $white;
                     transition: 0.25s;
                     padding: 7px 7px;
                     border-radius: 3px;
+                    border: solid 2px $gray;
                     }
 
                     a:hover,
@@ -137,6 +138,7 @@
                     color: $white;
                     padding: 7px 7px;
                     border-radius: 3px;
+                    border: solid 2px $light-blue;
                     }
 
                     p{
