@@ -614,16 +614,6 @@ textarea {
 /* =============
     Navigation
 ============= */
-h1 a:link,
-h1 a:visited {
-  color: #89a6ad;
-  text-decoration: none;
-  transition: 0.25s; }
-
-h1 a:hover,
-h1 a:active {
-  color: #4C5559; }
-
 #main-nav {
   background-color: #89a6ad;
   bottom: 0;
@@ -698,7 +688,7 @@ header {
       padding-left: 15px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: flex-start; }
       @media (min-width: 768px) {
         header > div #logo-container h1 {
           padding-left: 30px;
@@ -716,6 +706,9 @@ header {
       @media (min-width: 768px) {
         header > div #burger-container {
           padding-right: 30px; } }
+      @media (min-width: 1025px) {
+        header > div #burger-container {
+          display: none !important; } }
       header > div #burger-container #burger {
         cursor: pointer;
         transition: 0.25s; }
@@ -724,6 +717,50 @@ header {
           transition: 0.25s; }
         header > div #burger-container #burger:hover .lines {
           stroke: #4C5559 !important; }
+    header > div #nav-container {
+      background-color: #fff;
+      display: none; }
+      @media (min-width: 1025px) {
+        header > div #nav-container {
+          background-color: #fff;
+          display: grid !important; } }
+      header > div #nav-container ul {
+        height: 100%;
+        text-align: right; }
+        @media (min-width: 1025px) {
+          header > div #nav-container ul {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; } }
+        header > div #nav-container ul li {
+          font-family: 'Inter', sans-serif;
+          font-weight: 600;
+          margin-bottom: 30px;
+          padding-right: 25px; }
+          @media (min-width: 1025px) {
+            header > div #nav-container ul li {
+              font-size: 1.125rem;
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              margin: 0px 50px 0 0;
+              padding: 0px; } }
+          header > div #nav-container ul li a:link,
+          header > div #nav-container ul li a:visited {
+            color: #89a6ad;
+            text-decoration: none;
+            transition: 0.25s; }
+          header > div #nav-container ul li a:hover,
+          header > div #nav-container ul li a:active {
+            color: #4C5559; }
+    header > div h1 a:link,
+    header > div h1 a:visited {
+      color: #89a6ad;
+      text-decoration: none;
+      transition: 0.25s; }
+    header > div h1 a:hover,
+    header > div h1 a:active {
+      color: #4C5559; }
 
 /* =============
     Footer
@@ -778,9 +815,6 @@ footer {
       align-items: center;
       display: flex;
       justify-content: flex-start; }
-      @media (min-width: 1025px) {
-        footer > div #social-media ul {
-          font-size: 1.5625rem; } }
       footer > div #social-media ul li {
         margin-right: 10px; }
         footer > div #social-media ul li a:link,
@@ -797,6 +831,10 @@ footer {
 /* =============
     about-1
 ============= */
+@media (min-width: 1025px) {
+  #about {
+    padding-top: 50px; } }
+
 @media (min-width: 1025px) {
   #about > div {
     display: grid;
@@ -868,26 +906,26 @@ footer {
       #about > div article #contact-section li a:active {
         color: #89a6ad; }
       #about > div article #contact-section li i {
-        font-size: 1.5625rem; }
+        font-size: 1.25rem; }
         @media (min-width: 768px) {
           #about > div article #contact-section li i {
-            font-size: 1.75rem; } }
+            font-size: 1.375rem; } }
         @media (min-width: 1025px) {
           #about > div article #contact-section li i {
-            font-size: 1.8125rem; } }
+            font-size: 1.5625rem; } }
   #about > div article #resume li a:link,
   #about > div article #resume li a:visited {
     color: #3F3F3F;
     background-color: #fff;
     transition: 0.25s;
-    padding: 7px 7px;
+    padding: 5px 5px;
     border-radius: 3px;
     border: solid 2px #3F3F3F; }
   #about > div article #resume li a:hover,
   #about > div article #resume li a:active {
     background-color: #89a6ad;
     color: #fff;
-    padding: 7px 7px;
+    padding: 5px 5px;
     border-radius: 3px;
     border: solid 2px #89a6ad; }
   #about > div article #resume li p {

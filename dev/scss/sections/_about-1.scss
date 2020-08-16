@@ -2,6 +2,12 @@
     about-1
 ============= */
 #about {
+
+    @include lg{
+        padding-top: 50px;
+    }
+    
+
     >div {
         @include lg {
             display: grid;
@@ -103,15 +109,15 @@
                     }
 
                     i{
-                        font-size: rem-calc(25);
+                        font-size: rem-calc(20);
                         // color: $black;
 
                         @include md{
-                            font-size: rem-calc(28); 
+                            font-size: rem-calc(22); 
                         }
 
                         @include lg{
-                            font-size: rem-calc(29); 
+                            font-size: rem-calc(25); 
                         }
 
                     }
@@ -127,7 +133,7 @@
                     color: $gray;
                     background-color: $white;
                     transition: 0.25s;
-                    padding: 7px 7px;
+                    padding: 5px 5px;
                     border-radius: 3px;
                     border: solid 2px $gray;
                     }
@@ -136,7 +142,7 @@
                     a:active{
                     background-color: $light-blue;
                     color: $white;
-                    padding: 7px 7px;
+                    padding: 5px 5px;
                     border-radius: 3px;
                     border: solid 2px $light-blue;
                     }

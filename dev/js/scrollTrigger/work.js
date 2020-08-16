@@ -47,17 +47,17 @@ ScrollTrigger.create({
     content scroll
 ============= */
 
-var contentTimeline = gsap.timeline();
-contentTimeline.from(".scroll-info",{duration:1, alpha:0.8, yPercent:50})
+// var contentTimeline = gsap.timeline();
+// contentTimeline.from(".scroll-info",{duration:0.5, alpha:0.8, yPercent:80})
 
 
-ScrollTrigger.create({
-    trigger: ".scroll-content",
-    start: "top 90%",
-    end: "bottom 90%",
-    animation: contentTimeline,
-    toggleActions: "restart none none none",
-    scrub: 1
-    // id: "#work-2",
-    // markers: true
-  });
+// ScrollTrigger.create({
+//     trigger: ".scroll-content",
+//     start: "top 90%",
+//     end: "bottom 90%",
+//     animation: contentTimeline,
+//     toggleActions: "restart none none none",
+//     scrub: 1
+//     // id: "#work-2",
+//     // markers: true
+//   });

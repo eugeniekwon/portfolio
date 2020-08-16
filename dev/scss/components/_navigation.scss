@@ -1,56 +1,6 @@
 /* =============
     Navigation
 ============= */
-// #nav-container {
-//     ul {
-//         height: 100%;
-//         text-align: right;
-
-//         @include lg {
-//             display: flex;
-//             justify-content: flex-end;
-//         }
-
-//         li {
-//             margin-bottom: 30px;
-//             padding-right: 25px;
-
-//             @include lg {
-//                 align-items: center;
-//                 display: flex;
-//                 margin: 0px 50px 0 0;
-//                 padding: 0px;
-//             }
-
-//             a:link,
-//             a:visited {
-//                 color: $light-blue;
-//                 text-decoration: none;
-//                 transition: 0.25s;
-//             }
-
-//             a:hover,
-//             a:active {
-//                 color: $dark-blue;
-//             }
-//         }
-//     }
-// }
-
-h1 {
-
-    a:link,
-    a:visited {
-        color: $light-blue;
-        text-decoration: none;
-        transition: 0.25s;
-    }
-
-    a:hover,
-    a:active {
-        color: $dark-blue;
-    }
-}
 
 #main-nav {
     background-color: $light-blue;
@@ -109,3 +59,55 @@ h1 {
     }
 
 }
+
+
+// #nav-container {
+//     ul {
+//         height: 100%;
+//         text-align: right;
+
+//         @include lg {
+//             display: flex;
+//             justify-content: flex-end;
+//         }
+
+//         li {
+//             margin-bottom: 30px;
+//             padding-right: 25px;
+
+//             @include lg {
+//                 align-items: center;
+//                 display: flex;
+//                 margin: 0px 50px 0 0;
+//                 padding: 0px;
+//             }
+
+//             a:link,
+//             a:visited {
+//                 color: $light-blue;
+//                 text-decoration: none;
+//                 transition: 0.25s;
+//             }
+
+//             a:hover,
+//             a:active {
+//                 color: $dark-blue;
+//             }
+//         }
+//     }
+// }
+
+// h1 {
+
+//     a:link,
+//     a:visited {
+//         color: $light-blue;
+//         text-decoration: none;
+//         transition: 0.25s;
+//     }
+
+//     a:hover,
+//     a:active {
+//         color: $dark-blue;
+//     }
+// }

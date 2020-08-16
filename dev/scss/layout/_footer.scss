@@ -76,9 +76,6 @@ footer {
                     display: flex;
                     justify-content: flex-start;
     
-                    @include lg{
-                        font-size: rem-calc(25);
-                    }
     
                     li {
                         margin-right: 10px;

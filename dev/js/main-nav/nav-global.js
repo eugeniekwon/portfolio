@@ -13,12 +13,13 @@ var mainNavTimeline = gsap.timeline({paused:true})
 function hideShowMainNav(){
     if(canISeetheMenu === false){
 
+        burgerTimeline.play("burgertoX");
         mainNavTimeline.play();
         canISeetheMenu = true;
 
     }
     else{
-
+        burgerTimeline.reverse();
         mainNavTimeline.reverse();
         canISeetheMenu = false;
 

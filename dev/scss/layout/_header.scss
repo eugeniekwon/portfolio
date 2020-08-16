@@ -35,7 +35,7 @@ header {
 
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-start;
 
                 @include md {
                     padding-left: 30px;
@@ -65,9 +65,9 @@ header {
                 padding-right: 30px;
             }
 
-            // @include lg {
-            //     display: none !important;
-            // }
+            @include lg {
+                display: none !important;
+            }
 
             #burger{
                 cursor: pointer;
@@ -87,29 +87,71 @@ header {
             }
         }
 
-        // #nav-container {
-        //     background-color: $white;
-        //     display: none;
-        //     grid-area: nav;
+        #nav-container {
 
-        //     @include lg {
-        //         background-color: $white;
-        //         display: grid !important;
-        //     }
+            background-color: $white;
+            display: none;
+            // grid-area: nav;
 
-        //     ul {
-        //         li {
-        //             font-family: 'Inter', sans-serif;
-        //             font-size: rem-calc(16);
-        //             font-weight: 600;
+            @include lg {
+                background-color: $white;
+                display: grid !important;
+            }
 
-        //             @include lg {
-        //                 font-size: rem-calc(18);
-        //             }
-        //         }
-        //     }
-        // }
-
+            ul {
+                height: 100%;
+                text-align: right;
         
+                @include lg {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+        
+                li {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                    padding-right: 25px;
+                    
+                    @include lg {
+                        font-size: rem-calc(18);
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        margin: 0px 50px 0 0;
+                        padding: 0px;
+                    }
+        
+                    a:link,
+                    a:visited {
+                        color: $light-blue;
+                        text-decoration: none;
+                        transition: 0.25s;
+                    }
+        
+                    a:hover,
+                    a:active {
+                        color: $dark-blue;
+                    }
+                }
+            }
+        }
+        
+        h1 {
+        
+            a:link,
+            a:visited {
+                color: $light-blue;
+                text-decoration: none;
+                transition: 0.25s;
+            }
+        
+            a:hover,
+            a:active {
+                color: $dark-blue;
+            }
+        }
+
     }
 }
