@@ -28,6 +28,9 @@
 
     #joy-main{
 
+        position: relative;
+        background-color: $white;
+
         >div{
 
             ul{
@@ -85,6 +88,8 @@
 
 
     #joy-gallery{
+        position: relative;
+        background-color: $white;
 
         >div{
 

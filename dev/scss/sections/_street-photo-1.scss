@@ -27,6 +27,8 @@
 
 
         #street-main{
+            position: relative;
+            background-color: $white;
 
             ul{
                 
@@ -77,7 +79,8 @@
         }
 
     #street-gallery{
-
+        position: relative;
+        background-color: $white;
         
 
         >div{

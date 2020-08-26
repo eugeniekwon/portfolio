@@ -5,6 +5,7 @@
 #philly-flower {
 
     #philly-flower-hero {
+        
         background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -22,6 +23,8 @@
     }
 
     #philly-flower-main {
+        position: relative;
+        background-color: $white;
 
         >div {
 
@@ -72,7 +75,15 @@
 
     }
 
+    #philly-button{
+        position: relative;
+        background-color: $white;
+        
+    }
+
     #philly-flower-main-screenshot {
+        position: relative;
+        background-color: $white;
 
         >div {
             img {
@@ -97,6 +108,9 @@
 
     #philly-flower-gallery {
 
+        position: relative;
+        background-color: $white;
+        
         >div {
 
 
@@ -245,6 +259,9 @@
     }
 
     #philly-ui-kit {
+        position: relative;
+        background-color: $white;
+
         >div {
 
             img {
@@ -257,6 +274,7 @@
     }
 
     #philly-flower-gallery-process {
+
         >div {
             ul {
 

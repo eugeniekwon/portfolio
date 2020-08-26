@@ -1,3 +1,6 @@
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -13,10 +16,9 @@ function scrollIndex(){
     // gsap.to(window, {duration: 1, scrollTo: {y: "#work-2", offsetY: 50}});
     // gsap.to(window, {duration: 2, scrollTo:"#work-2"});
 
-
 }
 
 
-$("#scroll-button button").on("click", scrollIndex);
+$(".scroll-button").on("click", scrollIndex);
 
 

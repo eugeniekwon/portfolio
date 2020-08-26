@@ -28,6 +28,9 @@
 
     #portraits-main {
 
+        position: relative;
+        background-color: $white;
+
         >div{
 
             ul{
@@ -77,7 +80,9 @@
     }
 
     #portraits-gallery {
-
+        position: relative;
+        background-color: $white;
+        
         >div{
             
             ul{

@@ -22,6 +22,9 @@
     
     #luis-barragan-main {
 
+        position: relative;
+        background-color: $white;
+
         >div{
 
             ul{
@@ -92,6 +95,9 @@
         }
 
         #luis-barragan-main-work{
+
+            position: relative;
+            background-color: $white;
 
             // >div{
             //     background-image: url("../img/work-2/luis-barragan/luis-barragan.jpg");

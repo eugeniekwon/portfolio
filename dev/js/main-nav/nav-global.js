@@ -1,13 +1,23 @@
+import { gsap } from "gsap";
+
 var canISeetheMenu = false;
 
 var navHeight = $("#main-nav").height();
 
 //setting nav height
-gsap.set("#main-nav",{y:-navHeight});
+if(navHeight){
+    gsap.set("#main-nav",{y:-navHeight});
+}
 
 
-var mainNavTimeline = gsap.timeline({paused:true})
-    mainNavTimeline.to("#main-nav", {duration:0.85, y:0})
+
+// var mainNavTimeline = gsap.timeline({paused:true})
+var mainNavTimeline = document.querySelector("#main-nav")
+
+if(mainNavTimeline){
+    gsap.to("#main-nav", {duration:0.85, y:0})
+}
+    // mainNavTimeline.to("#main-nav", {duration:0.85, y:0})
 
 
 function hideShowMainNav(){
@@ -25,6 +35,8 @@ function hideShowMainNav(){
 
     }
 }
+
+$("#burger").on("click", hideShowMainNav);
 
 var menuBackground = document.querySelector('#main-nav');
 window.onclick = function(event){

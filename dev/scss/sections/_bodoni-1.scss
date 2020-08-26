@@ -22,6 +22,8 @@
     }
 
     #bodoni-main{
+        position: relative;
+        background-color: $white;
 
         >div{
 
@@ -74,6 +76,8 @@
 
 
     #bodoni-main-work{
+        position: relative;
+        background-color: $white;
 
         // >div{
         //     background-image: url("../img/work-2/bodoni/bodoni-final.jpg");

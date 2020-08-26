@@ -40,6 +40,20 @@ ul {
     }
 }
 
+.header-grid-container{
+    display: grid;
+    grid-template-columns: 0px auto 0px;
+    grid-template-areas: ". container .";
+
+    @include xl{
+        grid-template-columns: auto 1400px auto;
+    }
+
+    >div{
+        grid-area: container;
+    }
+}
+
 .content-layout{
     
     @include xl{

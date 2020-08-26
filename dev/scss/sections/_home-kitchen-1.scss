@@ -23,6 +23,9 @@
 
     #home-kitchen-main {
 
+        position: relative;
+        background-color: $white;
+
         >div {
 
             ul {
@@ -78,8 +81,15 @@
 
     }
 
+    #home-button{
+        position: relative;
+        background-color: $white;
+    }
+
 
     #home-kitchen-main-screenshot {
+        position: relative;
+        background-color: $white;
 
         >div {
             img {
@@ -200,6 +210,9 @@
     }
 
     #home-kitchen-gallery-process {
+        position: relative;
+        background-color: $white;
+
         >div {
             ul {
 
