@@ -1,23 +1,19 @@
-import { gsap } from "gsap";
+import { gsap } from "gsap"
+import {burgerTimeline} from './burger-animation'
 
 var canISeetheMenu = false;
 
-var navHeight = $("#main-nav").height();
+var navHeight = $("#main-nav").outerHeight();
+console.log(navHeight);
 
 //setting nav height
-if(navHeight){
-    gsap.set("#main-nav",{y:-navHeight});
-}
+
+ gsap.set("#main-nav",{y:-navHeight});
 
 
+var mainNavTimeline = gsap.timeline({paused:true})
 
-// var mainNavTimeline = gsap.timeline({paused:true})
-var mainNavTimeline = document.querySelector("#main-nav")
-
-if(mainNavTimeline){
-    gsap.to("#main-nav", {duration:0.85, y:0})
-}
-    // mainNavTimeline.to("#main-nav", {duration:0.85, y:0})
+    mainNavTimeline.to("#main-nav", {duration:0.85, y:0})
 
 
 function hideShowMainNav(){

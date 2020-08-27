@@ -646,9 +646,8 @@ header {
     header > div #logo-container h1 {
       color: #89a6ad;
       font-family: 'Inter', sans-serif;
-      font-size: 1.375rem;
+      font-size: 1.5rem;
       font-weight: 600;
-      grid-area: heading;
       padding-left: 15px;
       display: flex;
       align-items: center;
@@ -667,9 +666,6 @@ header {
         color: #89a6ad;
         text-decoration: none;
         transition: 0.25s; }
-      header > div #logo-container h1 a:hover,
-      header > div #logo-container h1 a:active {
-        color: #4C5559; }
     header > div #burger-container {
       align-items: center;
       display: flex;
@@ -682,63 +678,62 @@ header {
         cursor: pointer;
         transition: 0.25s; }
         header > div #burger-container #burger .lines {
-          stroke: #89a6ad !important;
+          stroke: #89a6ad;
           transition: 0.25s; }
-        header > div #burger-container #burger:hover .lines {
-          stroke: #4C5559 !important; }
-    header > div #main-nav {
-      background-color: rgba(137, 166, 173, 0.97);
-      bottom: 0;
-      display: grid;
-      height: 100vh;
-      left: 0;
-      place-items: center;
-      position: fixed;
-      right: 0;
-      top: 0;
-      width: 100%;
-      z-index: 90;
-      padding-top: 30px; }
-      @media (min-width: 1025px) {
-        header > div #main-nav ul {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end; } }
-      header > div #main-nav ul li a:link,
-      header > div #main-nav ul li a:visited {
-        font-family: 'Inter', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 500;
-        border: none;
-        display: inline-block;
-        padding-bottom: 40px;
-        text-align: left;
-        width: 100%;
-        color: #fff;
-        text-decoration: none;
-        transition: 0.25s; }
-        @media (min-width: 768px) {
-          header > div #main-nav ul li a:link,
-          header > div #main-nav ul li a:visited {
-            font-size: 3.125rem; } }
-        @media (min-width: 1025px) {
-          header > div #main-nav ul li a:link,
-          header > div #main-nav ul li a:visited {
-            font-size: 3.75rem; } }
-        @media (min-width: 1440px) {
-          header > div #main-nav ul li a:link,
-          header > div #main-nav ul li a:visited {
-            font-size: 4.375rem; } }
-        header > div #main-nav ul li a:link:hover, header > div #main-nav ul li a:link:active,
-        header > div #main-nav ul li a:visited:hover,
-        header > div #main-nav ul li a:visited:active {
-          color: #4C5559; }
-      @media (min-width: 768px) {
-        header > div #main-nav ul li:nth-child(1) {
-          margin-right: 50px; } }
-      @media (min-width: 768px) {
-        header > div #main-nav ul li:nth-child(2) {
-          margin-right: 50px; } }
+
+#main-nav {
+  background-color: rgba(137, 166, 173, 0.97);
+  bottom: 0;
+  display: grid;
+  height: 100vh;
+  left: 0;
+  place-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 90;
+  padding-top: 30px; }
+  @media (min-width: 1025px) {
+    #main-nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; } }
+  #main-nav ul li a:link,
+  #main-nav ul li a:visited {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.25s; }
+    @media (min-width: 768px) {
+      #main-nav ul li a:link,
+      #main-nav ul li a:visited {
+        font-size: 3.125rem; } }
+    @media (min-width: 1025px) {
+      #main-nav ul li a:link,
+      #main-nav ul li a:visited {
+        font-size: 3.75rem; } }
+    @media (min-width: 1440px) {
+      #main-nav ul li a:link,
+      #main-nav ul li a:visited {
+        font-size: 4.375rem; } }
+    #main-nav ul li a:link:hover, #main-nav ul li a:link:active,
+    #main-nav ul li a:visited:hover,
+    #main-nav ul li a:visited:active {
+      color: #4C5559; }
+  @media (min-width: 768px) {
+    #main-nav ul li:nth-child(1) {
+      margin-right: 50px; } }
+  @media (min-width: 768px) {
+    #main-nav ul li:nth-child(2) {
+      margin-right: 50px; } }
 /* =============
     Footer
 ============= */

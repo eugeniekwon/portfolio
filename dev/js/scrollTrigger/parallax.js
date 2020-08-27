@@ -14,8 +14,8 @@ if(parallax){
         trigger: ".parallax",
         pin: true,
         pinSpacing: false,
-        start: "start 76",
-        end: "bottom 76"
+        start: "start 69",
+        end: "bottom 69"
         // id: "#hero",
         // markers: true
     }})

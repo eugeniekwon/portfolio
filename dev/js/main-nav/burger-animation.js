@@ -4,14 +4,21 @@ var burgerSpeed = 0.15;
 
 gsap.set(".lines", {transformOrigin:"center"});
 
-var burgerTimeline = gsap.timeline({paused:true})
+export var burgerTimeline = gsap.timeline({paused:true})
 
-if(burgerTimeline){
-  burgerTimeline.addLabel("burgertoX")
-      .to("#top-line", {duration:burgerSpeed, rotation:-45, y:10}, "burgerToX")
-      .to("#middle-line", {duration:burgerSpeed, alpha:0}, "burgerToX")
-      .to("#bottom-line", {duration:burgerSpeed, rotation:45, y:-10}, "burgerToX")
-}
+
+burgerTimeline.addLabel("burgertoX")
+      .to("#top-line", {duration:burgerSpeed, rotation:-45, y:10, stroke: "#fff"}, "burgerToX")
+      // .to("#middle-line", {duration:burgerSpeed, alpha:0}, "burgerToX")
+      .to("#bottom-line", {duration:burgerSpeed, rotation:45, y:-10, stroke: "#fff"}, "burgerToX")
+      .to("#logo", {duration:burgerSpeed, color:"#fff"}, "burgerToX");
+      // .to("#logo", {duration:burgerSpeed, color:"#fff", onReverseComplete:resetBurgerColour}, "burgerToX");
+
+
+// function resetBurgerColour (){
+//   gsap.set("#top-line", {stroke: "#4C5559"})
+//   gsap.set("#bottom-line", {stroke: "#4C5559"})
+// }
 
 // burgerTimeline.addLabel("burgertoX")
 //               .to("#top-line", {duration:burgerSpeed, rotation:-45, y:10}, "burgerToX")
