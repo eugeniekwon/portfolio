@@ -67,12 +67,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/home-kitchen.html": {
+	"/deploy/home-kitchen-supplies.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/home-kitchen.html",
+		"oAP": "/deploy/home-kitchen-supplies.html",
 		"oF": 0
 		},
 	"/deploy/img/about-1/me.jpg": {
@@ -649,7 +649,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg": {
 		"ft": 16384,
-		"iS": 55236,
+		"iS": 55601,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-postcard.jpg",
@@ -660,7 +660,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-poster.jpg": {
 		"ft": 16384,
-		"iS": 78448,
+		"iS": 78529,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-poster.jpg",
@@ -671,7 +671,7 @@
 		},
 	"/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg": {
 		"ft": 16384,
-		"iS": 29643,
+		"iS": 29730,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/copenhagen/copenhagen-stamps.jpg",
@@ -858,7 +858,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketch-1.jpg": {
 		"ft": 16384,
-		"iS": 40005,
+		"iS": 55039,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan-sketch-1.jpg",
@@ -869,7 +869,7 @@
 		},
 	"/deploy/img/work-2/luis-barragan/luis-barragan-sketch-2.jpg": {
 		"ft": 16384,
-		"iS": 51712,
+		"iS": 71437,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/luis-barragan/luis-barragan-sketch-2.jpg",
@@ -968,7 +968,7 @@
 		},
 	"/deploy/img/work-2/perused/contents-process-1.jpg": {
 		"ft": 16384,
-		"iS": 220898,
+		"iS": 147462,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/contents-process-1.jpg",
@@ -979,7 +979,7 @@
 		},
 	"/deploy/img/work-2/perused/contents.jpg": {
 		"ft": 16384,
-		"iS": 144295,
+		"iS": 146356,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/contents.jpg",
@@ -1023,7 +1023,7 @@
 		},
 	"/deploy/img/work-2/perused/fp-1.jpg": {
 		"ft": 16384,
-		"iS": 344115,
+		"iS": 343016,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-1.jpg",
@@ -1034,7 +1034,7 @@
 		},
 	"/deploy/img/work-2/perused/fp-2.jpg": {
 		"ft": 16384,
-		"iS": 265894,
+		"iS": 264123,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-2.jpg",
@@ -1045,7 +1045,7 @@
 		},
 	"/deploy/img/work-2/perused/fp-3.jpg": {
 		"ft": 16384,
-		"iS": 397408,
+		"iS": 396207,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-3.jpg",
@@ -1056,7 +1056,7 @@
 		},
 	"/deploy/img/work-2/perused/fp-4.jpg": {
 		"ft": 16384,
-		"iS": 325710,
+		"iS": 323663,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-4.jpg",
@@ -1067,7 +1067,7 @@
 		},
 	"/deploy/img/work-2/perused/fp-5.jpg": {
 		"ft": 16384,
-		"iS": 490545,
+		"iS": 490022,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/fp-5.jpg",
@@ -1133,10 +1133,21 @@
 		},
 	"/deploy/img/work-2/perused/masthead-process.jpg": {
 		"ft": 16384,
-		"iS": 59112,
+		"iS": 57450,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/masthead-process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/masthead-process1.jpg": {
+		"ft": 16384,
+		"iS": 59112,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/masthead-process1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1166,7 +1177,7 @@
 		},
 	"/deploy/img/work-2/perused/opening.jpg": {
 		"ft": 16384,
-		"iS": 161783,
+		"iS": 162325,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/opening.jpg",
@@ -1177,10 +1188,21 @@
 		},
 	"/deploy/img/work-2/perused/perused-covers.jpg": {
 		"ft": 16384,
-		"iS": 69031,
+		"iS": 68968,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/perused/perused-covers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/perused-covers1.jpg": {
+		"ft": 16384,
+		"iS": 69031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/perused-covers1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1630,12 +1652,12 @@
 		"oAP": "/deploy/perused.html",
 		"oF": 0
 		},
-	"/deploy/philly-flower.html": {
+	"/deploy/philly-flower-show.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/philly-flower.html",
+		"oAP": "/deploy/philly-flower-show.html",
 		"oF": 0
 		},
 	"/deploy/portraits.html": {
@@ -1806,12 +1828,12 @@
 		"oAP": "/dev/content/work/copenhagen-1.html",
 		"oF": 1
 		},
-	"/dev/content/work/home-kitchen-1.kit": {
+	"/dev/content/work/home-kitchen-supplies-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/work/home-kitchen-1.html",
+		"oAP": "/dev/content/work/home-kitchen-supplies-1.html",
 		"oF": 1
 		},
 	"/dev/content/work/luis-barragan-1.kit": {
@@ -1838,12 +1860,12 @@
 		"oAP": "/dev/content/work/perused-1.html",
 		"oF": 1
 		},
-	"/dev/content/work/philly-flower-1.kit": {
+	"/dev/content/work/philly-flower-show-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/work/philly-flower-1.html",
+		"oAP": "/dev/content/work/philly-flower-show-1.html",
 		"oF": 1
 		},
 	"/dev/content/work/woodmere-1.kit": {
@@ -1902,12 +1924,12 @@
 		"oAP": "/dev/global/scripts.html",
 		"oF": 1
 		},
-	"/dev/home-kitchen.kit": {
+	"/dev/home-kitchen-supplies.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/home-kitchen.html",
+		"oAP": "/deploy/home-kitchen-supplies.html",
 		"oF": 2
 		},
 	"/dev/index.kit": {
@@ -2046,12 +2068,12 @@
 		"oAP": "/deploy/perused.html",
 		"oF": 2
 		},
-	"/dev/philly-flower.kit": {
+	"/dev/philly-flower-show.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/philly-flower.html",
+		"oAP": "/deploy/philly-flower-show.html",
 		"oF": 2
 		},
 	"/dev/portraits.kit": {
@@ -2296,7 +2318,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_home-kitchen-1.scss": {
+	"/dev/scss/sections/_home-kitchen-supplies-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2304,7 +2326,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-kitchen-1.css",
+		"oAP": "/dev/scss/sections/_home-kitchen-supplies-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2374,7 +2396,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_philly-flower-1.scss": {
+	"/dev/scss/sections/_philly-flower-show-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2382,7 +2404,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_philly-flower-1.css",
+		"oAP": "/dev/scss/sections/_philly-flower-show-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -245,7 +245,7 @@
                     grid-template-areas: "g1 g2"
                     "g3 g4"
                     "g5 g6"
-                    "g7 g8";
+                    "g7 .";
                     column-gap: 25px;
                     margin: 0px 25px;
                 }
@@ -264,7 +264,6 @@
 
                         @include lg {
                             height: 50vh;
-                            object-fit: contain;
                         }
 
                     }
@@ -319,13 +318,13 @@
                         }   
                     }
                 }
-                li:nth-child(8){
-                    >div{
-                        @include lg{
-                            grid-area: g8;
-                        }   
-                    }
-                }
+                // li:nth-child(8){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g8;
+                //         }   
+                //     }
+                // }
             
             }
 
