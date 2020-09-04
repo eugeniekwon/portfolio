@@ -50,12 +50,6 @@
                     margin: 0px;
                 }
 
-                li{
-                    span{
-                        font-weight: 500;
-                    }
-                }
-
     
                 li:nth-child(1){
                     span{
@@ -84,6 +78,11 @@
                 }
     
                 li:nth-child(3){
+
+                    span{
+                        font-weight: 500;
+                    }
+                    
                     @include md{
                         grid-area: process;
                     }
