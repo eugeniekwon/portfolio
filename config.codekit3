@@ -1844,6 +1844,14 @@
 		"oAP": "/dev/content/work/luis-barragan-1.html",
 		"oF": 1
 		},
+	"/dev/content/work/mahler-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/mahler-1.html",
+		"oF": 0
+		},
 	"/dev/content/work/ocean-dumping-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2050,6 +2058,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
+		"oF": 2
+		},
+	"/dev/mahler.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/mahler.html",
 		"oF": 2
 		},
 	"/dev/ocean-dumping.kit": {
@@ -2366,6 +2382,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_luis-barragan-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_mahler-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_mahler-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -1079,7 +1079,6 @@ footer {
     #work-2 > div li:nth-child(3) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/proj-4.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
@@ -1091,27 +1090,33 @@ footer {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/proj-6.jpg");
+  background-image: url("../img/work-2/proj-4.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/proj-7.jpg");
+  background-image: url("../img/work-2/proj-6.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
-      margin-bottom: 0px; } }
+      margin: 0; } }
 #work-2 > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/proj-8.jpg");
+  background-image: url("../img/work-2/proj-7.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(8) > div {
       margin-bottom: 0px; } }
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-9.jpg"); }
+  background-image: url("../img/work-2/proj-8.jpg");
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(9) > div {
+      margin-bottom: 0px; } }
+#work-2 > div li:nth-child(10) > div {
+  background-image: url("../img/work-2/proj-9.jpg"); }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(10) > div {
       margin-bottom: 125px; } }
 /* =============
     woodmere-1
@@ -2602,6 +2607,102 @@ footer {
   @media (min-width: 1025px) {
     #home-kitchen #home-kitchen-gallery-process > div li:nth-child(3) {
       grid-area: ps3; } }
+/* =============
+    gustav-mahler-1
+============= */
+#gustav-mahler #gustav-mahler-hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #gustav-mahler #gustav-mahler-hero {
+      height: 100vh; } }
+#gustav-mahler #gustav-mahler-main {
+  position: relative;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "objective about" ". process";
+      column-gap: 75px;
+      margin: 0px 25px; } }
+  @media (min-width: 1025px) {
+    #gustav-mahler #gustav-mahler-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "objective about process";
+      column-gap: 100px;
+      margin: 0px 45px; } }
+  @media (min-width: 1440px) {
+    #gustav-mahler #gustav-mahler-main > div ul {
+      margin: 0px; } }
+  #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  #gustav-mahler #gustav-mahler-main > div ul li:nth-child(3) span {
+    font-weight: 500; }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#gustav-mahler #gustav-mahler-main-work {
+  position: relative;
+  background-color: #fff; }
+  #gustav-mahler #gustav-mahler-main-work > div img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #gustav-mahler #gustav-mahler-main-work > div img {
+        height: 50vh; } }
+    @media (min-width: 1025px) {
+      #gustav-mahler #gustav-mahler-main-work > div img {
+        height: 100vh; } }
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-gallery > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "ls1 ls2";
+    column-gap: 25px; } }
+
+#gustav-mahler #gustav-mahler-gallery > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-gallery > div ul li img {
+      height: 40vh; } }
+  @media (min-width: 1025px) {
+    #gustav-mahler #gustav-mahler-gallery > div ul li img {
+      height: 40vh; } }
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(1) {
+    grid-area: ls1; } }
+
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(2) {
+    grid-area: ls2; } }
+
 /* =============
     404-error-1
 ============= */

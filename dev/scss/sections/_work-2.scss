@@ -134,7 +134,7 @@
 
             li:nth-child(4) {
                 >div {
-                    background-image: url("../img/work-2/proj-4.jpg");
+                    // background-image: url("../img/work-2/proj-4.jpg");
                     margin-bottom: 30px;
 
                     @include md {
@@ -143,7 +143,7 @@
 
                 }
             }
-            
+
             li:nth-child(5) {
                 >div {
                     background-image: url("../img/work-2/proj-5.jpg");
@@ -157,7 +157,21 @@
 
             }
 
+
             li:nth-child(6) {
+                >div {
+                    background-image: url("../img/work-2/proj-4.jpg");
+                    margin-bottom: 30px;
+
+                    @include md {
+                        margin: 0;
+                    }
+
+                }
+            }
+
+
+            li:nth-child(7) {
                 >div {
                     background-image: url("../img/work-2/proj-6.jpg");
                     margin-bottom: 30px;
@@ -171,7 +185,7 @@
 
             }
 
-            li:nth-child(7) {
+            li:nth-child(8) {
                 >div {
                     background-image: url("../img/work-2/proj-7.jpg");
                     margin-bottom: 30px;
@@ -184,7 +198,7 @@
 
             }
 
-            li:nth-child(8) {
+            li:nth-child(9) {
                 >div {
                     background-image: url("../img/work-2/proj-8.jpg");
                     margin-bottom: 30px;
@@ -198,7 +212,7 @@
 
             }
 
-            li:nth-child(9) {
+            li:nth-child(10) {
                 >div {
                     background-image: url("../img/work-2/proj-9.jpg");
 
