@@ -900,6 +900,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/mahler/mahler-1.jpg": {
+		"ft": 16384,
+		"iS": 54782,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/mahler/mahler-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/mahler/mahler-2.jpg": {
+		"ft": 16384,
+		"iS": 57982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/mahler/mahler-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/mahler/mahler-3.jpg": {
+		"ft": 16384,
+		"iS": 72745,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/mahler/mahler-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-1.jpg": {
 		"ft": 16384,
 		"iS": 45057,
@@ -1329,6 +1362,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/proj-10.jpg": {
+		"ft": 16384,
+		"iS": 60200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/proj-2.jpg": {
 		"ft": 16384,
 		"iS": 91973,
@@ -1353,7 +1397,7 @@
 		},
 	"/deploy/img/work-2/proj-4.jpg": {
 		"ft": 16384,
-		"iS": 120140,
+		"iS": 54772,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-4.jpg",
@@ -1375,7 +1419,7 @@
 		},
 	"/deploy/img/work-2/proj-6.jpg": {
 		"ft": 16384,
-		"iS": 147848,
+		"iS": 55655,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-6.jpg",
@@ -1386,7 +1430,7 @@
 		},
 	"/deploy/img/work-2/proj-7.jpg": {
 		"ft": 16384,
-		"iS": 55655,
+		"iS": 147848,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-7.jpg",
@@ -1397,7 +1441,7 @@
 		},
 	"/deploy/img/work-2/proj-8.jpg": {
 		"ft": 16384,
-		"iS": 60200,
+		"iS": 93084,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-8.jpg",
@@ -1408,7 +1452,7 @@
 		},
 	"/deploy/img/work-2/proj-9.jpg": {
 		"ft": 16384,
-		"iS": 93084,
+		"iS": 120140,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-9.jpg",
@@ -1634,6 +1678,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
+		"oF": 0
+		},
+	"/deploy/mahler.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/mahler.html",
 		"oF": 0
 		},
 	"/deploy/ocean-dumping.html": {

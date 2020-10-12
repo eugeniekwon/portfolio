@@ -1079,6 +1079,7 @@ footer {
     #work-2 > div li:nth-child(3) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
+  background-image: url("../img/work-2/proj-4.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
@@ -1090,31 +1091,36 @@ footer {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/proj-4.jpg");
+  background-image: url("../img/work-2/proj-6.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/proj-6.jpg");
+  background-image: url("../img/work-2/proj-7.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/proj-7.jpg");
+  background-image: url("../img/work-2/proj-8.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(8) > div {
       margin-bottom: 0px; } }
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-8.jpg");
+  background-image: url("../img/work-2/proj-9.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(9) > div {
       margin-bottom: 0px; } }
 #work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/proj-9.jpg"); }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(10) > div {
+      margin-bottom: 125px; } }
+#work-2 > div li:nth-child(10) > div {
+  background-image: url("../img/work-2/proj-10.jpg"); }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(10) > div {
       margin-bottom: 125px; } }
@@ -2172,7 +2178,7 @@ footer {
     luis-barragan-1
 ============= */
 #luis-barragan #luis-barragan-hero {
-  background-image: url("../img/work-2/proj-7.jpg");
+  background-image: url("../img/work-2/proj-6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2280,7 +2286,7 @@ footer {
     bodoni-1
 ============= */
 #bodoni #bodoni-hero {
-  background-image: url("../img/work-2/proj-9.jpg");
+  background-image: url("../img/work-2/proj-8.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2611,6 +2617,7 @@ footer {
     gustav-mahler-1
 ============= */
 #gustav-mahler #gustav-mahler-hero {
+  background-image: url("../img/work-2/proj-4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2694,7 +2701,7 @@ footer {
       height: 40vh; } }
   @media (min-width: 1025px) {
     #gustav-mahler #gustav-mahler-gallery > div ul li img {
-      height: 40vh; } }
+      height: 70vh; } }
 @media (min-width: 1025px) {
   #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(1) {
     grid-area: ls1; } }
