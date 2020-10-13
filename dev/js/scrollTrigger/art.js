@@ -3,17 +3,27 @@
     art
 ============= */
 
-// var artTimeline = gsap.timeline();
-// artTimeline.from(".image-container",{duration:2, alpha:0, xPercent: 30})
+import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// gsap.registerPlugin(ScrollTrigger);
 
 
-// ScrollTrigger.create({
-//     trigger: "#art",
-//     start: "top 60%",
-//     end: "bottom 60%",
-//     animation: artTimeline,
-//     toggleActions: "restart none none none",
-//     scrub: 1
-//     // id: "#work-1",
-//     // markers: true
-//   });
+var art = document.querySelector("#art");
+
+if(art){
+    var artTimeline = gsap.timeline();
+    const artTime = 0.5;
+
+    artTimeline.from("#art div ul li:nth-child(1)", {duration:artTime, alpha:0, x:-30})
+                .from("#art div ul li:nth-child(2)", {duration:artTime, alpha:0, x:-30}, "-=0.08")
+                .from("#art div ul li:nth-child(3)", {duration:artTime, alpha:0, x:-30}, "-=0.08")
+                .from("#art div ul li:nth-child(4)", {duration:artTime, alpha:0, x:-30}, "-=0.08")
+}
+
+  
+
+
+
+
+

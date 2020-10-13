@@ -34,15 +34,28 @@ var workTwo = document.querySelector("#work-2");
 
 if(workTwo){
   var workTwoTimeline = gsap.timeline();
-  workTwoTimeline.from(".home",{duration:0.5, alpha:0.8, yPercent:30})
+  const workTwoTime = 0.5;
+  
+  // .from(".home",{duration:0.5, alpha:0.8, yPercent:30})
+  workTwoTimeline.from("#work-2 div ul li:nth-child(1)", {duration:workTwoTime, alpha:0, x:-30})
+                  .from("#work-2 div ul li:nth-child(2)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(3)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(4)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(5)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(6)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(7)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(8)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(9)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(10)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+  
 
   ScrollTrigger.create({
       trigger: "#work-2",
       start: "top 90%",
       end: "bottom 90%",
       animation: workTwoTimeline,
-      toggleActions: "restart none none none",
-      scrub: 1
+      toggleActions: "restart none none none"
+      // scrub: 1
       // id: "#work-2",
       // markers: true
     });
