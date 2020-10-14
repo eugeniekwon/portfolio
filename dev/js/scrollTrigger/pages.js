@@ -360,37 +360,40 @@ if(luisBarraganPage){
     pages - work - mahler
 ============= */
 
-// var mahlerPage = document.querySelector("#mahler");
+var gustavMahlerPage = document.querySelector("#gustav-mahler");
 
-// if(mahlerPage){
-//     var mahlerTimeline = gsap.timeline();
-//     const pageIntroTime = 0.6;
-//     const pageTime = 0.65;
+if(gustavMahlerPage){
+    var gustavMahlerTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.65;
 
-//     mahlerTimeline.from("#mahler #mahler-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
-//                  .from("#mahler #mahler-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
-//                  .from("#mahler #mahler-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#mahler #mahler-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#mahler #mahler-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#mahler #mahler-main-work div", {duration:pageIntroTime, alpha:0})
-//                  .from("#mahler #mahler-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#mahler #mahler-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#mahler #mahler-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#mahler #mahler-sketches div", {duration:pageTime, alpha:0},"-=0.01")
+    gustavMahlerTimeline.from("#gustav-mahler #gustav-mahler-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                        .from("#gustav-mahler #gustav-mahler-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                        .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                        .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                        .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+                        .from("#gustav-mahler #gustav-mahler-main-work div", {duration:pageIntroTime, alpha:0})
+                        .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                        // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
 
 
-//      ScrollTrigger.create({
-//       trigger: "#mahler",
-//       start: "top 50%",
-//       end: "bottom 50%",
-//       animation: mahlerTimeline,
-//       toggleActions: "restart none none none"
-//       // scrub: 1
-//     //   id: ".page",
-//     //   markers: true
-//     });
+     ScrollTrigger.create({
+      trigger: "#gustav-mahler",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: gustavMahlerTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
 
-// }
+}
 
 
 /* =============

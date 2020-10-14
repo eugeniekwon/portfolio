@@ -2713,6 +2713,41 @@ footer {
   #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(2) {
     grid-area: ls2; } }
 
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-sketches > div ul {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "gm1 gm2" "gm3 gm4";
+    column-gap: 25px; } }
+
+#gustav-mahler #gustav-mahler-sketches > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #gustav-mahler #gustav-mahler-sketches > div ul li img {
+      height: 40vh; } }
+  @media (min-width: 1025px) {
+    #gustav-mahler #gustav-mahler-sketches > div ul li img {
+      height: 50vh; } }
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-sketches > div ul li:nth-child(1) {
+    grid-area: gm1; } }
+
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-sketches > div ul li:nth-child(2) {
+    grid-area: gm2; } }
+
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-sketches > div ul li:nth-child(3) {
+    grid-area: gm3; } }
+
+@media (min-width: 1025px) {
+  #gustav-mahler #gustav-mahler-sketches > div ul li:nth-child(4) {
+    grid-area: gm4; } }
+
 /* =============
     404-error-1
 ============= */
