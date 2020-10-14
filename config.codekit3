@@ -67,6 +67,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/gustav-mahler.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/gustav-mahler.html",
+		"oF": 0
+		},
 	"/deploy/home-kitchen-supplies.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1702,14 +1710,6 @@
 		"oAP": "/deploy/luis-barragan.html",
 		"oF": 0
 		},
-	"/deploy/mahler.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/mahler.html",
-		"oF": 0
-		},
 	"/deploy/ocean-dumping.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2011,7 +2011,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/mahler.html",
+		"oAP": "/deploy/gustav-mahler.html",
 		"oF": 2
 		},
 	"/dev/home-kitchen-supplies.kit": {
