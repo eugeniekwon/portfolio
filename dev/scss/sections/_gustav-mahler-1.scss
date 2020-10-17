@@ -99,21 +99,33 @@
             background-color: $white;
 
             >div{
-                img{
-                    object-fit: cover;
-                    object-position: center;
-                    height: 50vh;
-                    width: 100%;
-        
-                    @include md {
-                        height: 50vh;
+
+                ul{
+                    li{
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 50vh;
+                            width: 100%;
+                
+                            @include md {
+                                height: 50vh;
+                            }
+                            
+                            @include lg {
+                                height: 100vh;
+                            }
+                            
+                        }
+
+                        img:nth-child(1){
+                            @include lg {
+                                height: 120vh;
+                            }
+                        }
                     }
-                    
-                    @include lg {
-                        height: 100vh;
-                    }
-                    
                 }
+                
             }
             
             }

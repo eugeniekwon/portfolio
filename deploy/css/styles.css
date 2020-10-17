@@ -2676,17 +2676,20 @@ footer {
 #gustav-mahler #gustav-mahler-main-work {
   position: relative;
   background-color: #fff; }
-  #gustav-mahler #gustav-mahler-main-work > div img {
+  #gustav-mahler #gustav-mahler-main-work > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 50vh;
     width: 100%; }
     @media (min-width: 768px) {
-      #gustav-mahler #gustav-mahler-main-work > div img {
+      #gustav-mahler #gustav-mahler-main-work > div ul li img {
         height: 50vh; } }
     @media (min-width: 1025px) {
-      #gustav-mahler #gustav-mahler-main-work > div img {
+      #gustav-mahler #gustav-mahler-main-work > div ul li img {
         height: 100vh; } }
+  @media (min-width: 1025px) {
+    #gustav-mahler #gustav-mahler-main-work > div ul li img:nth-child(1) {
+      height: 120vh; } }
 @media (min-width: 1025px) {
   #gustav-mahler #gustav-mahler-gallery > div ul {
     display: grid;
