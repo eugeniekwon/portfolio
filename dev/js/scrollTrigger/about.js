@@ -23,6 +23,7 @@ if(aboutPage){
                 .from("#about div article #contact-section li:nth-child(2)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
                 .from("#about div article #contact-section li:nth-child(3)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
                 .from("#about div article #contact-section li:nth-child(4)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
+                .from("#about div article #contact-section li:nth-child(5)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
                 .from("#about div article #resume li:nth-child(1)",{duration:0.5, alpha:0}, "-=0.08")
 
 }
