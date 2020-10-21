@@ -52,6 +52,13 @@
 
     
                 li:nth-child(1){
+
+                    @include md{
+                        grid-area: objective;
+                    }
+                }
+    
+                li:nth-child(2){
                     span{
                         display: block;
                         margin-bottom: 15px;
@@ -65,13 +72,7 @@
                         }
 
                     }
-
-                    @include md{
-                        grid-area: objective;
-                    }
-                }
-    
-                li:nth-child(2){
+                    
                     @include md{
                         grid-area: about;
                     }

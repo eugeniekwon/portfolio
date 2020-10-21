@@ -78,10 +78,6 @@
                 }
     
                 li:nth-child(3){
-
-                    span{
-                        font-weight: 500;
-                    }
                     
                     @include md{
                         grid-area: process;

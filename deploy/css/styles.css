@@ -2229,8 +2229,6 @@ footer {
   @media (min-width: 768px) {
     #luis-barragan #luis-barragan-main > div ul li:nth-child(2) {
       grid-area: about; } }
-  #luis-barragan #luis-barragan-main > div ul li:nth-child(3) span {
-    font-weight: 500; }
   @media (min-width: 768px) {
     #luis-barragan #luis-barragan-main > div ul li:nth-child(3) {
       grid-area: process; } }
@@ -2653,18 +2651,18 @@ footer {
   @media (min-width: 1440px) {
     #gustav-mahler #gustav-mahler-main > div ul {
       margin: 0px; } }
-  #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
-    display: block;
-    margin-bottom: 15px; }
-    @media (min-width: 768px) {
-      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
-        margin-bottom: 20px; } }
-    @media (min-width: 1025px) {
-      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) span {
-        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) {
       grid-area: objective; } }
+  #gustav-mahler #gustav-mahler-main > div ul li:nth-child(2) span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(2) span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #gustav-mahler #gustav-mahler-main > div ul li:nth-child(2) span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-main > div ul li:nth-child(2) {
       grid-area: about; } }
