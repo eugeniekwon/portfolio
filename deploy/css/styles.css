@@ -2750,6 +2750,60 @@ footer {
     grid-area: gm4; } }
 
 /* =============
+    woodmere-1
+============= */
+#highland-orchards #highland-orchards-hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-hero {
+      height: 100vh; } }
+#highland-orchards #highland-orchards-main {
+  position: relative;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "objective about" ". process";
+      column-gap: 75px;
+      margin: 0px 25px; } }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "objective about process";
+      column-gap: 100px;
+      margin: 0px 45px; } }
+  @media (min-width: 1440px) {
+    #highland-orchards #highland-orchards-main > div ul {
+      margin: 0px; } }
+  #highland-orchards #highland-orchards-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #highland-orchards #highland-orchards-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #highland-orchards #highland-orchards-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+/* =============
     404-error-1
 ============= */
 #error > div #error-intro-text {
