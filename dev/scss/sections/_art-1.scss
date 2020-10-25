@@ -141,6 +141,17 @@
                     }
                 }
 
+            }
+
+            li:nth-child(5) {
+                >div {
+                    // background-image: url("../img/art-1/light/light-hero-1.jpg");
+                    margin-bottom: 90px;
+
+                    @include md {
+                        margin-bottom: 125px;
+                    }
+                }
 
             }
     }
