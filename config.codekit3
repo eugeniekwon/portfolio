@@ -91,12 +91,163 @@
 		"oAP": "/deploy/home-kitchen-supplies.html",
 		"oF": 0
 		},
+	"/deploy/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/home.html",
+		"oF": 0
+		},
 	"/deploy/img/about-1/me.jpg": {
 		"ft": 16384,
 		"iS": 138817,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/about-1/me.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-1.jpg": {
+		"ft": 16384,
+		"iS": 196527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-10.jpg": {
+		"ft": 16384,
+		"iS": 188349,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-11.jpg": {
+		"ft": 16384,
+		"iS": 216177,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-12.jpg": {
+		"ft": 16384,
+		"iS": 196162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-2.jpg": {
+		"ft": 16384,
+		"iS": 199040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-3.jpg": {
+		"ft": 16384,
+		"iS": 402790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-4.jpg": {
+		"ft": 16384,
+		"iS": 228714,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-5.jpg": {
+		"ft": 16384,
+		"iS": 390838,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-6.jpg": {
+		"ft": 16384,
+		"iS": 213102,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-7.jpg": {
+		"ft": 16384,
+		"iS": 364595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-8.jpg": {
+		"ft": 16384,
+		"iS": 333868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-9.jpg": {
+		"ft": 16384,
+		"iS": 140925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/art-1/home/home-hero.jpg": {
+		"ft": 16384,
+		"iS": 401018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/art-1/home/home-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1871,6 +2022,14 @@
 		"oAP": "/dev/content/art/art-1.html",
 		"oF": 1
 		},
+	"/dev/content/art/home-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/art/home-1.html",
+		"oF": 0
+		},
 	"/dev/content/art/light-photo-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1886,14 +2045,6 @@
 		"oA": 1,
 		"oAP": "/dev/content/art/little-joys-1.html",
 		"oF": 1
-		},
-	"/dev/content/art/neighbourhood-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/art/neighbourhood-1.html",
-		"oF": 0
 		},
 	"/dev/content/art/portraits-1.kit": {
 		"cB": 0,
@@ -2087,6 +2238,14 @@
 		"oAP": "/deploy/home-kitchen-supplies.html",
 		"oF": 2
 		},
+	"/dev/home.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/home.html",
+		"oF": 2
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2227,14 +2386,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
-		"oF": 2
-		},
-	"/dev/neighbourhood.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/neighbourhood.html",
 		"oF": 2
 		},
 	"/dev/ocean-dumping.kit": {
@@ -2529,6 +2680,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_home-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_home-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_home-kitchen-supplies-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2577,19 +2741,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_luis-barragan-1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_neighbourhood-1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_neighbourhood-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

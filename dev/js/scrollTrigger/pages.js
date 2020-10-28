@@ -169,6 +169,50 @@ if(streetPhotoPages){
 }
 
 
+/* =============
+    pages - art - home
+============= */
+
+var homePhotoPages = document.querySelector("#home-photo");
+
+if(homePhotoPages){
+    var homePhotoPagesTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.8;
+
+
+    homePhotoPagesTimeline.from("#home-photo #home-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#home-photo #home-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#home-photo #home-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#home-photo #home-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#home-photo #home-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#home-photo #home-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#home-photo #home-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.1")
+
+     ScrollTrigger.create({
+      trigger: "#home-photo",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: homePhotoPagesTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
+
+}
+
+
 
 
 /* =============
