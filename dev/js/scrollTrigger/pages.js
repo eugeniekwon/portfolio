@@ -439,6 +439,48 @@ if(gustavMahlerPage){
 
 }
 
+/* =============
+    pages - work - miracles
+============= */
+
+var miraclesPage = document.querySelector("#miracles");
+
+if(miraclesPage){
+    var miraclesTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.65;
+
+    miraclesTimeline.from("#miracles #miracles-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#miracles #miracles-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#miracles #miracles-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#miracles #miracles-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#miracles #miracles-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#miracles #miracles-main-work div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-main-work div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-main-work div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-main-work div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-main-work div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-1 div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-1 div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-1 div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-1 div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-2 div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-2 div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#miracles #miracles-gallery-2 div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+
+     ScrollTrigger.create({
+      trigger: "#miracles",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: miraclesTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
+
+}
+
 
 /* =============
     pages - work - ocean dumping

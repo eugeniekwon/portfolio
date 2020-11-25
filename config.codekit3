@@ -1155,6 +1155,138 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/miracles/miracles-1.jpg": {
+		"ft": 16384,
+		"iS": 82005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-2.jpg": {
+		"ft": 16384,
+		"iS": 111132,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-3.jpg": {
+		"ft": 16384,
+		"iS": 118757,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-4.jpg": {
+		"ft": 16384,
+		"iS": 124045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-5.jpg": {
+		"ft": 16384,
+		"iS": 101217,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-final-1.jpg": {
+		"ft": 16384,
+		"iS": 51320,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-final-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-final-2.jpg": {
+		"ft": 16384,
+		"iS": 114431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-final-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-final-3.jpg": {
+		"ft": 16384,
+		"iS": 135265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-final-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-final-4.jpg": {
+		"ft": 16384,
+		"iS": 76431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-final-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-sketch-1.jpg": {
+		"ft": 16384,
+		"iS": 130663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-sketch-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-sketch-2.jpg": {
+		"ft": 16384,
+		"iS": 128316,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-sketch-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/miracles/miracles-sketch-3.jpg": {
+		"ft": 16384,
+		"iS": 119568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/miracles/miracles-sketch-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/ocean-dumping/ocean-dumping-1.jpg": {
 		"ft": 16384,
 		"iS": 45057,
@@ -1573,111 +1705,122 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/proj-1.jpg": {
-		"ft": 16384,
-		"iS": 185304,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-10.jpg": {
-		"ft": 16384,
-		"iS": 60200,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-2.jpg": {
-		"ft": 16384,
-		"iS": 91973,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-3.jpg": {
-		"ft": 16384,
-		"iS": 101883,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-4.jpg": {
-		"ft": 16384,
-		"iS": 54772,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-5.jpg": {
-		"ft": 16384,
-		"iS": 44591,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-6.jpg": {
-		"ft": 16384,
-		"iS": 55655,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-7.jpg": {
-		"ft": 16384,
-		"iS": 147848,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-8.jpg": {
-		"ft": 16384,
-		"iS": 93084,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/proj-9.jpg": {
+	"/deploy/img/work-2/proj-aesop.jpg": {
 		"ft": 16384,
 		"iS": 120140,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/proj-9.jpg",
+		"oAP": "/deploy/img/work-2/proj-aesop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-barragan.jpg": {
+		"ft": 16384,
+		"iS": 55655,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-barragan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-bodoni.jpg": {
+		"ft": 16384,
+		"iS": 93084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-bodoni.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-copenhagen.jpg": {
+		"ft": 16384,
+		"iS": 44591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-copenhagen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-flower.jpg": {
+		"ft": 16384,
+		"iS": 147848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-flower.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-kitchen.jpg": {
+		"ft": 16384,
+		"iS": 91973,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-kitchen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-mahler.jpg": {
+		"ft": 16384,
+		"iS": 54772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-mahler.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-miracles.jpg": {
+		"ft": 16384,
+		"iS": 118757,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-miracles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-ocean.jpg": {
+		"ft": 16384,
+		"iS": 60200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-ocean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-perused.jpg": {
+		"ft": 16384,
+		"iS": 101883,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-perused.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/proj-woodmere.jpg": {
+		"ft": 16384,
+		"iS": 185304,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-woodmere.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1900,6 +2043,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
+		"oF": 0
+		},
+	"/deploy/miracles.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/miracles.html",
 		"oF": 0
 		},
 	"/deploy/ocean-dumping.html": {
@@ -2133,6 +2284,14 @@
 		"oA": 1,
 		"oAP": "/dev/content/work/luis-barragan-1.html",
 		"oF": 1
+		},
+	"/dev/content/work/miracles-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/miracles-1.html",
+		"oF": 0
 		},
 	"/dev/content/work/ocean-dumping-1.kit": {
 		"cB": 0,
@@ -2386,6 +2545,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/luis-barragan.html",
+		"oF": 2
+		},
+	"/dev/miracles.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/miracles.html",
 		"oF": 2
 		},
 	"/dev/ocean-dumping.kit": {
@@ -2741,6 +2908,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_luis-barragan-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_miracles-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_miracles-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

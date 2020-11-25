@@ -1063,69 +1063,74 @@ footer {
     display: block; }
 
 #work-2 > div li:nth-child(1) > div {
-  background-image: url("../img/work-2/proj-1.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(1) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/proj-2.jpg");
+  background-image: url("../img/work-2/proj-woodmere.jpg");
   margin-bottom: 30px;
   background-size: 130%; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(2) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/proj-3.jpg");
+  background-image: url("../img/work-2/proj-kitchen.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(3) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/proj-4.jpg");
+  background-image: url("../img/work-2/proj-perused.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(5) > div {
-  background-image: url("../img/work-2/proj-5.jpg");
+  background-image: url("../img/work-2/proj-mahler.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(6) > div {
-  background-image: url("../img/work-2/proj-6.jpg");
+  background-image: url("../img/work-2/proj-copenhagen.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/proj-7.jpg");
+  background-image: url("../img/work-2/proj-barragan.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/proj-8.jpg");
+  background-image: url("../img/work-2/proj-flower.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(8) > div {
       margin-bottom: 0px; } }
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-9.jpg");
+  background-image: url("../img/work-2/proj-miracles.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(9) > div {
       margin-bottom: 0px; } }
 #work-2 > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/proj-9.jpg"); }
+  background-image: url("../img/work-2/proj-bodoni.jpg");
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(10) > div {
+      margin-bottom: 0px; } }
+#work-2 > div li:nth-child(11) > div {
+  background-image: url("../img/work-2/proj-aesop.jpg"); }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(11) > div {
       margin-bottom: 125px; } }
-#work-2 > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/proj-10.jpg"); }
+#work-2 > div li:nth-child(12) > div {
+  background-image: url("../img/work-2/proj-ocean.jpg"); }
   @media (min-width: 768px) {
-    #work-2 > div li:nth-child(10) > div {
+    #work-2 > div li:nth-child(12) > div {
       margin-bottom: 125px; } }
 /* =============
     woodmere-1
@@ -2877,6 +2882,177 @@ footer {
     object-position: center;
     width: 100%; }
 
+/* =============
+    miracles-1
+============= */
+#miracles #miracles-hero {
+  background-image: url("../img/work-2/miracles/miracles-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh; }
+  @media (min-width: 768px) {
+    #miracles #miracles-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #miracles #miracles-hero {
+      height: 100vh; } }
+#miracles #miracles-main {
+  position: relative;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    #miracles #miracles-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "objective about" ". process";
+      column-gap: 75px;
+      margin: 0px 25px; } }
+  @media (min-width: 1025px) {
+    #miracles #miracles-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "objective about process";
+      column-gap: 100px;
+      margin: 0px 45px; } }
+  @media (min-width: 1440px) {
+    #miracles #miracles-main > div ul {
+      margin: 0px; } }
+  #miracles #miracles-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #miracles #miracles-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #miracles #miracles-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #miracles #miracles-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #miracles #miracles-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#miracles #miracles-main-work {
+  position: relative;
+  background-color: #fff; }
+  #miracles #miracles-main-work > div ul {
+    display: grid;
+    grid-template-rows: repeat(5, 40vh);
+    grid-template-areas: "m1" "m2" "m3" "m4" "m5"; }
+    @media (min-width: 768px) {
+      #miracles #miracles-main-work > div ul {
+        grid-template-rows: repeat(5, 50vh); } }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul {
+        grid-template-rows: repeat(5, 100vh); } }
+    #miracles #miracles-main-work > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+    #miracles #miracles-main-work > div ul li:nth-child(1) img {
+      object-fit: cover; }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul li:nth-child(1) {
+        grid-area: m1; } }
+    #miracles #miracles-main-work > div ul li:nth-child(2) img {
+      object-fit: cover; }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul li:nth-child(2) {
+        grid-area: m2; } }
+    #miracles #miracles-main-work > div ul li:nth-child(3) img {
+      object-fit: cover; }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul li:nth-child(3) {
+        grid-area: m3; } }
+    #miracles #miracles-main-work > div ul li:nth-child(4) img {
+      object-fit: cover; }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul li:nth-child(4) {
+        grid-area: m4; } }
+    #miracles #miracles-main-work > div ul li:nth-child(5) img {
+      object-fit: cover; }
+    @media (min-width: 1025px) {
+      #miracles #miracles-main-work > div ul li:nth-child(5) {
+        grid-area: m5; } }
+#miracles #miracles-gallery-1 > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 40vh);
+  grid-template-areas: "ms1" "ms2" "ms3"; }
+  @media (min-width: 768px) {
+    #miracles #miracles-gallery-1 > div ul {
+      grid-template-rows: repeat(3, 50vh); } }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-1 > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 90vh);
+      column-gap: 25px;
+      margin: 0px 25px; } }
+  @media (min-width: 1440px) {
+    #miracles #miracles-gallery-1 > div ul {
+      margin: 0px; } }
+  #miracles #miracles-gallery-1 > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  #miracles #miracles-gallery-1 > div ul li:nth-child(1) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-1 > div ul li:nth-child(1) {
+      grid-area: ms1; } }
+  #miracles #miracles-gallery-1 > div ul li:nth-child(2) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-1 > div ul li:nth-child(2) {
+      grid-area: ms2; } }
+  #miracles #miracles-gallery-1 > div ul li:nth-child(3) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-1 > div ul li:nth-child(3) {
+      grid-area: ms3; } }
+#miracles #miracles-gallery-2 > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 40vh); }
+  @media (min-width: 768px) {
+    #miracles #miracles-gallery-2 > div ul {
+      grid-template-rows: repeat(3, 60vh); } }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-2 > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 50vh);
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 25px;
+      margin: 0px 25px;
+      grid-template-areas: "ms1 ms2 ms3"; } }
+  @media (min-width: 1440px) {
+    #miracles #miracles-gallery-2 > div ul {
+      margin: 0px; } }
+  #miracles #miracles-gallery-2 > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  #miracles #miracles-gallery-2 > div ul li:nth-child(1) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-2 > div ul li:nth-child(1) {
+      grid-area: ms1; } }
+  #miracles #miracles-gallery-2 > div ul li:nth-child(2) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-2 > div ul li:nth-child(2) {
+      grid-area: ms2; } }
+  #miracles #miracles-gallery-2 > div ul li:nth-child(3) img {
+    object-fit: cover; }
+  @media (min-width: 1025px) {
+    #miracles #miracles-gallery-2 > div ul li:nth-child(3) {
+      grid-area: ms3; } }
 /* =============
     404-error-1
 ============= */

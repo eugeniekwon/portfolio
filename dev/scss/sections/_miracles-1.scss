@@ -1,0 +1,345 @@
+/* =============
+    miracles-1
+============= */
+
+#miracles{
+
+    #miracles-hero{
+        background-image: url("../img/work-2/miracles/miracles-3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 30vh;
+
+        @include md {
+            height: 50vh;
+        }
+
+        @include lg {
+            height: 100vh;
+        }
+        
+    }
+
+    #miracles-main{
+
+        position: relative;
+        background-color: $white;
+
+        >div{
+
+            ul{
+                @include md{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: "objective about" ". process";
+                    column-gap: 75px;
+                    margin: 0px 25px;
+                }
+    
+                @include lg{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-areas: "objective about process";
+                    column-gap: 100px;
+                    margin: 0px 45px;
+                    }
+
+                @include xl{
+                    margin: 0px;
+                }
+                
+                li{
+                    span{
+                        display: block;
+                        margin-bottom: 15px;
+
+                        @include md {
+                        margin-bottom: 20px;
+                        }
+
+                        @include lg {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+
+                
+
+    
+                li:nth-child(1){
+                    @include md{
+                        grid-area: objective;
+                    }
+                }
+    
+                li:nth-child(2){
+                    @include md{
+                        grid-area: about;
+                    }
+                }
+    
+                li:nth-child(3){
+                    @include md{
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
+    #miracles-main-work{
+
+        position: relative;
+        background-color: $white;
+
+        >div{
+
+            ul{
+
+                display: grid;
+                grid-template-rows: repeat(5, 40vh);
+                // gap: 20px;
+                grid-template-areas: "m1" "m2" "m3" "m4" "m5";
+
+                @include md {
+                    grid-template-rows: repeat(5, 50vh);
+                }
+
+                @include lg {
+                    grid-template-rows: repeat(5, 100vh);
+                }
+        
+                li{
+                
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                        
+                }
+
+                li:nth-child(1) {
+                    img {
+                        object-fit: cover;
+                    }
+
+                    @include lg {
+                        grid-area: m1;
+                    }
+
+                }
+                li:nth-child(2) {
+                    img {
+                        object-fit: cover;
+                    }
+
+                    @include lg {
+                        grid-area: m2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    img {
+                        object-fit: cover;
+                    }
+
+                    @include lg {
+                        grid-area: m3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    img {
+                        object-fit: cover;
+                    }
+
+                    @include lg {
+                        grid-area: m4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    img {
+                        object-fit: cover;
+                    }
+
+                    @include lg {
+                        grid-area: m5;
+                    }
+
+                }
+
+    
+              
+        }
+
+    }
+}
+
+   
+        #miracles-gallery-1{
+
+            >div{
+    
+                ul{
+
+                    display: grid;
+                    grid-template-rows: repeat(3, 40vh);
+                    // gap: 20px;
+                    grid-template-areas: "ms1" "ms2" "ms3";
+
+                    @include md {
+                        grid-template-rows: repeat(3, 50vh);
+                    }
+    
+                    @include lg{
+                        display: grid;
+                        grid-template-rows: repeat(3, 90vh);
+                        column-gap: 25px;
+                        margin: 0px 25px;
+                    }
+    
+                    @include xl{
+                        margin: 0px;
+                    }
+            
+                    li{
+
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                    }
+
+                    li:nth-child(1) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms1;
+                        }
+    
+                    }
+                    li:nth-child(2) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms2;
+                        }
+    
+                    }
+                    li:nth-child(3) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms3;
+                        }
+    
+                    }
+
+                    }
+        
+                  
+            }
+    
+        }
+
+        #miracles-gallery-2{
+
+            >div{
+    
+                ul{
+
+                    display: grid;
+                    grid-template-rows: repeat(3, 40vh);
+
+                    @include md {
+                        grid-template-rows: repeat(3, 60vh);
+                    }
+    
+                    @include lg{
+                        display: grid;
+                        grid-template-rows: repeat(1,50vh);
+                        grid-template-columns: repeat(3,1fr);
+                        column-gap: 25px;
+                        margin: 0px 25px;
+                        grid-template-areas: "ms1 ms2 ms3";
+                    }
+    
+                    @include xl{
+                        margin: 0px;
+                    }
+
+                    
+            
+                    li{
+
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                        
+                    }
+
+                    li:nth-child(1) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms1;
+                        }
+    
+                    }
+                    li:nth-child(2) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms2;
+                        }
+    
+                    }
+
+                    li:nth-child(3) {
+                        img {
+                            object-fit: cover;
+                        }
+    
+                        @include lg {
+                            grid-area: ms3;
+                        }
+    
+                    }
+
+
+                    }
+                  
+            }
+    
+        }
+}
+
