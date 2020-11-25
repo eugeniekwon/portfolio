@@ -1063,6 +1063,7 @@ footer {
     display: block; }
 
 #work-2 > div li:nth-child(1) > div {
+  background-image: url("../img/work-2/proj-orchards.jpg");
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(1) > div {
@@ -2761,9 +2762,10 @@ footer {
     grid-area: gm4; } }
 
 /* =============
-    woodmere-1
+    highland-orchards-1
 ============= */
 #highland-orchards #highland-orchards-hero {
+  background-image: url("../img/work-2/highland-orchards/main-logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
