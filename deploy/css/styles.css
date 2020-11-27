@@ -2765,7 +2765,7 @@ footer {
     highland-orchards-1
 ============= */
 #highland-orchards #highland-orchards-hero {
-  background-image: url("../img/work-2/highland-orchards/main-logo.jpg");
+  background-image: url("../img/work-2/highland-orchards/main/main-logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2816,6 +2816,116 @@ footer {
   @media (min-width: 768px) {
     #highland-orchards #highland-orchards-main > div ul li:nth-child(3) {
       grid-area: process; } }
+#highland-orchards #highland-orchards-gallery {
+  position: relative;
+  background-color: #fff; }
+  #highland-orchards #highland-orchards-gallery > div ul {
+    display: grid;
+    grid-template-rows: repeat(9, 250px);
+    gap: 20px; }
+    @media (min-width: 768px) {
+      #highland-orchards #highland-orchards-gallery > div ul {
+        grid-template-rows: repeat(9, 500px); } }
+    @media (min-width: 1025px) {
+      #highland-orchards #highland-orchards-gallery > div ul {
+        display: grid;
+        grid-template-rows: repeat(9, 800px);
+        column-gap: 25px;
+        margin: 0px 25px; } }
+    #highland-orchards #highland-orchards-gallery > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#highland-orchards #highland-orchards-video {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #highland-orchards #highland-orchards-video > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #highland-orchards #highland-orchards-video > div section {
+      width: 100%; }
+      #highland-orchards #highland-orchards-video > div section iframe {
+        width: 100%; }
+
+#highland-orchards #highland-orchards-product > div ul {
+  display: grid;
+  grid-template-rows: repeat(8, 320px);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-product > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 450px);
+      grid-template-columns: repeat(2, 1fr); } }
+  #highland-orchards #highland-orchards-product > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#highland-orchards #highland-orchards-touchpoint > div ul {
+  display: grid;
+  grid-template-rows: repeat(9, 320px);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-touchpoint > div ul {
+      display: grid;
+      grid-template-rows: repeat(9, 800px); } }
+  #highland-orchards #highland-orchards-touchpoint > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#highland-orchards #highland-orchards-vans > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 320px);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-vans > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 300px); } }
+  #highland-orchards #highland-orchards-vans > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#highland-orchards #highland-orchards-applications > div ul {
+  display: grid;
+  grid-template-rows: repeat(10, 320px);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-applications > div ul {
+      display: grid;
+      grid-template-rows: repeat(5, 450px);
+      grid-template-columns: repeat(2, 1fr); } }
+  #highland-orchards #highland-orchards-applications > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#highland-orchards #highland-orchards-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px; }
+  @media (min-width: 1025px) {
+    #highland-orchards #highland-orchards-process > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr); } }
+  #highland-orchards #highland-orchards-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
 /* =============
     neighbourhood-1
 ============= */
