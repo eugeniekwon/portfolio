@@ -124,8 +124,7 @@
                         width: 100%;
 
                     }
-
-                    
+ 
                 }
 
                 
@@ -166,6 +165,10 @@
                 grid-template-rows: repeat(8, 320px);
                 gap: 20px;
 
+                @include md {
+                    grid-template-rows: repeat(8, 560px);
+                }
+
                 @include lg {
                     display: grid;
                     grid-template-rows: repeat(4, 450px);
@@ -197,6 +200,10 @@
                 display: grid;
                 grid-template-rows: repeat(9, 320px);
                 gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(9, 560px);
+                }
 
                 @include lg {
                     display: grid;
@@ -234,6 +241,10 @@
                 grid-template-rows: repeat(3, 320px);
                 gap: 20px;
 
+                @include md {
+                    grid-template-rows: repeat(3, 560px);
+                }
+
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
@@ -266,6 +277,10 @@
                 display: grid;
                 grid-template-rows: repeat(10, 320px);
                 gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(10, 560px);
+                }
 
                 @include lg {
                     display: grid;

@@ -2856,6 +2856,9 @@ footer {
   display: grid;
   grid-template-rows: repeat(8, 320px);
   gap: 20px; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-product > div ul {
+      grid-template-rows: repeat(8, 560px); } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-product > div ul {
       display: grid;
@@ -2871,6 +2874,9 @@ footer {
   display: grid;
   grid-template-rows: repeat(9, 320px);
   gap: 20px; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-touchpoint > div ul {
+      grid-template-rows: repeat(9, 560px); } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-touchpoint > div ul {
       display: grid;
@@ -2885,6 +2891,9 @@ footer {
   display: grid;
   grid-template-rows: repeat(3, 320px);
   gap: 20px; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-vans > div ul {
+      grid-template-rows: repeat(3, 560px); } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-vans > div ul {
       display: grid;
@@ -2900,6 +2909,9 @@ footer {
   display: grid;
   grid-template-rows: repeat(10, 320px);
   gap: 20px; }
+  @media (min-width: 768px) {
+    #highland-orchards #highland-orchards-applications > div ul {
+      grid-template-rows: repeat(10, 560px); } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-applications > div ul {
       display: grid;
@@ -3092,6 +3104,20 @@ footer {
     @media (min-width: 1025px) {
       #miracles #miracles-main-work > div ul li:nth-child(5) {
         grid-area: m5; } }
+#miracles #miracles-video {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #miracles #miracles-video > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #miracles #miracles-video > div section {
+      width: 100%; }
+      #miracles #miracles-video > div section iframe {
+        width: 100%; }
+
 #miracles #miracles-gallery-1 > div ul {
   display: grid;
   grid-template-rows: repeat(3, 40vh);
