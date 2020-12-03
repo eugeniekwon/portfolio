@@ -2821,15 +2821,15 @@ footer {
   background-color: #fff; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(9, 250px);
+    grid-template-rows: repeat(8, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #highland-orchards #highland-orchards-gallery > div ul {
-        grid-template-rows: repeat(9, 500px); } }
+        grid-template-rows: repeat(8, 500px); } }
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(9, 800px);
+        grid-template-rows: repeat(8, 800px);
         column-gap: 25px;
         margin: 0px 25px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
