@@ -1128,11 +1128,6 @@ footer {
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(11) > div {
       margin-bottom: 125px; } }
-#work-2 > div li:nth-child(12) > div {
-  background-image: url("../img/work-2/proj-ocean.jpg"); }
-  @media (min-width: 768px) {
-    #work-2 > div li:nth-child(12) > div {
-      margin-bottom: 125px; } }
 /* =============
     woodmere-1
 ============= */

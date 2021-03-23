@@ -248,18 +248,18 @@
 
             }
 
-            li:nth-child(12) {
-                >div {
-                    background-image: url("../img/work-2/proj-ocean.jpg");
+            // li:nth-child(12) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-ocean.jpg");
 
-                    @include md{
-                        margin-bottom: 125px;
-                    }
+            //         @include md{
+            //             margin-bottom: 125px;
+            //         }
 
-                }
+            //     }
 
 
-            }
+            // }
 
 
         }
