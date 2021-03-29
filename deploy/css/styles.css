@@ -318,7 +318,8 @@ template {
     Base
 ============= */
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #f9f9f9; }
 
 ul {
   padding: 0;
@@ -914,7 +915,7 @@ footer {
     work-1
 ============= */
 #work-1 {
-  background-color: #fff;
+  background-color: #f9f9f9;
   width: 100%;
   color: #3F3F3F; }
   @media (min-width: 768px) {
@@ -931,9 +932,6 @@ footer {
     @media (min-width: 1025px) {
       #work-1 > div div #intro {
         padding: 0px 60px 0px 60px; } }
-    @media (min-width: 1440px) {
-      #work-1 > div div #intro {
-        padding: 0px 60px 0px 0px; } }
     #work-1 > div div #intro h1 {
       font-family: 'Inter', sans-serif;
       font-size: 1.875rem;
@@ -1145,7 +1143,7 @@ footer {
       height: 100vh; } }
 #woodmere #woodmere-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #woodmere #woodmere-main > div ul {
       display: grid;
@@ -1185,7 +1183,7 @@ footer {
       grid-area: process; } }
 #woodmere #woodmere-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #woodmere #woodmere-gallery > div ul {
     display: grid;
     grid-template-rows: repeat(10, 250px);
@@ -1312,7 +1310,7 @@ footer {
       height: 100vh; } }
 #philly-flower #philly-flower-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #philly-flower #philly-flower-main > div ul {
       display: grid;
@@ -1343,11 +1341,11 @@ footer {
       grid-area: process; } }
 #philly-flower #philly-button {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
 
 #philly-flower #philly-flower-main-screenshot {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #philly-flower #philly-flower-main-screenshot > div img {
     object-fit: contain;
     object-position: center;
@@ -1361,7 +1359,7 @@ footer {
         height: 100vh; } }
 #philly-flower #philly-flower-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #philly-flower #philly-flower-gallery > div ul {
     display: grid;
     grid-template-rows: repeat(4, 29vh);
@@ -1395,7 +1393,7 @@ footer {
         grid-area: p4; } }
 #philly-flower #philly-ui-kit {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #philly-flower #philly-ui-kit > div img {
     object-fit: contain;
     object-position: center;
@@ -1549,7 +1547,7 @@ footer {
       height: 105vh; } }
 #little-joys #joy-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #little-joys #joy-main > div ul {
       display: grid;
@@ -1582,7 +1580,7 @@ footer {
       grid-area: process; } }
 #little-joys #joy-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #little-joys #joy-gallery > div ul {
       display: grid;
@@ -1618,7 +1616,7 @@ footer {
       height: 105vh; } }
 #street-photo #street-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #street-photo #street-main ul {
       display: grid;
@@ -1649,7 +1647,7 @@ footer {
       grid-area: process; } }
 #street-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #street-gallery > div ul {
       display: grid;
@@ -1685,7 +1683,7 @@ footer {
       height: 105vh; } }
 #portraits #portraits-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #portraits #portraits-main > div ul {
       display: grid;
@@ -1716,7 +1714,7 @@ footer {
       grid-area: process; } }
 #portraits #portraits-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #portraits #portraits-gallery > div ul {
       display: grid;
@@ -1752,7 +1750,7 @@ footer {
       height: 114vh; } }
 #light-photo #light-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #light-photo #light-main > div ul {
       display: grid;
@@ -1783,7 +1781,7 @@ footer {
       grid-area: process; } }
 #light-photo #light-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #light-photo #light-gallery > div ul {
       display: grid;
@@ -1816,7 +1814,7 @@ footer {
       height: 100vh; } }
 #copenhagen #copenhagen-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #copenhagen #copenhagen-main > div ul {
       display: grid;
@@ -1847,7 +1845,7 @@ footer {
       grid-area: process; } }
 #copenhagen #copenhagen-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1440px) {
     #copenhagen #copenhagen-gallery > div ul {
       margin: 0px; } }
@@ -1882,7 +1880,7 @@ footer {
       height: 100vh; } }
 #aesop #aesop-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #aesop #aesop-main > div ul {
       display: grid;
@@ -1922,7 +1920,7 @@ footer {
       grid-area: process; } }
 #aesop #aesop-main-work {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #aesop #aesop-main-work > div ul {
     display: grid;
     grid-template-rows: repeat(2, 30vh);
@@ -2033,7 +2031,7 @@ footer {
       height: 100vh; } }
 #perused #perused-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #perused #perused-main > div ul {
       display: grid;
@@ -2066,13 +2064,13 @@ footer {
       grid-area: process; } }
 #perused #perused-definition {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #perused #perused-definition {
       padding-bottom: 15px; } }
 #perused #perused-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #perused #perused-gallery > div ul {
       display: grid;
@@ -2201,7 +2199,7 @@ footer {
       height: 100vh; } }
 #luis-barragan #luis-barragan-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #luis-barragan #luis-barragan-main > div ul {
       display: grid;
@@ -2241,7 +2239,7 @@ footer {
       grid-area: process; } }
 #luis-barragan #luis-barragan-main-work {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #luis-barragan #luis-barragan-main-work > div img {
     object-fit: cover;
     object-position: center;
@@ -2307,7 +2305,7 @@ footer {
       height: 100vh; } }
 #bodoni #bodoni-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #bodoni #bodoni-main > div ul {
       display: grid;
@@ -2338,7 +2336,7 @@ footer {
       grid-area: process; } }
 #bodoni #bodoni-main-work {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #bodoni #bodoni-main-work > div img {
     object-fit: cover;
     object-position: center;
@@ -2411,7 +2409,7 @@ footer {
       height: 100vh; } }
 #ocean-dumping #ocean-dumping-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #ocean-dumping #ocean-dumping-main > div ul {
       display: grid;
@@ -2451,7 +2449,7 @@ footer {
       grid-area: process; } }
 #ocean-dumping #ocean-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #ocean-dumping #ocean-gallery > div ul {
       display: grid;
@@ -2502,7 +2500,7 @@ footer {
       height: 100vh; } }
 #home-kitchen #home-kitchen-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #home-kitchen #home-kitchen-main > div ul {
       display: grid;
@@ -2535,11 +2533,11 @@ footer {
       grid-area: process; } }
 #home-kitchen #home-button {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
 
 #home-kitchen #home-kitchen-main-screenshot {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #home-kitchen #home-kitchen-main-screenshot > div img {
     object-fit: cover;
     object-position: center;
@@ -2593,7 +2591,7 @@ footer {
       grid-area: p7; } }
 #home-kitchen #home-kitchen-gallery-process {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #home-kitchen #home-kitchen-gallery-process > div ul {
     display: grid;
     grid-template-rows: repeat(3, 32vh);
@@ -2638,7 +2636,7 @@ footer {
       height: 100vh; } }
 #gustav-mahler #gustav-mahler-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-main > div ul {
       display: grid;
@@ -2680,7 +2678,7 @@ footer {
       grid-area: process; } }
 #gustav-mahler #gustav-mahler-main-work {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #gustav-mahler #gustav-mahler-main-work > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2773,7 +2771,7 @@ footer {
       height: 100vh; } }
 #highland-orchards #highland-orchards-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #highland-orchards #highland-orchards-main > div ul {
       display: grid;
@@ -2816,15 +2814,15 @@ footer {
   background-color: #f9f9f9; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(8, 250px);
+    grid-template-rows: repeat(14, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #highland-orchards #highland-orchards-gallery > div ul {
-        grid-template-rows: repeat(8, 500px); } }
+        grid-template-rows: repeat(14, 500px); } }
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(8, 800px);
+        grid-template-rows: repeat(14, 800px);
         column-gap: 25px;
         margin: 0px 25px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
@@ -2847,17 +2845,39 @@ footer {
       #highland-orchards #highland-orchards-video > div section iframe {
         width: 100%; }
 
+#highland-orchards #highland-orchards-product-intro {
+  position: relative;
+  background-color: #f9f9f9; }
+  #highland-orchards #highland-orchards-product-intro > div ul {
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    gap: 20px; }
+    @media (min-width: 768px) {
+      #highland-orchards #highland-orchards-product-intro > div ul {
+        grid-template-rows: repeat(2, 500px); } }
+    @media (min-width: 1025px) {
+      #highland-orchards #highland-orchards-product-intro > div ul {
+        display: grid;
+        grid-template-rows: repeat(2, 800px);
+        column-gap: 25px;
+        margin: 0px 25px; } }
+    #highland-orchards #highland-orchards-product-intro > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
 #highland-orchards #highland-orchards-product > div ul {
   display: grid;
-  grid-template-rows: repeat(8, 320px);
+  grid-template-rows: repeat(6, 320px);
   gap: 20px; }
   @media (min-width: 768px) {
     #highland-orchards #highland-orchards-product > div ul {
-      grid-template-rows: repeat(8, 560px); } }
+      grid-template-rows: repeat(6, 560px); } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-product > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 450px);
+      grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr); } }
   #highland-orchards #highland-orchards-product > div ul li img {
     object-fit: cover;
@@ -2954,7 +2974,7 @@ footer {
       background-position: 0px -650px; } }
 #home-photo #home-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #home-photo #home-main > div ul {
       display: grid;
@@ -2985,7 +3005,7 @@ footer {
       grid-area: process; } }
 #home-photo #home-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 1025px) {
     #home-photo #home-gallery > div ul {
       display: grid;
@@ -3018,7 +3038,7 @@ footer {
       height: 100vh; } }
 #miracles #miracles-main {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   @media (min-width: 768px) {
     #miracles #miracles-main > div ul {
       display: grid;
@@ -3058,7 +3078,7 @@ footer {
       grid-area: process; } }
 #miracles #miracles-main-work {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #miracles #miracles-main-work > div ul {
     display: grid;
     grid-template-rows: repeat(5, 40vh);

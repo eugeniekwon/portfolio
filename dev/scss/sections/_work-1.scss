@@ -4,7 +4,7 @@
 
 #work-1 {
 
-    background-color: $white;
+    background-color: $bkgd-gray;
     width: 100%;
     color: $gray;
 
@@ -31,9 +31,9 @@
                     padding: 0px 60px 0px 60px;
                 }
 
-                @include xl {
-                    padding: 0px 60px 0px 0px;
-                }
+                // @include xl {
+                //     padding: 0px 60px 0px 0px;
+                // }
 
                 h1 {
                     font-family: 'Inter', sans-serif;

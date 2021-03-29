@@ -24,7 +24,7 @@
 
     #highland-orchards-main {
         position: relative;
-        background-color: $white;
+        background-color: $bkgd-gray;
 
         >div {
 
@@ -93,23 +93,23 @@
 
     #highland-orchards-gallery {
         position: relative;
-        background-color: #f9f9f9;
+        background-color: $bkgd-gray;
 
         >div {
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 250px);
+                grid-template-rows: repeat(14, 250px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 500px);
+                    grid-template-rows: repeat(14, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(8, 800px);
+                    grid-template-rows: repeat(14, 800px);
                     column-gap: 25px;
                     margin: 0px 25px;
 
@@ -158,21 +158,69 @@
         }
     }
 
+
+    #highland-orchards-product-intro {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(2, 250px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(2, 500px);
+                }
+
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 800px);
+                    column-gap: 25px;
+                    margin: 0px 25px;
+
+                }
+
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+ 
+                }
+
+                
+
+            }
+
+        }
+
+    }
+
+
+
     #highland-orchards-product {
         >div {
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 320px);
+                grid-template-rows: repeat(6, 320px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 560px);
+                    grid-template-rows: repeat(6, 560px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 450px);
+                    grid-template-rows: repeat(3, 450px);
                     grid-template-columns: repeat(2, 1fr);
 
                 }

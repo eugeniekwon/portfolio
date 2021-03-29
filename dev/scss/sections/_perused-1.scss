@@ -23,7 +23,7 @@
 
     #perused-main{
         position: relative;
-        background-color: $white;
+        background-color: $bkgd-gray;
 
         >div{
 
@@ -82,7 +82,7 @@
 
     #perused-definition{
         position: relative;
-        background-color: $white;
+        background-color: $bkgd-gray;
 
         @include lg{
             padding-bottom: 15px;
@@ -93,7 +93,7 @@
 
     #perused-gallery{
         position: relative;
-        background-color: $white;
+        background-color: $bkgd-gray;
 
         >div{
 

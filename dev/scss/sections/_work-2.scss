@@ -3,6 +3,8 @@
 ============= */
 
 #work-2 { 
+    
+    
 
         @include md {
             margin: 0px 25px;
@@ -15,6 +17,7 @@
         >div {
 
             ul {
+                
                 @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);

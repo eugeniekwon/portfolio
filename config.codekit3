@@ -1078,9 +1078,20 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/main/colour-type.jpg": {
+	"/deploy/img/work-2/highland-orchards/main/colour-typ.jpg": {
 		"ft": 16384,
 		"iS": 82612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/colour-typ.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/colour-type.jpg": {
+		"ft": 16384,
+		"iS": 98643,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/colour-type.jpg",
@@ -1089,9 +1100,20 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/main/graphic-elements.jpg": {
+	"/deploy/img/work-2/highland-orchards/main/graphic-eleme.jpg": {
 		"ft": 16384,
 		"iS": 88865,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/graphic-eleme.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/graphic-elements.jpg": {
+		"ft": 16384,
+		"iS": 101775,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/graphic-elements.jpg",
@@ -1100,9 +1122,31 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/main/logo-variation.jpg": {
+	"/deploy/img/work-2/highland-orchards/main/logo-proportions.jpg": {
+		"ft": 16384,
+		"iS": 87257,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/logo-proportions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/logo-variatio.jpg": {
 		"ft": 16384,
 		"iS": 97960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/logo-variatio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/logo-variation.jpg": {
+		"ft": 16384,
+		"iS": 99767,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/logo-variation.jpg",
@@ -1128,6 +1172,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/main-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/patterns.jpg": {
+		"ft": 16384,
+		"iS": 269913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/patterns.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/photography-style.jpg": {
+		"ft": 16384,
+		"iS": 314839,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/photography-style.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/rebrand.jpg": {
+		"ft": 16384,
+		"iS": 73397,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/rebrand.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/subbrands.jpg": {
+		"ft": 16384,
+		"iS": 127571,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/subbrands.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1201,7 +1289,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/box-flat-1.jpg": {
 		"ft": 16384,
-		"iS": 65277,
+		"iS": 98727,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat-1.jpg",
@@ -1212,10 +1300,32 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/box-flat-2.jpg": {
 		"ft": 16384,
-		"iS": 145860,
+		"iS": 134209,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/product/box-flat1.jpg": {
+		"ft": 16384,
+		"iS": 65277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/product/box-flat2.jpg": {
+		"ft": 16384,
+		"iS": 145860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
