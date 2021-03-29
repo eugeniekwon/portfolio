@@ -136,7 +136,7 @@
                         width: 100%;
 
                         @include lg {
-                            object-fit: contain;
+                            object-fit: cover;
                         }
 
                     }
@@ -145,7 +145,7 @@
 
                 li:nth-child(1) {
                     img {
-                        object-fit: contain;
+                        object-fit: cover;
                     }
 
                     @include lg {
@@ -285,6 +285,7 @@
                     grid-template-columns: repeat(2, 1fr);
 
                 }
+                
 
                 li {
                     img {

@@ -332,7 +332,7 @@ ul {
   grid-template-areas: ". container ."; }
   @media (min-width: 1440px) {
     .main-hero-grid {
-      grid-template-columns: auto 1025px auto; } }
+      grid-template-columns: auto 1200px auto; } }
   .main-hero-grid > div {
     grid-area: container; }
 
@@ -342,7 +342,7 @@ ul {
   grid-template-areas: ". container ."; }
   @media (min-width: 1440px) {
     .grid-container {
-      grid-template-columns: auto 1200px auto; } }
+      grid-template-columns: auto 1350px auto; } }
   .grid-container > div {
     grid-area: container; }
 
@@ -1208,9 +1208,9 @@ footer {
       width: 100%; }
       @media (min-width: 1025px) {
         #woodmere #woodmere-gallery > div ul li img {
-          object-fit: contain; } }
+          object-fit: cover; } }
     #woodmere #woodmere-gallery > div ul li:nth-child(1) img {
-      object-fit: contain; }
+      object-fit: cover; }
     @media (min-width: 1025px) {
       #woodmere #woodmere-gallery > div ul li:nth-child(1) {
         grid-area: w1; } }
@@ -2541,7 +2541,7 @@ footer {
   position: relative;
   background-color: #fff; }
   #home-kitchen #home-kitchen-main-screenshot > div img {
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     height: 30vh;
     width: 100%; }
@@ -2625,7 +2625,7 @@ footer {
     gustav-mahler-1
 ============= */
 #gustav-mahler #gustav-mahler-hero {
-  background-image: url("../img/work-2/proj-4.jpg");
+  background-image: url("../img/work-2/proj-mahler.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2813,7 +2813,7 @@ footer {
       grid-area: process; } }
 #highland-orchards #highland-orchards-gallery {
   position: relative;
-  background-color: #fff; }
+  background-color: #f9f9f9; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
     grid-template-rows: repeat(8, 250px);
