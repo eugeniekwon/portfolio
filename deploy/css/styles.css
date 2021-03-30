@@ -343,7 +343,7 @@ ul {
   grid-template-areas: ". container ."; }
   @media (min-width: 1440px) {
     .grid-container {
-      grid-template-columns: auto 1350px auto; } }
+      grid-template-columns: auto 1300px auto; } }
   .grid-container > div {
     grid-area: container; }
 
@@ -1020,7 +1020,7 @@ footer {
 @media (min-width: 1025px) {
   #work-2 > div ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px; } }
 
 #work-2 > div ul li > div {
@@ -1040,7 +1040,7 @@ footer {
       height: 32vh; } }
   @media (min-width: 1440px) {
     #work-2 > div ul li > div {
-      height: 45vh; } }
+      height: 65vh; } }
   #work-2 > div ul li > div h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -1049,6 +1049,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media (min-width: 1440px) {
+      #work-2 > div ul li > div h4 {
+        font-size: 1.875rem; } }
   #work-2 > div ul li > div p {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -1057,6 +1060,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media (min-width: 1440px) {
+      #work-2 > div ul li > div p {
+        font-size: 1.25rem; } }
   #work-2 > div ul li > div span {
     display: block; }
 
@@ -2814,15 +2820,15 @@ footer {
   background-color: #f9f9f9; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(14, 250px);
+    grid-template-rows: repeat(19, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #highland-orchards #highland-orchards-gallery > div ul {
-        grid-template-rows: repeat(14, 500px); } }
+        grid-template-rows: repeat(19, 500px); } }
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(14, 800px);
+        grid-template-rows: repeat(19, 800px);
         column-gap: 25px;
         margin: 0px 25px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
@@ -3076,6 +3082,20 @@ footer {
   @media (min-width: 768px) {
     #miracles #miracles-main > div ul li:nth-child(3) {
       grid-area: process; } }
+#miracles #miracles-video {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #miracles #miracles-video > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #miracles #miracles-video > div section {
+      width: 100%; }
+      #miracles #miracles-video > div section iframe {
+        width: 100%; }
+
 #miracles #miracles-main-work {
   position: relative;
   background-color: #f9f9f9; }
@@ -3119,20 +3139,6 @@ footer {
     @media (min-width: 1025px) {
       #miracles #miracles-main-work > div ul li:nth-child(5) {
         grid-area: m5; } }
-#miracles #miracles-video {
-  display: grid;
-  grid-template-areas: ". video .";
-  grid-template-columns: 10px auto 10px; }
-  #miracles #miracles-video > div {
-    align-items: center;
-    display: flex;
-    grid-area: video;
-    justify-content: center; }
-    #miracles #miracles-video > div section {
-      width: 100%; }
-      #miracles #miracles-video > div section iframe {
-        width: 100%; }
-
 #miracles #miracles-gallery-1 > div ul {
   display: grid;
   grid-template-rows: repeat(3, 40vh);

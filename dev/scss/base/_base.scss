@@ -38,7 +38,7 @@ ul {
     grid-template-areas: ". container .";
 
     @include xl{
-        grid-template-columns: auto 1350px auto;
+        grid-template-columns: auto 1300px auto;
     }
 
     >div{

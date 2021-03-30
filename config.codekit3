@@ -49,6 +49,22 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 0
 		},
+	"/deploy/cinegraph.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/cinegraph.html",
+		"oF": 0
+		},
+	"/deploy/concert-band.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/concert-band.html",
+		"oF": 0
+		},
 	"/deploy/copenhagen.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -970,7 +986,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/badges.jpg": {
 		"ft": 16384,
-		"iS": 46913,
+		"iS": 52143,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/badges.jpg",
@@ -981,7 +997,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/cups.jpg": {
 		"ft": 16384,
-		"iS": 60174,
+		"iS": 64994,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/cups.jpg",
@@ -1047,7 +1063,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/tote-bag-1.jpg": {
 		"ft": 16384,
-		"iS": 75567,
+		"iS": 85266,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/tote-bag-1.jpg",
@@ -1058,7 +1074,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/tote-bag-2.jpg": {
 		"ft": 16384,
-		"iS": 257470,
+		"iS": 251716,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/tote-bag-2.jpg",
@@ -1069,21 +1085,10 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/tshirt.jpg": {
 		"ft": 16384,
-		"iS": 182056,
+		"iS": 147208,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/tshirt.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/highland-orchards/main/colour-typ.jpg": {
-		"ft": 16384,
-		"iS": 82612,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/main/colour-typ.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1100,17 +1105,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/main/graphic-eleme.jpg": {
-		"ft": 16384,
-		"iS": 88865,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/main/graphic-eleme.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/highland-orchards/main/graphic-elements.jpg": {
 		"ft": 16384,
 		"iS": 101775,
@@ -1122,23 +1116,23 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/highland-orchards/main/keywords.jpg": {
+		"ft": 16384,
+		"iS": 202208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/keywords.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/highland-orchards/main/logo-proportions.jpg": {
 		"ft": 16384,
 		"iS": 87257,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/logo-proportions.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/highland-orchards/main/logo-variatio.jpg": {
-		"ft": 16384,
-		"iS": 97960,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/main/logo-variatio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1177,6 +1171,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/highland-orchards/main/mission.jpg": {
+		"ft": 16384,
+		"iS": 585528,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/mission.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/highland-orchards/main/patterns.jpg": {
 		"ft": 16384,
 		"iS": 269913,
@@ -1199,6 +1204,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/highland-orchards/main/positioning.jpg": {
+		"ft": 16384,
+		"iS": 105008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/positioning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/highland-orchards/main/rebrand.jpg": {
 		"ft": 16384,
 		"iS": 73397,
@@ -1210,12 +1226,45 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/highland-orchards/main/segmentation.jpg": {
+		"ft": 16384,
+		"iS": 252991,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/segmentation.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/slogan.jpg": {
+		"ft": 16384,
+		"iS": 174168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/slogan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/highland-orchards/main/subbrands.jpg": {
 		"ft": 16384,
-		"iS": 127571,
+		"iS": 122774,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/subbrands.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/main/value.jpg": {
+		"ft": 16384,
+		"iS": 476655,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/main/value.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1333,7 +1382,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/first-box.jpg": {
 		"ft": 16384,
-		"iS": 79529,
+		"iS": 349746,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/first-box.jpg",
@@ -1344,7 +1393,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/green-box.jpg": {
 		"ft": 16384,
-		"iS": 82522,
+		"iS": 118691,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/green-box.jpg",
@@ -1366,7 +1415,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/orange-box.jpg": {
 		"ft": 16384,
-		"iS": 85356,
+		"iS": 123150,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/orange-box.jpg",
@@ -1388,7 +1437,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/red-box.jpg": {
 		"ft": 16384,
-		"iS": 80211,
+		"iS": 120160,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/red-box.jpg",
@@ -1553,7 +1602,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/web/business-app.jpg": {
 		"ft": 16384,
-		"iS": 179385,
+		"iS": 286539,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/web/business-app.jpg",
@@ -1575,7 +1624,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/web/social-media.jpg": {
 		"ft": 16384,
-		"iS": 187408,
+		"iS": 199713,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/web/social-media.jpg",
@@ -1584,9 +1633,31 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/web/website.jpg": {
+	"/deploy/img/work-2/highland-orchards/web/social.jpg": {
+		"ft": 16384,
+		"iS": 187408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/web/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/web/web.jpg": {
 		"ft": 16384,
 		"iS": 173262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/web/web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/web/website.jpg": {
+		"ft": 16384,
+		"iS": 123567,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/web/website.jpg",
@@ -2787,6 +2858,22 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 2
 		},
+	"/dev/cinegraph.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/cinegraph.html",
+		"oF": 2
+		},
+	"/dev/concert-band.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/concert-band.html",
+		"oF": 2
+		},
 	"/dev/content/404-error-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2882,6 +2969,22 @@
 		"oA": 1,
 		"oAP": "/dev/content/work/bodoni-1.html",
 		"oF": 1
+		},
+	"/dev/content/work/cinegraph-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/cinegraph-1.html",
+		"oF": 0
+		},
+	"/dev/content/work/concert-band-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/concert-band-1.html",
+		"oF": 0
 		},
 	"/dev/content/work/copenhagen-1.kit": {
 		"cB": 0,
@@ -3442,6 +3545,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_bodoni-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_cinegraph-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_cinegraph-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_concert-band-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_concert-band-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

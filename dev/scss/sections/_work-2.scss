@@ -26,7 +26,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
                     gap: 25px;
                 }
 
@@ -57,7 +57,8 @@
                         }
 
                         @include xl {
-                            height: 45vh;
+                            // height: 45vh;
+                            height: 65vh;
                         }
 
                             h4 {
@@ -69,6 +70,10 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
+
+                                @include xl{
+                                    font-size: rem-calc(30);
+                                }
                             }
 
                             p {
@@ -80,6 +85,10 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
+
+                                @include xl{
+                                    font-size: rem-calc(20);
+                                }
                             }
 
                             span{
