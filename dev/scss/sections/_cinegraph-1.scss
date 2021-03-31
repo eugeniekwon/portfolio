@@ -1,0 +1,209 @@
+/* =============
+    cinegraph-1
+============= */
+
+#cinegraph {
+
+    #cinegraph-hero {
+
+        background-image: url("../img/work-2/highland-orchards/main/main-logo.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+
+            @include md {
+                height: 50vh;
+            }
+    
+            @include lg {
+                height: 100vh;
+            }
+        
+    }
+
+    #cinegraph-main {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                @include md {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: "objective about"". process";
+                    column-gap: 75px;
+                    margin: 0px 25px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-areas: "objective about process";
+                    column-gap: 100px;
+                    margin: 0px 45px;
+                }
+
+                @include xl {
+                    margin: 0px;
+                }
+
+                li {
+                    span {
+                        display: block;
+                        margin-bottom: 15px;
+
+                        @include md {
+                            margin-bottom: 20px;
+                        }
+
+                        @include lg {
+                            margin-bottom: 25px;
+                        }
+
+                    }
+                }
+
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: objective;
+                    }
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: about;
+                    }
+                }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    #cinegraph-gallery {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(19, 250px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(19, 500px);
+                }
+
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(19, 800px);
+                    column-gap: 25px;
+                    margin: 0px 25px;
+
+                }
+
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+ 
+                }
+
+                
+
+            }
+
+        }
+
+    }
+
+
+    #cinegraph-applications {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(10, 320px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(10, 560px);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(5, 450px);
+                    grid-template-columns: repeat(2, 1fr);
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+    #cinegraph-process {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(4, 1fr);
+                gap: 20px;
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+
+}

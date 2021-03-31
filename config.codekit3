@@ -1162,7 +1162,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/main/main-logo.jpg": {
 		"ft": 16384,
-		"iS": 663866,
+		"iS": 624852,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/main-logo.jpg",
@@ -1206,7 +1206,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/main/positioning.jpg": {
 		"ft": 16384,
-		"iS": 105008,
+		"iS": 103531,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/main/positioning.jpg",
@@ -1272,7 +1272,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/process/h-process-1.jpg": {
 		"ft": 16384,
-		"iS": 128100,
+		"iS": 157699,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-1.jpg",
@@ -1283,7 +1283,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/process/h-process-2.jpg": {
 		"ft": 16384,
-		"iS": 94360,
+		"iS": 114261,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-2.jpg",
@@ -1294,7 +1294,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/process/h-process-3.jpg": {
 		"ft": 16384,
-		"iS": 88481,
+		"iS": 115844,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-3.jpg",
@@ -1305,7 +1305,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/process/h-process-4.jpg": {
 		"ft": 16384,
-		"iS": 96635,
+		"iS": 129491,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-4.jpg",
@@ -1314,31 +1314,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/highland-orchards/process/h-process-5.jpg": {
-		"ft": 16384,
-		"iS": 121698,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/highland-orchards/process/h-process-6.jpg": {
-		"ft": 16384,
-		"iS": 123711,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/process/h-process-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/highland-orchards/product/box-flat-1.jpg": {
 		"ft": 16384,
-		"iS": 98727,
+		"iS": 87207,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat-1.jpg",
@@ -1349,32 +1327,10 @@
 		},
 	"/deploy/img/work-2/highland-orchards/product/box-flat-2.jpg": {
 		"ft": 16384,
-		"iS": 134209,
+		"iS": 137107,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/highland-orchards/product/box-flat1.jpg": {
-		"ft": 16384,
-		"iS": 65277,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/highland-orchards/product/box-flat2.jpg": {
-		"ft": 16384,
-		"iS": 145860,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/highland-orchards/product/box-flat2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1507,6 +1463,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/touchpoint/poster-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/highland-orchards/touchpoint/poster-3.jpg": {
+		"ft": 16384,
+		"iS": 603031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/touchpoint/poster-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2504,7 +2471,7 @@
 		},
 	"/deploy/img/work-2/proj-orchards.jpg": {
 		"ft": 16384,
-		"iS": 663866,
+		"iS": 624852,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-orchards.jpg",
