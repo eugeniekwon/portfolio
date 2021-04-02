@@ -830,6 +830,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/concert-band/app/crewneck-1.jpg": {
+		"ft": 16384,
+		"iS": 135186,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/concert-band/app/crewneck-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/concert-band/app/crewneck-2.jpg": {
+		"ft": 16384,
+		"iS": 166740,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/concert-band/app/crewneck-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/concert-band/app/mug.jpg": {
+		"ft": 16384,
+		"iS": 30680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/concert-band/app/mug.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/concert-band/app/tote-bag.jpg": {
+		"ft": 16384,
+		"iS": 163725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/concert-band/app/tote-bag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/concert-band/main/colour-type.jpg": {
 		"ft": 16384,
 		"iS": 74899,

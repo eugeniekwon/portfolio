@@ -142,17 +142,19 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(10, 320px);
+                grid-template-rows: repeat(3, 320px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(10, 560px);
+                    grid-template-rows: repeat(3, 560px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(5, 450px);
+                    grid-template-rows: repeat(2, 550px);
                     grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
+                    margin: 0px 25px;
 
                 }
 
