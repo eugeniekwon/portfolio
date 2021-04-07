@@ -2711,34 +2711,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/app-2-f.jpg": {
-		"ft": 16384,
-		"iS": 32476,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/app-2-f.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/woodmere/app-3-f.jpg": {
 		"ft": 16384,
 		"iS": 45163,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app-3-f.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/app-4-f.jpg": {
-		"ft": 16384,
-		"iS": 39985,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/app-4-f.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2766,17 +2744,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/colours.jpg": {
-		"ft": 16384,
-		"iS": 30644,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/colours.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/woodmere/id-holder.jpg": {
 		"ft": 16384,
 		"iS": 138151,
@@ -2788,45 +2755,89 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/logo1.jpg": {
+	"/deploy/img/work-2/woodmere/main/logo-proportions.jpg": {
 		"ft": 16384,
-		"iS": 28481,
+		"iS": 51141,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/logo1.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/main/logo-proportions.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/logo2and3.jpg": {
+	"/deploy/img/work-2/woodmere/main/logo-variation.jpg": {
 		"ft": 16384,
-		"iS": 27557,
+		"iS": 58157,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/logo2and3.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/main/logo-variation.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/sketch-1.jpg": {
+	"/deploy/img/work-2/woodmere/main/main-logo.jpg": {
 		"ft": 16384,
-		"iS": 159063,
+		"iS": 35278,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/sketch-1.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/main/main-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/sketch-2.jpg": {
+	"/deploy/img/work-2/woodmere/main/photography-style.jpg": {
 		"ft": 16384,
-		"iS": 161640,
+		"iS": 198444,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/sketch-2.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/main/photography-style.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/process/w-process-1.jpg": {
+		"ft": 16384,
+		"iS": 101462,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/process/w-process-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/process/w-process-2.jpg": {
+		"ft": 16384,
+		"iS": 79507,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/process/w-process-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/process/w-process-3.jpg": {
+		"ft": 16384,
+		"iS": 65609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/process/w-process-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/process/w-process-4.jpg": {
+		"ft": 16384,
+		"iS": 82792,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/process/w-process-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2838,39 +2849,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/tickets.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/w-process-1.jpg": {
-		"ft": 16384,
-		"iS": 69026,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/w-process-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/w-process-2.jpg": {
-		"ft": 16384,
-		"iS": 55822,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/w-process-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/woodmere/w-process-3.jpg": {
-		"ft": 16384,
-		"iS": 70868,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/w-process-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
