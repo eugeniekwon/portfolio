@@ -1184,7 +1184,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/cups.jpg": {
 		"ft": 16384,
-		"iS": 64994,
+		"iS": 64591,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/cups.jpg",
@@ -1206,7 +1206,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/popsocket.jpg": {
 		"ft": 16384,
-		"iS": 40461,
+		"iS": 44761,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/popsocket.jpg",
@@ -1217,7 +1217,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/stamp.jpg": {
 		"ft": 16384,
-		"iS": 300548,
+		"iS": 296300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/stamp.jpg",
@@ -1250,7 +1250,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/tote-bag-1.jpg": {
 		"ft": 16384,
-		"iS": 85266,
+		"iS": 106122,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/tote-bag-1.jpg",
@@ -1272,7 +1272,7 @@
 		},
 	"/deploy/img/work-2/highland-orchards/app/tshirt.jpg": {
 		"ft": 16384,
-		"iS": 147208,
+		"iS": 190713,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/highland-orchards/app/tshirt.jpg",
@@ -2711,20 +2711,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/app-5-f.jpg": {
-		"ft": 16384,
-		"iS": 107671,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/app-5-f.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/woodmere/app/id-holder.jpg": {
 		"ft": 16384,
-		"iS": 138151,
+		"iS": 60274,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/id-holder.jpg",
@@ -2746,7 +2735,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app/paper-bags.jpg": {
 		"ft": 16384,
-		"iS": 52571,
+		"iS": 58121,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/paper-bags.jpg",
@@ -2755,9 +2744,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/app/pens.jpg": {
+		"ft": 16384,
+		"iS": 48769,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/app/pens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/app/phone-cases.jpg": {
 		"ft": 16384,
-		"iS": 79203,
+		"iS": 90539,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/phone-cases.jpg",
@@ -2768,7 +2768,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app/postcard.jpg": {
 		"ft": 16384,
-		"iS": 276696,
+		"iS": 75375,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/postcard.jpg",
@@ -2779,7 +2779,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app/poster.jpg": {
 		"ft": 16384,
-		"iS": 99562,
+		"iS": 75528,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/poster.jpg",
@@ -2801,7 +2801,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app/tote-bag-1.jpg": {
 		"ft": 16384,
-		"iS": 97985,
+		"iS": 98276,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/tote-bag-1.jpg",
@@ -2812,7 +2812,7 @@
 		},
 	"/deploy/img/work-2/woodmere/app/tote-bag-2.jpg": {
 		"ft": 16384,
-		"iS": 104967,
+		"iS": 99405,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/app/tote-bag-2.jpg",
@@ -2867,7 +2867,7 @@
 		},
 	"/deploy/img/work-2/woodmere/main/logo-variation.jpg": {
 		"ft": 16384,
-		"iS": 58157,
+		"iS": 58114,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/main/logo-variation.jpg",
@@ -2889,7 +2889,7 @@
 		},
 	"/deploy/img/work-2/woodmere/main/mission.jpg": {
 		"ft": 16384,
-		"iS": 211069,
+		"iS": 193214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/main/mission.jpg",
@@ -2999,7 +2999,7 @@
 		},
 	"/deploy/img/work-2/woodmere/product/box-packaging.jpg": {
 		"ft": 16384,
-		"iS": 79076,
+		"iS": 73599,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/product/box-packaging.jpg",
@@ -3010,7 +3010,7 @@
 		},
 	"/deploy/img/work-2/woodmere/product/cards.jpg": {
 		"ft": 16384,
-		"iS": 132657,
+		"iS": 234014,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/product/cards.jpg",
@@ -3021,7 +3021,7 @@
 		},
 	"/deploy/img/work-2/woodmere/product/gift-packaging.jpg": {
 		"ft": 16384,
-		"iS": 111013,
+		"iS": 107266,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/product/gift-packaging.jpg",
@@ -3032,7 +3032,7 @@
 		},
 	"/deploy/img/work-2/woodmere/product/tickets-1.jpg": {
 		"ft": 16384,
-		"iS": 1259607,
+		"iS": 84175,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/product/tickets-1.jpg",
@@ -3065,7 +3065,7 @@
 		},
 	"/deploy/img/work-2/woodmere/touchpoint/store-signage.jpg": {
 		"ft": 16384,
-		"iS": 106976,
+		"iS": 84832,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/touchpoint/store-signage.jpg",
@@ -3074,9 +3074,20 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/web/business-app.jpg": {
+	"/deploy/img/work-2/woodmere/web/business-ap.jpg": {
 		"ft": 16384,
 		"iS": 103647,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/web/business-ap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/web/business-app.jpg": {
+		"ft": 16384,
+		"iS": 116556,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/web/business-app.jpg",

@@ -102,17 +102,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(18, 250px);
+                grid-template-rows: repeat(15, 250px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(18, 500px);
+                    grid-template-rows: repeat(15, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(18, 800px);
+                    grid-template-rows: repeat(15, 800px);
                     column-gap: 25px;
                     margin: 0px 25px;
 
