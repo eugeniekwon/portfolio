@@ -3019,6 +3019,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/product/catalogue-1.jpg": {
+		"ft": 16384,
+		"iS": 490614,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/product/catalogue-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/product/gift-packaging.jpg": {
 		"ft": 16384,
 		"iS": 107266,
@@ -3052,6 +3063,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/touchpoint/exhibition-signage.jpg": {
+		"ft": 16384,
+		"iS": 123792,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/touchpoint/exhibition-signage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/touchpoint/poster.jpg": {
 		"ft": 16384,
 		"iS": 453351,
@@ -3069,6 +3091,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/woodmere/touchpoint/store-signage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/touchpoint/window-signage.jpg": {
+		"ft": 16384,
+		"iS": 400504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/touchpoint/window-signage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

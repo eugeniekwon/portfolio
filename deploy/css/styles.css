@@ -494,6 +494,7 @@ a:visited {
     .pull-quotes {
       font-size: 1.25rem; } }
 .image-container {
+  height: 35vh;
   height: 35vh; }
   .image-container a {
     height: 100%;
@@ -501,24 +502,15 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.45); }
-  @media (min-width: 768px) {
-    .image-container {
-      height: 35vh; }
-      .image-container a {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0); }
-        .image-container a > div {
-          display: none;
-          transition: 0.25s; }
-        .image-container a:hover, .image-container a:active {
-          background-color: rgba(0, 0, 0, 0.5); }
-          .image-container a:hover > div, .image-container a:active > div {
-            display: block; } }
+    background-color: rgba(0, 0, 0, 0); }
+    .image-container a > div {
+      display: none;
+      transition: 0.25s; }
+    .image-container a:hover, .image-container a:active {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .image-container a:hover > div, .image-container a:active > div {
+        display: block; }
+
 .first {
   background: #fff; }
 
@@ -1243,15 +1235,15 @@ footer {
 
 #woodmere #woodmere-product > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 320px);
+  grid-template-rows: repeat(6, 320px);
   gap: 20px; }
   @media (min-width: 768px) {
     #woodmere #woodmere-product > div ul {
-      grid-template-rows: repeat(4, 560px); } }
+      grid-template-rows: repeat(6, 560px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-product > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 450px);
+      grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr); } }
   #woodmere #woodmere-product > div ul li img {
     object-fit: cover;

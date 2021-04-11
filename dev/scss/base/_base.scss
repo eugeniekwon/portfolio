@@ -278,17 +278,17 @@ a:visited {
 .image-container {
     height: 35vh;
     
-    a{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:rgba(0,0,0,0.45);
-    }
+    // a{
+    //     height: 100%;
+    //     width: 100%;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     background-color:rgba(0,0,0,0.45);
+    // }
 
 
-    @include md{
+    // @include md{
         height: 35vh;
 
         a{
@@ -312,7 +312,7 @@ a:visited {
                 }
             }
         }
-    }
+    // }
 
     
 }
