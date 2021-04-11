@@ -1154,7 +1154,7 @@ footer {
     woodmere-1
 ============= */
 #woodmere #woodmere-hero {
-  background-image: url("../img/work-2/woodmere/tickets.jpg");
+  background-image: url("../img/work-2/proj-woodmere.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1210,15 +1210,15 @@ footer {
   background-color: #f9f9f9; }
   #woodmere #woodmere-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(19, 250px);
+    grid-template-rows: repeat(18, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #woodmere #woodmere-gallery > div ul {
-        grid-template-rows: repeat(19, 500px); } }
+        grid-template-rows: repeat(18, 500px); } }
     @media (min-width: 1025px) {
       #woodmere #woodmere-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(19, 800px);
+        grid-template-rows: repeat(18, 800px);
         column-gap: 25px;
         margin: 0px 25px; } }
     #woodmere #woodmere-gallery > div ul li img {
@@ -1241,16 +1241,69 @@ footer {
       #woodmere #w-youtube-video > div section iframe {
         width: 100%; }
 
-#woodmere #woodmere-gallery-process > div ul {
+#woodmere #woodmere-product > div ul {
+  display: grid;
+  grid-template-rows: repeat(4, 320px);
+  gap: 20px; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-product > div ul {
+      grid-template-rows: repeat(4, 560px); } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-product > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 450px);
+      grid-template-columns: repeat(2, 1fr); } }
+  #woodmere #woodmere-product > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#woodmere #woodmere-touchpoint > div ul {
+  display: grid;
+  grid-template-rows: repeat(5, 320px);
+  gap: 20px; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-touchpoint > div ul {
+      grid-template-rows: repeat(5, 560px); } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-touchpoint > div ul {
+      display: grid;
+      grid-template-rows: repeat(5, 800px); } }
+  #woodmere #woodmere-touchpoint > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#woodmere #woodmere-applications > div ul {
+  display: grid;
+  grid-template-rows: repeat(10, 320px);
+  gap: 20px; }
+  @media (min-width: 768px) {
+    #woodmere #woodmere-applications > div ul {
+      grid-template-rows: repeat(10, 560px); } }
+  @media (min-width: 1025px) {
+    #woodmere #woodmere-applications > div ul {
+      display: grid;
+      grid-template-rows: repeat(5, 450px);
+      grid-template-columns: repeat(2, 1fr); } }
+  #woodmere #woodmere-applications > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#woodmere #woodmere-process > div ul {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 20px; }
   @media (min-width: 1025px) {
-    #woodmere #woodmere-gallery-process > div ul {
+    #woodmere #woodmere-process > div ul {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr); } }
-  #woodmere #woodmere-gallery-process > div ul li img {
+  #woodmere #woodmere-process > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
@@ -2721,7 +2774,7 @@ footer {
     highland-orchards-1
 ============= */
 #highland-orchards #highland-orchards-hero {
-  background-image: url("../img/work-2/highland-orchards/main/main-logo.jpg");
+  background-image: url("../img/work-2/proj-orchards.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2777,15 +2830,15 @@ footer {
   background-color: #f9f9f9; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(19, 250px);
+    grid-template-rows: repeat(14, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #highland-orchards #highland-orchards-gallery > div ul {
-        grid-template-rows: repeat(19, 500px); } }
+        grid-template-rows: repeat(14, 500px); } }
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(19, 800px);
+        grid-template-rows: repeat(14, 800px);
         column-gap: 25px;
         margin: 0px 25px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {

@@ -6,7 +6,7 @@
 
     #woodmere-hero {
 
-        background-image: url("../img/work-2/woodmere/tickets.jpg");
+        background-image: url("../img/work-2/proj-woodmere.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -102,17 +102,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(19, 250px);
+                grid-template-rows: repeat(18, 250px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(19, 500px);
+                    grid-template-rows: repeat(18, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(19, 800px);
+                    grid-template-rows: repeat(18, 800px);
                     column-gap: 25px;
                     margin: 0px 25px;
 
@@ -159,7 +159,119 @@
     }
 
 
-    #woodmere-gallery-process {
+    #woodmere-product {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(4, 320px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(4, 560px);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 450px);
+                    grid-template-columns: repeat(2, 1fr);
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+                
+            
+            }
+
+        }
+    }
+
+    #woodmere-touchpoint {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(5, 320px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(5, 560px);
+                }
+
+                @include lg {
+                    display: grid;
+                    // grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(5, 800px);
+
+                }
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                        // @include lg {
+                        //     object-fit: contain;
+                        // }
+
+                    }
+
+                }
+            
+            }
+
+        }
+    }
+
+    #woodmere-applications {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(10, 320px);
+                gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(10, 560px);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(5, 450px);
+                    grid-template-columns: repeat(2, 1fr);
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+    #woodmere-process {
         >div {
 
             ul {
