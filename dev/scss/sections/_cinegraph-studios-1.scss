@@ -6,7 +6,7 @@
 
     #cinegraph-hero {
 
-        background-image: url("../img/work-2/highland-orchards/main/main-logo.jpg");
+        background-image: url("../img/work-2/cinegraph-studios/main/main-logo.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -99,17 +99,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(19, 250px);
+                grid-template-rows: repeat(11, 250px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(19, 500px);
+                    grid-template-rows: repeat(11, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(19, 800px);
+                    grid-template-rows: repeat(11, 800px);
                     column-gap: 25px;
                     margin: 0px 25px;
 
@@ -134,6 +134,27 @@
 
         }
 
+    }
+
+    #cinegraph-video {
+        // display: grid;
+        // grid-template-areas: ". video .";
+        // grid-template-columns: 10px auto 10px;
+
+        // >div {
+        //     align-items: center;
+        //     display: flex;
+        //     grid-area: video;
+        //     justify-content: center;
+
+        //     section {
+        //         width: 100%;
+
+        //         iframe {
+        //             width: 100%;
+        //         }
+        //     }
+        // }
     }
 
 
@@ -204,6 +225,24 @@
         }
     }
 
+    #cinegraph-credits{
+        >div {
+            ul {
+                gap: 20px;
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            
+            }
+
+        }
+    }
 
 
 }

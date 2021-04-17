@@ -830,6 +830,292 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/cinegraph-studios/app/badges.jpg": {
+		"ft": 16384,
+		"iS": 46789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/badges.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/crewneck-1.jpg": {
+		"ft": 16384,
+		"iS": 135634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/crewneck-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/crewneck-2.jpg": {
+		"ft": 16384,
+		"iS": 125232,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/crewneck-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/id-card.jpg": {
+		"ft": 16384,
+		"iS": 40154,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/id-card.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/mug.jpg": {
+		"ft": 16384,
+		"iS": 39470,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/mug.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/notebook.jpg": {
+		"ft": 16384,
+		"iS": 148555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/notebook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/pens.jpg": {
+		"ft": 16384,
+		"iS": 40124,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/pens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/stickers.jpg": {
+		"ft": 16384,
+		"iS": 50366,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/stickers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/tape-1.jpg": {
+		"ft": 16384,
+		"iS": 112707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/tape-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/tape-2.jpg": {
+		"ft": 16384,
+		"iS": 70554,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/tape-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/app/water-bottle.jpg": {
+		"ft": 16384,
+		"iS": 41200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/app/water-bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/colour-type.jpg": {
+		"ft": 16384,
+		"iS": 91724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/colour-type.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/concept.jpg": {
+		"ft": 16384,
+		"iS": 101162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/concept.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/keywords.jpg": {
+		"ft": 16384,
+		"iS": 67428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/keywords.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/logo-proportions.jpg": {
+		"ft": 16384,
+		"iS": 84043,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/logo-proportions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/logo-variation.jpg": {
+		"ft": 16384,
+		"iS": 53018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/logo-variation.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/main-logo.jpg": {
+		"ft": 16384,
+		"iS": 47756,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/main-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/mission.jpg": {
+		"ft": 16384,
+		"iS": 290389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/mission.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/segmentation.jpg": {
+		"ft": 16384,
+		"iS": 199756,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/segmentation.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/value.jpg": {
+		"ft": 16384,
+		"iS": 175479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/value.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/process/c-process-1.jpg": {
+		"ft": 16384,
+		"iS": 93018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/process/c-process-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/process/c-process-2.jpg": {
+		"ft": 16384,
+		"iS": 96283,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/process/c-process-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/process/c-process-3.jpg": {
+		"ft": 16384,
+		"iS": 114598,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/process/c-process-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/process/c-process-4.jpg": {
+		"ft": 16384,
+		"iS": 201509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/process/c-process-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/process/credits.jpg": {
+		"ft": 16384,
+		"iS": 70667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/process/credits.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/web/business-app.jpg": {
+		"ft": 16384,
+		"iS": 62760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/web/business-app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/concert-band/app/crewneck-1.jpg": {
 		"ft": 16384,
 		"iS": 135186,
@@ -2601,6 +2887,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/proj-cinegraph.jpg": {
+		"ft": 16384,
+		"iS": 143449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-cinegraph.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/proj-copenhagen.jpg": {
 		"ft": 16384,
 		"iS": 44591,
@@ -3276,7 +3573,7 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 2
 		},
-	"/dev/cinegraph.kit": {
+	"/dev/cinegraph-studios.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
@@ -3388,12 +3685,12 @@
 		"oAP": "/dev/content/work/bodoni-1.html",
 		"oF": 1
 		},
-	"/dev/content/work/cinegraph-1.kit": {
+	"/dev/content/work/cinegraph-studios-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/work/cinegraph-1.html",
+		"oAP": "/dev/content/work/cinegraph-studios-1.html",
 		"oF": 0
 		},
 	"/dev/content/work/concert-band-1.kit": {
@@ -3967,7 +4264,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_cinegraph-1.scss": {
+	"/dev/scss/sections/_cinegraph-studios-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3975,7 +4272,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_cinegraph-1.css",
+		"oAP": "/dev/scss/sections/_cinegraph-studios-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
