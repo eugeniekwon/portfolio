@@ -9,20 +9,15 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 30vh;
+        height: 45vh;
         
         @include md{
             height: 50vh;
         }
 
-        @include lg{
-            height: 90vh;
-        }      
-        
-        @include xl{
-            height: 105vh;
-            // background-attachment: fixed;
-        }  
+        @include lg {
+            height: 100vh;
+        }
         
     }
 
@@ -122,7 +117,7 @@
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
                     column-gap: 25px;
-                    margin: 0px 25px;
+                    // margin: 0px 25px;
                 }
 
                 @include xl{

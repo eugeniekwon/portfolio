@@ -6,11 +6,11 @@
 
     #cinegraph-hero {
 
-        background-image: url("../img/work-2/cinegraph-studios/main/main-logo.jpg");
+        background-image: url("../img/work-2/proj-cinegraph.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 30vh;
+        height: 45vh;
 
             @include md {
                 height: 50vh;
@@ -99,19 +99,19 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(11, 250px);
+                grid-template-rows: repeat(10, 250px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(11, 500px);
+                    grid-template-rows: repeat(10, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(11, 800px);
+                    grid-template-rows: repeat(10, 800px);
                     column-gap: 25px;
-                    margin: 0px 25px;
+                    // margin: 0px 25px;
 
                 }
 
@@ -125,11 +125,7 @@
                         width: 100%;
 
                     }
- 
                 }
-
-                
-
             }
 
         }
@@ -137,24 +133,24 @@
     }
 
     #cinegraph-video {
-        // display: grid;
-        // grid-template-areas: ". video .";
-        // grid-template-columns: 10px auto 10px;
+        display: grid;
+        grid-template-areas: ". video .";
+        grid-template-columns: 10px auto 10px;
 
-        // >div {
-        //     align-items: center;
-        //     display: flex;
-        //     grid-area: video;
-        //     justify-content: center;
+        >div {
+            align-items: center;
+            display: flex;
+            grid-area: video;
+            justify-content: center;
 
-        //     section {
-        //         width: 100%;
+            section {
+                width: 100%;
 
-        //         iframe {
-        //             width: 100%;
-        //         }
-        //     }
-        // }
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
     }
 
 

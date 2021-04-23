@@ -49,12 +49,12 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 0
 		},
-	"/deploy/cinegraph.html": {
+	"/deploy/cinegraph-studios.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/cinegraph.html",
+		"oAP": "/deploy/cinegraph-studios.html",
 		"oF": 0
 		},
 	"/deploy/concert-band.html": {
@@ -1107,10 +1107,21 @@
 		},
 	"/deploy/img/work-2/cinegraph-studios/web/business-app.jpg": {
 		"ft": 16384,
-		"iS": 62760,
+		"iS": 59747,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/cinegraph-studios/web/business-app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/web/website.jpg": {
+		"ft": 16384,
+		"iS": 107412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/web/website.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1452,6 +1463,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/gustav-mahler/mahler-sketches-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/gustav-mahler/mahler-sketches-new-01.jpg": {
+		"ft": 16384,
+		"iS": 106595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/gustav-mahler/mahler-sketches-new-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2240,7 +2262,7 @@
 		},
 	"/deploy/img/work-2/home-kitchen/ui-kit-home.jpg": {
 		"ft": 16384,
-		"iS": 39939,
+		"iS": 65605,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/home-kitchen/ui-kit-home.jpg",
@@ -2834,10 +2856,21 @@
 		},
 	"/deploy/img/work-2/philly-flower/ui-kit.jpg": {
 		"ft": 16384,
-		"iS": 40013,
+		"iS": 264596,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/philly-flower/ui-kit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/philly-flower/uikit.jpg": {
+		"ft": 16384,
+		"iS": 40013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/philly-flower/uikit.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3327,6 +3360,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/product/catalogue-2.jpg": {
+		"ft": 16384,
+		"iS": 143020,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/product/catalogue-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/product/gift-packaging.jpg": {
 		"ft": 16384,
 		"iS": 107266,
@@ -3371,6 +3415,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/woodmere/touchpoint/map.jpg": {
+		"ft": 16384,
+		"iS": 289150,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/touchpoint/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/woodmere/touchpoint/poster.jpg": {
 		"ft": 16384,
 		"iS": 453351,
@@ -3404,23 +3459,34 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/web/business-ap.jpg": {
+	"/deploy/img/work-2/woodmere/web/business-app.jpg": {
 		"ft": 16384,
-		"iS": 103647,
+		"iS": 118530,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/web/business-ap.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/web/business-app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/woodmere/web/business-app.jpg": {
+	"/deploy/img/work-2/woodmere/web/social-media.jpg": {
 		"ft": 16384,
-		"iS": 116556,
+		"iS": 169515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/woodmere/web/business-app.jpg",
+		"oAP": "/deploy/img/work-2/woodmere/web/social-media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/web/website.jpg": {
+		"ft": 16384,
+		"iS": 295331,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/web/website.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3578,7 +3644,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/cinegraph.html",
+		"oAP": "/deploy/cinegraph-studios.html",
 		"oF": 2
 		},
 	"/dev/concert-band.kit": {

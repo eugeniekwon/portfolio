@@ -10,7 +10,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 30vh;
+        height: 45vh;
 
             @include md {
                 height: 50vh;
@@ -19,8 +19,6 @@
             @include lg {
                 height: 100vh;
             }
-        
-        
 
         
     }
@@ -114,7 +112,7 @@
                     display: grid;
                     grid-template-rows: repeat(15, 800px);
                     column-gap: 25px;
-                    margin: 0px 25px;
+                    // margin: 0px 25px;
 
                 }
 
@@ -200,17 +198,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(5, 320px);
+                grid-template-rows: repeat(6, 320px);
                 gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(5, 560px);
+                    grid-template-rows: repeat(6, 560px);
                 }
 
                 @include lg {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(5, 800px);
+                    grid-template-rows: repeat(6, 900px);
 
                 }
 

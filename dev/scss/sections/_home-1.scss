@@ -9,20 +9,27 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 69vh;
+        height: 45vh;
 
-        @include md{
-            height: 110vh;
+        // @include md{
+        //     height: 110vh;
+        // }
+
+        @include md {
+            height: 50vh;
         }
 
-        @include lg{
-            height: 98vh;
+        @include lg {
+            height: 100vh;
         }
+        // @include lg{
+        //     height: 98vh;
+        // }
 
-        @include xl{
-            height: 114vh;
-            background-position: 0px -650px;
-        }
+        // @include xl{
+        //     height: 114vh;
+        //     background-position: 0px -650px;
+        // }
     }
     
     #home-main {
@@ -93,7 +100,7 @@
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
                     column-gap: 25px;
-                    margin: 0px 25px;
+                    // margin: 0px 25px;
                 }
 
                 @include xl{

@@ -343,7 +343,7 @@ ul {
   grid-template-areas: ". container ."; }
   @media (min-width: 1440px) {
     .grid-container {
-      grid-template-columns: auto 1300px auto; } }
+      grid-template-columns: auto 1280px auto; } }
   .grid-container > div {
     grid-area: container; }
 
@@ -996,14 +996,6 @@ footer {
     work-2
 ============= */
 @media (min-width: 768px) {
-  #work-2 {
-    margin: 0px 25px; } }
-
-@media (min-width: 1025px) {
-  #work-2 {
-    margin: 0px; } }
-
-@media (min-width: 768px) {
   #work-2 > div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1073,7 +1065,6 @@ footer {
       margin: 0; } }
 #work-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/proj-cinegraph.jpg");
-  background-color: #fff;
   margin-bottom: 30px;
   background-size: 130%; }
   @media (min-width: 768px) {
@@ -1081,7 +1072,6 @@ footer {
       margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
   background-image: url("../img/work-2/proj-band.jpg");
-  background-color: #fff;
   margin-bottom: 30px; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
@@ -1090,7 +1080,7 @@ footer {
   background-image: url("../img/work-2/proj-kitchen.jpg");
   margin-bottom: 30px;
   background-size: 140%;
-  background-position: -145px -50px; }
+  background-position: center; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(5) > div {
       margin: 0; } }
@@ -1121,8 +1111,8 @@ footer {
 #work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/proj-flower.jpg");
   margin-bottom: 30px;
-  background-size: 130%;
-  background-position: -180px -50px; }
+  background-size: 100%;
+  background-position: center; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(10) > div {
       margin-bottom: 0px; } }
@@ -1151,7 +1141,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #woodmere #woodmere-hero {
       height: 50vh; } }
@@ -1212,8 +1202,7 @@ footer {
       #woodmere #woodmere-gallery > div ul {
         display: grid;
         grid-template-rows: repeat(15, 800px);
-        column-gap: 25px;
-        margin: 0px 25px; } }
+        column-gap: 25px; } }
     #woodmere #woodmere-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -1254,15 +1243,15 @@ footer {
 
 #woodmere #woodmere-touchpoint > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 320px);
+  grid-template-rows: repeat(6, 320px);
   gap: 20px; }
   @media (min-width: 768px) {
     #woodmere #woodmere-touchpoint > div ul {
-      grid-template-rows: repeat(5, 560px); } }
+      grid-template-rows: repeat(6, 560px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 800px); } }
+      grid-template-rows: repeat(6, 900px); } }
   #woodmere #woodmere-touchpoint > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1309,8 +1298,8 @@ footer {
   background-image: url("../img/work-2/philly-flower/philly-flower-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+  background-size: cover;
+  height: 45vh; }
   @media (min-width: 768px) {
     #philly-flower #philly-flower-hero {
       height: 50vh; } }
@@ -1358,7 +1347,7 @@ footer {
   #philly-flower #philly-flower-main-screenshot > div img {
     object-fit: contain;
     object-position: center;
-    height: 30vh;
+    height: 27vh;
     width: 100%; }
     @media (min-width: 768px) {
       #philly-flower #philly-flower-main-screenshot > div img {
@@ -1371,7 +1360,7 @@ footer {
   background-color: #f9f9f9; }
   #philly-flower #philly-flower-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(4, 29vh);
+    grid-template-rows: repeat(4, 27vh);
     gap: 20px; }
     @media (min-width: 768px) {
       #philly-flower #philly-flower-gallery > div ul {
@@ -1544,16 +1533,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #little-joys #joy-hero {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #little-joys #joy-hero {
-      height: 90vh; } }
-  @media (min-width: 1440px) {
-    #little-joys #joy-hero {
-      height: 105vh; } }
+      height: 100vh; } }
 #little-joys #joy-main {
   position: relative;
   background-color: #f9f9f9; }
@@ -1594,8 +1580,7 @@ footer {
     #little-joys #joy-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
+      column-gap: 25px; } }
   @media (min-width: 1440px) {
     #little-joys #joy-gallery > div ul {
       margin: 0px; } }
@@ -1613,16 +1598,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #street-photo #street-hero {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #street-photo #street-hero {
-      height: 90vh; } }
-  @media (min-width: 1440px) {
-    #street-photo #street-hero {
-      height: 105vh; } }
+      height: 100vh; } }
 #street-photo #street-main {
   position: relative;
   background-color: #f9f9f9; }
@@ -1661,11 +1643,7 @@ footer {
     #street-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
-  @media (min-width: 1440px) {
-    #street-gallery > div ul {
-      margin: 0px; } }
+      column-gap: 25px; } }
   #street-gallery > div ul li img {
     height: 100%;
     object-fit: contain;
@@ -1680,16 +1658,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #portraits #portraits-hero {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #portraits #portraits-hero {
       height: 90vh; } }
-  @media (min-width: 1440px) {
-    #portraits #portraits-hero {
-      height: 105vh; } }
 #portraits #portraits-main {
   position: relative;
   background-color: #f9f9f9; }
@@ -1728,11 +1703,7 @@ footer {
     #portraits #portraits-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
-  @media (min-width: 1440px) {
-    #portraits #portraits-gallery > div ul {
-      margin: 0px; } }
+      column-gap: 25px; } }
   #portraits #portraits-gallery > div ul li img {
     height: 100%;
     object-fit: contain;
@@ -1750,13 +1721,10 @@ footer {
   height: 69vh; }
   @media (min-width: 768px) {
     #light-photo #light-hero {
-      height: 110vh; } }
+      height: 50vh; } }
   @media (min-width: 1025px) {
     #light-photo #light-hero {
-      height: 98vh; } }
-  @media (min-width: 1440px) {
-    #light-photo #light-hero {
-      height: 114vh; } }
+      height: 100vh; } }
 #light-photo #light-main {
   position: relative;
   background-color: #f9f9f9; }
@@ -1795,8 +1763,7 @@ footer {
     #light-photo #light-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
+      column-gap: 25px; } }
   @media (min-width: 1440px) {
     #light-photo #light-gallery > div ul {
       margin: 0px; } }
@@ -1814,7 +1781,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #copenhagen #copenhagen-hero {
       height: 50vh; } }
@@ -1876,11 +1843,11 @@ footer {
     aesop-1
 ============= */
 #aesop #aesop-hero {
-  background-image: url("../img/work-2/aesop/aesop-1.jpg");
+  background-image: url("../img/work-2/proj-aesop.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+  background-size: cover;
+  height: 40vh; }
   @media (min-width: 768px) {
     #aesop #aesop-hero {
       height: 50vh; } }
@@ -1966,11 +1933,7 @@ footer {
     #aesop #aesop-gallery-1 > div ul {
       display: grid;
       grid-template-rows: repeat(2, 80vh);
-      column-gap: 25px;
-      margin: 0px 25px; } }
-  @media (min-width: 1440px) {
-    #aesop #aesop-gallery-1 > div ul {
-      margin: 0px; } }
+      column-gap: 25px; } }
   #aesop #aesop-gallery-1 > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1998,11 +1961,7 @@ footer {
       grid-template-rows: repeat(1, 40vh);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px;
-      margin: 0px 25px;
       grid-template-areas: "as1 as2 as3"; } }
-  @media (min-width: 1440px) {
-    #aesop #aesop-gallery-2 > div ul {
-      margin: 0px; } }
   #aesop #aesop-gallery-2 > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2027,11 +1986,11 @@ footer {
     perused-1
 ============= */
 #perused #perused-hero {
-  background-image: url("../img/work-2/perused/cover-hero.jpg");
+  background-image: url("../img/work-2/proj-perused.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+  background-size: cover;
+  height: 45vh; }
   @media (min-width: 768px) {
     #perused #perused-hero {
       height: 50vh; } }
@@ -2085,11 +2044,7 @@ footer {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 g10";
-      column-gap: 25px;
-      margin: 0px 25px; } }
-  @media (min-width: 1440px) {
-    #perused #perused-gallery > div ul {
-      margin: 0px; } }
+      column-gap: 25px; } }
   #perused #perused-gallery > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2149,8 +2104,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 .";
-    column-gap: 25px;
-    margin: 0px 25px; } }
+    column-gap: 25px; } }
 
 #perused #perused-gallery-process-1 > div > ul li img {
   object-fit: cover;
@@ -2195,11 +2149,11 @@ footer {
     luis-barragan-1
 ============= */
 #luis-barragan #luis-barragan-hero {
-  background-image: url("../img/work-2/proj-6.jpg");
+  background-image: url("../img/work-2/proj-barragan.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #luis-barragan #luis-barragan-hero {
       height: 50vh; } }
@@ -2301,11 +2255,11 @@ footer {
     bodoni-1
 ============= */
 #bodoni #bodoni-hero {
-  background-image: url("../img/work-2/proj-8.jpg");
+  background-image: url("../img/work-2/proj-bodoni.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #bodoni #bodoni-hero {
       height: 50vh; } }
@@ -2365,12 +2319,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
-    margin: 0px 25px;
     grid-template-areas: "b1 b2 b3"; } }
-
-@media (min-width: 1440px) {
-  #bodoni #bodoni-gallery > div ul {
-    margin: 0px; } }
 
 #bodoni #bodoni-gallery > div ul li img {
   object-fit: cover;
@@ -2500,7 +2449,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #home-kitchen #home-kitchen-hero {
       height: 50vh; } }
@@ -2636,7 +2585,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-hero {
       height: 50vh; } }
@@ -2771,7 +2720,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #highland-orchards #highland-orchards-hero {
       height: 50vh; } }
@@ -2832,8 +2781,7 @@ footer {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
         grid-template-rows: repeat(14, 800px);
-        column-gap: 25px;
-        margin: 0px 25px; } }
+        column-gap: 25px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -2868,8 +2816,7 @@ footer {
       #highland-orchards #highland-orchards-product-intro > div ul {
         display: grid;
         grid-template-rows: repeat(2, 800px);
-        column-gap: 25px;
-        margin: 0px 25px; } }
+        column-gap: 25px; } }
     #highland-orchards #highland-orchards-product-intro > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -2970,17 +2917,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 69vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #home-photo #home-hero {
-      height: 110vh; } }
+      height: 50vh; } }
   @media (min-width: 1025px) {
     #home-photo #home-hero {
-      height: 98vh; } }
-  @media (min-width: 1440px) {
-    #home-photo #home-hero {
-      height: 114vh;
-      background-position: 0px -650px; } }
+      height: 100vh; } }
 #home-photo #home-main {
   position: relative;
   background-color: #f9f9f9; }
@@ -3019,8 +2962,7 @@ footer {
     #home-photo #home-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
+      column-gap: 25px; } }
   @media (min-width: 1440px) {
     #home-photo #home-gallery > div ul {
       margin: 0px; } }
@@ -3034,11 +2976,11 @@ footer {
     miracles-1
 ============= */
 #miracles #miracles-hero {
-  background-image: url("../img/work-2/miracles/miracles-3.jpg");
+  background-image: url("../img/work-2/proj-miracles.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh; }
+  background-size: cover;
+  height: 45vh; }
   @media (min-width: 768px) {
     #miracles #miracles-hero {
       height: 50vh; } }
@@ -3104,8 +3046,7 @@ footer {
   background-color: #f9f9f9; }
   #miracles #miracles-main-work > div ul {
     display: grid;
-    grid-template-rows: repeat(5, 40vh);
-    grid-template-areas: "m1" "m2" "m3" "m4" "m5"; }
+    grid-template-rows: repeat(5, 40vh); }
     @media (min-width: 768px) {
       #miracles #miracles-main-work > div ul {
         grid-template-rows: repeat(5, 50vh); } }
@@ -3117,31 +3058,7 @@ footer {
       object-position: center;
       height: 100%;
       width: 100%; }
-    #miracles #miracles-main-work > div ul li:nth-child(1) img {
-      object-fit: cover; }
-    @media (min-width: 1025px) {
-      #miracles #miracles-main-work > div ul li:nth-child(1) {
-        grid-area: m1; } }
-    #miracles #miracles-main-work > div ul li:nth-child(2) img {
-      object-fit: cover; }
-    @media (min-width: 1025px) {
-      #miracles #miracles-main-work > div ul li:nth-child(2) {
-        grid-area: m2; } }
-    #miracles #miracles-main-work > div ul li:nth-child(3) img {
-      object-fit: cover; }
-    @media (min-width: 1025px) {
-      #miracles #miracles-main-work > div ul li:nth-child(3) {
-        grid-area: m3; } }
-    #miracles #miracles-main-work > div ul li:nth-child(4) img {
-      object-fit: cover; }
-    @media (min-width: 1025px) {
-      #miracles #miracles-main-work > div ul li:nth-child(4) {
-        grid-area: m4; } }
-    #miracles #miracles-main-work > div ul li:nth-child(5) img {
-      object-fit: cover; }
-    @media (min-width: 1025px) {
-      #miracles #miracles-main-work > div ul li:nth-child(5) {
-        grid-area: m5; } }
+
 #miracles #miracles-gallery-1 > div ul {
   display: grid;
   grid-template-rows: repeat(3, 40vh);
@@ -3153,11 +3070,7 @@ footer {
     #miracles #miracles-gallery-1 > div ul {
       display: grid;
       grid-template-rows: repeat(3, 90vh);
-      column-gap: 25px;
-      margin: 0px 25px; } }
-  @media (min-width: 1440px) {
-    #miracles #miracles-gallery-1 > div ul {
-      margin: 0px; } }
+      column-gap: 25px; } }
   #miracles #miracles-gallery-1 > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3201,29 +3114,17 @@ footer {
     height: 100%;
     width: 100%; }
   #miracles #miracles-gallery-2 > div ul li:nth-child(1) img {
-    object-fit: cover; }
-  @media (min-width: 1025px) {
-    #miracles #miracles-gallery-2 > div ul li:nth-child(1) {
-      grid-area: ms1; } }
-  #miracles #miracles-gallery-2 > div ul li:nth-child(2) img {
-    object-fit: cover; }
-  @media (min-width: 1025px) {
-    #miracles #miracles-gallery-2 > div ul li:nth-child(2) {
-      grid-area: ms2; } }
-  #miracles #miracles-gallery-2 > div ul li:nth-child(3) img {
-    object-fit: cover; }
-  @media (min-width: 1025px) {
-    #miracles #miracles-gallery-2 > div ul li:nth-child(3) {
-      grid-area: ms3; } }
+    height: 30vh; }
+
 /* =============
     cinegraph-1
 ============= */
 #cinegraph #cinegraph-hero {
-  background-image: url("../img/work-2/cinegraph-studios/main/main-logo.jpg");
+  background-image: url("../img/work-2/proj-cinegraph.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #cinegraph #cinegraph-hero {
       height: 50vh; } }
@@ -3275,22 +3176,35 @@ footer {
   background-color: #f9f9f9; }
   #cinegraph #cinegraph-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(11, 250px);
+    grid-template-rows: repeat(10, 250px);
     gap: 20px; }
     @media (min-width: 768px) {
       #cinegraph #cinegraph-gallery > div ul {
-        grid-template-rows: repeat(11, 500px); } }
+        grid-template-rows: repeat(10, 500px); } }
     @media (min-width: 1025px) {
       #cinegraph #cinegraph-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(11, 800px);
-        column-gap: 25px;
-        margin: 0px 25px; } }
+        grid-template-rows: repeat(10, 800px);
+        column-gap: 25px; } }
     #cinegraph #cinegraph-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
       height: 100%;
       width: 100%; }
+
+#cinegraph #cinegraph-video {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #cinegraph #cinegraph-video > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #cinegraph #cinegraph-video > div section {
+      width: 100%; }
+      #cinegraph #cinegraph-video > div section iframe {
+        width: 100%; }
 
 #cinegraph #cinegraph-applications > div ul {
   display: grid;
@@ -3337,11 +3251,11 @@ footer {
     concert-band-1
 ============= */
 #concert-band #concert-band-hero {
-  background-image: url("../img/work-2/concert-band/main/main-logo.jpg");
+  background-image: url("../img/work-2/proj-band.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #concert-band #concert-band-hero {
       height: 50vh; } }
@@ -3402,8 +3316,7 @@ footer {
       #concert-band #concert-band-gallery > div ul {
         display: grid;
         grid-template-rows: repeat(9, 800px);
-        column-gap: 25px;
-        margin: 0px 25px; } }
+        column-gap: 25px; } }
     #concert-band #concert-band-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3422,8 +3335,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 550px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
-      margin: 0px 25px; } }
+      column-gap: 25px; } }
   #concert-band #concert-band-applications > div ul li img {
     object-fit: cover;
     object-position: center;
