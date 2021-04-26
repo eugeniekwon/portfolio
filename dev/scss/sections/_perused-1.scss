@@ -129,7 +129,7 @@
                         }
 
                         @include lg {
-                            height:  63vh;
+                            height:  60vh;
                         }
 
                     }
@@ -225,8 +225,8 @@
                         }
 
                         @include lg {
-                            height:  50vh;
-                            object-fit: contain;
+                            height:  100vh;
+                            // object-fit: cover;
                         }
 
                     }
@@ -242,11 +242,11 @@
                 @include lg{
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
-                    grid-template-rows: repeat(4,1fr);
+                    grid-template-rows: repeat(2,1fr);
                     grid-template-areas: "g1 g2"
-                    "g3 g4"
-                    "g5 g6"
-                    "g7 .";
+                    "g3 g4";
+                    // "g5 g6"
+                    // "g7 .";
                     column-gap: 25px;
                     // margin: 0px 25px;
                 }
@@ -298,27 +298,27 @@
                         }   
                     }
                 }
-                li:nth-child(5){
-                    >div{
-                        @include lg{
-                            grid-area: g5;
-                        }   
-                    }
-                }
-                li:nth-child(6){
-                    >div{
-                        @include lg{
-                            grid-area: g6;
-                        }   
-                    }
-                }
-                li:nth-child(7){
-                    >div{
-                        @include lg{
-                            grid-area: g7;
-                        }   
-                    }
-                }
+                // li:nth-child(5){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g5;
+                //         }   
+                //     }
+                // }
+                // li:nth-child(6){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g6;
+                //         }   
+                //     }
+                // }
+                // li:nth-child(7){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g7;
+                //         }   
+                //     }
+                // }
                 // li:nth-child(8){
                 //     >div{
                 //         @include lg{

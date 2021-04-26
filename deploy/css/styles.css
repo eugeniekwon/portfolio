@@ -1449,7 +1449,6 @@ footer {
 @media (min-width: 1025px) {
   #art > div ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 25px; } }
 
 #art > div ul li > div {
@@ -1470,7 +1469,7 @@ footer {
       height: 32vh; } }
   @media (min-width: 1440px) {
     #art > div ul li > div {
-      height: 45vh; } }
+      height: 65vh; } }
   #art > div ul li > div a:link,
   #art > div ul li > div a:visited {
     width: 100%; }
@@ -1514,11 +1513,8 @@ footer {
     #art > div li:nth-child(3) > div {
       background-position: 0px 0px; } }
 #art > div li:nth-child(4) > div {
-  background-image: url("../img/art-1/light/light-hero-1.jpg");
-  margin-bottom: 90px; }
-  @media (min-width: 768px) {
-    #art > div li:nth-child(4) > div {
-      margin-bottom: 125px; } }
+  background-image: url("../img/art-1/light/light-hero-1.jpg"); }
+
 #art > div li:nth-child(5) > div {
   background-image: url("../img/art-1/home/home-12.jpg");
   margin-bottom: 90px; }
@@ -2055,7 +2051,7 @@ footer {
         height: 50vh; } }
     @media (min-width: 1025px) {
       #perused #perused-gallery > div ul li img {
-        height: 63vh; } }
+        height: 60vh; } }
   @media (min-width: 1025px) {
     #perused #perused-gallery > div li:nth-child(1) > div {
       grid-area: g1; } }
@@ -2096,14 +2092,13 @@ footer {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #perused #p-colour-palette > div ul li img {
-      height: 50vh;
-      object-fit: contain; } }
+      height: 100vh; } }
 @media (min-width: 1025px) {
   #perused #perused-gallery-process-1 > div > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 .";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "g1 g2" "g3 g4";
     column-gap: 25px; } }
 
 #perused #perused-gallery-process-1 > div > ul li img {
@@ -2132,18 +2127,6 @@ footer {
 @media (min-width: 1025px) {
   #perused #perused-gallery-process-1 > div > ul li:nth-child(4) > div {
     grid-area: g4; } }
-
-@media (min-width: 1025px) {
-  #perused #perused-gallery-process-1 > div > ul li:nth-child(5) > div {
-    grid-area: g5; } }
-
-@media (min-width: 1025px) {
-  #perused #perused-gallery-process-1 > div > ul li:nth-child(6) > div {
-    grid-area: g6; } }
-
-@media (min-width: 1025px) {
-  #perused #perused-gallery-process-1 > div > ul li:nth-child(7) > div {
-    grid-area: g7; } }
 
 /* =============
     luis-barragan-1

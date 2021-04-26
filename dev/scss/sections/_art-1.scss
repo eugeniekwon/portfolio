@@ -23,7 +23,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-columns: repeat(3, 1fr);
+                    // grid-template-columns: repeat(3, 1fr);
                     gap: 25px;
                 }
 
@@ -61,7 +61,7 @@
                         }
 
                         @include xl {
-                            height: 45vh;
+                            height: 65vh;
                         }
 
                         a:link,
@@ -134,11 +134,11 @@
             li:nth-child(4) {
                 >div {
                     background-image: url("../img/art-1/light/light-hero-1.jpg");
-                    margin-bottom: 90px;
+                    // margin-bottom: 90px;
 
-                    @include md {
-                        margin-bottom: 125px;
-                    }
+                    // @include md {
+                    //     margin-bottom: 125px;
+                    // }
                 }
 
             }
