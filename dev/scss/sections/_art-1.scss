@@ -77,6 +77,10 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
+
+                                @include xl{
+                                    font-size: rem-calc(30);
+                                }
                             }
 
                             p {
@@ -88,6 +92,10 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
+
+                                @include xl{
+                                    font-size: rem-calc(20);
+                                }
                             }
 
                             span{

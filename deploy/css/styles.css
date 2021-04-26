@@ -1482,6 +1482,10 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 1440px) {
+        #art > div ul li > div a:link h4,
+        #art > div ul li > div a:visited h4 {
+          font-size: 1.875rem; } }
     #art > div ul li > div a:link p,
     #art > div ul li > div a:visited p {
       font-family: 'Inter', sans-serif;
@@ -1491,6 +1495,10 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 1440px) {
+        #art > div ul li > div a:link p,
+        #art > div ul li > div a:visited p {
+          font-size: 1.25rem; } }
     #art > div ul li > div a:link span,
     #art > div ul li > div a:visited span {
       display: block; }
