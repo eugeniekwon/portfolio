@@ -2026,12 +2026,20 @@ footer {
   @media (min-width: 768px) {
     #perused #perused-main > div ul li:nth-child(3) {
       grid-area: process; } }
-#perused #perused-definition {
+#perused #perused-intro {
   position: relative;
   background-color: #f9f9f9; }
-  @media (min-width: 1025px) {
-    #perused #perused-definition {
-      padding-bottom: 15px; } }
+  #perused #perused-intro > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 30vh;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #perused #perused-intro > div ul li img {
+        height: 50vh; } }
+    @media (min-width: 1025px) {
+      #perused #perused-intro > div ul li img {
+        height: 100vh; } }
 #perused #perused-gallery {
   position: relative;
   background-color: #f9f9f9; }
@@ -2039,7 +2047,7 @@ footer {
     #perused #perused-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 g10";
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 .";
       column-gap: 25px; } }
   #perused #perused-gallery > div ul li img {
     object-fit: cover;
@@ -2079,26 +2087,12 @@ footer {
   @media (min-width: 1025px) {
     #perused #perused-gallery > div li:nth-child(9) > div {
       grid-area: g9; } }
-  @media (min-width: 1025px) {
-    #perused #perused-gallery > div li:nth-child(10) > div {
-      grid-area: g10; } }
-#perused #p-colour-palette > div ul li img {
-  object-fit: cover;
-  object-position: center;
-  height: 30vh;
-  width: 100%; }
-  @media (min-width: 768px) {
-    #perused #p-colour-palette > div ul li img {
-      height: 50vh; } }
-  @media (min-width: 1025px) {
-    #perused #p-colour-palette > div ul li img {
-      height: 100vh; } }
 @media (min-width: 1025px) {
   #perused #perused-gallery-process-1 > div > ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "g1 g2" "g3 g4";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "g1 g2 g3";
     column-gap: 25px; } }
 
 #perused #perused-gallery-process-1 > div > ul li img {
@@ -2111,7 +2105,7 @@ footer {
       height: 45vh; } }
   @media (min-width: 1025px) {
     #perused #perused-gallery-process-1 > div > ul li img {
-      height: 50vh; } }
+      height: 35vh; } }
 @media (min-width: 1025px) {
   #perused #perused-gallery-process-1 > div > ul li:nth-child(1) > div {
     grid-area: g1; } }
@@ -2123,10 +2117,6 @@ footer {
 @media (min-width: 1025px) {
   #perused #perused-gallery-process-1 > div > ul li:nth-child(3) > div {
     grid-area: g3; } }
-
-@media (min-width: 1025px) {
-  #perused #perused-gallery-process-1 > div > ul li:nth-child(4) > div {
-    grid-area: g4; } }
 
 /* =============
     luis-barragan-1

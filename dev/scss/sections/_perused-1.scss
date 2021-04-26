@@ -81,15 +81,43 @@
         
     }
 
-    #perused-definition{
-        position: relative;
-        background-color: $bkgd-gray;
+    // #perused-definition{
+    //     position: relative;
+    //     background-color: $bkgd-gray;
 
-        @include lg{
-            padding-bottom: 15px;
-        }
+    //     @include lg{
+    //         padding-bottom: 15px;
+    //     }
 
         
+    // }
+
+    #perused-intro{
+        position: relative;
+        background-color: $bkgd-gray;
+        
+        >div{
+            ul{
+                li{
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 30vh;
+                        width: 100%;
+
+                        @include md{
+                            height: 50vh;
+                        }
+
+                        @include lg {
+                            height:  100vh;
+                            // object-fit: cover;
+                        }
+
+                    }
+                }
+            }
+        }
     }
 
     #perused-gallery{
@@ -107,7 +135,7 @@
                     "g3 g4"
                     "g5 g6"
                     "g7 g8"
-                    "g9 g10";
+                    "g9 .";
                     column-gap: 25px;
                     // margin: 0px 25px;
                 }
@@ -200,40 +228,16 @@
                         }   
                     }
                 }
-                li:nth-child(10){
-                    >div{
-                        @include lg{
-                            grid-area: g10;
-                        }   
-                    }
-                }
+                // li:nth-child(10){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g10;
+                //         }   
+                //     }
+                // }
         }
     }
 
-    #p-colour-palette{
-        >div{
-            ul{
-                li{
-                    img {
-                        object-fit: cover;
-                        object-position: center;
-                        height: 30vh;
-                        width: 100%;
-
-                        @include md{
-                            height: 50vh;
-                        }
-
-                        @include lg {
-                            height:  100vh;
-                            // object-fit: cover;
-                        }
-
-                    }
-                }
-            }
-        }
-    }   
 
     #perused-gallery-process-1{
         >div{
@@ -241,10 +245,10 @@
             >ul{
                 @include lg{
                     display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    grid-template-rows: repeat(2,1fr);
-                    grid-template-areas: "g1 g2"
-                    "g3 g4";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: repeat(1,1fr);
+                    grid-template-areas: "g1 g2 g3";
+                    // "g3 g4";
                     // "g5 g6"
                     // "g7 .";
                     column-gap: 25px;
@@ -264,7 +268,7 @@
                             }
 
                         @include lg {
-                            height: 50vh;
+                            height: 35vh;
                         }
 
                     }
@@ -291,13 +295,13 @@
                         }   
                     }
                 }
-                li:nth-child(4){
-                    >div{
-                        @include lg{
-                            grid-area: g4;
-                        }   
-                    }
-                }
+                // li:nth-child(4){
+                //     >div{
+                //         @include lg{
+                //             grid-area: g4;
+                //         }   
+                //     }
+                // }
                 // li:nth-child(5){
                 //     >div{
                 //         @include lg{

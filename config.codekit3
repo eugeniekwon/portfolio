@@ -1380,6 +1380,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/cover-1.jpg": {
+		"ft": 16384,
+		"iS": 101529,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cover-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/gustav-mahler/mahler-1.jpg": {
 		"ft": 16384,
 		"iS": 948061,
@@ -2502,116 +2513,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/colours.jpg": {
-		"ft": 16384,
-		"iS": 37789,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/colours.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/contents-process-1.jpg": {
-		"ft": 16384,
-		"iS": 147462,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/contents-process-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/contents.jpg": {
-		"ft": 16384,
-		"iS": 95560,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/contents.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/cover-1.jpg": {
-		"ft": 16384,
-		"iS": 98980,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/cover-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/cover-2.jpg": {
-		"ft": 16384,
-		"iS": 119157,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/cover-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/fp-1.jpg": {
-		"ft": 16384,
-		"iS": 188458,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/fp-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/fp-2.jpg": {
-		"ft": 16384,
-		"iS": 145677,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/fp-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/fp-3.jpg": {
-		"ft": 16384,
-		"iS": 222290,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/fp-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/fp-4.jpg": {
-		"ft": 16384,
-		"iS": 175400,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/fp-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/perused/fp-5.jpg": {
-		"ft": 16384,
-		"iS": 258647,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/fp-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/perused/initial-studies-2.jpg": {
 		"ft": 16384,
 		"iS": 234006,
@@ -2623,23 +2524,221 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/masthead-process.jpg": {
+	"/deploy/img/work-2/perused/intro/colour-type.jpg": {
 		"ft": 16384,
-		"iS": 57450,
+		"iS": 71359,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/masthead-process.jpg",
+		"oAP": "/deploy/img/work-2/perused/intro/colour-type.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/masthead-process1.jpg": {
+	"/deploy/img/work-2/perused/intro/definition.jpg": {
 		"ft": 16384,
-		"iS": 59112,
+		"iS": 44593,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/masthead-process1.jpg",
+		"oAP": "/deploy/img/work-2/perused/intro/definition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/contents.jpg": {
+		"ft": 16384,
+		"iS": 95964,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/contents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/cover-1.jpg": {
+		"ft": 16384,
+		"iS": 99978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/cover-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/cover-2.jpg": {
+		"ft": 16384,
+		"iS": 119157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/cover-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/different.jpg": {
+		"ft": 16384,
+		"iS": 101529,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/different.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/fp-1.jpg": {
+		"ft": 16384,
+		"iS": 190666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/fp-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/fp-2.jpg": {
+		"ft": 16384,
+		"iS": 147702,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/fp-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/fp-3.jpg": {
+		"ft": 16384,
+		"iS": 222851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/fp-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/fp-4.jpg": {
+		"ft": 16384,
+		"iS": 177292,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/fp-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/fp-5.jpg": {
+		"ft": 16384,
+		"iS": 260127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/fp-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/contents.jpg": {
+		"ft": 16384,
+		"iS": 95560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/contents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/cover-1.jpg": {
+		"ft": 16384,
+		"iS": 98980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/cover-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/fp-1.jpg": {
+		"ft": 16384,
+		"iS": 188458,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/fp-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/fp-2.jpg": {
+		"ft": 16384,
+		"iS": 145677,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/fp-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/fp-3.jpg": {
+		"ft": 16384,
+		"iS": 222290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/fp-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/fp-4.jpg": {
+		"ft": 16384,
+		"iS": 175400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/fp-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/fp-5.jpg": {
+		"ft": 16384,
+		"iS": 258647,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/fp-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/old/opening.jpg": {
+		"ft": 16384,
+		"iS": 104627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/old/opening.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/magazine/opening.jpg": {
+		"ft": 16384,
+		"iS": 101449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/magazine/opening.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2821,34 +2920,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/opening.jpg": {
+	"/deploy/img/work-2/perused/process/contents-process-1-.jpg": {
 		"ft": 16384,
-		"iS": 104627,
+		"iS": 147462,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/opening.jpg",
+		"oAP": "/deploy/img/work-2/perused/process/contents-process-1-.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/perused-covers.jpg": {
+	"/deploy/img/work-2/perused/process/contents-process-1.jpg": {
 		"ft": 16384,
-		"iS": 68968,
+		"iS": 148126,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/perused-covers.jpg",
+		"oAP": "/deploy/img/work-2/perused/process/contents-process-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/perused/perused-covers1.jpg": {
+	"/deploy/img/work-2/perused/process/masthead-process.jpg": {
 		"ft": 16384,
-		"iS": 69031,
+		"iS": 54386,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/perused/perused-covers1.jpg",
+		"oAP": "/deploy/img/work-2/perused/process/masthead-process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/perused/process/perused-covers.jpg": {
+		"ft": 16384,
+		"iS": 84431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/perused/process/perused-covers.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
