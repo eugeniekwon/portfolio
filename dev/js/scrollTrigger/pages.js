@@ -359,6 +359,8 @@ if(highlandOrchardsPage){
                  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(18)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(19)", {duration:pageTime, alpha:0},"-=0.01")
 
+                 .from("#highland-orchards #highland-orchards-video", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#highland-orchards #highland-orchards-product-intro div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-product-intro div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
 
@@ -445,6 +447,8 @@ if(cinegraphStudiosPage){
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#cinegraph #cinegraph-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -669,15 +673,20 @@ if(miraclesPage){
                  .from("#miracles #miracles-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#miracles #miracles-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#miracles #miracles-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+                 
+                 .from("#miracles #miracles-video", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#miracles #miracles-main-work div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-main-work div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-main-work div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-main-work div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-main-work div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#miracles #miracles-gallery-1 div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-gallery-1 div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-gallery-1 div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-gallery-1 div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#miracles #miracles-gallery-2 div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-gallery-2 div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#miracles #miracles-gallery-2 div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
@@ -865,6 +874,8 @@ if(woodmerePage){
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#woodmere #w-youtube-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#woodmere #woodmere-product div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-product div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")

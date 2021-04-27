@@ -30,12 +30,13 @@
 
             ul {
                 @include md {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about"". process";
-                    column-gap: 75px;
-                    margin: 0px 25px;
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
                 }
 
                 @include lg {
@@ -43,7 +44,7 @@
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
-                    column-gap: 100px;
+                    column-gap: 25px;
                     margin: 0px 45px;
                 }
 
@@ -99,18 +100,28 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(14, 250px);
-                gap: 20px;
+                grid-template-rows: repeat(13, 250px);
+                // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(14, 500px);
+                    grid-template-rows: repeat(13, 500px);
+                    // row-gap: 20px;
                 }
-
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(14, 800px);
+                    grid-template-rows: repeat(13, 600px);
                     column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(13, 800px);
+                    column-gap: 25px;
+                    // row-gap: 25px;
                     // margin: 0px 25px;
 
                 }
@@ -168,17 +179,27 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(2, 250px);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(2, 500px);
+                    // row-gap: 20px;
                 }
-
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(2, 600px);
+                    // column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(2, 800px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    // row-gap: 25px;
                     // margin: 0px 25px;
 
                 }
@@ -212,16 +233,28 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(5, 320px);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(5, 560px);
+                    // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(3, 400px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(3, 450px);
                     grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
 
                 }
 
@@ -248,16 +281,26 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(8, 320px);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(8, 560px);
+                    // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(8, 650px);
+                    // row-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    // grid-template-columns: repeat(1, 1fr);
                     grid-template-rows: repeat(8, 800px);
+                    // row-gap: 25px;
 
                 }
 
@@ -288,16 +331,26 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(3, 320px);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(3, 560px);
+                    // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 250px);
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 300px);
+                    column-gap: 25px;
 
                 }
 
@@ -325,16 +378,28 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(10, 320px);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(10, 560px);
+                    // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(5, 350px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(5, 450px);
                     grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
 
                 }
 
@@ -361,12 +426,14 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(4, 1fr);
-                gap: 20px;
+                // row-gap: 20px;
 
                 @include lg {
                     display: grid;
                     grid-template-rows: repeat(2, 1fr);
                     grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
 
                 }
 

@@ -18,15 +18,19 @@
 
             ul {
                 
+                gap: 20px;
+
                 @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(7, 1fr);
                     gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(7, 1fr);
                     gap: 25px;
                 }
 
@@ -53,7 +57,7 @@
                         }
 
                         @include lg {
-                            height: 32vh;
+                            height: 50vh;
                         }
 
                         @include xl {
@@ -105,12 +109,12 @@
             li:nth-child(1) {
                 >div {
                     background-image: url("../img/work-2/proj-orchards.jpg");
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
                     
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
 
                 }
 
@@ -136,12 +140,12 @@
                 >div {
                     background-image: url("../img/work-2/proj-cinegraph.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
                     background-size: 130%;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
                 }
 
 
@@ -151,12 +155,12 @@
                 >div {
                     background-image: url("../img/work-2/proj-band.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
                     // background-size: 130%;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
                 }
 
 
@@ -166,14 +170,14 @@
                 >div {
                     background-image: url("../img/work-2/proj-kitchen.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
                     background-size: 140%;
                     // background-position: -145px -50px;
                     background-position: center;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
                 }
 
 
@@ -183,11 +187,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-perused.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
 
                 }
             }
@@ -196,11 +200,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-mahler.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
                 }
 
 
@@ -211,11 +215,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-copenhagen.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
 
                 }
             }
@@ -225,11 +229,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-barragan.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin: 0;
-                    }
+                    // @include md {
+                    //     margin: 0;
+                    // }
 
                 }
 
@@ -240,14 +244,14 @@
                 >div {
                     background-image: url("../img/work-2/proj-flower.jpg");
                     
-                    margin-bottom: 30px;
-                    background-size: 100%;
+                    // margin-bottom: 30px;
+                    // background-size: 100%;
                     // background-position: -180px -50px;
                     background-position: center;
 
-                    @include md {
-                        margin-bottom: 0px;
-                    }
+                    // @include md {
+                    //     margin-bottom: 0px;
+                    // }
                 }
 
 
@@ -257,11 +261,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-miracles.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin-bottom: 0px;
-                    }
+                    // @include md {
+                    //     margin-bottom: 0px;
+                    // }
 
                 }
 
@@ -272,11 +276,11 @@
                 >div {
                     background-image: url("../img/work-2/proj-bodoni.jpg");
                     
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
 
-                    @include md {
-                        margin-bottom: 0px;
-                    }
+                    // @include md {
+                    //     margin-bottom: 0px;
+                    // }
 
                 }
 
@@ -287,9 +291,9 @@
                 >div {
                     background-image: url("../img/work-2/proj-aesop.jpg");
                     
-                    @include md{
-                        margin-bottom: 125px;
-                    }
+                    // @include md{
+                    //     margin-bottom: 125px;
+                    // }
 
                 }
 

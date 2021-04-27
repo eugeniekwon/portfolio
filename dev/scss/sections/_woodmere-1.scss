@@ -30,13 +30,14 @@
         >div {
 
             ul {
-                @include md {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about"". process";
-                    column-gap: 75px;
-                    margin: 0px 25px;
+                @include md{
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about" ". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
                 }
 
                 @include lg {
@@ -44,7 +45,7 @@
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
-                    column-gap: 100px;
+                    column-gap: 25px;
                     margin: 0px 45px;
                 }
 
@@ -101,7 +102,7 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(15, 250px);
-                gap: 20px;
+                // gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(15, 500px);
@@ -110,8 +111,16 @@
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(15, 600px);
+                    // column-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(15, 800px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
                     // margin: 0px 25px;
 
                 }
@@ -163,7 +172,7 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(6, 320px);
-                gap: 20px;
+                // gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(6, 560px);
@@ -171,8 +180,17 @@
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(3, 350px);
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(3, 450px);
                     grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
 
                 }
 
@@ -199,13 +217,20 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(6, 320px);
-                gap: 20px;
+                // gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(6, 560px);
                 }
 
                 @include lg {
+                    display: grid;
+                    // grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(6, 700px);
+
+                }
+
+                @include xl {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
                     grid-template-rows: repeat(6, 900px);
@@ -239,7 +264,7 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(10, 320px);
-                gap: 20px;
+                // gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(10, 560px);
@@ -247,8 +272,18 @@
 
                 @include lg {
                     display: grid;
+                    grid-template-rows: repeat(5, 400px);
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
+
+                }
+
+
+                @include xl {
+                    display: grid;
                     grid-template-rows: repeat(5, 450px);
                     grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
 
                 }
 
@@ -275,12 +310,13 @@
             ul {
                 display: grid;
                 grid-template-rows: repeat(4, 1fr);
-                gap: 20px;
+                // gap: 20px;
 
                 @include lg {
                     display: grid;
                     grid-template-rows: repeat(2, 1fr);
                     grid-template-columns: repeat(2, 1fr);
+                    column-gap: 25px;
 
                 }
                 

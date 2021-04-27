@@ -6,107 +6,102 @@
 
     >div {
 
-        @include md {
-            margin: 0px 25px;
-        }
+        // @include md {
+        //     margin: 0px 25px;
+        // }
 
-        @include lg {
-            margin: 0px;
-        }
+        // @include lg {
+        //     margin: 0px;
+        // }
 
-            ul {
-                @include md {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 20px;
-                }
+        ul {
+                
+            gap: 20px;
 
-                @include lg {
-                    display: grid;
-                    // grid-template-columns: repeat(3, 1fr);
-                    gap: 25px;
-                }
+            @include md {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                gap: 20px;
+            }
 
-                li {
-                    >div {
-                        align-items: center;
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        background-position: center;
-                        display: flex;
+            @include lg {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 25px;
+            }
+
+
+            li {
+                
+                >div {
+                    align-items: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    display: flex;
+                    height: 35vh;
+                    justify-content: center;
+                    text-align: center;
+                    
+                    // a:hover{
+                    //     transition: .25s;
+                    //     transform: scale(1.1);
+                    // }
+
+                    @include md {
                         height: 30vh;
-                        justify-content: center;
-                        text-align: center;
-                        margin-bottom: 30px;
-
-                        // @include md {
-                        //     height: 30vh;
-                        //     margin: 0px;
-                        // }
-
-                        // @include lg {
-                        //     height: 32vh;
-                        // }
-
-                        // @include xl {
-                        //     height: 35vh;
-                        // }
-
-                        @include md {
-                            height: 30vh;
-                        }
-
-                        @include lg {
-                            height: 32vh;
-                        }
-
-                        @include xl {
-                            height: 65vh;
-                        }
-
-                        a:link,
-                        a:visited {
-                            width: 100%;
-
-                            h4 {
-                                font-family: 'Inter', sans-serif;
-                                font-weight: 500;
-                                font-size: rem-calc(20);
-                                color: $white;
-
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-
-                                @include xl{
-                                    font-size: rem-calc(30);
-                                }
-                            }
-
-                            p {
-                                font-family: 'Inter', sans-serif;
-                                font-weight: 500;
-                                font-size: rem-calc(16);
-                                color: $white;
-
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-
-                                @include xl{
-                                    font-size: rem-calc(20);
-                                }
-                            }
-
-                            span{
-                                display: block;
-                            }
-                        }
-
-    
                     }
+
+                    @include lg {
+                        height: 50vh;
+                    }
+
+                    @include xl {
+                        // height: 45vh;
+                        height: 65vh;
+                    }
+
+                        h4 {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 500;
+                            font-size: rem-calc(20);
+                            color: $white;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            @include xl{
+                                font-size: rem-calc(30);
+                            }
+                        }
+
+                        p {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 500;
+                            font-size: rem-calc(16);
+                            color: $white;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            @include xl{
+                                font-size: rem-calc(20);
+                            }
+                        }
+
+                        span{
+                            display: block;
+                        }
+
+                        
+
                 }
             }
+        }
 
 
             li:nth-child(1) {
@@ -154,11 +149,11 @@
             li:nth-child(5) {
                 >div {
                     background-image: url("../img/art-1/home/home-12.jpg");
-                    margin-bottom: 90px;
+                    // margin-bottom: 90px;
 
-                    @include md {
-                        margin-bottom: 125px;
-                    }
+                    // @include md {
+                    //     margin-bottom: 125px;
+                    // }
                 }
 
             }

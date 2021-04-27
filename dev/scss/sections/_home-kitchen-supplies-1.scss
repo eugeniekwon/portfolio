@@ -30,12 +30,13 @@
 
             ul {
                 @include md {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about"". process";
-                    column-gap: 75px;
-                    margin: 0px 25px;
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
                 }
 
                 @include lg {
@@ -43,7 +44,7 @@
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
-                    column-gap: 100px;
+                    column-gap: 25px;
                     margin: 0px 45px;
                 }
 
@@ -121,7 +122,7 @@
 
                 display: grid;
                 grid-template-rows: repeat(6, 29vh);
-                gap: 20px;
+                // gap: 20px;
 
                 @include md {
                     grid-template-rows: repeat(6, 47vh);
@@ -129,7 +130,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(3, 50vh);
+                    grid-template-rows: repeat(3,49vh);
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
                         "p1 p2"
@@ -137,12 +138,12 @@
                         "p5 p6"
                         "p7 p7";
 
-                    gap: 20px;
+                    column-gap: 25px;
                 }
 
                 li {
                     img {
-                        object-fit: contain;
+                        object-fit: cover;
                         object-position: center;
                         height: 100%;
                         width: 100%;

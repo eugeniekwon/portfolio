@@ -11,17 +11,17 @@ gsap.registerPlugin(ScrollTrigger);
     work-1
 ============= */
 
-var workOne = document.querySelector("#work-1");
+// var workOne = document.querySelector("#work-1");
 
 
-if(workOne){
+// if(workOne){
   
-  var workOneTimeline = gsap.timeline();
+//   var workOneTimeline = gsap.timeline();
 
-  workOneTimeline.from("#intro",{duration:1, alpha:0, yPercent:-100})
-  .from("#intro-description", {duration:1, alpha:0, xPercent:100}, "-=1")
-  .from("#scroll-button", {duration:1, alpha:0}, "-=0.5");
-}
+//   workOneTimeline.from("#intro",{duration:1, alpha:0, yPercent:-100})
+//   .from("#intro-description", {duration:1, alpha:0, xPercent:100}, "-=1")
+//   .from("#scroll-button", {duration:1, alpha:0}, "-=0.5");
+// }
 
  
 

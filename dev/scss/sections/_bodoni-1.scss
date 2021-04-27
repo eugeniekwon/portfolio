@@ -29,12 +29,13 @@
 
             ul{
                 @include md{
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    grid-template-areas: "objective about" ". process";
-                    column-gap: 75px;
-                    margin: 0px 25px;
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about" ". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
                 }
     
                 @include lg{
@@ -42,7 +43,7 @@
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 1fr);
                     grid-template-areas: "objective about process";
-                    column-gap: 100px;
+                    column-gap: 25px;
                     margin: 0px 45px;
                     }
 
@@ -133,12 +134,12 @@
     
                 ul{
     
+                    
                     @include lg{
                         display: grid;
                         grid-template-columns: repeat(3,1fr);
                         column-gap: 25px;
                         // margin: 0px 25px;
-                        grid-template-areas: "b1 b2 b3";
                     }
     
                     // @include xl{
@@ -176,10 +177,6 @@
                             object-position: center;
                             height: 100%;
                             width: 100%;
-    
-                            @include lg{
-                                object-fit: contain;
-                            }
                             
                         }
     
@@ -188,39 +185,6 @@
                     }
 
                     
-
-                    li:nth-child(1) {
-                        img{
-                            object-fit: contain;
-                        }
-    
-                        @include lg {
-                            grid-area: b1;
-                        }
-    
-                    }
-
-                    li:nth-child(2) {
-                        img{
-                            object-fit: contain;
-                        }
-    
-                        @include lg {
-                            grid-area: b2;
-                        }
-    
-                    }
-
-                    li:nth-child(3) {
-                        img{
-                            object-fit: contain;
-                        }
-    
-                        @include lg {
-                            grid-area: b3;
-                        }
-    
-                    }
         
                     // li:nth-child(1){
                     //     >div{
