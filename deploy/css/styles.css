@@ -1172,7 +1172,7 @@ footer {
   grid-template-rows: repeat(6, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-touchpoint > div ul {
-      grid-template-rows: repeat(6, 560px); } }
+      grid-template-rows: repeat(6, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
@@ -1192,7 +1192,7 @@ footer {
   grid-template-rows: repeat(10, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-applications > div ul {
-      grid-template-rows: repeat(10, 560px); } }
+      grid-template-rows: repeat(10, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-applications > div ul {
       display: grid;
@@ -1296,7 +1296,7 @@ footer {
     grid-template-rows: repeat(4, 27vh); }
     @media (min-width: 768px) {
       #philly-flower #philly-flower-gallery > div ul {
-        grid-template-rows: repeat(4, 47vh); } }
+        grid-template-rows: repeat(4, 45vh); } }
     @media (min-width: 1025px) {
       #philly-flower #philly-flower-gallery > div ul {
         display: grid;
@@ -2339,14 +2339,14 @@ footer {
   background-color: #f9f9f9; }
   #home-kitchen #home-kitchen-gallery-process > div ul {
     display: grid;
-    grid-template-rows: repeat(3, 32vh);
-    gap: 20px; }
+    grid-template-rows: repeat(3, 32vh); }
     @media (min-width: 768px) {
       #home-kitchen #home-kitchen-gallery-process > div ul {
         grid-template-rows: repeat(3, 45vh); } }
     @media (min-width: 1025px) {
       #home-kitchen #home-kitchen-gallery-process > div ul {
         display: grid;
+        column-gap: 25px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 40vh);
         grid-template-areas: "ps1 ps2 ps3"; } }
@@ -2992,7 +2992,7 @@ footer {
   grid-template-rows: repeat(10, 320px); }
   @media (min-width: 768px) {
     #cinegraph #cinegraph-applications > div ul {
-      grid-template-rows: repeat(10, 560px); } }
+      grid-template-rows: repeat(10, 600px); } }
   @media (min-width: 1025px) {
     #cinegraph #cinegraph-applications > div ul {
       display: grid;
@@ -3109,7 +3109,7 @@ footer {
   grid-template-rows: repeat(3, 320px); }
   @media (min-width: 768px) {
     #concert-band #concert-band-applications > div ul {
-      grid-template-rows: repeat(3, 560px); } }
+      grid-template-rows: repeat(3, 600px); } }
   @media (min-width: 1025px) {
     #concert-band #concert-band-applications > div ul {
       display: grid;
