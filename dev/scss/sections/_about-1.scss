@@ -40,8 +40,10 @@
             text-align: left;
 
             @include md {
-                margin: 40px 106px 125px 300px;
+                // margin: 40px 106px 125px 300px;
+                margin: 40px 350px 125px 40px;
             }
+
 
             @include lg {
                 grid-area: article;
