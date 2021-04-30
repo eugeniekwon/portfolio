@@ -249,7 +249,7 @@
                 // }
 
                 @include md {
-                    grid-template-rows: repeat(2, 30vh);
+                    grid-template-rows: repeat(2, 25vh);
                     grid-template-columns: repeat(2, 1fr);
                     column-gap: 20px;
 

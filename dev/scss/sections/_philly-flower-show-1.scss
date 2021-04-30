@@ -95,7 +95,7 @@
                 width: 100%;
 
                 @include md {
-                    height: 47vh;
+                    height: 40vh;
                 }
 
                 @include lg {
@@ -127,7 +127,7 @@
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(4, 45vh);
+                    grid-template-rows: repeat(4, 42vh);
                 }
 
                 @include lg {

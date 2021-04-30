@@ -739,7 +739,7 @@ footer {
   width: 100%;
   border-bottom: 1px solid #f9f9f9; }
   footer > div {
-    margin: 0px 10px;
+    margin: 0px 20px;
     padding-top: 30px;
     color: #3F3F3F; }
     @media (min-width: 768px) {
@@ -828,7 +828,7 @@ footer {
   font-size: 0.90625rem;
   font-weight: 300;
   line-height: 1.4375rem;
-  margin: 30px 10px 90px 10px;
+  margin: 30px 20px 90px 20px;
   text-align: left; }
   @media (min-width: 768px) {
     #about > div article {
@@ -1283,7 +1283,7 @@ footer {
     width: 100%; }
     @media (min-width: 768px) {
       #philly-flower #philly-flower-main-screenshot > div img {
-        height: 47vh; } }
+        height: 40vh; } }
     @media (min-width: 1025px) {
       #philly-flower #philly-flower-main-screenshot > div img {
         height: 80vh; } }
@@ -1298,7 +1298,7 @@ footer {
     grid-template-rows: repeat(4, 30vh); }
     @media (min-width: 768px) {
       #philly-flower #philly-flower-gallery > div ul {
-        grid-template-rows: repeat(4, 45vh); } }
+        grid-template-rows: repeat(4, 42vh); } }
     @media (min-width: 1025px) {
       #philly-flower #philly-flower-gallery > div ul {
         display: grid;
@@ -1354,12 +1354,15 @@ footer {
     art-1
 ============= */
 #art > div ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   gap: 20px; }
   @media (min-width: 768px) {
     #art > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #art > div ul {
@@ -1555,7 +1558,7 @@ footer {
   background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 45vh; }
   @media (min-width: 768px) {
     #portraits #portraits-hero {
@@ -1878,7 +1881,7 @@ footer {
     width: 100%; }
     @media (min-width: 768px) {
       #perused #perused-intro > div ul li img {
-        height: 50vh; } }
+        height: 45vh; } }
     @media (min-width: 1025px) {
       #perused #perused-intro > div ul li img {
         height: 80vh; } }
@@ -2295,7 +2298,7 @@ footer {
   grid-template-rows: repeat(6, 29vh); }
   @media (min-width: 768px) {
     #home-kitchen #home-kitchen-gallery > div ul {
-      grid-template-rows: repeat(6, 47vh); } }
+      grid-template-rows: repeat(6, 43vh); } }
   @media (min-width: 1025px) {
     #home-kitchen #home-kitchen-gallery > div ul {
       display: grid;
@@ -2858,7 +2861,7 @@ footer {
   grid-template-rows: repeat(4, 35vh); }
   @media (min-width: 768px) {
     #miracles #miracles-gallery-1 > div ul {
-      grid-template-rows: repeat(2, 30vh);
+      grid-template-rows: repeat(2, 25vh);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 20px; } }
   @media (min-width: 1025px) {
