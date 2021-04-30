@@ -874,6 +874,7 @@ if(woodmerePage){
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#woodmere #woodmere-gallery div ul li:nth-child(16)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#woodmere #w-youtube-video", {duration:pageTime, alpha:0},"-=0.01")
 
