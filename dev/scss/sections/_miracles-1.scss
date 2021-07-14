@@ -227,67 +227,67 @@
     
 
 
-    #miracles-gallery-1 {
+    // #miracles-gallery-1 {
 
-        >div {
+    //     >div {
 
-            ul {
+    //         ul {
 
-                display: grid;
-                grid-template-rows: repeat(4, 35vh);
-                // gap: 20px;
+    //             display: grid;
+    //             grid-template-rows: repeat(4, 35vh);
+    //             // gap: 20px;
 
-                // @include md {
-                //     grid-template-rows: repeat(3, 50vh);
-                // }
+    //             // @include md {
+    //             //     grid-template-rows: repeat(3, 50vh);
+    //             // }
 
-                // @include lg {
-                //     display: grid;
-                //     grid-template-rows: repeat(3, 90vh);
-                //     column-gap: 25px;
-                //     // margin: 0px 25px;
-                // }
+    //             // @include lg {
+    //             //     display: grid;
+    //             //     grid-template-rows: repeat(3, 90vh);
+    //             //     column-gap: 25px;
+    //             //     // margin: 0px 25px;
+    //             // }
 
-                @include md {
-                    grid-template-rows: repeat(2, 25vh);
-                    grid-template-columns: repeat(2, 1fr);
-                    column-gap: 20px;
+    //             @include md {
+    //                 grid-template-rows: repeat(2, 25vh);
+    //                 grid-template-columns: repeat(2, 1fr);
+    //                 column-gap: 20px;
 
-                }
+    //             }
 
-                @include lg {
-                    grid-template-rows: repeat(2, 50vh);
-                    grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
-                }
+    //             @include lg {
+    //                 grid-template-rows: repeat(2, 50vh);
+    //                 grid-template-columns: repeat(2, 1fr);
+    //                 column-gap: 25px;
+    //             }
 
-                @include xl {
-                    grid-template-rows: repeat(2, 60vh);
-                    grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
-                }
+    //             @include xl {
+    //                 grid-template-rows: repeat(2, 60vh);
+    //                 grid-template-columns: repeat(2, 1fr);
+    //                 column-gap: 25px;
+    //             }
 
-                // @include xl {
-                //     margin: 0px;
-                // }
+    //             // @include xl {
+    //             //     margin: 0px;
+    //             // }
 
-                li {
+    //             li {
 
-                    img {
-                        object-fit: cover;
-                        object-position: center;
-                        height: 100%;
-                        width: 100%;
-                    }
+    //                 img {
+    //                     object-fit: cover;
+    //                     object-position: center;
+    //                     height: 100%;
+    //                     width: 100%;
+    //                 }
 
-                }
+    //             }
 
-            }
+    //         }
 
 
-        }
+    //     }
 
-    }
+    // }
 
     #miracles-gallery-2 {
 

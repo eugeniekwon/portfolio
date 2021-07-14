@@ -41,6 +41,14 @@
 		"oAP": "/deploy/art.html",
 		"oF": 0
 		},
+	"/deploy/artspaceh.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/artspaceh.html",
+		"oF": 0
+		},
 	"/deploy/bodoni.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3862,6 +3870,14 @@
 		"oAP": "/deploy/art.html",
 		"oF": 2
 		},
+	"/dev/artspaceh.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/artspaceh.html",
+		"oF": 2
+		},
 	"/dev/bodoni.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3973,6 +3989,14 @@
 		"oA": 1,
 		"oAP": "/dev/content/work/aesop-1.html",
 		"oF": 1
+		},
+	"/dev/content/work/artspaceh-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/artspaceh-1.html",
+		"oF": 0
 		},
 	"/dev/content/work/bodoni-1.kit": {
 		"cB": 0,
@@ -4544,6 +4568,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_art-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_artspaceh-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_artspaceh-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
