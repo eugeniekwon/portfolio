@@ -805,6 +805,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/artspaceh/app/box.jpg": {
+		"ft": 16384,
+		"iS": 138590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/artspaceh/app/box.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/artspaceh/app/brochure1.jpg": {
+		"ft": 16384,
+		"iS": 127616,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/deploy/img/work-2/artspaceh/app/brochure1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/artspaceh/app/brochure2.jpg": {
+		"ft": 16384,
+		"iS": 137491,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/deploy/img/work-2/artspaceh/app/brochure2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/artspaceh/app/brochure3.jpg": {
+		"ft": 16384,
+		"iS": 123418,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/deploy/img/work-2/artspaceh/app/brochure3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/artspaceh/app/crewneck.jpg": {
 		"ft": 16384,
 		"iS": 93239,
@@ -816,12 +860,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/artspaceh/app/poster.jpg": {
+		"ft": 16384,
+		"iS": 111466,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/artspaceh/app/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/artspaceh/app/stickers.jpg": {
 		"ft": 16384,
 		"iS": 93799,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/artspaceh/app/stickers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/artspaceh/app/tote-bag.jpg": {
+		"ft": 16384,
+		"iS": 140886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/artspaceh/app/tote-bag.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

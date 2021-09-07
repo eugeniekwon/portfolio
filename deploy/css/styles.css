@@ -3172,18 +3172,18 @@ footer {
   background-color: #f9f9f9; }
   #artspaceh #artspaceh-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(13, 250px); }
+    grid-template-rows: repeat(12, 250px); }
     @media (min-width: 768px) {
       #artspaceh #artspaceh-gallery > div ul {
-        grid-template-rows: repeat(13, 500px); } }
+        grid-template-rows: repeat(12, 500px); } }
     @media (min-width: 1025px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 600px); } }
+        grid-template-rows: repeat(12, 600px); } }
     @media (min-width: 1440px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 800px); } }
+        grid-template-rows: repeat(12, 800px); } }
     #artspaceh #artspaceh-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3206,20 +3206,20 @@ footer {
 
 #artspaceh #artspaceh-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 320px); }
+  grid-template-rows: repeat(8, 320px); }
   @media (min-width: 768px) {
     #artspaceh #artspaceh-applications > div ul {
-      grid-template-rows: repeat(4, 600px); } }
+      grid-template-rows: repeat(8, 600px); } }
   @media (min-width: 1025px) {
     #artspaceh #artspaceh-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 420px);
+      grid-template-rows: repeat(4, 420px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #artspaceh #artspaceh-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 530px);
+      grid-template-rows: repeat(4, 530px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #artspaceh #artspaceh-applications > div ul li img {
