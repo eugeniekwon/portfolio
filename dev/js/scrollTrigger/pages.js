@@ -488,65 +488,63 @@ if(cinegraphStudiosPage){
     pages - work - artspaceh
 ============= */
 
-// var artspacehPage = document.querySelector("#artspaceh");
+var artspacehPage = document.querySelector("#artspaceh");
 
-// if(artspacehPage){
-//     var artspacehTimeline = gsap.timeline();
-//     const pageIntroTime = 0.6;
-//     const pageTime = 0.65;
+if(artspacehPage){
+    var artspacehTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.65;
 
-//     artspacehTimeline.from("#cinegraph #cinegraph-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
-//                  .from("#cinegraph #cinegraph-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
-//                  .from("#cinegraph #cinegraph-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#cinegraph #cinegraph-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#cinegraph #cinegraph-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+    artspacehTimeline.from("#artspaceh #artspaceh-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#artspaceh #artspaceh-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#artspaceh #artspaceh-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#artspaceh #artspaceh-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#artspaceh #artspaceh-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#cinegraph #artspaceh-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
 
-//                  .from("#cinegraph #cinegraph-video", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-video", {duration:pageTime, alpha:0},"-=0.01")
 
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
 
-//                  .from("#cinegraph #cinegraph-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#cinegraph #cinegraph-process div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
-//                  .from("#cinegraph #cinegraph-credits div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-credits div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
 
                  
 
-//      ScrollTrigger.create({
-//       trigger: "#artspaceh",
-//       start: "top 50%",
-//       end: "bottom 50%",
-//       animation: artspacehTimeline,
-//       toggleActions: "restart none none none"
-//       // scrub: 1
-//     //   id: ".page",
-//     //   markers: true
-//     });
+     ScrollTrigger.create({
+      trigger: "#artspaceh",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: artspacehTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
 
-// }
+}
 
 
 
