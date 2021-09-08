@@ -513,6 +513,7 @@ if(artspacehPage){
                  .from("#artspaceh #artspaceh-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#artspaceh #artspaceh-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#artspaceh #artspaceh-video", {duration:pageTime, alpha:0},"-=0.01")
 

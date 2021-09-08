@@ -3172,18 +3172,18 @@ footer {
   background-color: #f9f9f9; }
   #artspaceh #artspaceh-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(12, 250px); }
+    grid-template-rows: repeat(13, 250px); }
     @media (min-width: 768px) {
       #artspaceh #artspaceh-gallery > div ul {
-        grid-template-rows: repeat(12, 500px); } }
+        grid-template-rows: repeat(13, 500px); } }
     @media (min-width: 1025px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(12, 600px); } }
+        grid-template-rows: repeat(13, 600px); } }
     @media (min-width: 1440px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(12, 800px); } }
+        grid-template-rows: repeat(13, 800px); } }
     #artspaceh #artspaceh-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
