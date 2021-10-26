@@ -1,12 +1,13 @@
 /* =============
-    artspaceh-1
+    deeply-fruit-1
 ============= */
 
-#artspaceh {
+#deeply-fruit {
 
-    #artspaceh-hero {
+    #deeply-fruit-hero {
 
-        background-image: url("../img/work-2/proj-artspaceh.jpg");
+        // background-image: url("../img/work-2/proj-artspaceh.jpg");
+        background: black;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -22,7 +23,7 @@
         
     }
 
-    #artspaceh-main {
+    #deeply-fruit-main {
         position: relative;
         background-color: $bkgd-gray;
 
@@ -92,7 +93,7 @@
 
     }
 
-    #artspaceh-gallery {
+    #deeply-fruit-exterior {
         position: relative;
         background-color: $bkgd-gray;
 
@@ -141,29 +142,29 @@
 
     }
 
-    #artspaceh-video {
-        display: grid;
-        grid-template-areas: ". video .";
-        grid-template-columns: 10px auto 10px;
+    // #deeply-fruit-video {
+    //     display: grid;
+    //     grid-template-areas: ". video .";
+    //     grid-template-columns: 10px auto 10px;
 
-        >div {
-            align-items: center;
-            display: flex;
-            grid-area: video;
-            justify-content: center;
+    //     >div {
+    //         align-items: center;
+    //         display: flex;
+    //         grid-area: video;
+    //         justify-content: center;
 
-            section {
-                width: 100%;
+    //         section {
+    //             width: 100%;
 
-                iframe {
-                    width: 100%;
-                }
-            }
-        }
-    }
+    //             iframe {
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 
 
-    #artspaceh-applications {
+    #deeply-fruit-interior {
         >div {
 
             ul {
@@ -208,7 +209,7 @@
     }
 
 
-    #artspaceh-process {
+    #deeply-fruit-process {
         >div {
 
             ul {
@@ -240,24 +241,7 @@
         }
     }
 
-    #artspaceh-credits{
-        >div {
-            ul {
-                // gap: 20px;
 
-                li {
-                    img {
-                        object-fit: cover;
-                        object-position: center;
-                        height: 100%;
-                        width: 100%;
-                    }
-                }
-            
-            }
-
-        }
-    }
 
 
 }

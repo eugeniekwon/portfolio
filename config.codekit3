@@ -4205,6 +4205,14 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 2
 		},
+	"/dev/book-covers.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/book-covers.html",
+		"oF": 2
+		},
 	"/dev/cinegraph-studios.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -4325,6 +4333,14 @@
 		"oAP": "/dev/content/work/bodoni-1.html",
 		"oF": 1
 		},
+	"/dev/content/work/book-covers-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/book-covers-1.html",
+		"oF": 0
+		},
 	"/dev/content/work/cinegraph-studios-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -4348,6 +4364,14 @@
 		"oA": 1,
 		"oAP": "/dev/content/work/copenhagen-1.html",
 		"oF": 1
+		},
+	"/dev/content/work/deeply-fruit-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/deeply-fruit-1.html",
+		"oF": 0
 		},
 	"/dev/content/work/gustav-mahler-1.kit": {
 		"cB": 0,
@@ -4427,6 +4451,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/copenhagen.html",
+		"oF": 2
+		},
+	"/dev/deeply-fruit.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/deeply-fruit.html",
 		"oF": 2
 		},
 	"/dev/global/footer.kit": {
@@ -4917,6 +4949,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_book-covers-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_book-covers-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_cinegraph-studios-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4952,6 +4997,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_copenhagen-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_deeply-fruit-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_deeply-fruit-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -955,19 +955,19 @@ footer {
 #work-2 > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(13, 1fr);
+  grid-template-rows: repeat(16, 1fr);
   gap: 20px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(8, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(8, 1fr);
       gap: 25px; } }
   #work-2 > div ul li > div {
     align-items: center;
@@ -1016,50 +1016,59 @@ footer {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
 
 #work-2 > div li:nth-child(2) > div {
+  background-color: black; }
+
+#work-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/proj-woodmere.jpg");
   background-size: 130%; }
   @media (min-width: 768px) {
-    #work-2 > div li:nth-child(2) > div {
+    #work-2 > div li:nth-child(3) > div {
       margin: 0; } }
-#work-2 > div li:nth-child(3) > div {
+#work-2 > div li:nth-child(4) > div {
+  background-color: black;
+  background-size: 130%; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(4) > div {
+      margin: 0; } }
+#work-2 > div li:nth-child(5) > div {
   background-image: url("../img/work-2/proj-cinegraph.jpg");
   background-size: 130%; }
 
-#work-2 > div li:nth-child(4) > div {
+#work-2 > div li:nth-child(6) > div {
   background-image: url("../img/work-2/proj-artspaceh.jpg");
   background-size: 130%; }
 
-#work-2 > div li:nth-child(5) > div {
+#work-2 > div li:nth-child(7) > div {
   background-image: url("../img/work-2/proj-band.jpg"); }
 
-#work-2 > div li:nth-child(6) > div {
+#work-2 > div li:nth-child(8) > div {
   background-image: url("../img/work-2/proj-kitchen.jpg");
   background-size: 140%;
   background-position: center; }
 
-#work-2 > div li:nth-child(7) > div {
+#work-2 > div li:nth-child(9) > div {
   background-image: url("../img/work-2/proj-perused.jpg"); }
 
-#work-2 > div li:nth-child(8) > div {
+#work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/proj-mahler.jpg"); }
 
-#work-2 > div li:nth-child(9) > div {
+#work-2 > div li:nth-child(11) > div {
   background-image: url("../img/work-2/proj-copenhagen.jpg"); }
 
-#work-2 > div li:nth-child(10) > div {
+#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-barragan.jpg"); }
 
-#work-2 > div li:nth-child(11) > div {
+#work-2 > div li:nth-child(13) > div {
   background-image: url("../img/work-2/proj-flower.jpg");
   background-position: center; }
 
-#work-2 > div li:nth-child(12) > div {
+#work-2 > div li:nth-child(14) > div {
   background-image: url("../img/work-2/proj-miracles.jpg"); }
 
-#work-2 > div li:nth-child(13) > div {
+#work-2 > div li:nth-child(15) > div {
   background-image: url("../img/work-2/proj-bodoni.jpg"); }
 
-#work-2 > div li:nth-child(14) > div {
+#work-2 > div li:nth-child(16) > div {
   background-image: url("../img/work-2/proj-aesop.jpg"); }
 
 /* =============
@@ -3118,7 +3127,7 @@ footer {
   width: 100%; }
 
 /* =============
-    cinegraph-1
+    artspaceh-1
 ============= */
 #artspaceh #artspaceh-hero {
   background-image: url("../img/work-2/proj-artspaceh.jpg");
@@ -3248,6 +3257,230 @@ footer {
   object-position: center;
   height: 100%;
   width: 100%; }
+
+/* =============
+    deeply-fruit-1
+============= */
+#deeply-fruit #deeply-fruit-hero {
+  background: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-hero {
+      height: 100vh; } }
+#deeply-fruit #deeply-fruit-main {
+  position: relative;
+  background-color: #f9f9f9; }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-main > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "objective about process";
+      column-gap: 25px;
+      margin: 0px 45px; } }
+  @media (min-width: 1440px) {
+    #deeply-fruit #deeply-fruit-main > div ul {
+      margin: 0px; } }
+  #deeply-fruit #deeply-fruit-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #deeply-fruit #deeply-fruit-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #deeply-fruit #deeply-fruit-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#deeply-fruit #deeply-fruit-exterior {
+  position: relative;
+  background-color: #f9f9f9; }
+  #deeply-fruit #deeply-fruit-exterior > div ul {
+    display: grid;
+    grid-template-rows: repeat(13, 250px); }
+    @media (min-width: 768px) {
+      #deeply-fruit #deeply-fruit-exterior > div ul {
+        grid-template-rows: repeat(13, 500px); } }
+    @media (min-width: 1025px) {
+      #deeply-fruit #deeply-fruit-exterior > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 600px); } }
+    @media (min-width: 1440px) {
+      #deeply-fruit #deeply-fruit-exterior > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 800px); } }
+    #deeply-fruit #deeply-fruit-exterior > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#deeply-fruit #deeply-fruit-interior > div ul {
+  display: grid;
+  grid-template-rows: repeat(8, 320px); }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-interior > div ul {
+      grid-template-rows: repeat(8, 600px); } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 420px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #deeply-fruit #deeply-fruit-interior > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 530px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  #deeply-fruit #deeply-fruit-interior > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#deeply-fruit #deeply-fruit-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-process > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 25px; } }
+  #deeply-fruit #deeply-fruit-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+/* =============
+    book-covers-1
+============= */
+#book-covers #book-covers-hero {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #book-covers #book-covers-hero {
+      height: 100vh; } }
+#book-covers #book-covers-main {
+  position: relative;
+  background-color: #f9f9f9; }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #book-covers #book-covers-main > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-areas: "objective about process";
+      column-gap: 25px;
+      margin: 0px 45px; } }
+  @media (min-width: 1440px) {
+    #book-covers #book-covers-main > div ul {
+      margin: 0px; } }
+  #book-covers #book-covers-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #book-covers #book-covers-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #book-covers #book-covers-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#book-covers #orlando {
+  position: relative;
+  background-color: #f9f9f9; }
+  #book-covers #orlando > div ul {
+    display: grid;
+    grid-template-rows: repeat(13, 250px); }
+    @media (min-width: 768px) {
+      #book-covers #orlando > div ul {
+        grid-template-rows: repeat(13, 500px); } }
+    @media (min-width: 1025px) {
+      #book-covers #orlando > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 600px); } }
+    @media (min-width: 1440px) {
+      #book-covers #orlando > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 800px); } }
+    #book-covers #orlando > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#book-covers #white-teeth > div ul {
+  display: grid;
+  grid-template-rows: repeat(8, 320px); }
+  @media (min-width: 768px) {
+    #book-covers #white-teeth > div ul {
+      grid-template-rows: repeat(8, 600px); } }
+  @media (min-width: 1025px) {
+    #book-covers #white-teeth > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 420px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #book-covers #white-teeth > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 530px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  #book-covers #white-teeth > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#book-covers #book-covers-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); }
+  @media (min-width: 1025px) {
+    #book-covers #book-covers-process > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 25px; } }
+  #book-covers #book-covers-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
 
 /* =============
     404-error-1
