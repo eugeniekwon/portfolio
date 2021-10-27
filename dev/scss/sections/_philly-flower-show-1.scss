@@ -41,16 +41,18 @@
                 }
 
                 @include lg {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 1fr);
-                    grid-template-areas: "objective about process";
-                    column-gap: 100px;
-                    margin: 0px 45px;
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // grid-template-rows: repeat(1, 1fr);
+                    // grid-template-areas: "objective about process";
+                    // column-gap: 100px;
+                    // margin: 0px 45px;
+                    margin: 0px 500px 0px 0px;
                 }
 
                 @include xl {
-                    margin: 0px;
+                    // margin: 0px;
+                    margin: 0px 500px 0px 0px;
                 }
 
 

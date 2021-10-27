@@ -57,6 +57,14 @@
 		"oAP": "/deploy/bodoni.html",
 		"oF": 0
 		},
+	"/deploy/book-covers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/book-covers.html",
+		"oF": 0
+		},
 	"/deploy/cinegraph-studios.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -90,6 +98,14 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/deeply-fruit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/deeply-fruit.html",
+		"oF": 0
 		},
 	"/deploy/gustav-mahler.html": {
 		"cB": 0,

@@ -479,7 +479,7 @@ a:visited {
       margin: 0px 0px 40px 0px; } }
   @media (min-width: 1025px) {
     .portfolio-description {
-      margin: 0px 0px 150px 0px; } }
+      margin: 0px 0px 50px 0px; } }
 .pull-quotes {
   font-family: 'Gelasio', serif;
   font-size: 1.0625rem;
@@ -1094,15 +1094,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 50px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #woodmere #woodmere-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -1264,15 +1259,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #philly-flower #philly-flower-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 100px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #philly-flower #philly-flower-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #philly-flower #philly-flower-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -1472,15 +1462,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #little-joys #joy-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #little-joys #joy-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #little-joys #joy-main > div ul li span {
     font-weight: 500; }
   @media (min-width: 768px) {
@@ -1532,15 +1517,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #street-photo #street-main ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #street-photo #street-main ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #street-photo #street-main ul li:nth-child(1) {
       grid-area: objective; } }
@@ -1587,15 +1567,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #portraits #portraits-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #portraits #portraits-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #portraits #portraits-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -1642,15 +1617,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #light-photo #light-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #light-photo #light-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #light-photo #light-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -1700,15 +1670,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #copenhagen #copenhagen-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #copenhagen #copenhagen-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #copenhagen #copenhagen-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -1761,15 +1726,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #aesop #aesop-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #aesop #aesop-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #aesop #aesop-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -1847,15 +1807,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #perused #perused-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #perused #perused-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #perused #perused-main > div ul li span {
     font-weight: 500; }
   @media (min-width: 768px) {
@@ -1988,15 +1943,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #luis-barragan #luis-barragan-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #luis-barragan #luis-barragan-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #luis-barragan #luis-barragan-main > div ul li:nth-child(1) span {
     display: block;
     margin-bottom: 15px; }
@@ -2089,15 +2039,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #bodoni #bodoni-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #bodoni #bodoni-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #bodoni #bodoni-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -2251,15 +2196,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #home-kitchen #home-kitchen-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #home-kitchen #home-kitchen-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #home-kitchen #home-kitchen-main > div ul li span {
     font-weight: 500; }
   @media (min-width: 768px) {
@@ -2388,15 +2328,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #gustav-mahler #gustav-mahler-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #gustav-mahler #gustav-mahler-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -2507,15 +2442,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #highland-orchards #highland-orchards-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #highland-orchards #highland-orchards-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -2726,15 +2656,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #home-photo #home-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #home-photo #home-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
     #home-photo #home-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -2784,15 +2709,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #miracles #miracles-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #miracles #miracles-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #miracles #miracles-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -2900,15 +2820,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #cinegraph #cinegraph-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #cinegraph #cinegraph-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #cinegraph #cinegraph-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -3032,15 +2947,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #concert-band #concert-band-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #concert-band #concert-band-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #concert-band #concert-band-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -3149,15 +3059,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #artspaceh #artspaceh-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #artspaceh #artspaceh-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #artspaceh #artspaceh-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -3281,15 +3186,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #deeply-fruit #deeply-fruit-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
@@ -3393,15 +3293,10 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #book-covers #book-covers-main > div ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-areas: "objective about process";
-      column-gap: 25px;
-      margin: 0px 45px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #book-covers #book-covers-main > div ul {
-      margin: 0px; } }
+      margin: 0px 500px 0px 0px; } }
   #book-covers #book-covers-main > div ul li span {
     display: block;
     margin-bottom: 15px; }
