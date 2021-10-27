@@ -955,19 +955,19 @@ footer {
 #work-2 > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(16, 1fr);
+  grid-template-rows: repeat(13, 1fr);
   gap: 20px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(8, 1fr);
+      grid-template-rows: repeat(7, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(8, 1fr);
+      grid-template-rows: repeat(7, 1fr);
       gap: 25px; } }
   #work-2 > div ul li > div {
     align-items: center;
@@ -1059,17 +1059,7 @@ footer {
   background-image: url("../img/work-2/proj-barragan.jpg"); }
 
 #work-2 > div li:nth-child(13) > div {
-  background-image: url("../img/work-2/proj-flower.jpg");
-  background-position: center; }
-
-#work-2 > div li:nth-child(14) > div {
-  background-image: url("../img/work-2/proj-miracles.jpg"); }
-
-#work-2 > div li:nth-child(15) > div {
   background-image: url("../img/work-2/proj-bodoni.jpg"); }
-
-#work-2 > div li:nth-child(16) > div {
-  background-image: url("../img/work-2/proj-aesop.jpg"); }
 
 /* =============
     woodmere-1

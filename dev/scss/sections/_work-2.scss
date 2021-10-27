@@ -19,20 +19,20 @@
             ul {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(16, 1fr);
+                grid-template-rows: repeat(13, 1fr);
                 gap: 20px;
 
                 @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(8, 1fr);
+                    grid-template-rows: repeat(7, 1fr);
                     gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(8, 1fr);
+                    grid-template-rows: repeat(7, 1fr);
                     gap: 25px;
                 }
 
@@ -289,39 +289,39 @@
 
             }
 
+            // li:nth-child(13) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-flower.jpg");
+                    
+            //         // margin-bottom: 30px;
+            //         // background-size: 100%;
+            //         // background-position: -180px -50px;
+            //         background-position: center;
+
+            //         // @include md {
+            //         //     margin-bottom: 0px;
+            //         // }
+            //     }
+
+
+            // }
+
+            // li:nth-child(14) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-miracles.jpg");
+                    
+            //         // margin-bottom: 30px;
+
+            //         // @include md {
+            //         //     margin-bottom: 0px;
+            //         // }
+
+            //     }
+
+
+            // }
+
             li:nth-child(13) {
-                >div {
-                    background-image: url("../img/work-2/proj-flower.jpg");
-                    
-                    // margin-bottom: 30px;
-                    // background-size: 100%;
-                    // background-position: -180px -50px;
-                    background-position: center;
-
-                    // @include md {
-                    //     margin-bottom: 0px;
-                    // }
-                }
-
-
-            }
-
-            li:nth-child(14) {
-                >div {
-                    background-image: url("../img/work-2/proj-miracles.jpg");
-                    
-                    // margin-bottom: 30px;
-
-                    // @include md {
-                    //     margin-bottom: 0px;
-                    // }
-
-                }
-
-
-            }
-
-            li:nth-child(15) {
                 >div {
                     background-image: url("../img/work-2/proj-bodoni.jpg");
                     
@@ -336,18 +336,18 @@
 
             }
 
-            li:nth-child(16) {
-                >div {
-                    background-image: url("../img/work-2/proj-aesop.jpg");
+            // li:nth-child(16) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-aesop.jpg");
                     
-                    // @include md{
-                    //     margin-bottom: 125px;
-                    // }
+            //         // @include md{
+            //         //     margin-bottom: 125px;
+            //         // }
 
-                }
+            //     }
 
 
-            }
+            // }
 
             // li:nth-child(12) {
             //     >div {
