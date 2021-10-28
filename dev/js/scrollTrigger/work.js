@@ -11,18 +11,28 @@ gsap.registerPlugin(ScrollTrigger);
     work-1
 ============= */
 
-// var workOne = document.querySelector("#work-1");
+var workOne = document.querySelector("#work-1");
 
 
-// if(workOne){
+if(workOne){
   
-//   var workOneTimeline = gsap.timeline();
+  var workOneTimeline = gsap.timeline();
 
-//   workOneTimeline.from("#intro",{duration:1, alpha:0, yPercent:-100})
-//   .from("#intro-description", {duration:1, alpha:0, xPercent:100}, "-=1")
+  workOneTimeline.from("#intro h1:nth-child(1)",{duration:1, alpha:0, xPercent:-10})
+  .from("#intro h1:nth-child(2)", {duration:1, alpha:0, xPercent:-10}, "-=0.6");
 //   .from("#scroll-button", {duration:1, alpha:0}, "-=0.5");
-// }
+}
 
+ScrollTrigger.create({
+    trigger: "#work-1",
+    start: "top 90%",
+    end: "bottom 90%",
+    animation: workOneTimeline,
+    toggleActions: "restart none none none"
+    // scrub: 1
+    // id: "#work-2",
+    // markers: true
+  });
  
 
 
