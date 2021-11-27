@@ -107,6 +107,14 @@
 		"oAP": "/deploy/deeply-fruit.html",
 		"oF": 0
 		},
+	"/deploy/frank-auerbach.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/frank-auerbach.html",
+		"oF": 0
+		},
 	"/deploy/gustav-mahler.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1162,6 +1170,314 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/books/orlando_1.jpg": {
+		"ft": 16384,
+		"iS": 109168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_10.jpg": {
+		"ft": 16384,
+		"iS": 121250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_11.jpg": {
+		"ft": 16384,
+		"iS": 142297,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_12.jpg": {
+		"ft": 16384,
+		"iS": 154063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_13.jpg": {
+		"ft": 16384,
+		"iS": 295054,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_14.jpg": {
+		"ft": 16384,
+		"iS": 272551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_2.jpg": {
+		"ft": 16384,
+		"iS": 101427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_3.jpg": {
+		"ft": 16384,
+		"iS": 72138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_4.jpg": {
+		"ft": 16384,
+		"iS": 103759,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_5.jpg": {
+		"ft": 16384,
+		"iS": 111118,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_6.jpg": {
+		"ft": 16384,
+		"iS": 166105,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_7.jpg": {
+		"ft": 16384,
+		"iS": 181369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_8.jpg": {
+		"ft": 16384,
+		"iS": 108085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_9.jpg": {
+		"ft": 16384,
+		"iS": 111191,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_1.jpg": {
+		"ft": 16384,
+		"iS": 123445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_2.jpg": {
+		"ft": 16384,
+		"iS": 129709,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_3.jpg": {
+		"ft": 16384,
+		"iS": 88096,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_4.jpg": {
+		"ft": 16384,
+		"iS": 115193,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_5.jpg": {
+		"ft": 16384,
+		"iS": 111545,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_6.jpg": {
+		"ft": 16384,
+		"iS": 219156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_7.jpg": {
+		"ft": 16384,
+		"iS": 218085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_1.jpg": {
+		"ft": 16384,
+		"iS": 110823,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_2.jpg": {
+		"ft": 16384,
+		"iS": 247972,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_3.jpg": {
+		"ft": 16384,
+		"iS": 286843,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_4.jpg": {
+		"ft": 16384,
+		"iS": 116156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_5.jpg": {
+		"ft": 16384,
+		"iS": 171896,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_6.jpg": {
+		"ft": 16384,
+		"iS": 178129,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/white_teeth_7.jpg": {
+		"ft": 16384,
+		"iS": 307238,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/white_teeth_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/cinegraph-studios/app/badges.jpg": {
 		"ft": 16384,
 		"iS": 46789,
@@ -1718,6 +2034,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/cover-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/deeply-fruit.jpg": {
+		"ft": 16384,
+		"iS": 273920,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/deeply-fruit.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3472,6 +3799,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/proj-books.jpg": {
+		"ft": 16384,
+		"iS": 123445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/proj-books.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/proj-cinegraph.jpg": {
 		"ft": 16384,
 		"iS": 143449,
@@ -4117,6 +4455,14 @@
 		"oAP": "/deploy/miracles.html",
 		"oF": 0
 		},
+	"/deploy/morning-again.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/morning-again.html",
+		"oF": 0
+		},
 	"/deploy/ocean-dumping.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -4389,6 +4735,14 @@
 		"oAP": "/dev/content/work/deeply-fruit-1.html",
 		"oF": 0
 		},
+	"/dev/content/work/frank-auerbach-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/frank-auerbach-1.html",
+		"oF": 0
+		},
 	"/dev/content/work/gustav-mahler-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -4427,6 +4781,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/work/miracles-1.html",
+		"oF": 0
+		},
+	"/dev/content/work/morning-again-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/morning-again-1.html",
 		"oF": 0
 		},
 	"/dev/content/work/ocean-dumping-1.kit": {
@@ -4475,6 +4837,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/deeply-fruit.html",
+		"oF": 2
+		},
+	"/dev/frank-auerbach.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/frank-auerbach.html",
 		"oF": 2
 		},
 	"/dev/global/footer.kit": {
@@ -4697,6 +5067,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/miracles.html",
+		"oF": 2
+		},
+	"/dev/morning-again.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/morning-again.html",
 		"oF": 2
 		},
 	"/dev/ocean-dumping.kit": {
@@ -5030,6 +5408,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_frank-auerbach-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_frank-auerbach-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_gustav-mahler-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5130,6 +5521,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_miracles-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_morning-again-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_morning-again-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
