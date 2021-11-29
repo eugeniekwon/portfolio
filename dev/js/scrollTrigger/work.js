@@ -61,6 +61,7 @@ if(workTwo){
                   .from("#work-2 div ul li:nth-child(12)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
                   .from("#work-2 div ul li:nth-child(13)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
                   .from("#work-2 div ul li:nth-child(14)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  .from("#work-2 div ul li:nth-child(15)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
   
 
   ScrollTrigger.create({
