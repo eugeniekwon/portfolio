@@ -2215,6 +2215,176 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/deeply-fruit/exterior/open_box.gif": {
+		"ft": 4194304,
+		"iS": 458611,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/exterior/open_box.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/fruit_cartons.gif": {
+		"ft": 4194304,
+		"iS": 921491,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/fruit_cartons.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/full_set.jpg": {
+		"ft": 16384,
+		"iS": 85901,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/full_set.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_big_1.jpg": {
+		"ft": 16384,
+		"iS": 58448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_big_2.jpg": {
+		"ft": 16384,
+		"iS": 70841,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_big_3.jpg": {
+		"ft": 16384,
+		"iS": 66434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_big_4.jpg": {
+		"ft": 16384,
+		"iS": 68116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_detail.jpg": {
+		"ft": 16384,
+		"iS": 87437,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_open_1.jpg": {
+		"ft": 16384,
+		"iS": 57910,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_open_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_open_2.jpg": {
+		"ft": 16384,
+		"iS": 69200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_open_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_set_1.jpg": {
+		"ft": 16384,
+		"iS": 164677,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_set_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_set_2.jpg": {
+		"ft": 16384,
+		"iS": 96936,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_set_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_set_3.jpg": {
+		"ft": 16384,
+		"iS": 123180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_set_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_set_4.jpg": {
+		"ft": 16384,
+		"iS": 94438,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_set_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_set_5.jpg": {
+		"ft": 16384,
+		"iS": 99723,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_set_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_1.jpg": {
+		"ft": 16384,
+		"iS": 71527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/frank-auerbach/cover_intro/cover_1.jpg": {
 		"ft": 16384,
 		"iS": 255215,
@@ -4729,7 +4899,7 @@
 		},
 	"/deploy/img/work-2/proj-fruit.jpg": {
 		"ft": 16384,
-		"iS": 78629,
+		"iS": 118510,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-fruit.jpg",

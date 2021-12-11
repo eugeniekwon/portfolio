@@ -6,8 +6,9 @@
 
     #deeply-fruit-hero {
 
-        background-image: url("../img/work-2/proj-morning.jpg");
+        background-image: url("../img/work-2/proj-fruit.jpg");
         background-position: 0px -200px;
+        // background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 45vh;
@@ -159,7 +160,10 @@
 
                         "g13 g13 g13"
                         "g13 g13 g13"
-                        "g14 g15 g16";
+
+                        "g14 g14 g14"
+                        "g14 g14 g14"
+                        "g15 g16 g17";
 
                     column-gap: 25px;
                 }
@@ -289,6 +293,13 @@
 
                 }
 
+                li:nth-child(17) {
+                    @include lg {
+                        grid-area: g17;
+                    }
+
+                }
+
                 
 
 
@@ -305,55 +316,51 @@
             ul {
 
                 display: grid;
-                grid-template-rows: repeat(7, 250px);
+                grid-template-rows: repeat(5, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(7, 500px);
+                    grid-template-rows: repeat(5, 500px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(10, 300px);
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(8, 400px);
+                    grid-template-columns: repeat(4, 1fr);
                     grid-template-areas:
-                    "g1 g1 g1"
-                    "g1 g1 g1"
+                    "g1 g1 g1 g1"
+                    "g1 g1 g1 g1"
 
-                    "g2 g2 g2"
-                    "g2 g2 g2"
+                    "g2 g2 g2 g2"
+                    "g2 g2 g2 g2"
 
-                    "g4 g4 g4"
-                    "g4 g4 g4"
+                    "g3 g3 g4 g4"
 
-                    "g3 g3 g5"
-                    "g3 g3 g6"
-
-                    "g7 g7 g7"
-                    "g7 g7 g7";
+                    "g5 g5 g5 g5"
+                    "g5 g5 g5 g5"
+                    
+                    "g6 g6 g7 g7";
 
                     column-gap: 25px;
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(10, 400px);
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(8, 400px);
+                    grid-template-columns: repeat(4, 1fr);
                     grid-template-areas:
-                        "g1 g1 g1"
-                        "g1 g1 g1"
+                    "g1 g1 g1 g1"
+                    "g1 g1 g1 g1"
 
-                        "g2 g2 g2"
-                        "g2 g2 g2"
+                    "g2 g2 g2 g2"
+                    "g2 g2 g2 g2"
 
-                        "g4 g4 g4"
-                        "g4 g4 g4"
+                    "g3 g3 g4 g4"
 
-                        "g3 g3 g5"
-                        "g3 g3 g6"
-
-                        "g7 g7 g7"
-                        "g7 g7 g7";
+                    "g5 g5 g5 g5"
+                    "g5 g5 g5 g5"
+                    
+                    "g6 g6 g7 g7";
 
                     column-gap: 25px;
                 }
@@ -402,7 +409,7 @@
                 li:nth-child(5) {
                     @include lg {
                         grid-area: g5;
-                        position: 0px 200px;
+                
                     }
 
                 }
@@ -410,6 +417,7 @@
                 li:nth-child(6) {
                     @include lg {
                         grid-area: g6;
+                
                     }
 
                 }
@@ -417,12 +425,139 @@
                 li:nth-child(7) {
                     @include lg {
                         grid-area: g7;
+                
                     }
 
                 }
 
                 
 
+
+            }
+
+        }
+    }
+
+
+    #deeply-fruit-interior-cartons {
+        >div {
+
+            ul {
+
+                display: grid;
+                grid-template-rows: repeat(9, 250px);
+                // gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(9, 500px);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 250px);
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-areas:
+                    "g1 g2 g3 g4"
+                    "g5 g6 g7 g8"
+                    "g9 g9 g9 g9"
+                    "g9 g9 g9 g9";
+
+                    column-gap: 25px;
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(2, 250px);
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-areas:
+                    "g1 g2 g3 g4"
+                    "g5 g6 g7 g8"
+                    "g9 g9 g9 g9"
+                    "g9 g9 g9 g9";
+
+                    column-gap: 25px;
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
+                
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: g8;
+                
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    @include lg {
+                        grid-area: g9;
+                
+                    }
+
+                }
 
             }
 
