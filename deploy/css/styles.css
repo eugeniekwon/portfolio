@@ -955,19 +955,19 @@ footer {
 #work-2 > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(13, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   gap: 20px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
       gap: 25px; } }
   #work-2 > div ul li > div {
     align-items: center;
@@ -1013,7 +1013,8 @@ footer {
       display: block; }
 
 #work-2 > div li:nth-child(1) > div {
-  background-color: black; }
+  background-image: url("../img/work-2/proj-fruit.jpg");
+  background-size: 150%; }
 
 #work-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
@@ -1033,7 +1034,7 @@ footer {
 #work-2 > div li:nth-child(5) > div {
   background-image: url("../img/work-2/proj-morning.jpg");
   background-size: 130%;
-  background-position: -100px -150px; }
+  background-position: -100px -120px; }
 
 #work-2 > div li:nth-child(6) > div {
   background-image: url("../img/work-2/proj-artspaceh.jpg");
@@ -1055,19 +1056,10 @@ footer {
   background-position: center; }
 
 #work-2 > div li:nth-child(11) > div {
-  background-image: url("../img/work-2/proj-perused.jpg"); }
-
-#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-mahler.jpg"); }
 
-#work-2 > div li:nth-child(13) > div {
+#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-copenhagen.jpg"); }
-
-#work-2 > div li:nth-child(14) > div {
-  background-image: url("../img/work-2/proj-barragan.jpg"); }
-
-#work-2 > div li:nth-child(15) > div {
-  background-image: url("../img/work-2/proj-bodoni.jpg"); }
 
 /* =============
     woodmere-1
@@ -3165,8 +3157,8 @@ footer {
     deeply-fruit-1
 ============= */
 #deeply-fruit #deeply-fruit-hero {
-  background: black;
-  background-position: center;
+  background-image: url("../img/work-2/proj-morning.jpg");
+  background-position: 0px -200px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45vh; }
@@ -3206,53 +3198,126 @@ footer {
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-main > div ul li:nth-child(3) {
       grid-area: process; } }
-#deeply-fruit #deeply-fruit-exterior {
-  position: relative;
-  background-color: #f9f9f9; }
-  #deeply-fruit #deeply-fruit-exterior > div ul {
-    display: grid;
-    grid-template-rows: repeat(13, 250px); }
-    @media (min-width: 768px) {
-      #deeply-fruit #deeply-fruit-exterior > div ul {
-        grid-template-rows: repeat(13, 500px); } }
-    @media (min-width: 1025px) {
-      #deeply-fruit #deeply-fruit-exterior > div ul {
-        display: grid;
-        grid-template-rows: repeat(13, 600px); } }
-    @media (min-width: 1440px) {
-      #deeply-fruit #deeply-fruit-exterior > div ul {
-        display: grid;
-        grid-template-rows: repeat(13, 800px); } }
-    #deeply-fruit #deeply-fruit-exterior > div ul li img {
-      object-fit: cover;
-      object-position: center;
-      height: 100%;
-      width: 100%; }
-
+#deeply-fruit #deeply-fruit-exterior > div ul {
+  display: grid;
+  grid-template-rows: repeat(14, 250px); }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul {
+      grid-template-rows: repeat(14, 500px); } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul {
+      display: grid;
+      grid-template-rows: repeat(13, 400px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g5" "g6 g6 g7" "g6 g6 g8" "g9 g9 g9" "g9 g9 g9" "g10 g11 g12" "g13 g13 g13" "g13 g13 g13" "g14 g15 g16";
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul {
+      display: grid;
+      grid-template-rows: repeat(13, 400px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g5" "g6 g6 g7" "g6 g6 g8" "g9 g9 g9" "g9 g9 g9" "g10 g11 g12" "g13 g13 g13" "g13 g13 g13" "g14 g15 g16";
+      column-gap: 25px; } }
+  #deeply-fruit #deeply-fruit-exterior > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(1) {
+      grid-area: g1; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(2) {
+      grid-area: g2; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(3) {
+      grid-area: g3; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(4) {
+      grid-area: g4; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(5) {
+      grid-area: g5; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(6) {
+      grid-area: g6; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(7) {
+      grid-area: g7; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(8) {
+      grid-area: g8; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(9) {
+      grid-area: g9; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(10) {
+      grid-area: g10; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(11) {
+      grid-area: g11; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(12) {
+      grid-area: g12; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(13) {
+      grid-area: g13; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(14) {
+      grid-area: g14; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(15) {
+      grid-area: g15; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(16) {
+      grid-area: g16; } }
 #deeply-fruit #deeply-fruit-interior > div ul {
   display: grid;
-  grid-template-rows: repeat(8, 320px); }
+  grid-template-rows: repeat(7, 250px); }
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
-      grid-template-rows: repeat(8, 600px); } }
+      grid-template-rows: repeat(7, 500px); } }
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 420px);
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(10, 300px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g4 g4 g4" "g4 g4 g4" "g3 g3 g5" "g3 g3 g6" "g7 g7 g7" "g7 g7 g7";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 530px);
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(10, 400px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g4 g4 g4" "g4 g4 g4" "g3 g3 g5" "g3 g3 g6" "g7 g7 g7" "g7 g7 g7";
       column-gap: 25px; } }
   #deeply-fruit #deeply-fruit-interior > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
     width: 100%; }
-
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(1) {
+      grid-area: g1; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(2) {
+      grid-area: g2; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(3) {
+      grid-area: g3; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(4) {
+      grid-area: g4; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(5) {
+      grid-area: g5;
+      position: 0px 200px; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(6) {
+      grid-area: g6; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(7) {
+      grid-area: g7; } }
 #deeply-fruit #deeply-fruit-process > div ul {
   display: grid;
   grid-template-rows: repeat(3, 1fr); }
@@ -3670,18 +3735,18 @@ footer {
   background-color: #f9f9f9; }
   #frank-auerbach #frank-auerbach-start > div ul {
     display: grid;
-    grid-template-rows: repeat(4, 250px); }
+    grid-template-rows: repeat(3, 250px); }
     @media (min-width: 768px) {
       #frank-auerbach #frank-auerbach-start > div ul {
-        grid-template-rows: repeat(4, 500px); } }
+        grid-template-rows: repeat(3, 500px); } }
     @media (min-width: 1025px) {
       #frank-auerbach #frank-auerbach-start > div ul {
         display: grid;
-        grid-template-rows: repeat(4, 600px); } }
+        grid-template-rows: repeat(3, 600px); } }
     @media (min-width: 1440px) {
       #frank-auerbach #frank-auerbach-start > div ul {
         display: grid;
-        grid-template-rows: repeat(4, 1000px); } }
+        grid-template-rows: repeat(3, 1000px); } }
     #frank-auerbach #frank-auerbach-start > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3690,23 +3755,23 @@ footer {
 
 #frank-auerbach #frank > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 250px); }
+  grid-template-rows: repeat(2, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #frank > div ul {
-      grid-template-rows: repeat(4, 500px); } }
+      grid-template-rows: repeat(2, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #frank > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 300px);
+      grid-template-rows: repeat(1, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g2" "g3 g4";
+      grid-template-areas: "g1 g2";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #frank > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 400px);
+      grid-template-rows: repeat(1, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g2" "g3 g4";
+      grid-template-areas: "g1 g2";
       column-gap: 25px; } }
   #frank-auerbach #frank > div ul li img {
     object-fit: cover;
@@ -3734,16 +3799,16 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #estella > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 300px);
+      grid-template-rows: repeat(4, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g6";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #estella > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 400px);
+      grid-template-rows: repeat(4, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
       column-gap: 25px; } }
   #frank-auerbach #estella > div ul li img {
     object-fit: cover;
@@ -3770,23 +3835,23 @@ footer {
       grid-area: g6; } }
 #frank-auerbach #juliet > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 250px); }
+  grid-template-rows: repeat(3, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #juliet > div ul {
-      grid-template-rows: repeat(4, 500px); } }
+      grid-template-rows: repeat(3, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #juliet > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 300px);
+      grid-template-rows: repeat(3, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g4" "g4 g4";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #juliet > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 400px);
+      grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g4" "g4 g4";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
   #frank-auerbach #juliet > div ul li img {
     object-fit: cover;
@@ -3841,23 +3906,23 @@ footer {
       grid-area: g3; } }
 #frank-auerbach #julia > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 250px); }
+  grid-template-rows: repeat(5, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #julia > div ul {
-      grid-template-rows: repeat(6, 500px); } }
+      grid-template-rows: repeat(5, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #julia > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 300px);
+      grid-template-rows: repeat(4, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #julia > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 400px);
+      grid-template-rows: repeat(4, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
       column-gap: 25px; } }
   #frank-auerbach #julia > div ul li img {
     object-fit: cover;

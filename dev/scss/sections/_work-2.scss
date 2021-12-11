@@ -19,20 +19,20 @@
             ul {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(13, 1fr);
+                grid-template-rows: repeat(12, 1fr);
                 gap: 20px;
 
                 @include md {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(7, 1fr);
+                    grid-template-rows: repeat(6, 1fr);
                     gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(7, 1fr);
+                    grid-template-rows: repeat(6, 1fr);
                     gap: 25px;
                 }
 
@@ -110,7 +110,8 @@
 
             li:nth-child(1) {
                 >div {
-                    background-color:black;
+                    background-image: url("../img/work-2/proj-fruit.jpg");
+                    background-size: 150%;
                     // margin-bottom: 30px;
                     
 
@@ -173,7 +174,7 @@
                 >div {
                     background-image: url("../img/work-2/proj-morning.jpg");
                     background-size: 130%;
-                    background-position: -100px -150px;
+                    background-position: -100px -120px;
                     
                     
                     // margin-bottom: 30px;
@@ -265,20 +266,20 @@
 
             }
 
-            li:nth-child(11) {
-                >div {
-                    background-image: url("../img/work-2/proj-perused.jpg");
+            // li:nth-child(11) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-perused.jpg");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
 
-                }
-            }
+            //     }
+            // }
 
-            li:nth-child(12) {
+            li:nth-child(11) {
                 >div {
                     background-image: url("../img/work-2/proj-mahler.jpg");
                     
@@ -293,7 +294,7 @@
             }
 
 
-            li:nth-child(13) {
+            li:nth-child(12) {
                 >div {
                     background-image: url("../img/work-2/proj-copenhagen.jpg");
                     
@@ -307,35 +308,35 @@
             }
 
 
-            li:nth-child(14) {
-                >div {
-                    background-image: url("../img/work-2/proj-barragan.jpg");
+            // li:nth-child(14) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-barragan.jpg");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
 
-                }
+            //     }
 
 
-            }
+            // }
 
-            li:nth-child(15) {
-                >div {
-                    background-image: url("../img/work-2/proj-bodoni.jpg");
+            // li:nth-child(14) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-bodoni.jpg");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin-bottom: 0px;
-                    // }
+            //         // @include md {
+            //         //     margin-bottom: 0px;
+            //         // }
 
-                }
+            //     }
 
 
-            }
+            // }
 
 
             
