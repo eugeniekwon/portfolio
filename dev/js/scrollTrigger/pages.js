@@ -552,65 +552,79 @@ if(artspacehPage){
 
 
 
-// /* =============
-//     pages - work - deeply fruit
-// ============= */
+/* =============
+    pages - work - deeply fruit
+============= */
 
-// var deeplyFruitPage = document.querySelector("#deeply-fruit");
+var deeplyFruitPage = document.querySelector("#deeply-fruit");
 
-// if(deeplyFruitPage){
-//     var deeplyFruitTimeline = gsap.timeline();
-//     const pageIntroTime = 0.6;
-//     const pageTime = 0.65;
+if(deeplyFruitPage){
+    var deeplyFruitTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.65;
 
-//     deeplyFruitTimeline.from("#deeply-fruit #deeply-fruit-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
-//                  .from("#deeply-fruit #deeply-fruit-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
-//                  .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
-//                  .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+    deeplyFruitTimeline.from("#deeply-fruit #deeply-fruit-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#deeply-fruit #deeply-fruit-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
-//                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(16)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(17)", {duration:pageTime, alpha:0},"-=0.01")
 
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
 
-//                 //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-//                 //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+
+                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
 
                  
 
-//      ScrollTrigger.create({
-//       trigger: "#deeply-fruit",
-//       start: "top 50%",
-//       end: "bottom 50%",
-//       animation: deeplyFruitTimeline,
-//       toggleActions: "restart none none none"
-//       // scrub: 1
-//     //   id: ".page",
-//     //   markers: true
-//     });
+     ScrollTrigger.create({
+      trigger: "#deeply-fruit",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: deeplyFruitTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
 
-// }
+}
 
 
 /* =============
@@ -713,15 +727,25 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
 
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#morning-again #morning-again-products div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-products div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
 
                 //  .from("#morning-again #morning-again-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#morning-again #morning-again-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -761,19 +785,30 @@ if(frankAuerbachPage){
                  .from("#frank-auerbach #frank-auerbach-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#frank-auerbach #frank-auerbach-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#frank-auerbach #frank div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#frank-auerbach #estella div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #estella div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #estella div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #estella div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #estella div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#frank-auerbach #juliet div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #juliet div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #juliet div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#frank-auerbach #david div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #david div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #david div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#frank-auerbach #julia div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #julia div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #julia div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                 //  .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
