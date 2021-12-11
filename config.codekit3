@@ -2255,7 +2255,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/interior/interior_big_2.jpg": {
 		"ft": 16384,
-		"iS": 70841,
+		"iS": 66434,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_2.jpg",
@@ -2266,7 +2266,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/interior/interior_big_3.jpg": {
 		"ft": 16384,
-		"iS": 66434,
+		"iS": 70841,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_big_3.jpg",
@@ -2374,12 +2374,56 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/deeply-fruit/interior/interior_small_1.jpg": {
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_0.jpg": {
 		"ft": 16384,
 		"iS": 71527,
 		"jF": 0,
 		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_1.jpg": {
+		"ft": 16384,
+		"iS": 62654,
+		"jF": 0,
+		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_2.jpg": {
+		"ft": 16384,
+		"iS": 56879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_3.jpg": {
+		"ft": 16384,
+		"iS": 66404,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/interior/interior_small_4.jpg": {
+		"ft": 16384,
+		"iS": 65608,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/interior/interior_small_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
