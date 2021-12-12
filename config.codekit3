@@ -1170,6 +1170,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/books/orlando_00.jpg": {
+		"ft": 16384,
+		"iS": 181369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_00.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/orlando_000.jpg": {
+		"ft": 16384,
+		"iS": 121250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/orlando_000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/books/orlando_1.jpg": {
 		"ft": 16384,
 		"iS": 109168,
@@ -1183,7 +1205,7 @@
 		},
 	"/deploy/img/work-2/books/orlando_10.jpg": {
 		"ft": 16384,
-		"iS": 121250,
+		"iS": 133157,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/books/orlando_10.jpg",
@@ -1293,7 +1315,7 @@
 		},
 	"/deploy/img/work-2/books/orlando_7.jpg": {
 		"ft": 16384,
-		"iS": 181369,
+		"iS": 177284,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/books/orlando_7.jpg",
@@ -1324,9 +1346,31 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_1.jpg": {
+	"/deploy/img/work-2/books/total_0.jpg": {
+		"ft": 16384,
+		"iS": 129709,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_00.jpg": {
 		"ft": 16384,
 		"iS": 123445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/total_00.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total_1.jpg": {
+		"ft": 16384,
+		"iS": 123028,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/books/total_1.jpg",
@@ -1337,7 +1381,7 @@
 		},
 	"/deploy/img/work-2/books/total_2.jpg": {
 		"ft": 16384,
-		"iS": 129709,
+		"iS": 132048,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/books/total_2.jpg",
@@ -4899,7 +4943,7 @@
 		},
 	"/deploy/img/work-2/proj-books.jpg": {
 		"ft": 16384,
-		"iS": 123445,
+		"iS": 123028,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-books.jpg",
