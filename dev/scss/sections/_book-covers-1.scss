@@ -103,17 +103,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(14, 250px);
+                grid-template-rows: repeat(11, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(14, 500px);
+                    grid-template-rows: repeat(11, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(14, 600px);
+                    grid-template-rows: repeat(11, 600px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -121,7 +121,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(14, 800px);
+                    grid-template-rows: repeat(11, 800px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -143,28 +143,7 @@
         }
 
     }
-
-    // #artspaceh-video {
-    //     display: grid;
-    //     grid-template-areas: ". video .";
-    //     grid-template-columns: 10px auto 10px;
-
-    //     >div {
-    //         align-items: center;
-    //         display: flex;
-    //         grid-area: video;
-    //         justify-content: center;
-
-    //         section {
-    //             width: 100%;
-
-    //             iframe {
-    //                 width: 100%;
-    //             }
-    //         }
-    //     }
-    // }
-
+    
 
     #white-teeth {
         >div {
@@ -262,12 +241,12 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(3, 1fr);
+                grid-template-rows: repeat(5, 1fr);
                 // gap: 20px;
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
                     grid-template-columns: repeat(3, 1fr);
                     column-gap: 25px;
 

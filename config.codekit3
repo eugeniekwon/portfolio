@@ -1170,353 +1170,408 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_00.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_00.jpg": {
 		"ft": 16384,
 		"iS": 181369,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_00.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_00.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_000.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_000.jpg": {
 		"ft": 16384,
 		"iS": 121250,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_000.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_000.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_1.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_1.jpg": {
 		"ft": 16384,
-		"iS": 109168,
+		"iS": 108416,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_1.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_10.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_10.jpg": {
 		"ft": 16384,
 		"iS": 133157,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_10.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_11.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_11.jpg": {
 		"ft": 16384,
-		"iS": 142297,
+		"iS": 142823,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_11.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_12.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_12.jpg": {
 		"ft": 16384,
-		"iS": 154063,
+		"iS": 154611,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_12.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_13.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_13.jpg": {
 		"ft": 16384,
 		"iS": 295054,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_13.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_14.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_14.jpg": {
 		"ft": 16384,
 		"iS": 272551,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_14.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_14.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_2.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_2.jpg": {
 		"ft": 16384,
-		"iS": 101427,
+		"iS": 101935,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_2.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_3.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_3.jpg": {
 		"ft": 16384,
 		"iS": 72138,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_3.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_4.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_4.jpg": {
 		"ft": 16384,
 		"iS": 103759,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_4.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_5.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_5.jpg": {
 		"ft": 16384,
 		"iS": 111118,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_5.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_6.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_6.jpg": {
 		"ft": 16384,
 		"iS": 166105,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_6.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_7.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_7.jpg": {
 		"ft": 16384,
 		"iS": 177284,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_7.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_8.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_8.jpg": {
 		"ft": 16384,
 		"iS": 108085,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_8.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/orlando_9.jpg": {
+	"/deploy/img/work-2/books/orlando/orlando_9.jpg": {
 		"ft": 16384,
 		"iS": 111191,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/orlando_9.jpg",
+		"oAP": "/deploy/img/work-2/books/orlando/orlando_9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_0.jpg": {
+	"/deploy/img/work-2/books/process/process_1.jpg": {
+		"ft": 16384,
+		"iS": 217934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/process/process_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/process/process_2.jpg": {
+		"ft": 16384,
+		"iS": 180614,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/process/process_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/process/process_3.jpg": {
+		"ft": 16384,
+		"iS": 134241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/process/process_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/process/process_4.jpg": {
+		"ft": 16384,
+		"iS": 297123,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/process/process_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/process/process_5.jpg": {
+		"ft": 16384,
+		"iS": 304045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/books/process/process_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/books/total/total_0.jpg": {
 		"ft": 16384,
 		"iS": 129709,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_0.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_0.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_00.jpg": {
+	"/deploy/img/work-2/books/total/total_00.jpg": {
 		"ft": 16384,
 		"iS": 123445,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_00.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_00.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_1.jpg": {
+	"/deploy/img/work-2/books/total/total_1.jpg": {
 		"ft": 16384,
 		"iS": 123028,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_1.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_2.jpg": {
+	"/deploy/img/work-2/books/total/total_2.jpg": {
 		"ft": 16384,
 		"iS": 132048,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_2.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_3.jpg": {
+	"/deploy/img/work-2/books/total/total_3.jpg": {
 		"ft": 16384,
 		"iS": 88096,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_3.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_4.jpg": {
+	"/deploy/img/work-2/books/total/total_4.jpg": {
 		"ft": 16384,
 		"iS": 115193,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_4.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_5.jpg": {
+	"/deploy/img/work-2/books/total/total_5.jpg": {
 		"ft": 16384,
 		"iS": 111545,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_5.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_6.jpg": {
+	"/deploy/img/work-2/books/total/total_6.jpg": {
 		"ft": 16384,
 		"iS": 219156,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_6.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/total_7.jpg": {
+	"/deploy/img/work-2/books/total/total_7.jpg": {
 		"ft": 16384,
 		"iS": 218085,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/total_7.jpg",
+		"oAP": "/deploy/img/work-2/books/total/total_7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_1.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_1.jpg": {
 		"ft": 16384,
 		"iS": 110823,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_1.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_2.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_2.jpg": {
 		"ft": 16384,
 		"iS": 247972,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_2.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_3.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_3.jpg": {
 		"ft": 16384,
 		"iS": 286843,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_3.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_4.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_4.jpg": {
 		"ft": 16384,
-		"iS": 116156,
+		"iS": 118446,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_4.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_5.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_5.jpg": {
 		"ft": 16384,
-		"iS": 171896,
+		"iS": 165219,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_5.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_6.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_6.jpg": {
 		"ft": 16384,
 		"iS": 178129,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_6.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/books/white_teeth_7.jpg": {
+	"/deploy/img/work-2/books/white_teeth/white_teeth_7.jpg": {
 		"ft": 16384,
-		"iS": 307238,
+		"iS": 301036,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/books/white_teeth_7.jpg",
+		"oAP": "/deploy/img/work-2/books/white_teeth/white_teeth_7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2129,7 +2184,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/exterior/exterior_1.jpg": {
 		"ft": 16384,
-		"iS": 77858,
+		"iS": 79987,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/exterior/exterior_1.jpg",
@@ -2206,7 +2261,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/exterior/exterior_detail_1.jpg": {
 		"ft": 16384,
-		"iS": 140953,
+		"iS": 135658,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/exterior/exterior_detail_1.jpg",
@@ -2239,7 +2294,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/exterior/exterior_set_1.jpg": {
 		"ft": 16384,
-		"iS": 123908,
+		"iS": 126468,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/exterior/exterior_set_1.jpg",
@@ -2250,7 +2305,7 @@
 		},
 	"/deploy/img/work-2/deeply-fruit/exterior/exterior_set_2.jpg": {
 		"ft": 16384,
-		"iS": 118510,
+		"iS": 121385,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/deeply-fruit/exterior/exterior_set_2.jpg",
@@ -2473,6 +2528,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/deeply-fruit/process/process_1.jpg": {
+		"ft": 16384,
+		"iS": 263728,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_2.jpg": {
+		"ft": 16384,
+		"iS": 127496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_3.jpg": {
+		"ft": 16384,
+		"iS": 166084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_4.jpg": {
+		"ft": 16384,
+		"iS": 207885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_5.jpg": {
+		"ft": 16384,
+		"iS": 184701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_6.jpg": {
+		"ft": 16384,
+		"iS": 151397,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/deeply-fruit/process/process_7.jpg": {
+		"ft": 16384,
+		"iS": 181141,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/deeply-fruit/process/process_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/frank-auerbach/cover_intro/cover_1.jpg": {
 		"ft": 16384,
 		"iS": 255215,
@@ -2618,7 +2750,7 @@
 		},
 	"/deploy/img/work-2/frank-auerbach/estella/estella_5.jpg": {
 		"ft": 16384,
-		"iS": 208752,
+		"iS": 213526,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/estella/estella_5.jpg",
@@ -2706,7 +2838,7 @@
 		},
 	"/deploy/img/work-2/frank-auerbach/julia/julia_1.jpg": {
 		"ft": 16384,
-		"iS": 168664,
+		"iS": 180646,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/julia/julia_1.jpg",
@@ -2717,7 +2849,7 @@
 		},
 	"/deploy/img/work-2/frank-auerbach/julia/julia_2.jpg": {
 		"ft": 16384,
-		"iS": 159419,
+		"iS": 183893,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/julia/julia_2.jpg",
@@ -2761,7 +2893,7 @@
 		},
 	"/deploy/img/work-2/frank-auerbach/juliet/juliet_2.jpg": {
 		"ft": 16384,
-		"iS": 241631,
+		"iS": 246286,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/juliet/juliet_2.jpg",
@@ -2772,7 +2904,7 @@
 		},
 	"/deploy/img/work-2/frank-auerbach/juliet/juliet_3.jpg": {
 		"ft": 16384,
-		"iS": 200023,
+		"iS": 207545,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/juliet/juliet_3.jpg",
@@ -2787,6 +2919,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/frank-auerbach/juliet/juliet_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/frank-auerbach/process/process_1.jpg": {
+		"ft": 16384,
+		"iS": 323529,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/frank-auerbach/process/process_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/frank-auerbach/process/process_2.jpg": {
+		"ft": 16384,
+		"iS": 274368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/frank-auerbach/process/process_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/frank-auerbach/process/process_3.jpg": {
+		"ft": 16384,
+		"iS": 215186,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/frank-auerbach/process/process_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3949,7 +4114,7 @@
 		},
 	"/deploy/img/work-2/morning-again/exterior/exterior_3.jpg": {
 		"ft": 16384,
-		"iS": 127623,
+		"iS": 130130,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/exterior/exterior_3.jpg",
@@ -3993,7 +4158,7 @@
 		},
 	"/deploy/img/work-2/morning-again/exterior/exterior_7.jpg": {
 		"ft": 16384,
-		"iS": 106994,
+		"iS": 113557,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/exterior/exterior_7.jpg",
@@ -4026,7 +4191,7 @@
 		},
 	"/deploy/img/work-2/morning-again/exterior/motion.gif": {
 		"ft": 4194304,
-		"iS": 1002213,
+		"iS": 1127624,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/exterior/motion.gif",
 		"oF": 0,
@@ -4034,7 +4199,7 @@
 		},
 	"/deploy/img/work-2/morning-again/interior/interior.gif": {
 		"ft": 4194304,
-		"iS": 791510,
+		"iS": 869270,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/interior/interior.gif",
 		"oF": 0,
@@ -4097,7 +4262,7 @@
 		},
 	"/deploy/img/work-2/morning-again/interior/interior_4.jpg": {
 		"ft": 16384,
-		"iS": 147263,
+		"iS": 238590,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/interior/interior_4.jpg",
@@ -4141,7 +4306,7 @@
 		},
 	"/deploy/img/work-2/morning-again/interior/interior_8.jpg": {
 		"ft": 16384,
-		"iS": 137626,
+		"iS": 159250,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/morning-again/interior/interior_8.jpg",
@@ -4150,12 +4315,56 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/work-2/morning-again/interior/interior_9.jpg": {
+	"/deploy/img/work-2/morning-again/process/process_1.jpg": {
 		"ft": 16384,
-		"iS": 241200,
+		"iS": 278248,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/morning-again/interior/interior_9.jpg",
+		"oAP": "/deploy/img/work-2/morning-again/process/process_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/morning-again/process/process_2.jpg": {
+		"ft": 16384,
+		"iS": 168860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/morning-again/process/process_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/morning-again/process/process_3.jpg": {
+		"ft": 16384,
+		"iS": 239996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/morning-again/process/process_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/morning-again/process/process_4.jpg": {
+		"ft": 16384,
+		"iS": 127436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/morning-again/process/process_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/morning-again/process/process_5.jpg": {
+		"ft": 16384,
+		"iS": 269294,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/morning-again/process/process_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5031,7 +5240,7 @@
 		},
 	"/deploy/img/work-2/proj-morning.jpg": {
 		"ft": 16384,
-		"iS": 137626,
+		"iS": 159250,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-morning.jpg",

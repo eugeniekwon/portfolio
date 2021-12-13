@@ -1014,9 +1014,10 @@ footer {
 
 #work-2 > div li:nth-child(1) > div {
   background-image: url("../img/work-2/proj-fruit.jpg");
-  background-size: 158%;
-  background-position: -60px -60px; }
-
+  background-size: 158%; }
+  @media (min-width: 1025px) {
+    #work-2 > div li:nth-child(1) > div {
+      background-position: -60px -150px; } }
 #work-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
 
@@ -1054,9 +1055,6 @@ footer {
   background-position: center; }
 
 #work-2 > div li:nth-child(11) > div {
-  background-image: url("../img/work-2/proj-mahler.jpg"); }
-
-#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-copenhagen.jpg"); }
 
 /* =============
@@ -3269,9 +3267,6 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(16) {
       grid-area: g16; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(17) {
-      grid-area: g17; } }
 #deeply-fruit #deeply-fruit-interior > div ul {
   display: grid;
   grid-template-rows: repeat(5, 250px); }
@@ -3439,18 +3434,18 @@ footer {
   background-color: #f9f9f9; }
   #book-covers #orlando > div ul {
     display: grid;
-    grid-template-rows: repeat(14, 250px); }
+    grid-template-rows: repeat(11, 250px); }
     @media (min-width: 768px) {
       #book-covers #orlando > div ul {
-        grid-template-rows: repeat(14, 500px); } }
+        grid-template-rows: repeat(11, 500px); } }
     @media (min-width: 1025px) {
       #book-covers #orlando > div ul {
         display: grid;
-        grid-template-rows: repeat(14, 600px); } }
+        grid-template-rows: repeat(11, 600px); } }
     @media (min-width: 1440px) {
       #book-covers #orlando > div ul {
         display: grid;
-        grid-template-rows: repeat(14, 800px); } }
+        grid-template-rows: repeat(11, 800px); } }
     #book-covers #orlando > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3499,11 +3494,11 @@ footer {
 
 #book-covers #book-covers-process > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(5, 1fr); }
   @media (min-width: 1025px) {
     #book-covers #book-covers-process > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px; } }
   #book-covers #book-covers-process > div ul li img {
@@ -3568,13 +3563,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(12, 300px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g11 g10 g10" "g12 g10 g10" "g13 g13 g14"; } }
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14"; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
       grid-template-rows: repeat(12, 400px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g11 g10 g10" "g12 g10 g10" "g13 g13 g14";
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14";
       column-gap: 25px; } }
   #morning-again #morning-again-exterior > div ul li img {
     object-fit: cover;
@@ -3623,9 +3618,6 @@ footer {
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul li:nth-child(14) {
       grid-area: g14; } }
-  @media (min-width: 1025px) {
-    #morning-again #morning-again-exterior > div ul li:nth-child(15) {
-      grid-area: g15; } }
 #morning-again #morning-again-interior > div ul {
   display: grid;
   grid-template-rows: repeat(7, 250px); }
@@ -3637,14 +3629,14 @@ footer {
       display: grid;
       grid-template-rows: repeat(10, 300px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g4 g4 g4" "g4 g4 g4" "g3 g3 g5" "g3 g3 g6" "g7 g7 g7" "g7 g7 g7";
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g7 g7" "g7 g7 g7";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-interior > div ul {
       display: grid;
       grid-template-rows: repeat(10, 400px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g4 g4 g4" "g4 g4 g4" "g3 g3 g5" "g3 g3 g6" "g7 g7 g7" "g7 g7 g7";
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g7 g7" "g7 g7 g7";
       column-gap: 25px; } }
   #morning-again #morning-again-interior > div ul li img {
     object-fit: cover;
@@ -3727,11 +3719,11 @@ footer {
       grid-area: g9; } }
 #morning-again #morning-again-process > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(5, 1fr); }
   @media (min-width: 1025px) {
     #morning-again #morning-again-process > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px; } }
   #morning-again #morning-again-process > div ul li img {
@@ -3839,31 +3831,25 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #frank > div ul li:nth-child(2) {
       grid-area: g2; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #frank > div ul li:nth-child(3) {
-      grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #frank > div ul li:nth-child(4) {
-      grid-area: g4; } }
 #frank-auerbach #estella > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 250px); }
+  grid-template-rows: repeat(4, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #estella > div ul {
-      grid-template-rows: repeat(6, 500px); } }
+      grid-template-rows: repeat(4, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #estella > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 300px);
+      grid-template-rows: repeat(5, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #estella > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 400px);
+      grid-template-rows: repeat(5, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
       column-gap: 25px; } }
   #frank-auerbach #estella > div ul li img {
     object-fit: cover;
@@ -3882,12 +3868,6 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #estella > div ul li:nth-child(4) {
       grid-area: g4; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(5) {
-      grid-area: g5; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(6) {
-      grid-area: g6; } }
 #frank-auerbach #juliet > div ul {
   display: grid;
   grid-template-rows: repeat(3, 250px); }
@@ -3922,9 +3902,6 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #juliet > div ul li:nth-child(3) {
       grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #juliet > div ul li:nth-child(4) {
-      grid-area: g4; } }
 #frank-auerbach #david > div ul {
   display: grid;
   grid-template-rows: repeat(3, 250px); }
@@ -3961,23 +3938,23 @@ footer {
       grid-area: g3; } }
 #frank-auerbach #julia > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 250px); }
+  grid-template-rows: repeat(3, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #julia > div ul {
-      grid-template-rows: repeat(5, 500px); } }
+      grid-template-rows: repeat(3, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #julia > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 300px);
+      grid-template-rows: repeat(3, 300px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #julia > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 400px);
+      grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
   #frank-auerbach #julia > div ul li img {
     object-fit: cover;
@@ -3993,23 +3970,14 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #julia > div ul li:nth-child(3) {
       grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #julia > div ul li:nth-child(4) {
-      grid-area: g4; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #julia > div ul li:nth-child(5) {
-      grid-area: g5; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #julia > div ul li:nth-child(6) {
-      grid-area: g6; } }
 #frank-auerbach #frank-auerbach-process > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 1fr); }
+  grid-template-rows: repeat(3, 1fr); }
   @media (min-width: 1025px) {
     #frank-auerbach #frank-auerbach-process > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       column-gap: 25px; } }
   #frank-auerbach #frank-auerbach-process > div ul li img {
     object-fit: cover;

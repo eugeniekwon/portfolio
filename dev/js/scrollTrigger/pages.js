@@ -606,9 +606,12 @@ if(deeplyFruitPage){
                  .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-interior-cartons div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
 
-                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#deeply-fruit #deeply-fruit-process div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
 
 
                  
@@ -655,9 +658,6 @@ if(bookCoversPage){
                  .from("#book-covers #orlando div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#book-covers #white-teeth div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #white-teeth div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -675,9 +675,11 @@ if(bookCoversPage){
                  .from("#book-covers #book-total div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #book-total div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
 
-                //  .from("#book-covers #book-covers-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#book-covers #book-covers-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#book-covers #book-covers-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#book-covers #book-covers-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#book-covers #book-covers-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#book-covers #book-covers-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#book-covers #book-covers-process div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#book-covers #book-covers-process div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
 
 
                  
@@ -747,9 +749,11 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-products div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-products div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
 
-                //  .from("#morning-again #morning-again-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-process div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-process div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
 
 
                  
@@ -796,7 +800,6 @@ if(frankAuerbachPage){
                  .from("#frank-auerbach #estella div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #estella div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #estella div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #estella div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #juliet div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #juliet div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -810,9 +813,9 @@ if(frankAuerbachPage){
                  .from("#frank-auerbach #julia div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #julia div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
-                //  .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#frank-auerbach #frank-auerbach-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
 
                  

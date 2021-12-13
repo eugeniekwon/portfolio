@@ -112,7 +112,10 @@
                 >div {
                     background-image: url("../img/work-2/proj-fruit.jpg");
                     background-size: 158%;
-                    background-position: -60px -60px;
+                    @include lg{
+                        background-position: -60px -150px;
+                    }
+                    
                     // margin-bottom: 30px;
                     
 
@@ -280,22 +283,22 @@
             //     }
             // }
 
-            li:nth-child(11) {
-                >div {
-                    background-image: url("../img/work-2/proj-mahler.jpg");
+            // li:nth-child(11) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-mahler.jpg");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
-                }
-
-
-            }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
+            //     }
 
 
-            li:nth-child(12) {
+            // }
+
+
+            li:nth-child(11) {
                 >div {
                     background-image: url("../img/work-2/proj-copenhagen.jpg");
                     
