@@ -1047,14 +1047,17 @@ footer {
   background-image: url("../img/work-2/proj-auerbach.jpg"); }
 
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-band.jpg"); }
+  background-image: url("../img/work-2/proj-mahler.jpg"); }
 
 #work-2 > div li:nth-child(10) > div {
+  background-image: url("../img/work-2/proj-band.jpg"); }
+
+#work-2 > div li:nth-child(11) > div {
   background-image: url("../img/work-2/proj-kitchen.jpg");
   background-size: 140%;
   background-position: center; }
 
-#work-2 > div li:nth-child(11) > div {
+#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-copenhagen.jpg"); }
 
 /* =============

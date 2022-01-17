@@ -240,6 +240,20 @@
 
             li:nth-child(9) {
                 >div {
+                    background-image: url("../img/work-2/proj-mahler.jpg");
+                    
+                    // margin-bottom: 30px;
+
+                    // @include md {
+                    //     margin: 0;
+                    // }
+                }
+
+
+            }
+
+            li:nth-child(10) {
+                >div {
                     background-image: url("../img/work-2/proj-band.jpg");
                     
                     // margin-bottom: 30px;
@@ -253,7 +267,7 @@
 
             }
 
-            li:nth-child(10) {
+            li:nth-child(11) {
                 >div {
                     background-image: url("../img/work-2/proj-kitchen.jpg");
                     
@@ -283,22 +297,10 @@
             //     }
             // }
 
-            // li:nth-child(11) {
-            //     >div {
-            //         background-image: url("../img/work-2/proj-mahler.jpg");
-                    
-            //         // margin-bottom: 30px;
-
-            //         // @include md {
-            //         //     margin: 0;
-            //         // }
-            //     }
+            
 
 
-            // }
-
-
-            li:nth-child(11) {
+            li:nth-child(12) {
                 >div {
                     background-image: url("../img/work-2/proj-copenhagen.jpg");
                     
