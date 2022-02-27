@@ -110,6 +110,27 @@
 
             li:nth-child(1) {
                 >div {
+                    // background-image: url("../img/work-2/proj-fruit.jpg");
+                    background-color: black;
+                    // background-size: 158%;
+                    // @include lg{
+                    //     background-position: -60px -150px;
+                    // }
+                    
+                    // margin-bottom: 30px;
+                    
+
+                    // @include md {
+                    //     margin: 0;
+                    // }
+
+                }
+
+
+            }
+
+            li:nth-child(2) {
+                >div {
                     background-image: url("../img/work-2/proj-fruit.jpg");
                     background-size: 158%;
                     @include lg{
@@ -128,7 +149,7 @@
 
             }
 
-            li:nth-child(2) {
+            li:nth-child(3) {
                 >div {
                     background-image: url("../img/work-2/proj-orchards.jpg");
                     
@@ -144,7 +165,7 @@
 
             }
 
-            li:nth-child(3) {
+            li:nth-child(4) {
                 >div {
                     background-image: url("../img/work-2/proj-woodmere.jpg");
                     
@@ -160,7 +181,7 @@
             }
 
 
-            li:nth-child(4) {
+            li:nth-child(5) {
                 >div {
                     background-image: url("../img/work-2/proj-books.jpg");
                     // margin-bottom: 30px;
@@ -174,7 +195,7 @@
 
             }
 
-            li:nth-child(5) {
+            li:nth-child(6) {
                 >div {
                     background-image: url("../img/work-2/proj-morning.jpg");
                     // background-size: 130%;
@@ -193,7 +214,7 @@
             }
 
             
-            li:nth-child(6) {
+            li:nth-child(7) {
                 >div {
                     background-image: url("../img/work-2/proj-artspaceh.jpg");
                     
@@ -208,7 +229,7 @@
 
             }
 
-            li:nth-child(7) {
+            li:nth-child(8) {
                 >div {
                     background-image: url("../img/work-2/proj-cinegraph.jpg");
                     
@@ -223,7 +244,7 @@
 
             }
 
-            li:nth-child(8) {
+            li:nth-child(9) {
                 >div {
                     background-image: url("../img/work-2/proj-auerbach.jpg");
                     
@@ -238,7 +259,7 @@
 
             }
 
-            li:nth-child(9) {
+            li:nth-child(10) {
                 >div {
                     background-image: url("../img/work-2/proj-mahler.jpg");
                     
@@ -252,7 +273,7 @@
 
             }
 
-            li:nth-child(10) {
+            li:nth-child(11) {
                 >div {
                     background-image: url("../img/work-2/proj-band.jpg");
                     
@@ -267,7 +288,7 @@
 
             }
 
-            li:nth-child(11) {
+            li:nth-child(12) {
                 >div {
                     background-image: url("../img/work-2/proj-kitchen.jpg");
                     
@@ -300,7 +321,7 @@
             
 
 
-            li:nth-child(12) {
+            li:nth-child(13) {
                 >div {
                     background-image: url("../img/work-2/proj-copenhagen.jpg");
                     

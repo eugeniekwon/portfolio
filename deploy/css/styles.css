@@ -1013,51 +1013,54 @@ footer {
       display: block; }
 
 #work-2 > div li:nth-child(1) > div {
+  background-color: black; }
+
+#work-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/proj-fruit.jpg");
   background-size: 158%; }
   @media (min-width: 1025px) {
-    #work-2 > div li:nth-child(1) > div {
+    #work-2 > div li:nth-child(2) > div {
       background-position: -60px -150px; } }
-#work-2 > div li:nth-child(2) > div {
+#work-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
 
-#work-2 > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/proj-woodmere.jpg");
-  background-size: 130%; }
-  @media (min-width: 768px) {
-    #work-2 > div li:nth-child(3) > div {
-      margin: 0; } }
 #work-2 > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/proj-books.jpg");
+  background-image: url("../img/work-2/proj-woodmere.jpg");
   background-size: 130%; }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(4) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(5) > div {
+  background-image: url("../img/work-2/proj-books.jpg");
+  background-size: 130%; }
+  @media (min-width: 768px) {
+    #work-2 > div li:nth-child(5) > div {
+      margin: 0; } }
+#work-2 > div li:nth-child(6) > div {
   background-image: url("../img/work-2/proj-morning.jpg"); }
 
-#work-2 > div li:nth-child(6) > div {
+#work-2 > div li:nth-child(7) > div {
   background-image: url("../img/work-2/proj-artspaceh.jpg");
   background-size: 130%; }
 
-#work-2 > div li:nth-child(7) > div {
+#work-2 > div li:nth-child(8) > div {
   background-image: url("../img/work-2/proj-cinegraph.jpg"); }
 
-#work-2 > div li:nth-child(8) > div {
+#work-2 > div li:nth-child(9) > div {
   background-image: url("../img/work-2/proj-auerbach.jpg"); }
 
-#work-2 > div li:nth-child(9) > div {
+#work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/proj-mahler.jpg"); }
 
-#work-2 > div li:nth-child(10) > div {
+#work-2 > div li:nth-child(11) > div {
   background-image: url("../img/work-2/proj-band.jpg"); }
 
-#work-2 > div li:nth-child(11) > div {
+#work-2 > div li:nth-child(12) > div {
   background-image: url("../img/work-2/proj-kitchen.jpg");
   background-size: 140%;
   background-position: center; }
 
-#work-2 > div li:nth-child(12) > div {
+#work-2 > div li:nth-child(13) > div {
   background-image: url("../img/work-2/proj-copenhagen.jpg"); }
 
 /* =============
@@ -3985,6 +3988,220 @@ footer {
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px; } }
   #frank-auerbach #frank-auerbach-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+/* =============
+    highland-orchards-1
+============= */
+#the-sleepground #the-sleepground-hero {
+  background-image: url("../img/work-2/proj-orchards.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-hero {
+      height: 100vh; } }
+#the-sleepground #the-sleepground-main {
+  position: relative;
+  background-color: #f9f9f9; }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-main > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  #the-sleepground #the-sleepground-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #the-sleepground #the-sleepground-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #the-sleepground #the-sleepground-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#the-sleepground #the-sleepground-concept {
+  position: relative;
+  background-color: #f9f9f9; }
+  #the-sleepground #the-sleepground-concept > div ul {
+    display: grid;
+    grid-template-rows: repeat(10, 250px); }
+    @media (min-width: 768px) {
+      #the-sleepground #the-sleepground-concept > div ul {
+        grid-template-rows: repeat(10, 500px); } }
+    @media (min-width: 1025px) {
+      #the-sleepground #the-sleepground-concept > div ul {
+        display: grid;
+        grid-template-rows: repeat(10, 600px);
+        column-gap: 25px; } }
+    @media (min-width: 1440px) {
+      #the-sleepground #the-sleepground-concept > div ul {
+        display: grid;
+        grid-template-rows: repeat(10, 800px);
+        column-gap: 25px; } }
+    #the-sleepground #the-sleepground-concept > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#the-sleepground #the-sleepground-video {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: 10px auto 10px; }
+  #the-sleepground #the-sleepground-video > div {
+    align-items: center;
+    display: flex;
+    grid-area: video;
+    justify-content: center; }
+    #the-sleepground #the-sleepground-video > div section {
+      width: 100%; }
+      #the-sleepground #the-sleepground-video > div section iframe {
+        width: 100%; }
+
+#the-sleepground #highland-orchards-prearrival > div ul {
+  display: grid;
+  grid-template-rows: repeat(4, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #highland-orchards-prearrival > div ul {
+      grid-template-rows: repeat(4, 560px); } }
+  @media (min-width: 1025px) {
+    #the-sleepground #highland-orchards-prearrival > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 400px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #the-sleepground #highland-orchards-prearrival > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 450px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  #the-sleepground #highland-orchards-prearrival > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#the-sleepground #the-sleepground-visitors-kit {
+  position: relative;
+  background-color: #f9f9f9; }
+  #the-sleepground #the-sleepground-visitors-kit > div ul {
+    display: grid;
+    grid-template-rows: repeat(2, 250px); }
+    @media (min-width: 768px) {
+      #the-sleepground #the-sleepground-visitors-kit > div ul {
+        grid-template-rows: repeat(2, 500px); } }
+    @media (min-width: 1025px) {
+      #the-sleepground #the-sleepground-visitors-kit > div ul {
+        display: grid;
+        grid-template-rows: repeat(2, 600px); } }
+    @media (min-width: 1440px) {
+      #the-sleepground #the-sleepground-visitors-kit > div ul {
+        display: grid;
+        grid-template-rows: repeat(2, 800px); } }
+    #the-sleepground #the-sleepground-visitors-kit > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#the-sleepground #the-sleepground-arrival > div ul {
+  display: grid;
+  grid-template-rows: repeat(8, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-arrival > div ul {
+      grid-template-rows: repeat(8, 560px); } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-arrival > div ul {
+      display: grid;
+      grid-template-rows: repeat(8, 650px); } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-arrival > div ul {
+      display: grid;
+      grid-template-rows: repeat(8, 800px); } }
+  #the-sleepground #the-sleepground-arrival > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#the-sleepground #the-sleepground-posters > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-posters > div ul {
+      grid-template-rows: repeat(3, 560px); } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-posters > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 250px);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-posters > div ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 300px);
+      column-gap: 25px; } }
+  #the-sleepground #the-sleepground-posters > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#the-sleepground #the-sleepground-online > div ul {
+  display: grid;
+  grid-template-rows: repeat(8, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-online > div ul {
+      grid-template-rows: repeat(8, 560px); } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-online > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 350px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-online > div ul {
+      display: grid;
+      grid-template-rows: repeat(4, 450px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  #the-sleepground #the-sleepground-online > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#the-sleepground #the-sleepground-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr); }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-process > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  #the-sleepground #the-sleepground-process > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;

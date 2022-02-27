@@ -1,0 +1,462 @@
+/* =============
+    highland-orchards-1
+============= */
+
+#the-sleepground {
+
+    #the-sleepground-hero {
+
+        background-image: url("../img/work-2/proj-orchards.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+
+            @include md {
+                height: 50vh;
+            }
+    
+            @include lg {
+                height: 100vh;
+            }
+        
+    }
+
+    #the-sleepground-main {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                @include md {
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
+                }
+
+                @include lg {
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // grid-template-rows: repeat(1, 1fr);
+                    // grid-template-areas: "objective about process";
+                    // column-gap: 25px;
+                    // margin: 0px 45px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                @include xl {
+                    // margin: 0px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                li {
+                    span {
+                        display: block;
+                        margin-bottom: 15px;
+
+                        @include md {
+                            margin-bottom: 20px;
+                        }
+
+                        @include lg {
+                            margin-bottom: 25px;
+                        }
+
+                    }
+                }
+
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: objective;
+                    }
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: about;
+                    }
+                }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    #the-sleepground-concept {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(10, 250px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(10, 500px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(10, 600px);
+                    column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(10, 800px);
+                    column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+ 
+                }
+
+                
+
+            }
+
+        }
+
+    }
+
+
+    #the-sleepground-video {
+        display: grid;
+        grid-template-areas: ". video .";
+        grid-template-columns: 10px auto 10px;
+
+        >div {
+            align-items: center;
+            display: flex;
+            grid-area: video;
+            justify-content: center;
+
+            section {
+                width: 100%;
+
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    
+
+
+
+    #highland-orchards-prearrival {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(4, 320px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(4, 560px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 400px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(2, 450px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+                
+            
+            }
+
+        }
+    }
+
+    #the-sleepground-visitors-kit {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(2, 250px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(2, 500px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 600px);
+                    // column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(2, 800px);
+                    // column-gap: 25px;
+                    // row-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+ 
+                }
+
+                
+
+            }
+
+        }
+
+    }
+
+    #the-sleepground-arrival {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(8, 320px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(8, 560px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    // grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(8, 650px);
+                    // row-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    // grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(8, 800px);
+                    // row-gap: 25px;
+
+                }
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                        // @include lg {
+                        //     object-fit: contain;
+                        // }
+
+                    }
+
+                }
+            
+            }
+
+        }
+    }
+
+    #the-sleepground-posters{
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(3, 320px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(3, 560px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 250px);
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(1, 300px);
+                    column-gap: 25px;
+
+                }
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+
+                }
+            
+            }
+
+        }
+    }
+
+
+    #the-sleepground-online {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(8, 320px);
+                // row-gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(8, 560px);
+                    // row-gap: 20px;
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(4, 350px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(4, 450px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+    #the-sleepground-process {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(4, 1fr);
+                // row-gap: 20px;
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
+                    // row-gap: 25px;
+                    column-gap: 25px;
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+
+}

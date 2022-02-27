@@ -5876,6 +5876,14 @@
 		"oAP": "/deploy/street-photo.html",
 		"oF": 0
 		},
+	"/deploy/the-sleepground.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/the-sleepground.html",
+		"oF": 0
+		},
 	"/deploy/woodmere.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6187,6 +6195,14 @@
 		"oA": 1,
 		"oAP": "/dev/content/work/philly-flower-show-1.html",
 		"oF": 1
+		},
+	"/dev/content/work/the-sleepground-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work/the-sleepground-1.html",
+		"oF": 0
 		},
 	"/dev/content/work/woodmere-1.kit": {
 		"cB": 0,
@@ -6976,6 +6992,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_the-sleepground-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_the-sleepground-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_woodmere-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7034,6 +7063,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/street-photo.html",
+		"oF": 2
+		},
+	"/dev/the-sleepground.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/the-sleepground.html",
 		"oF": 2
 		},
 	"/dev/woodmere.kit": {
