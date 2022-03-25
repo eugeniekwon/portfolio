@@ -5902,6 +5902,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/deploy/img/work-2/sleepground/online/ad.gif": {
+		"ft": 4194304,
+		"iS": 5794558,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/online/ad.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/work-2/sleepground/online/app.jpg": {
 		"ft": 16384,
 		"iS": 94063,
@@ -5913,6 +5921,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/online/ig_stories_motion.gif": {
+		"ft": 4194304,
+		"iS": 38539104,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/online/ig_stories_motion.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/work-2/sleepground/online/instagram.jpg": {
 		"ft": 16384,
 		"iS": 119783,
@@ -5923,6 +5939,22 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/online/motion_questions.gif": {
+		"ft": 4194304,
+		"iS": 1959385,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/online/motion_questions.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/work-2/sleepground/online/motion_subbrands.gif": {
+		"ft": 4194304,
+		"iS": 7856619,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/online/motion_subbrands.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/sleepground/online/online.jpg": {
 		"ft": 16384,
@@ -6124,7 +6156,7 @@
 		},
 	"/deploy/img/work-2/sleepground/wayfinding/small_signages.jpg": {
 		"ft": 16384,
-		"iS": 115296,
+		"iS": 115185,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/wayfinding/small_signages.jpg",
