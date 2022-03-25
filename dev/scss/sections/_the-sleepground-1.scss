@@ -286,29 +286,88 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(2, 250px);
+                grid-template-rows: repeat(22, 250px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(2, 500px);
+                    grid-template-rows: repeat(22, 500px);
                     // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(2, 600px);
-                    // column-gap: 25px;
+                    grid-template-rows: repeat(2, 400px);
+                    column-gap: 25px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
+
+                    grid-template-areas:
+                    "g1 g1 g1"
+                    "g1 g1 g1"
+
+                    "g2 g2 g2"
+                    "g2 g2 g2"
+
+                    "g3 g3 g3"
+                    "g3 g3 g3"
+
+                    "g4 g5 g5"
+
+                    "g6 g6 g7"
+                    "g6 g6 g8"
+                    
+                    "g9 g10 g11"
+                    "g12 g13 g14"
+
+                    "g15 g15 g15"
+                    "g15 g15 g15"
+
+                    "g16 g16 g17"
+                    "g16 g16 g18"
+                    
+                    "g19 g19 g19"
+                    "g19 g19 g19"
+                    
+                    "g20 g21 g22";
+                    
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(2, 800px);
-                    // column-gap: 25px;
+                    grid-template-rows: repeat(2, 450px);
+                    column-gap: 25px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
+
+                    grid-template-areas:
+                    "g1 g1 g1"
+                    "g1 g1 g1"
+
+                    "g2 g2 g2"
+                    "g2 g2 g2"
+
+                    "g3 g3 g3"
+                    "g3 g3 g3"
+
+                    "g4 g5 g5"
+
+                    "g6 g6 g7"
+                    "g6 g6 g8"
+                    
+                    "g9 g10 g11"
+                    "g12 g13 g14"
+
+                    "g15 g15 g15"
+                    "g15 g15 g15"
+
+                    "g16 g16 g17"
+                    "g16 g16 g18"
+                    
+                    "g19 g19 g19"
+                    "g19 g19 g19"
+
+                    "g20 g21 g22";
 
                 }
 
@@ -325,7 +384,162 @@
  
                 }
 
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: g8;
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    @include lg {
+                        grid-area: g9;
+                    }
+
+                }
+
+                li:nth-child(10) {
+                    @include lg {
+                        grid-area: g10;
+                    }
+
+                }
+
+                li:nth-child(11) {
+                    @include lg {
+                        grid-area: g11;
+                    }
+
+                }
+
+                li:nth-child(12) {
+                    @include lg {
+                        grid-area: g12;
+                    }
+
+                }
+
+                li:nth-child(13) {
+                    @include lg {
+                        grid-area: g13;
+                    }
+
+                }
+
+                li:nth-child(14) {
+                    @include lg {
+                        grid-area: g14;
+                    }
+
+                }
+
+                li:nth-child(15) {
+                    @include lg {
+                        grid-area: g15;
+                    }
+
+                }
+
+                li:nth-child(16) {
+                    @include lg {
+                        grid-area: g16;
+                    }
+
+                }
+
+                li:nth-child(17) {
+                    @include lg {
+                        grid-area: g17;
+                    }
+
+                }
+
+                li:nth-child(18) {
+                    @include lg {
+                        grid-area: g18;
+                    }
+
+                }
+
+                li:nth-child(19) {
+                    @include lg {
+                        grid-area: g19;
+                    }
+
+                }
                 
+                li:nth-child(20) {
+                    @include lg {
+                        grid-area: g20;
+                    }
+
+                }
+
+                li:nth-child(21) {
+                    @include lg {
+                        grid-area: g21;
+                    }
+
+                }
+
+                li:nth-child(22) {
+                    @include lg {
+                        grid-area: g22;
+                    }
+
+                }
 
             }
 
@@ -493,16 +707,32 @@
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(3, 250px);
+                    grid-template-rows: repeat(5, 250px);
                     column-gap: 25px;
+
+                    grid-template-areas:
+                        "g1 g1"
+                        "g1 g1"
+
+                        "g2 g3"
+
+                        "g4 g5";
 
                 }
 
                 @include xl {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(3, 300px);
+                    grid-template-rows: repeat(5, 300px);
                     column-gap: 25px;
+
+                    grid-template-areas:
+                    "g1 g1"
+                    "g1 g1"
+
+                    "g2 g3"
+
+                    "g4 g5";
 
                 }
 
@@ -514,6 +744,44 @@
                         height: 100%;
                         width: 100%;
 
+                    }
+
+                }
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
                     }
 
                 }
@@ -539,19 +807,49 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 350px);
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(9, 350px);
+                    grid-template-columns: repeat(3, 1fr);
                     // row-gap: 25px;
                     column-gap: 25px;
+
+                    grid-template-areas:
+                    "g1 g1 g1"
+                    "g1 g1 g1"
+
+                    "g2 g2 g2"
+                    "g2 g2 g2"
+
+                    "g3 g3 g3"
+                    "g3 g3 g3"
+
+                    "g4 g5 g6"
+
+                    "g7 g7 g7"
+                    "g7 g7 g7";
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(4, 450px);
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(9, 450px);
+                    grid-template-columns: repeat(3, 1fr);
                     // row-gap: 25px;
                     column-gap: 25px;
+
+                    grid-template-areas:
+                    "g1 g1 g1"
+                    "g1 g1 g1"
+
+                    "g2 g2 g2"
+                    "g2 g2 g2"
+
+                    "g3 g3 g3"
+                    "g3 g3 g3"
+
+                    "g4 g5 g6"
+
+                    "g7 g7 g7"
+                    "g7 g7 g7";
 
                 }
 
@@ -561,6 +859,59 @@
                         object-position: center;
                         height: 100%;
                         width: 100%;
+                    }
+
+                }
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                    }
+
+                }
+
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
                     }
 
                 }

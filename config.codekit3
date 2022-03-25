@@ -5328,6 +5328,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/exposures/exposures.jpg": {
+		"ft": 16384,
+		"iS": 33095,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/exposures/exposures.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/sleepground/exposures/highway_billboard.jpg": {
 		"ft": 16384,
 		"iS": 393631,
@@ -5367,6 +5378,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/exposures/poster_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/kit/arrival.jpg": {
+		"ft": 16384,
+		"iS": 31754,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/kit/arrival.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5669,6 +5691,160 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/main/brand_arch_1.jpg": {
+		"ft": 16384,
+		"iS": 102060,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/brand_arch_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/brand_arch_2.jpg": {
+		"ft": 16384,
+		"iS": 109690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/brand_arch_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/colour_type.jpg": {
+		"ft": 16384,
+		"iS": 105816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/colour_type.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/core_idea.jpg": {
+		"ft": 16384,
+		"iS": 60483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/core_idea.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/icon_illust.jpg": {
+		"ft": 16384,
+		"iS": 126251,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/icon_illust.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/logo_combos.jpg": {
+		"ft": 16384,
+		"iS": 98166,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/logo_combos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/main_logo.jpg": {
+		"ft": 16384,
+		"iS": 64157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/main_logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/main_question.jpg": {
+		"ft": 16384,
+		"iS": 101078,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/main_question.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/naming.jpg": {
+		"ft": 16384,
+		"iS": 58011,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/naming.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/problem_1.jpg": {
+		"ft": 16384,
+		"iS": 50769,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/problem_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/problem_2.jpg": {
+		"ft": 16384,
+		"iS": 85922,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/problem_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/problem_3.jpg": {
+		"ft": 16384,
+		"iS": 66733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/problem_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/question.jpg": {
+		"ft": 16384,
+		"iS": 50968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/question.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/main/regulations.jpg": {
+		"ft": 16384,
+		"iS": 102180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/main/regulations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/sleepground/misc/id_cards.jpg": {
 		"ft": 16384,
 		"iS": 117054,
@@ -5726,15 +5902,15 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"/deploy/img/work-2/sleepground/online/app.png": {
-		"ft": 32768,
-		"iS": 181159,
+	"/deploy/img/work-2/sleepground/online/app.jpg": {
+		"ft": 16384,
+		"iS": 94063,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/work-2/sleepground/online/app.png",
+		"oAP": "/deploy/img/work-2/sleepground/online/app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/work-2/sleepground/online/instagram.jpg": {
@@ -5743,6 +5919,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/online/instagram.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/online/online.jpg": {
+		"ft": 16384,
+		"iS": 31825,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/online/online.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5869,34 +6056,23 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/work-2/sleepground/wayfinding/landscape_poster_1.jpg": {
-		"ft": 16384,
-		"iS": 285022,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/sleepground/wayfinding/landscape_poster_1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/work-2/sleepground/wayfinding/landscape_poster_2.jpg": {
-		"ft": 16384,
-		"iS": 391437,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/work-2/sleepground/wayfinding/landscape_poster_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/work-2/sleepground/wayfinding/parking.jpg": {
 		"ft": 16384,
 		"iS": 741619,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/wayfinding/parking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/wayfinding/prearrival.jpg": {
+		"ft": 16384,
+		"iS": 34673,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/prearrival.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5946,12 +6122,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/wayfinding/small_signages.jpg": {
+		"ft": 16384,
+		"iS": 115296,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/small_signages.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/sleepground/wayfinding/subway_billboard.jpg": {
 		"ft": 16384,
 		"iS": 274180,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/wayfinding/subway_billboard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/wayfinding/subway_details.jpg": {
+		"ft": 16384,
+		"iS": 231084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/subway_details.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5974,6 +6172,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/wayfinding/waiting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/wayfinding/waiting_main.jpg": {
+		"ft": 16384,
+		"iS": 215743,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/waiting_main.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
