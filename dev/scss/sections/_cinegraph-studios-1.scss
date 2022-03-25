@@ -143,26 +143,26 @@
 
     }
 
-    #cinegraph-video {
-        display: grid;
-        grid-template-areas: ". video .";
-        grid-template-columns: 10px auto 10px;
+    // #cinegraph-video {
+    //     display: grid;
+    //     grid-template-areas: ". video .";
+    //     grid-template-columns: 10px auto 10px;
 
-        >div {
-            align-items: center;
-            display: flex;
-            grid-area: video;
-            justify-content: center;
+    //     >div {
+    //         align-items: center;
+    //         display: flex;
+    //         grid-area: video;
+    //         justify-content: center;
 
-            section {
-                width: 100%;
+    //         section {
+    //             width: 100%;
 
-                iframe {
-                    width: 100%;
-                }
-            }
-        }
-    }
+    //             iframe {
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 
 
     #cinegraph-applications {

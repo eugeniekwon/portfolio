@@ -1128,20 +1128,6 @@ footer {
       height: 100%;
       width: 100%; }
 
-#woodmere #w-youtube-video {
-  display: grid;
-  grid-template-areas: ". video .";
-  grid-template-columns: 10px auto 10px; }
-  #woodmere #w-youtube-video > div {
-    align-items: center;
-    display: flex;
-    grid-area: video;
-    justify-content: center; }
-    #woodmere #w-youtube-video > div section {
-      width: 100%; }
-      #woodmere #w-youtube-video > div section iframe {
-        width: 100%; }
-
 #woodmere #woodmere-product > div ul {
   display: grid;
   grid-template-rows: repeat(6, 320px); }
@@ -2840,20 +2826,6 @@ footer {
       height: 100%;
       width: 100%; }
 
-#cinegraph #cinegraph-video {
-  display: grid;
-  grid-template-areas: ". video .";
-  grid-template-columns: 10px auto 10px; }
-  #cinegraph #cinegraph-video > div {
-    align-items: center;
-    display: flex;
-    grid-area: video;
-    justify-content: center; }
-    #cinegraph #cinegraph-video > div section {
-      width: 100%; }
-      #cinegraph #cinegraph-video > div section iframe {
-        width: 100%; }
-
 #cinegraph #cinegraph-applications > div ul {
   display: grid;
   grid-template-rows: repeat(10, 320px); }
@@ -3078,20 +3050,6 @@ footer {
       object-position: center;
       height: 100%;
       width: 100%; }
-
-#artspaceh #artspaceh-video {
-  display: grid;
-  grid-template-areas: ". video .";
-  grid-template-columns: 10px auto 10px; }
-  #artspaceh #artspaceh-video > div {
-    align-items: center;
-    display: flex;
-    grid-area: video;
-    justify-content: center; }
-    #artspaceh #artspaceh-video > div section {
-      width: 100%; }
-      #artspaceh #artspaceh-video > div section iframe {
-        width: 100%; }
 
 #artspaceh #artspaceh-applications > div ul {
   display: grid;

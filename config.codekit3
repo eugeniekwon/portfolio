@@ -983,6 +983,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/artspaceh/main/motion.gif": {
+		"ft": 4194304,
+		"iS": 242031,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/artspaceh/main/motion.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/work-2/artspaceh/main/pattern-1.jpg": {
 		"ft": 16384,
 		"iS": 524648,
@@ -1752,6 +1760,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/motion.gif": {
+		"ft": 4194304,
+		"iS": 110852,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/motion.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/cinegraph-studios/main/segmentation.jpg": {
 		"ft": 16384,
@@ -6160,6 +6176,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/main/motion.gif": {
+		"ft": 4194304,
+		"iS": 1308897,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/main/motion.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/woodmere/main/patterns.jpg": {
 		"ft": 16384,
