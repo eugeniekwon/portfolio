@@ -19,7 +19,8 @@ if(workOne){
   var workOneTimeline = gsap.timeline();
 
   workOneTimeline.from("#intro h1:nth-child(1)",{duration:1, alpha:0, xPercent:-10})
-  .from("#intro h1:nth-child(2)", {duration:1, alpha:0, xPercent:-10}, "-=0.6");
+  .from("#intro h1:nth-child(2)", {duration:1, alpha:0, xPercent:-10}, "-=0.6")
+  .from("#intro h1:nth-child(3)", {duration:1, alpha:0, xPercent:-10}, "-=0.6");
 //   .from("#scroll-button", {duration:1, alpha:0}, "-=0.5");
 }
 
@@ -58,7 +59,7 @@ if(workTwo){
                   .from("#work-2 div ul li:nth-child(9)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
                   .from("#work-2 div ul li:nth-child(10)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
                   .from("#work-2 div ul li:nth-child(11)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
-                  .from("#work-2 div ul li:nth-child(12)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
+                  // .from("#work-2 div ul li:nth-child(12)", {duration:workTwoTime, alpha:0, x:-30}, "-=0.08")
   
 
   ScrollTrigger.create({

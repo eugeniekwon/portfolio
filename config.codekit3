@@ -3410,6 +3410,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/highland-orchards/product/boxes-total.gif": {
+		"ft": 4194304,
+		"iS": 2171278,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/highland-orchards/product/boxes-total.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/deploy/img/work-2/highland-orchards/product/first-box.jpg": {
 		"ft": 16384,
 		"iS": 349746,
@@ -3761,6 +3769,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/home-kitchen/motion.gif": {
+		"ft": 4194304,
+		"iS": 89176750,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/home-kitchen/motion.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/home-kitchen/photo-1.jpg": {
 		"ft": 16384,
@@ -5966,6 +5982,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/thumbnail.gif": {
+		"ft": 4194304,
+		"iS": 18185857,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/thumbnail.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/sleepground/wayfinding/building_directory_1.jpg": {
 		"ft": 16384,
