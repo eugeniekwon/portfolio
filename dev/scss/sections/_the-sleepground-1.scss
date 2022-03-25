@@ -156,29 +156,49 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(4, 320px);
+                grid-template-rows: repeat(8, 320px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(4, 560px);
+                    grid-template-rows: repeat(8, 560px);
                     // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(2, 400px);
+                    grid-template-rows: repeat(7, 400px);
                     grid-template-columns: repeat(2, 1fr);
-                    // row-gap: 25px;
                     column-gap: 25px;
+                    grid-template-areas:
+                        "g1 g1"
+                        "g1 g1"
+
+                        "g2 g3"
+
+                        "g4 g5"
+                        "g6 g7"
+
+                        "g8 g8"
+                        "g8 g8";
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(2, 450px);
+                    grid-template-rows: repeat(7, 450px);
                     grid-template-columns: repeat(2, 1fr);
-                    // row-gap: 25px;
                     column-gap: 25px;
+                    grid-template-areas:
+                        "g1 g1"
+                        "g1 g1"
+
+                        "g2 g3"
+
+                        "g4 g5"
+                        "g6 g7"
+
+                        "g8 g8"
+                        "g8 g8";
 
                 }
 
@@ -188,6 +208,65 @@
                         object-position: center;
                         height: 100%;
                         width: 100%;
+                    }
+
+                }
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: g8;
                     }
 
                 }
@@ -270,16 +349,51 @@
                 @include lg {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(8, 650px);
+                    grid-template-rows: repeat(9, 400px);
                     // row-gap: 25px;
+                    column-gap: 25px;
+
+                    grid-template-areas:
+                        "g1 g1"
+                        "g1 g1"
+
+                        "g2 g3"
+
+                        "g4 g4"
+                        "g4 g4"
+
+                        "g5 g5"
+
+                        "g6 g7"
+
+                        "g8 g8"
+                        "g8 g8";
 
                 }
 
                 @include xl {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(8, 800px);
+                    grid-template-rows: repeat(9, 450px);
                     // row-gap: 25px;
+                    column-gap: 25px;
+
+                    grid-template-areas:
+                        "g1 g1"
+                        "g1 g1"
+
+                        "g2 g3"
+
+                        "g4 g4"
+                        "g4 g4"
+
+                        "g5 g5"
+                        "g5 g5"
+
+                        "g6 g7"
+
+                        "g8 g8"
+                        "g8 g8";
 
                 }
 
@@ -295,6 +409,65 @@
                         //     object-fit: contain;
                         // }
 
+                    }
+
+                }
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: g8;
                     }
 
                 }
@@ -319,16 +492,16 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 250px);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 250px);
                     column-gap: 25px;
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 300px);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 300px);
                     column-gap: 25px;
 
                 }
@@ -356,11 +529,11 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 320px);
+                grid-template-rows: repeat(2, 320px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 560px);
+                    grid-template-rows: repeat(2, 560px);
                     // row-gap: 20px;
                 }
 
