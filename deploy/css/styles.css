@@ -4274,17 +4274,17 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 350px);
+      grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px;
-      grid-template-areas: "g1 g1" "g2 g2" "g3 g4" "g5 g6"; } }
+      grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 800px);
+      grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px;
-      grid-template-areas: "g1 g1" "g2 g2" "g3 g4" "g5 g6"; } }
+      grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
   #the-sleepground #the-sleepground-online > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4296,9 +4296,63 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online > div ul li:nth-child(2) {
       grid-area: g2; } }
+#the-sleepground #the-sleepground-online-2 > div ul {
+  display: grid;
+  grid-template-rows: repeat(4, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-online-2 > div ul {
+      grid-template-rows: repeat(4, 560px); } }
   @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-online > div ul li:nth-child(3) {
+    #the-sleepground #the-sleepground-online-2 > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 500px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px;
+      grid-template-areas: "g1 g2" "g3 g4"; } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-online-2 > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 850px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px;
+      grid-template-areas: "g1 g2" "g3 g4"; } }
+  #the-sleepground #the-sleepground-online-2 > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-online-2 > div ul li:nth-child(1) {
+      grid-area: g1; } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-online-2 > div ul li:nth-child(2) {
+      grid-area: g2; } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-online-2 > div ul li:nth-child(3) {
       grid-area: g3; } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-online-2 > div ul li:nth-child(4) {
+      grid-area: g4; } }
+#the-sleepground #the-sleepground-exit > div ul {
+  display: grid;
+  grid-template-rows: repeat(2, 320px); }
+  @media (min-width: 768px) {
+    #the-sleepground #the-sleepground-exit > div ul {
+      grid-template-rows: repeat(2, 560px); } }
+  @media (min-width: 1025px) {
+    #the-sleepground #the-sleepground-exit > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 550px); } }
+  @media (min-width: 1440px) {
+    #the-sleepground #the-sleepground-exit > div ul {
+      display: grid;
+      grid-template-rows: repeat(2, 600px); } }
+  #the-sleepground #the-sleepground-exit > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
 #the-sleepground #the-sleepground-process > div ul {
   display: grid;
   grid-template-rows: repeat(4, 1fr); }
