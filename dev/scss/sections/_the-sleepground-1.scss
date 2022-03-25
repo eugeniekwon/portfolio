@@ -6,7 +6,7 @@
 
     #the-sleepground-hero {
 
-        background-image: url("../img/work-2/proj-orchards.jpg");
+        background-image: url("../img/work-2/proj-sleepground.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -94,7 +94,7 @@
 
     }
 
-    #the-sleepground-concept {
+    #the-sleepground-strategy {
         position: relative;
         background-color: $bkgd-gray;
 
@@ -150,33 +150,8 @@
     }
 
 
-    #the-sleepground-video {
-        display: grid;
-        grid-template-areas: ". video .";
-        grid-template-columns: 10px auto 10px;
 
-        >div {
-            align-items: center;
-            display: flex;
-            grid-area: video;
-            justify-content: center;
-
-            section {
-                width: 100%;
-
-                iframe {
-                    width: 100%;
-                }
-            }
-        }
-    }
-
-
-    
-
-
-
-    #highland-orchards-prearrival {
+    #the-sleepground-prearrival {
         >div {
 
             ul {
@@ -329,7 +304,7 @@
         }
     }
 
-    #the-sleepground-posters{
+    #the-sleepground-exposures{
         >div {
 
             ul {
