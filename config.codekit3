@@ -732,7 +732,7 @@
 		},
 	"/deploy/img/logo.png": {
 		"ft": 32768,
-		"iS": 392,
+		"iS": 261,
 		"oA": 0,
 		"oAP": "/deploy/img/logo.png",
 		"oF": 0,
@@ -985,9 +985,17 @@
 		},
 	"/deploy/img/work-2/artspaceh/main/motion.gif": {
 		"ft": 4194304,
-		"iS": 242031,
+		"iS": 2008810,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/artspaceh/main/motion.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/work-2/artspaceh/main/motion_.gif": {
+		"ft": 4194304,
+		"iS": 242031,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/artspaceh/main/motion_.gif",
 		"oF": 0,
 		"opt": 0
 		},

@@ -952,19 +952,37 @@ footer {
         #work-1 > div div #intro h1:nth-child(2) {
           font-size: 4.375rem;
           margin-bottom: 20px; } }
-      #work-1 > div div #intro h1:nth-child(2) span {
+      #work-1 > div div #intro h1:nth-child(2) #ekname {
+        font-family: 'Gelasio', serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #89a6ad; }
+        @media (min-width: 768px) {
+          #work-1 > div div #intro h1:nth-child(2) #ekname {
+            font-size: 2.1875rem;
+            margin-bottom: 20px; } }
+        @media (min-width: 1025px) {
+          #work-1 > div div #intro h1:nth-child(2) #ekname {
+            font-size: 2.8125rem;
+            margin-bottom: 20px; } }
+        @media (min-width: 1440px) {
+          #work-1 > div div #intro h1:nth-child(2) #ekname {
+            font-size: 4.375rem;
+            margin-bottom: 20px; } }
+      #work-1 > div div #intro h1:nth-child(2) #intro-space {
         display: block;
         font-weight: 500;
         font-style: italic;
         font-size: 1.75rem; }
         @media (min-width: 768px) {
-          #work-1 > div div #intro h1:nth-child(2) span {
+          #work-1 > div div #intro h1:nth-child(2) #intro-space {
             font-size: 2.1875rem; } }
         @media (min-width: 1025px) {
-          #work-1 > div div #intro h1:nth-child(2) span {
+          #work-1 > div div #intro h1:nth-child(2) #intro-space {
             font-size: 2.8125rem; } }
         @media (min-width: 1440px) {
-          #work-1 > div div #intro h1:nth-child(2) span {
+          #work-1 > div div #intro h1:nth-child(2) #intro-space {
             font-size: 4.375rem; } }
     #work-1 > div div #intro h1:nth-child(3) {
       font-family: 'Gelasio', serif;
@@ -1071,16 +1089,16 @@ footer {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/proj-artspaceh.jpg"); }
+  background-image: url("../img/work-2/artspaceh/main/motion.gif"); }
 
 #work-2 > div li:nth-child(8) > div {
   background-image: url("../img/work-2/proj-cinegraph.jpg"); }
 
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-auerbach.jpg"); }
+  background-image: url("../img/work-2/proj-mahler.jpg"); }
 
 #work-2 > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/proj-mahler.jpg"); }
+  background-image: url("../img/work-2/proj-auerbach.jpg"); }
 
 #work-2 > div li:nth-child(11) > div {
   background-image: url("../img/work-2/home-kitchen/motion.gif");
@@ -2854,20 +2872,20 @@ footer {
 
 #cinegraph #cinegraph-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(10, 320px); }
+  grid-template-rows: repeat(8, 320px); }
   @media (min-width: 768px) {
     #cinegraph #cinegraph-applications > div ul {
-      grid-template-rows: repeat(10, 600px); } }
+      grid-template-rows: repeat(8, 600px); } }
   @media (min-width: 1025px) {
     #cinegraph #cinegraph-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 420px);
+      grid-template-rows: repeat(4, 420px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #cinegraph #cinegraph-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 530px);
+      grid-template-rows: repeat(4, 530px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #cinegraph #cinegraph-applications > div ul li img {

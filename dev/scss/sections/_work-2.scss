@@ -223,7 +223,7 @@
             
             li:nth-child(7) {
                 >div {
-                    background-image: url("../img/work-2/proj-artspaceh.jpg");
+                    background-image: url("../img/work-2/artspaceh/main/motion.gif");
                     
                     // margin-bottom: 30px;
                     // background-size: 130%;
@@ -253,6 +253,20 @@
 
             li:nth-child(9) {
                 >div {
+                    background-image: url("../img/work-2/proj-mahler.jpg");
+                    
+                    // margin-bottom: 30px;
+
+                    // @include md {
+                    //     margin: 0;
+                    // }
+                }
+
+
+            }
+
+            li:nth-child(10) {
+                >div {
                     background-image: url("../img/work-2/proj-auerbach.jpg");
                     
                     // margin-bottom: 30px;
@@ -266,19 +280,7 @@
 
             }
 
-            li:nth-child(10) {
-                >div {
-                    background-image: url("../img/work-2/proj-mahler.jpg");
-                    
-                    // margin-bottom: 30px;
-
-                    // @include md {
-                    //     margin: 0;
-                    // }
-                }
-
-
-            }
+            
 
             // li:nth-child(11) {
             //     >div {
