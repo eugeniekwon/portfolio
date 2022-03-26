@@ -95,19 +95,40 @@
         background-color: $bkgd-gray;
 
         >div {
-            img {
-                object-fit: cover;
-                object-position: center;
-                height: 30vh;
-                width: 100%;
+
+            ul{
+                display: grid;
+                grid-template-rows: repeat(2, 29vh);
 
                 @include md {
-                    height: 47vh;
+                    grid-template-rows: repeat(2, 43vh);
                 }
 
                 @include lg {
-                    height: 100vh;
+                    grid-template-rows: repeat(3,42vh);
                 }
+
+                @include xl {
+                    grid-template-rows: repeat(2,115vh);
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+            }
+
+
+            img {
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
             }
         }
 
