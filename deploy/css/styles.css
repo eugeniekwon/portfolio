@@ -1092,10 +1092,10 @@ footer {
   background-image: url("../img/work-2/artspaceh/main/motion.gif"); }
 
 #work-2 > div li:nth-child(8) > div {
-  background-image: url("../img/work-2/proj-cinegraph.jpg"); }
+  background-image: url("../img/work-2/cinegraph-studios/main/motion.gif"); }
 
 #work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/proj-mahler.jpg"); }
+  background-image: url("../img/work-2/gustav-mahler/motion.gif"); }
 
 #work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/proj-auerbach.jpg"); }
@@ -2391,32 +2391,6 @@ footer {
   @media (min-width: 1440px) {
     #gustav-mahler #gustav-mahler-main-work > div ul li img:nth-child(1) {
       height: 120vh; } }
-@media (min-width: 1025px) {
-  #gustav-mahler #gustav-mahler-gallery > div ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "ls1 ls2";
-    column-gap: 25px; } }
-
-#gustav-mahler #gustav-mahler-gallery > div ul li img {
-  object-fit: cover;
-  object-position: center;
-  height: 30vh;
-  width: 100%; }
-  @media (min-width: 768px) {
-    #gustav-mahler #gustav-mahler-gallery > div ul li img {
-      height: 50vh; } }
-  @media (min-width: 1025px) {
-    #gustav-mahler #gustav-mahler-gallery > div ul li img {
-      height: 70vh; } }
-@media (min-width: 1025px) {
-  #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(1) {
-    grid-area: ls1; } }
-
-@media (min-width: 1025px) {
-  #gustav-mahler #gustav-mahler-gallery > div ul li:nth-child(2) {
-    grid-area: ls2; } }
-
 #gustav-mahler #gustav-mahler-sketches > div ul {
   display: grid;
   grid-template-rows: repeat(4, 1fr); }
@@ -3097,20 +3071,20 @@ footer {
 
 #artspaceh #artspaceh-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(8, 320px); }
+  grid-template-rows: repeat(6, 320px); }
   @media (min-width: 768px) {
     #artspaceh #artspaceh-applications > div ul {
-      grid-template-rows: repeat(8, 600px); } }
+      grid-template-rows: repeat(6, 600px); } }
   @media (min-width: 1025px) {
     #artspaceh #artspaceh-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 420px);
+      grid-template-rows: repeat(3, 420px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #artspaceh #artspaceh-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 530px);
+      grid-template-rows: repeat(3, 530px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #artspaceh #artspaceh-applications > div ul li img {
@@ -3186,6 +3160,40 @@ footer {
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-main > div ul li:nth-child(3) {
       grid-area: process; } }
+#deeply-fruit #deeply-fruit-exterior-intro > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 250px); }
+  @media (min-width: 768px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul {
+      grid-template-rows: repeat(3, 500px); } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 400px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 400px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
+      column-gap: 25px; } }
+  #deeply-fruit #deeply-fruit-exterior-intro > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul li:nth-child(1) {
+      grid-area: g1; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul li:nth-child(2) {
+      grid-area: g2; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-exterior-intro > div ul li:nth-child(3) {
+      grid-area: g3; } }
 #deeply-fruit #deeply-fruit-exterior > div ul {
   display: grid;
   grid-template-rows: repeat(14, 250px); }
@@ -3195,16 +3203,16 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(13, 400px);
+      grid-template-rows: repeat(9, 400px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g5" "g6 g6 g7" "g6 g6 g8" "g9 g9 g9" "g9 g9 g9" "g10 g11 g12" "g13 g13 g13" "g13 g13 g13" "g14 g15 g16";
+      grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(13, 400px);
+      grid-template-rows: repeat(9, 400px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g5" "g6 g6 g7" "g6 g6 g8" "g9 g9 g9" "g9 g9 g9" "g10 g11 g12" "g13 g13 g13" "g13 g13 g13" "g14 g14 g14" "g14 g14 g14" "g15 g16 g17";
+      grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
       column-gap: 25px; } }
   #deeply-fruit #deeply-fruit-exterior > div ul li img {
     object-fit: cover;
@@ -3253,12 +3261,6 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(14) {
       grid-area: g14; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(15) {
-      grid-area: g15; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-exterior > div ul li:nth-child(16) {
-      grid-area: g16; } }
 #deeply-fruit #deeply-fruit-interior > div ul {
   display: grid;
   grid-template-rows: repeat(5, 250px); }

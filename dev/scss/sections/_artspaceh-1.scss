@@ -170,16 +170,16 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 320px);
+                grid-template-rows: repeat(6, 320px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 600px);
+                    grid-template-rows: repeat(6, 600px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 420px);
+                    grid-template-rows: repeat(3, 420px);
                     grid-template-columns: repeat(2, 1fr);
                     column-gap: 25px;
 
@@ -187,7 +187,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(4, 530px);
+                    grid-template-rows: repeat(3, 530px);
                     grid-template-columns: repeat(2, 1fr);
                     column-gap: 25px;
 

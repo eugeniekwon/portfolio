@@ -1771,9 +1771,17 @@
 		},
 	"/deploy/img/work-2/cinegraph-studios/main/motion.gif": {
 		"ft": 4194304,
-		"iS": 110852,
+		"iS": 15490491,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/cinegraph-studios/main/motion.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/deploy/img/work-2/cinegraph-studios/main/motion_.gif": {
+		"ft": 4194304,
+		"iS": 110852,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/cinegraph-studios/main/motion_.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3057,6 +3065,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/gustav-mahler/mahler_env_1.jpg": {
+		"ft": 16384,
+		"iS": 375552,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/gustav-mahler/mahler_env_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/gustav-mahler/mahler_env_2.jpg": {
+		"ft": 16384,
+		"iS": 245036,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/gustav-mahler/mahler_env_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/gustav-mahler/motion.gif": {
+		"ft": 4194304,
+		"iS": 3401851,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/gustav-mahler/motion.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/highland-orchards/app/badges.jpg": {
 		"ft": 16384,
@@ -5244,7 +5282,7 @@
 		},
 	"/deploy/img/work-2/proj-mahler.jpg": {
 		"ft": 16384,
-		"iS": 54772,
+		"iS": 375552,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/proj-mahler.jpg",
@@ -5991,9 +6029,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/print.jpg": {
+		"ft": 16384,
+		"iS": 166752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/print.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/sleepground/thumbnail.gif": {
 		"ft": 4194304,
-		"iS": 18185857,
+		"iS": 16144794,
 		"oA": 0,
 		"oAP": "/deploy/img/work-2/sleepground/thumbnail.gif",
 		"oF": 0,
