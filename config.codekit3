@@ -6169,6 +6169,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/work-2/sleepground/wayfinding/floor_directory_1.jpg": {
+		"ft": 16384,
+		"iS": 270634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/floor_directory_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/work-2/sleepground/wayfinding/floor_directory_2.jpg": {
+		"ft": 16384,
+		"iS": 110381,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/sleepground/wayfinding/floor_directory_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/work-2/sleepground/wayfinding/parking.jpg": {
 		"ft": 16384,
 		"iS": 741619,
@@ -6682,6 +6704,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/work-2/woodmere/thumbnail.gif": {
+		"ft": 4194304,
+		"iS": 4686284,
+		"oA": 0,
+		"oAP": "/deploy/img/work-2/woodmere/thumbnail.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/deploy/img/work-2/woodmere/touchpoint/bathroom-signage.jpg": {
 		"ft": 16384,

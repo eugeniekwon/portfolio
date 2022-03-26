@@ -187,6 +187,23 @@
 
             li:nth-child(5) {
                 >div {
+                    // background-image: url("../img/work-2/proj-woodmere.jpg");
+                    background-image: url("../img/work-2/woodmere/thumbnail.gif");
+                    
+                    // margin-bottom: 30px;
+                    // background-size: 130%;
+
+                    @include md {
+                        margin: 0;
+                    }
+                }
+
+
+            }
+
+
+            li:nth-child(6) {
+                >div {
                     background-image: url("../img/work-2/proj-books.jpg");
                     // margin-bottom: 30px;
                     background-size: 130%;
@@ -201,21 +218,7 @@
 
             
 
-            li:nth-child(6) {
-                >div {
-                    // background-image: url("../img/work-2/proj-woodmere.jpg");
-                    background-image: url("../img/work-2/woodmere/main/motion.gif");
-                    
-                    // margin-bottom: 30px;
-                    background-size: 130%;
-
-                    @include md {
-                        margin: 0;
-                    }
-                }
-
-
-            }
+            
 
 
             
