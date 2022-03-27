@@ -132,7 +132,8 @@
 
             li:nth-child(2) {
                 >div {
-                    background-image: url("../img/work-2/proj-fruit.jpg");
+                    // background-image: url("../img/work-2/proj-fruit.jpg");
+                    background-image: url("../img/work-2/deeply-fruit/motion.gif");
                     background-size: 158%;
                     @include lg{
                         background-position: -60px -150px;
