@@ -102,17 +102,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(10, 250px);
+                grid-template-rows: repeat(12, 250px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(10, 500px);
+                    grid-template-rows: repeat(12, 500px);
                     // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(10, 350px);
+                    grid-template-rows: repeat(9, 350px);
                     grid-template-columns: repeat(2, 1fr);
                     column-gap: 25px;
                     // row-gap: 25px;
@@ -121,44 +121,58 @@
                     grid-template-areas:
                     "g1 g1"
                     "g1 g1"
+                    "g2 g3"
                     // "g2 g2"
-                    "g2 g2"
-                    "g2 g2"
 
-                    "g3 g4"
-                    "g5 g6"
+                    "g4 g5"
+                    "g6 g7"
+
+                    "g8 g9"
+
+                    "g10 g10"
+                    "g10 g10"
                     
-                    "g7 g8"
-                    "g9 g9"
-                    "g9 g9"
-
-                    "g10 g11";
+                    "g11 g12";
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(10, 400px);
+                    grid-template-rows: repeat(9, 400px);
                     grid-template-columns: repeat(2, 1fr);
                     column-gap: 25px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
 
                     grid-template-areas:
-                    "g1 g1"
-                    "g1 g1"
+                    // "g1 g1"
+                    // "g1 g1"
+                    // // "g2 g2"
                     // "g2 g2"
-                    "g2 g2"
-                    "g2 g2"
+                    // "g2 g2"
 
-                    "g3 g4"
-                    "g5 g6"
+                    // "g3 g4"
+                    // "g5 g6"
                     
-                    "g7 g8"
-                    "g9 g9"
-                    "g9 g9"
+                    // "g7 g8"
+                    // "g9 g9"
+                    // "g9 g9"
 
-                    "g10 g11";
+                    // "g10 g11";
+                    "g1 g1"
+                    "g1 g1"
+                    "g2 g3"
+                    // "g2 g2"
+
+                    "g4 g5"
+                    "g6 g7"
+
+                    "g8 g9"
+                    
+                    "g10 g10"
+                    "g10 g10"
+                    
+                    "g11 g12";
                 }
 
 

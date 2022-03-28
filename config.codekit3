@@ -2991,6 +2991,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/deeply-fruit\/main\/appetite.jpg" : {
+      "ft" : 16384,
+      "iS" : 51559,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/main\/appetite.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/deeply-fruit\/main\/colours_type.jpg" : {
+      "ft" : 16384,
+      "iS" : 107536,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/main\/colours_type.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/deeply-fruit\/main\/fruit_drying.jpg" : {
+      "ft" : 16384,
+      "iS" : 56732,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/main\/fruit_drying.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/deeply-fruit\/main\/single_fruit.jpg" : {
+      "ft" : 16384,
+      "iS" : 83805,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/main\/single_fruit.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/deeply-fruit\/motion.gif" : {
       "ft" : 4194304,
       "iS" : 59008634,
