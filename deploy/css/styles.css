@@ -1097,7 +1097,7 @@ footer {
   background-image: url("../img/work-2/gustav-mahler/motion.gif"); }
 
 #work-2 > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/proj-auerbach.jpg"); }
+  background-image: url("../img/work-2/frank-auerbach/julia/julia_2.jpg"); }
 
 #work-2 > div li:nth-child(11) > div {
   background-image: url("../img/work-2/home-kitchen/motion.gif");
@@ -3559,22 +3559,22 @@ footer {
       grid-area: process; } }
 #morning-again #morning-again-exterior > div ul {
   display: grid;
-  grid-template-rows: repeat(14, 250px); }
+  grid-template-rows: repeat(12, 250px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-exterior > div ul {
-      grid-template-rows: repeat(14, 500px); } }
+      grid-template-rows: repeat(12, 500px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(12, 300px);
+      grid-template-rows: repeat(11, 300px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14"; } }
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12"; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(12, 400px);
+      grid-template-rows: repeat(11, 410px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14";
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12";
       column-gap: 25px; } }
   #morning-again #morning-again-exterior > div ul li img {
     object-fit: cover;
