@@ -4991,17 +4991,14 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work-2\/morning-again\/interior\/IMG_2685_2.jpg" : {
-      "ft" : 16384,
-      "iS" : 129737,
-      "jF" : 0,
+    "\/deploy\/img\/work-2\/morning-again\/exterior\/motion.gif" : {
+      "ft" : 4194304,
+      "iS" : 7137727,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work-2\/morning-again\/interior\/IMG_2685_2.jpg",
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/exterior\/motion.gif",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/work-2\/morning-again\/interior\/interior_1.jpg" : {
@@ -5069,6 +5066,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/morning-again\/interior\/interior_8.jpg" : {
+      "ft" : 16384,
+      "iS" : 231960,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/interior\/interior_8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/morning-again\/interior\/interior.gif" : {
       "ft" : 4194304,
       "iS" : 869270,
@@ -5077,6 +5087,71 @@
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/morning-again\/main\/colours_type.jpg" : {
+      "ft" : 16384,
+      "iS" : 130834,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/main\/colours_type.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/morning-again\/main\/purpose.jpg" : {
+      "ft" : 16384,
+      "iS" : 138800,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/main\/purpose.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/morning-again\/main\/question_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 112169,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/main\/question_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/morning-again\/main\/question_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 82874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/main\/question_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/morning-again\/main\/title.jpg" : {
+      "ft" : 16384,
+      "iS" : 93874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/main\/title.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/work-2\/morning-again\/other\/exterior\/exterior_1.jpg" : {

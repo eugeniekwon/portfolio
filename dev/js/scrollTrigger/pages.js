@@ -715,6 +715,12 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#morning-again #morning-again-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
