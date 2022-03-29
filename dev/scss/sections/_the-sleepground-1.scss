@@ -1123,13 +1123,13 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(4, 1fr);
-                // row-gap: 20px;
+                grid-template-rows: repeat(8, 1fr);
+
 
                 @include lg {
                     display: grid;
                     grid-template-rows: repeat(2, 1fr);
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
                     // row-gap: 25px;
                     column-gap: 25px;
 
