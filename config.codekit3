@@ -5310,6 +5310,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/morning-again\/other\/exterior\/exterior_9.jpg" : {
+      "ft" : 16384,
+      "iS" : 114311,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/other\/exterior\/exterior_9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/morning-again\/other\/exterior\/exterior_10.jpg" : {
       "ft" : 16384,
       "iS" : 112683,
@@ -7565,6 +7578,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/sleepground\/process\/sketch_1_enlarged.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/sleepground\/process\/sketch_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 216104,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/sleepground\/process\/sketch_1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
