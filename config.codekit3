@@ -7569,6 +7569,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/sleepground\/wayfinding\/entrance.gif" : {
+      "ft" : 4194304,
+      "iS" : 15141834,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/sleepground\/wayfinding\/entrance.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/sleepground\/wayfinding\/entrance.jpg" : {
       "ft" : 16384,
       "iS" : 212982,
@@ -7580,6 +7590,16 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/sleepground\/wayfinding\/exit.gif" : {
+      "ft" : 4194304,
+      "iS" : 17066371,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/sleepground\/wayfinding\/exit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work-2\/sleepground\/wayfinding\/exit.jpg" : {
