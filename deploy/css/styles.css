@@ -422,26 +422,26 @@ a:visited {
 
 .portfolio-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1.5625rem;
+  font-size: 1.875rem;
   font-weight: 600;
   line-height: 2.625rem;
-  margin: 30px 20px 15px 20px;
+  margin: 30px 20px 5px 20px;
   color: #3F3F3F; }
   @media (min-width: 768px) {
     .portfolio-title {
-      font-size: 1.75rem;
-      margin: 40px 25px 20px 25px; } }
+      font-size: 2.1875rem;
+      margin: 40px 25px 10px 25px; } }
   @media (min-width: 1025px) {
     .portfolio-title {
-      font-size: 1.875rem;
-      margin: 50px 45px 25px 45px; } }
+      font-size: 2.5rem;
+      margin: 50px 45px 15px 45px; } }
   @media (min-width: 1440px) {
     .portfolio-title {
-      margin: 50px 0px 25px 0px; } }
+      margin: 50px 0px 15px 0px; } }
 .portfolio-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0px 20px 30px 20px;
   line-height: 1.375rem;
   color: #3F3F3F; }
@@ -457,35 +457,35 @@ a:visited {
 .portfolio-section {
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
-  font-weight: 400;
-  margin: 0px 20px 15px 20px;
-  color: #3F3F3F; }
+  font-weight: 500;
+  margin: 0px 20px 5px 20px;
+  color: #7fb1b2; }
   @media (min-width: 768px) {
     .portfolio-section {
       margin: 0px 0px 10px 0px; } }
   @media (min-width: 1025px) {
     .portfolio-section {
-      margin: 0px 45px 20px 45px; } }
+      margin: 0px 45px 10px 45px; } }
   @media (min-width: 1440px) {
     .portfolio-section {
-      margin: 0px 0px 20px 0px; } }
+      margin: 0px 0px 10px 0px; } }
 .portfolio-description {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
   font-weight: 300;
   line-height: 1.4375rem;
-  margin: 0px 20px 30px 20px;
+  margin: 0px 20px 20px 20px;
   color: #3F3F3F;
   text-align: left; }
   @media (min-width: 768px) {
     .portfolio-description {
-      margin: 0px 0px 30px 0px; } }
+      margin: 0px 0px 20px 0px; } }
   @media (min-width: 1025px) {
     .portfolio-description {
-      margin: 0px 45px 40px 45px; } }
+      margin: 0px 45px 20px 45px; } }
   @media (min-width: 1440px) {
     .portfolio-description {
-      margin: 0px 0px 40px 0px; } }
+      margin: 0px 0px 30px 0px; } }
 .pull-quotes {
   font-family: 'Gelasio', serif;
   font-size: 1.0625rem;
@@ -513,7 +513,7 @@ a:visited {
       display: none;
       transition: 0.25s; }
     .image-container a:hover, .image-container a:active {
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: rgba(0, 0, 0, 0.3); }
       .image-container a:hover > div, .image-container a:active > div {
         display: block; }
 
@@ -685,7 +685,7 @@ header {
           transition: 0.25s; }
 
 #main-nav {
-  background-color: rgba(127, 177, 178, 0.97);
+  background-color: #7fb1b2;
   bottom: 0;
   display: grid;
   height: 100vh;
@@ -718,15 +718,15 @@ header {
     @media (min-width: 768px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
-        font-size: 4.0625rem; } }
+        font-size: 4.375rem; } }
     @media (min-width: 1025px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
-        font-size: 4.0625rem; } }
+        font-size: 4.375rem; } }
     @media (min-width: 1440px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
-        font-size: 4.375rem; } }
+        font-size: 5rem; } }
     #main-nav ul li a:link:hover, #main-nav ul li a:link:active,
     #main-nav ul li a:visited:hover,
     #main-nav ul li a:visited:active {
@@ -854,29 +854,45 @@ footer {
     #about > div article {
       grid-area: article;
       margin: 0px 45px 150px 50px; } }
-  #about > div article #intro p {
+  #about > div article #me p {
     margin-bottom: 15px; }
     @media (min-width: 768px) {
-      #about > div article #intro p {
+      #about > div article #me p {
         margin-bottom: 20px; } }
-  #about > div article #intro span {
+  #about > div article #me p:nth-child(1) {
+    font-family: 'Gelasio', serif;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.0625rem;
+    color: #7fb1b2;
+    text-align: left; }
+    @media (min-width: 768px) {
+      #about > div article #me p:nth-child(1) {
+        margin-bottom: 20px;
+        font-size: 2.1875rem;
+        line-height: 2.3125rem; } }
+    @media (min-width: 1025px) {
+      #about > div article #me p:nth-child(1) {
+        font-size: 2.5rem;
+        line-height: 2.6875rem; } }
+  #about > div article #me span {
     display: block;
     font-weight: 600; }
-    #about > div article #intro span a:link,
-    #about > div article #intro span a:visited {
+    #about > div article #me span a:link,
+    #about > div article #me span a:visited {
       color: #7fb1b2;
       transition: 0.25s; }
-    #about > div article #intro span a:hover,
-    #about > div article #intro span a:active {
+    #about > div article #me span a:hover,
+    #about > div article #me span a:active {
       color: #4C5559; }
-  #about > div article #intro p:nth-child(6) {
+  #about > div article #me p:nth-child(6) {
     font-weight: 600; }
-    #about > div article #intro p:nth-child(6) a:link,
-    #about > div article #intro p:nth-child(6) a:visited {
+    #about > div article #me p:nth-child(6) a:link,
+    #about > div article #me p:nth-child(6) a:visited {
       color: #7fb1b2;
       transition: 0.25s; }
-    #about > div article #intro p:nth-child(6) a:hover,
-    #about > div article #intro p:nth-child(6) a:active {
+    #about > div article #me p:nth-child(6) a:hover,
+    #about > div article #me p:nth-child(6) a:active {
       color: #4C5559; }
   #about > div article #contact-section {
     display: flex;
@@ -934,7 +950,7 @@ footer {
         margin: 120px 50px 70px 50px; } }
     @media (min-width: 1025px) {
       #work-1 > div div #intro {
-        margin: 90px 50px 80px 50px; } }
+        margin: 100px 50px 80px 50px; } }
     @media (min-width: 1440px) {
       #work-1 > div div #intro {
         margin: 80px 50px 80px 50px; } }
@@ -1029,18 +1045,18 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(11, 1fr);
-  gap: 20px; }
+  gap: 10px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
       grid-template-rows: repeat(11, 1fr);
-      gap: 20px; } }
+      gap: 10px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
-      gap: 25px; } }
+      gap: 15px; } }
   #work-2 > div ul li > div {
     align-items: center;
     background-repeat: no-repeat;
@@ -1151,6 +1167,15 @@ footer {
 #woodmere #woodmere-main {
   position: relative;
   background-color: #f9f9f9; }
+  #woodmere #woodmere-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #woodmere #woodmere-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #woodmere #woodmere-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #woodmere #woodmere-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -1227,18 +1252,18 @@ footer {
 
 #woodmere #woodmere-touchpoint > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 320px); }
+  grid-template-rows: repeat(3, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-touchpoint > div ul {
-      grid-template-rows: repeat(4, 600px); } }
+      grid-template-rows: repeat(3, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 700px); } }
+      grid-template-rows: repeat(3, 700px); } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 900px); } }
+      grid-template-rows: repeat(3, 900px); } }
   #woodmere #woodmere-touchpoint > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1507,6 +1532,15 @@ footer {
 #little-joys #joy-main {
   position: relative;
   background-color: #f9f9f9; }
+  #little-joys #joy-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #little-joys #joy-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #little-joys #joy-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #little-joys #joy-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -1562,23 +1596,32 @@ footer {
 #street-photo #street-main {
   position: relative;
   background-color: #f9f9f9; }
+  #street-photo #street-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #street-photo #street-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #street-photo #street-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
-    #street-photo #street-main ul {
+    #street-photo #street-main > div ul {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
-    #street-photo #street-main ul {
+    #street-photo #street-main > div ul {
       margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
-    #street-photo #street-main ul {
+    #street-photo #street-main > div ul {
       margin: 0px 500px 0px 0px; } }
   @media (min-width: 768px) {
-    #street-photo #street-main ul li:nth-child(1) {
+    #street-photo #street-main > div ul li:nth-child(1) {
       grid-area: objective; } }
   @media (min-width: 768px) {
-    #street-photo #street-main ul li:nth-child(2) {
+    #street-photo #street-main > div ul li:nth-child(2) {
       grid-area: about; } }
   @media (min-width: 768px) {
-    #street-photo #street-main ul li:nth-child(3) {
+    #street-photo #street-main > div ul li:nth-child(3) {
       grid-area: process; } }
 #street-gallery {
   position: relative;
@@ -1612,6 +1655,15 @@ footer {
 #portraits #portraits-main {
   position: relative;
   background-color: #f9f9f9; }
+  #portraits #portraits-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #portraits #portraits-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #portraits #portraits-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #portraits #portraits-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -1662,6 +1714,15 @@ footer {
 #light-photo #light-main {
   position: relative;
   background-color: #f9f9f9; }
+  #light-photo #light-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #light-photo #light-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #light-photo #light-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #light-photo #light-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -2241,6 +2302,15 @@ footer {
 #home-kitchen #home-kitchen-main {
   position: relative;
   background-color: #f9f9f9; }
+  #home-kitchen #home-kitchen-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #home-kitchen #home-kitchen-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #home-kitchen #home-kitchen-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #home-kitchen #home-kitchen-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -2385,6 +2455,15 @@ footer {
 #gustav-mahler #gustav-mahler-main {
   position: relative;
   background-color: #f9f9f9; }
+  #gustav-mahler #gustav-mahler-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #gustav-mahler #gustav-mahler-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #gustav-mahler #gustav-mahler-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #gustav-mahler #gustav-mahler-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -2473,6 +2552,15 @@ footer {
 #highland-orchards #highland-orchards-main {
   position: relative;
   background-color: #f9f9f9; }
+  #highland-orchards #highland-orchards-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #highland-orchards #highland-orchards-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #highland-orchards #highland-orchards-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #highland-orchards #highland-orchards-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -2673,6 +2761,15 @@ footer {
 #home-photo #home-main {
   position: relative;
   background-color: #f9f9f9; }
+  #home-photo #home-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #home-photo #home-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #home-photo #home-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #home-photo #home-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -2837,6 +2934,15 @@ footer {
 #cinegraph #cinegraph-main {
   position: relative;
   background-color: #f9f9f9; }
+  #cinegraph #cinegraph-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #cinegraph #cinegraph-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #cinegraph #cinegraph-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #cinegraph #cinegraph-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -3062,6 +3168,15 @@ footer {
 #artspaceh #artspaceh-main {
   position: relative;
   background-color: #f9f9f9; }
+  #artspaceh #artspaceh-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #artspaceh #artspaceh-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #artspaceh #artspaceh-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #artspaceh #artspaceh-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -3176,6 +3291,15 @@ footer {
 #deeply-fruit #deeply-fruit-main {
   position: relative;
   background-color: #f9f9f9; }
+  #deeply-fruit #deeply-fruit-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #deeply-fruit #deeply-fruit-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #deeply-fruit #deeply-fruit-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -3438,6 +3562,15 @@ footer {
 #book-covers #book-covers-main {
   position: relative;
   background-color: #f9f9f9; }
+  #book-covers #book-covers-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #book-covers #book-covers-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #book-covers #book-covers-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #book-covers #book-covers-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -3564,6 +3697,15 @@ footer {
 #morning-again #morning-again-main {
   position: relative;
   background-color: #f9f9f9; }
+  #morning-again #morning-again-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #morning-again #morning-again-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #morning-again #morning-again-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #morning-again #morning-again-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -3833,6 +3975,15 @@ footer {
 #frank-auerbach #frank-auerbach-main {
   position: relative;
   background-color: #f9f9f9; }
+  #frank-auerbach #frank-auerbach-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #frank-auerbach #frank-auerbach-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #frank-auerbach #frank-auerbach-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #frank-auerbach #frank-auerbach-main > div ul {
       margin: 0px 300px 0px 25px; } }
@@ -4076,6 +4227,15 @@ footer {
 #the-sleepground #the-sleepground-main {
   position: relative;
   background-color: #f9f9f9; }
+  #the-sleepground #the-sleepground-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #the-sleepground #the-sleepground-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #the-sleepground #the-sleepground-main > div h3 span {
+        margin-bottom: 25px; } }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-main > div ul {
       margin: 0px 300px 0px 25px; } }

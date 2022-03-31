@@ -28,6 +28,22 @@
 
         >div {
 
+            h3{
+                span {
+                    display: block;
+                    margin-bottom: 15px;
+
+                    @include md {
+                        margin-bottom: 20px;
+                    }
+
+                    @include lg {
+                        margin-bottom: 25px;
+                    }
+
+                }
+            }
+
             ul {
                 @include md {
                     // display: grid;

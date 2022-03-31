@@ -175,7 +175,8 @@ header {
 
 #main-nav {
     // background-color: rgba(137, 166, 173, 0.97);
-    background-color: rgba(127, 177, 178, 0.97);
+    // background-color: rgba(127, 177, 178, 0.97);
+    background-color: $light-blue;
     bottom: 0;
     display: grid;
     height: 100vh;
@@ -228,16 +229,17 @@ header {
                 transition: 0.25s;
 
                 @include md {
-                    font-size: rem-calc(65);
+                    font-size: rem-calc(70);
                 }
 
                 @include lg {
-                    font-size: rem-calc(65);
+                    font-size: rem-calc(70);
                 
                 }
 
                 @include xl {
-                    font-size: rem-calc(70);
+                    // font-size: rem-calc(70);
+                    font-size: rem-calc(80);
                 }
 
                 &:hover,

@@ -74,13 +74,38 @@
                 margin: 0px 45px 150px 50px;
             }
 
+            
 
-            #intro{
+
+            #me{
                 p {
                     margin-bottom: 15px;
     
                     @include md {
                         margin-bottom: 20px;
+                    }
+
+                    
+                }
+
+                p:nth-child(1) {
+                    font-family: 'Gelasio', serif;
+                    font-weight: 600;
+                    font-size: rem-calc(30);
+                    line-height: rem-calc(33);
+                    // margin: 30px 20px 90px 20px;
+                    color: $light-blue;
+                    text-align: left;
+    
+                    @include md {
+                        margin-bottom: 20px;
+                        font-size: rem-calc(35);
+                    line-height: rem-calc(37);
+                    }
+    
+                    @include lg{
+                        font-size: rem-calc(40);
+                        line-height: rem-calc(43);
                     }
                 }
 
