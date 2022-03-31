@@ -491,7 +491,7 @@ a:visited {
   font-size: 1.0625rem;
   font-weight: 700;
   margin: 0px 20px 10px 20px;
-  color: #89a6ad;
+  color: #7fb1b2;
   text-align: center; }
   @media (min-width: 768px) {
     .pull-quotes {
@@ -558,14 +558,14 @@ i {
   .button a:link,
   .button a:visited {
     background-color: #fff;
-    border: 2px solid #89a6ad;
+    border: 2px solid #7fb1b2;
     border-radius: 5px;
-    color: #89a6ad;
+    color: #7fb1b2;
     padding: 10px 20px;
     transition: 0.25s; }
   .button a:hover,
   .button a:active {
-    background-color: #89a6ad;
+    background-color: #7fb1b2;
     color: #fff; }
 
 .scroll-button {
@@ -608,7 +608,7 @@ button:active {
   @media (min-width: 1025px) {
     button:hover,
     button:active {
-      color: #89a6ad; } }
+      color: #7fb1b2; } }
 /* =============
     Forms
 ============= */
@@ -647,7 +647,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px 0px; }
     header > div #logo-container h1 {
-      color: #89a6ad;
+      color: #7fb1b2;
       font-family: 'Gelasio', serif;
       font-size: 2.375rem;
       font-weight: 600;
@@ -666,7 +666,7 @@ header {
           width: initial; } }
       header > div #logo-container h1 a:link,
       header > div #logo-container h1 a:visited {
-        color: #89a6ad;
+        color: #7fb1b2;
         text-decoration: none;
         transition: 0.25s; }
     header > div #burger-container {
@@ -681,11 +681,11 @@ header {
         cursor: pointer;
         transition: 0.25s; }
         header > div #burger-container #burger .lines {
-          stroke: #89a6ad;
+          stroke: #7fb1b2;
           transition: 0.25s; }
 
 #main-nav {
-  background-color: rgba(137, 166, 173, 0.97);
+  background-color: rgba(127, 177, 178, 0.97);
   bottom: 0;
   display: grid;
   height: 100vh;
@@ -864,7 +864,7 @@ footer {
     font-weight: 600; }
     #about > div article #intro span a:link,
     #about > div article #intro span a:visited {
-      color: #89a6ad;
+      color: #7fb1b2;
       transition: 0.25s; }
     #about > div article #intro span a:hover,
     #about > div article #intro span a:active {
@@ -873,7 +873,7 @@ footer {
     font-weight: 600; }
     #about > div article #intro p:nth-child(6) a:link,
     #about > div article #intro p:nth-child(6) a:visited {
-      color: #89a6ad;
+      color: #7fb1b2;
       transition: 0.25s; }
     #about > div article #intro p:nth-child(6) a:hover,
     #about > div article #intro p:nth-child(6) a:active {
@@ -890,7 +890,7 @@ footer {
         transition: 0.25s; }
       #about > div article #contact-section li a:hover,
       #about > div article #contact-section li a:active {
-        color: #89a6ad; }
+        color: #7fb1b2; }
       #about > div article #contact-section li i {
         font-size: 1.5625rem; }
         @media (min-width: 768px) {
@@ -909,11 +909,11 @@ footer {
     border: solid 2px #3F3F3F; }
   #about > div article #resume li a:hover,
   #about > div article #resume li a:active {
-    background-color: #89a6ad;
+    background-color: #7fb1b2;
     color: #fff;
     padding: 5px 5px;
     border-radius: 3px;
-    border: solid 2px #89a6ad; }
+    border: solid 2px #7fb1b2; }
   #about > div article #resume li p {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
@@ -977,7 +977,7 @@ footer {
         font-size: 3.375rem;
         font-weight: 700;
         margin-bottom: 15px;
-        color: #89a6ad; }
+        color: #7fb1b2; }
         @media (min-width: 768px) {
           #work-1 > div div #intro h1:nth-child(2) #ekname {
             font-size: 5rem;
@@ -4514,7 +4514,7 @@ footer {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.75rem;
-    color: #89a6ad; }
+    color: #7fb1b2; }
     @media (min-width: 768px) {
       #error > div #error-intro-text h1 {
         font-size: 1.5625rem;
@@ -4560,7 +4560,7 @@ footer {
         font-size: 1.25rem; } }
   #error > div #error-intro-text a:link,
   #error > div #error-intro-text a:visited {
-    color: #89a6ad;
+    color: #7fb1b2;
     cursor: pointer;
     transition: 0.25s; }
   #error > div #error-intro-text a:hover,
