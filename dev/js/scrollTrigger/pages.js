@@ -333,7 +333,7 @@ if(thesleepgroundPage){
     const pageIntroTime = 0.6;
     const pageTime = 0.65;
 
-    thesleepgroundTimeline.from("#sleepground #sleepground-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+    thesleepgroundTimeline.from("#the-sleepground #the-sleepground-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
                  .from("#the-sleepground #the-sleepground-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
                  .from("#the-sleepground #the-sleepground-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#the-sleepground #the-sleepground-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})

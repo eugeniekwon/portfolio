@@ -191,6 +191,7 @@ a:visited {
     @include md{
         // font-size: rem-calc(28);
         font-size: rem-calc(35);
+        line-height: rem-calc(47);
         // margin: 40px 25px 20px 25px;
         margin: 40px 25px 10px 25px;
     }
@@ -214,20 +215,24 @@ a:visited {
     font-family: 'Inter', sans-serif;
     font-size: rem-calc(15);
     font-weight: 500;
-    margin: 0px 20px 30px 20px;
+    // margin: 0px 20px 30px 20px;
+    margin: 0px 20px 20px 20px;
     line-height: rem-calc(22);
     color: $gray;
 
     @include md{
-        margin: 0px 25px 40px 25px;
+        // margin: 0px 25px 40px 25px;
+        margin: 0px 25px 30px 25px;
     }
 
     @include lg{
-        margin: 0px 45px 50px 45px;
+        // margin: 0px 45px 50px 45px;
+        margin: 0px 45px 40px 45px;
     }
 
     @include xl{
-        margin: 0px 0px 50px 0px;
+        // margin: 0px 0px 50px 0px;
+        margin: 0px 0px 40px 0px;
     }
 }
 

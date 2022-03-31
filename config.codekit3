@@ -8444,6 +8444,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging-2.png" : {
+      "ft" : 32768,
+      "iS" : 777239,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging.jpg" : {
       "ft" : 16384,
       "iS" : 107266,
