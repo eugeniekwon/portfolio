@@ -102,17 +102,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(11, 250px);
+                grid-template-rows: repeat(8, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(11, 500px);
+                    grid-template-rows: repeat(8, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(11, 600px);
+                    grid-template-rows: repeat(8, 650px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -120,7 +120,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(11, 800px);
+                    grid-template-rows: repeat(8, 800px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -159,7 +159,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(5, 600px);
+                    grid-template-rows: repeat(5, 650px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -194,17 +194,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(6, 250px);
+                grid-template-rows: repeat(4, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(6, 500px);
+                    grid-template-rows: repeat(4, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(6, 600px);
+                    grid-template-rows: repeat(4, 650px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -212,7 +212,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(6, 800px);
+                    grid-template-rows: repeat(4, 800px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 

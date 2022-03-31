@@ -16,7 +16,7 @@
             height: 50vh;
         }
 
-        @include lg {
+        @include xl {
             height: 100vh;
             background-position: 0px -200px;
         }
@@ -109,7 +109,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(5, 400px);
+                    grid-template-rows: repeat(5, 330px);
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
                     "g1 g1"
@@ -192,7 +192,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(9, 400px);
+                    grid-template-rows: repeat(9, 330px);
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-areas:
                     "g1 g2 g3"
@@ -371,7 +371,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(8, 400px);
+                    grid-template-rows: repeat(8, 330px);
                     grid-template-columns: repeat(4, 1fr);
                     grid-template-areas:
                     "g1 g1 g1 g1"
@@ -514,7 +514,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(2, 250px);
+                    grid-template-rows: repeat(2, 200px);
                     grid-template-columns: repeat(4, 1fr);
                     grid-template-areas:
                     "g1 g2 g3 g4"

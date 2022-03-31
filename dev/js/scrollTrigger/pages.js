@@ -323,6 +323,119 @@ if(copenhagenPage){
 
 
 /* =============
+    pages - work - sleepground
+============= */
+
+var thesleepgroundPage = document.querySelector("#the-sleepground");
+
+if(thesleepgroundPage){
+    var thesleepgroundTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.65;
+
+    thesleepgroundTimeline.from("#sleepground #sleepground-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#the-sleepground #the-sleepground-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#the-sleepground #the-sleepground-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#the-sleepground #the-sleepground-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#the-sleepground #the-sleepground-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-strategy div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-prearrival div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(16)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(17)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(18)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(19)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(20)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(21)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-visitors-kit div ul li:nth-child(22)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-arrival div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-exposures div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-exposures div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-exposures div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-exposures div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-online div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-online div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-online-2 div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-online-2 div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-online-2 div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-online-2 div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-exit div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-exit div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#the-sleepground #the-sleepground-process div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+
+                 
+
+     ScrollTrigger.create({
+      trigger: "#the-sleepground",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: thesleepgroundTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
+
+}
+
+
+/* =============
     pages - work - highland orchards
 ============= */
 
@@ -359,9 +472,7 @@ if(highlandOrchardsPage){
                 //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(18)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(19)", {duration:pageTime, alpha:0},"-=0.01")
 
-                 .from("#highland-orchards #highland-orchards-video", {duration:pageTime, alpha:0},"-=0.01")
-
-                 
+                //  .from("#highland-orchards #highland-orchards-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#highland-orchards #highland-orchards-product div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-product div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -450,7 +561,7 @@ if(cinegraphStudiosPage){
                 //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
 
-                 .from("#cinegraph #cinegraph-video", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#cinegraph #cinegraph-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -517,7 +628,7 @@ if(artspacehPage){
                  .from("#artspaceh #artspaceh-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
 
-                 .from("#artspaceh #artspaceh-video", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#artspaceh #artspaceh-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#artspaceh #artspaceh-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -525,8 +636,8 @@ if(artspacehPage){
                  .from("#artspaceh #artspaceh-applications div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-applications div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-applications div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#artspaceh #artspaceh-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#artspaceh #artspaceh-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#artspaceh #artspaceh-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#artspaceh #artspaceh-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#artspaceh #artspaceh-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -591,9 +702,6 @@ if(deeplyFruitPage){
                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(16)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(17)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -663,9 +771,6 @@ if(bookCoversPage){
                  .from("#book-covers #orlando div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#book-covers #white-teeth div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #white-teeth div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -679,8 +784,6 @@ if(bookCoversPage){
                  .from("#book-covers #book-total div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #book-total div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #book-total div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #book-total div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #book-total div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#book-covers #book-covers-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #book-covers-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -741,8 +844,8 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#morning-again #morning-again-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#morning-again #morning-again-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#morning-again #morning-again-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#morning-again #morning-again-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#morning-again #morning-again-interior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -804,7 +907,7 @@ if(frankAuerbachPage){
 
                  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #frank div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #frank div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -820,7 +923,7 @@ if(frankAuerbachPage){
 
                  .from("#frank-auerbach #david div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #david div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #david div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#frank-auerbach #david div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #julia div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #julia div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -918,7 +1021,10 @@ if(homeKitchenPage){
                  .from("#home-kitchen #home-kitchen-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#home-kitchen #home-kitchen-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#home-kitchen #home-button a", {duration:pageIntroTime, alpha:0},"-=0.08")
-                 .from("#home-kitchen #home-kitchen-main-screenshot div", {duration:pageIntroTime, alpha:0})
+
+                 .from("#home-kitchen #home-kitchen-main-screenshot div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0},"-=0.01")
+                 .from("#home-kitchen #home-kitchen-main-screenshot div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0},"-=0.01")
+
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
@@ -926,6 +1032,7 @@ if(homeKitchenPage){
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+
                  .from("#home-kitchen #home-kitchen-gallery-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#home-kitchen #home-kitchen-gallery-process div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
@@ -996,9 +1103,13 @@ if(gustavMahlerPage){
                         .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
                         .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                         .from("#gustav-mahler #gustav-mahler-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
-                        .from("#gustav-mahler #gustav-mahler-main-work div", {duration:pageIntroTime, alpha:0})
-                        .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                        .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+
+                        .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0},"-=0.01")
+                        .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0},"-=0.01")
+
+                        // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                        // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                         // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                         .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                         .from("#gustav-mahler #gustav-mahler-sketches div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -1230,7 +1341,7 @@ if(woodmerePage){
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
@@ -1238,20 +1349,20 @@ if(woodmerePage){
                 //  .from("#woodmere #woodmere-gallery div ul li:nth-child(15)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-gallery div ul li:nth-child(16)", {duration:pageTime, alpha:0},"-=0.01")
 
-                 .from("#woodmere #w-youtube-video", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #w-youtube-video", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#woodmere #woodmere-product div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-product div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-product div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-product div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-product div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-product div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-product div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-product div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
         
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-touchpoint div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#woodmere #woodmere-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
@@ -1260,10 +1371,10 @@ if(woodmerePage){
                  .from("#woodmere #woodmere-applications div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-applications div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-applications div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-applications div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-applications div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-applications div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-applications div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#woodmere #woodmere-process div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-process div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")

@@ -18,7 +18,7 @@ if(aboutPage){
   const aboutTime = 1;
 
   aboutTimeline.from("#about div aside img:nth-child(1)",{duration:aboutTime, alpha:0, x:-30})
-                .from("#about div article #me",{duration:aboutTime, alpha:0, x:30}, "-=0.5")
+                .from("#about div article #me",{duration:aboutTime, alpha:0, x:-30}, "-=0.5")
                 .from("#about div article #contact-section li:nth-child(1)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
                 .from("#about div article #contact-section li:nth-child(2)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")
                 .from("#about div article #contact-section li:nth-child(3)",{duration:iconTime, alpha:0, x:-10}, "-=0.08")

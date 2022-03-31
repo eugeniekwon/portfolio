@@ -465,6 +465,9 @@ a:visited {
       margin: 0px 0px 10px 0px; } }
   @media (min-width: 1025px) {
     .portfolio-section {
+      margin: 0px 45px 20px 45px; } }
+  @media (min-width: 1440px) {
+    .portfolio-section {
       margin: 0px 0px 20px 0px; } }
 .portfolio-description {
   font-family: 'Inter', sans-serif;
@@ -478,6 +481,9 @@ a:visited {
     .portfolio-description {
       margin: 0px 0px 30px 0px; } }
   @media (min-width: 1025px) {
+    .portfolio-description {
+      margin: 0px 45px 40px 45px; } }
+  @media (min-width: 1440px) {
     .portfolio-description {
       margin: 0px 0px 40px 0px; } }
 .pull-quotes {
@@ -639,13 +645,13 @@ header {
   header > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 20px 0px; }
+    padding: 10px 0px; }
     header > div #logo-container h1 {
       color: #89a6ad;
       font-family: 'Gelasio', serif;
-      font-size: 2.1875rem;
+      font-size: 2.375rem;
       font-weight: 600;
-      padding-left: 15px;
+      padding-left: 20px;
       display: flex;
       align-items: center;
       justify-content: flex-start; }
@@ -656,7 +662,7 @@ header {
           width: initial; } }
       @media (min-width: 1025px) {
         header > div #logo-container h1 {
-          padding-left: 25px;
+          padding-left: 30px;
           width: initial; } }
       header > div #logo-container h1 a:link,
       header > div #logo-container h1 a:visited {
@@ -667,7 +673,7 @@ header {
       align-items: center;
       display: flex;
       justify-content: flex-end;
-      padding-right: 15px; }
+      padding-right: 20px; }
       @media (min-width: 768px) {
         header > div #burger-container {
           padding-right: 30px; } }
@@ -698,9 +704,9 @@ header {
       justify-content: flex-end; } }
   #main-nav ul li a:link,
   #main-nav ul li a:visited {
-    font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-family: 'Gelasio', serif;
+    font-size: 3.75rem;
+    font-weight: 600;
     border: none;
     display: inline-block;
     padding-bottom: 40px;
@@ -712,11 +718,11 @@ header {
     @media (min-width: 768px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
-        font-size: 3.125rem; } }
+        font-size: 4.0625rem; } }
     @media (min-width: 1025px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
-        font-size: 3.75rem; } }
+        font-size: 4.0625rem; } }
     @media (min-width: 1440px) {
       #main-nav ul li a:link,
       #main-nav ul li a:visited {
@@ -744,7 +750,7 @@ footer {
     color: #3F3F3F; }
     @media (min-width: 768px) {
       footer > div {
-        margin: 0px 60px; } }
+        margin: 0px 30px; } }
     @media (min-width: 1440px) {
       footer > div {
         margin: 0px; } }
@@ -793,7 +799,7 @@ footer {
           color: #000; }
     footer > div #copyright {
       font-family: 'Inter', sans-serif;
-      font-size: 0.625rem;
+      font-size: 0.6875rem;
       color: #3F3F3F;
       margin-bottom: 30px; }
 
@@ -814,12 +820,23 @@ footer {
   object-position: center;
   object-fit: contain;
   width: 100%; }
-
+  @media (min-width: 768px) {
+    #about > div aside img {
+      object-fit: cover; } }
+  @media (min-width: 1025px) {
+    #about > div aside img {
+      object-fit: contain; } }
 @media (min-width: 768px) {
-  #about > div aside {
-    margin: 0px 394px 0px 25px; } }
+  #about > div aside img {
+    height: 55vh; } }
 
 @media (min-width: 1025px) {
+  #about > div aside {
+    margin: 0px 0px 150px 45px; }
+    #about > div aside img {
+      height: 100%; } }
+
+@media (min-width: 1440px) {
   #about > div aside {
     margin: 0px 50px 150px 45px; } }
 
@@ -832,7 +849,7 @@ footer {
   text-align: left; }
   @media (min-width: 768px) {
     #about > div article {
-      margin: 40px 350px 125px 40px; } }
+      margin: 40px 40px 125px 350px; } }
   @media (min-width: 1025px) {
     #about > div article {
       grid-area: article;
@@ -875,10 +892,10 @@ footer {
       #about > div article #contact-section li a:active {
         color: #89a6ad; }
       #about > div article #contact-section li i {
-        font-size: 1.25rem; }
+        font-size: 1.5625rem; }
         @media (min-width: 768px) {
           #about > div article #contact-section li i {
-            font-size: 1.375rem; } }
+            font-size: 1.5625rem; } }
         @media (min-width: 1025px) {
           #about > div article #contact-section li i {
             font-size: 1.5625rem; } }
@@ -899,7 +916,7 @@ footer {
     border: solid 2px #89a6ad; }
   #about > div article #resume li p {
     font-family: 'Inter', sans-serif;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     display: inline-block; }
 
@@ -911,42 +928,45 @@ footer {
   width: 100%;
   color: #3F3F3F; }
   #work-1 > div div #intro {
-    margin: 60px 20px; }
+    margin: 80px 20px 60px 20px; }
     @media (min-width: 768px) {
       #work-1 > div div #intro {
-        margin: 70px 50px; } }
+        margin: 120px 50px 70px 50px; } }
     @media (min-width: 1025px) {
       #work-1 > div div #intro {
-        margin: 80px 50px; } }
+        margin: 90px 50px 80px 50px; } }
+    @media (min-width: 1440px) {
+      #work-1 > div div #intro {
+        margin: 80px 50px 80px 50px; } }
     #work-1 > div div #intro h1:nth-child(1) {
       font-family: 'Gelasio', serif;
-      font-size: 0.875rem;
+      font-size: 1.875rem;
       font-weight: 700;
-      margin-bottom: 15px; }
+      margin-bottom: 20px; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1:nth-child(1) {
-          font-size: 1.0625rem;
-          margin-bottom: 20px; } }
+          font-size: 3.125rem;
+          margin-bottom: 30px; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1:nth-child(1) {
-          font-size: 1.375rem;
-          margin-bottom: 20px; } }
+          font-size: 2.5rem;
+          margin-bottom: 30px; } }
       @media (min-width: 1440px) {
         #work-1 > div div #intro h1:nth-child(1) {
-          font-size: 2.8125rem;
-          margin-bottom: 20px; } }
+          font-size: 3.125rem;
+          margin-bottom: 30px; } }
     #work-1 > div div #intro h1:nth-child(2) {
       font-family: 'Gelasio', serif;
-      font-size: 1.75rem;
-      font-weight: 700;
+      font-size: 2.90625rem;
+      font-weight: 600;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1:nth-child(2) {
-          font-size: 2.1875rem;
+          font-size: 4.375rem;
           margin-bottom: 20px; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1:nth-child(2) {
-          font-size: 2.8125rem;
+          font-size: 3.75rem;
           margin-bottom: 20px; } }
       @media (min-width: 1440px) {
         #work-1 > div div #intro h1:nth-child(2) {
@@ -954,44 +974,48 @@ footer {
           margin-bottom: 20px; } }
       #work-1 > div div #intro h1:nth-child(2) #ekname {
         font-family: 'Gelasio', serif;
-        font-size: 1.75rem;
+        font-size: 3.375rem;
         font-weight: 700;
         margin-bottom: 15px;
         color: #89a6ad; }
         @media (min-width: 768px) {
           #work-1 > div div #intro h1:nth-child(2) #ekname {
-            font-size: 2.1875rem;
+            font-size: 5rem;
             margin-bottom: 20px; } }
         @media (min-width: 1025px) {
           #work-1 > div div #intro h1:nth-child(2) #ekname {
-            font-size: 2.8125rem;
+            font-size: 4.375rem;
             margin-bottom: 20px; } }
         @media (min-width: 1440px) {
           #work-1 > div div #intro h1:nth-child(2) #ekname {
-            font-size: 4.375rem;
+            font-size: 5rem;
             margin-bottom: 20px; } }
       #work-1 > div div #intro h1:nth-child(2) #intro-space {
         display: block;
         font-weight: 500;
         font-style: italic;
-        font-size: 1.75rem; }
+        font-size: 2.90625rem;
+        margin-bottom: 20px; }
         @media (min-width: 768px) {
           #work-1 > div div #intro h1:nth-child(2) #intro-space {
-            font-size: 2.1875rem; } }
+            font-size: 4.0625rem;
+            margin-bottom: 30px; } }
         @media (min-width: 1025px) {
           #work-1 > div div #intro h1:nth-child(2) #intro-space {
-            font-size: 2.8125rem; } }
+            font-size: 3.75rem;
+            margin-bottom: 30px; } }
         @media (min-width: 1440px) {
           #work-1 > div div #intro h1:nth-child(2) #intro-space {
-            font-size: 4.375rem; } }
+            font-size: 4.375rem;
+            margin-bottom: 30px; } }
     #work-1 > div div #intro h1:nth-child(3) {
       font-family: 'Gelasio', serif;
-      font-size: 1rem;
-      font-weight: 700;
+      font-size: 1.25rem;
+      font-weight: 600;
       text-align: left; }
       @media (min-width: 768px) {
         #work-1 > div div #intro h1:nth-child(3) {
-          font-size: 1.0625rem; } }
+          font-size: 1.875rem; } }
       @media (min-width: 1025px) {
         #work-1 > div div #intro h1:nth-child(3) {
           font-size: 1.875rem; } }
@@ -1009,8 +1033,7 @@ footer {
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(6, 1fr);
+      grid-template-rows: repeat(11, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
@@ -1024,12 +1047,12 @@ footer {
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 35vh;
+    height: 40vh;
     justify-content: center;
     text-align: center; }
     @media (min-width: 768px) {
       #work-2 > div ul li > div {
-        height: 30vh; } }
+        height: 48vh; } }
     @media (min-width: 1025px) {
       #work-2 > div ul li > div {
         height: 50vh; } }
@@ -1044,6 +1067,9 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 768px) {
+        #work-2 > div ul li > div h4 {
+          font-size: 1.5625rem; } }
       @media (min-width: 1440px) {
         #work-2 > div ul li > div h4 {
           font-size: 1.875rem; } }
@@ -1055,6 +1081,9 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 768px) {
+        #work-2 > div ul li > div p {
+          font-size: 1.3125rem; } }
       @media (min-width: 1440px) {
         #work-2 > div ul li > div p {
           font-size: 1.25rem; } }
@@ -1066,9 +1095,10 @@ footer {
 
 #work-2 > div li:nth-child(2) > div {
   background-image: url("../img/work-2/deeply-fruit/motion.gif");
-  background-size: 158%; }
-  @media (min-width: 1025px) {
+  background-size: 120%; }
+  @media (min-width: 1440px) {
     #work-2 > div li:nth-child(2) > div {
+      background-size: 158%;
       background-position: -60px -150px; } }
 #work-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
@@ -1126,7 +1156,7 @@ footer {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-main > div ul {
-      margin: 0px 500px 0px 50px; } }
+      margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-main > div ul {
       margin: 0px 500px 0px 0px; } }
@@ -1153,18 +1183,18 @@ footer {
   background-color: #f9f9f9; }
   #woodmere #woodmere-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(10, 250px); }
+    grid-template-rows: repeat(9, 250px); }
     @media (min-width: 768px) {
       #woodmere #woodmere-gallery > div ul {
-        grid-template-rows: repeat(10, 500px); } }
+        grid-template-rows: repeat(9, 500px); } }
     @media (min-width: 1025px) {
       #woodmere #woodmere-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(10, 600px); } }
+        grid-template-rows: repeat(9, 600px); } }
     @media (min-width: 1440px) {
       #woodmere #woodmere-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(10, 800px); } }
+        grid-template-rows: repeat(9, 800px); } }
     #woodmere #woodmere-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -1173,20 +1203,20 @@ footer {
 
 #woodmere #woodmere-product > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 320px); }
+  grid-template-rows: repeat(4, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-product > div ul {
-      grid-template-rows: repeat(6, 560px); } }
+      grid-template-rows: repeat(4, 550px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-product > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 350px);
+      grid-template-rows: repeat(2, 350px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-product > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 450px);
+      grid-template-rows: repeat(2, 450px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #woodmere #woodmere-product > div ul li img {
@@ -1197,18 +1227,18 @@ footer {
 
 #woodmere #woodmere-touchpoint > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 320px); }
+  grid-template-rows: repeat(4, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-touchpoint > div ul {
-      grid-template-rows: repeat(5, 600px); } }
+      grid-template-rows: repeat(4, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 700px); } }
+      grid-template-rows: repeat(4, 700px); } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 900px); } }
+      grid-template-rows: repeat(4, 900px); } }
   #woodmere #woodmere-touchpoint > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1217,20 +1247,20 @@ footer {
 
 #woodmere #woodmere-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(10, 320px); }
+  grid-template-rows: repeat(6, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-applications > div ul {
-      grid-template-rows: repeat(10, 600px); } }
+      grid-template-rows: repeat(6, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 400px);
+      grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 450px);
+      grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #woodmere #woodmere-applications > div ul li img {
@@ -1382,8 +1412,7 @@ footer {
   @media (min-width: 768px) {
     #art > div ul {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
       gap: 20px; } }
   @media (min-width: 1025px) {
     #art > div ul {
@@ -1397,12 +1426,12 @@ footer {
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 35vh;
+    height: 40vh;
     justify-content: center;
     text-align: center; }
     @media (min-width: 768px) {
       #art > div ul li > div {
-        height: 30vh; } }
+        height: 48vh; } }
     @media (min-width: 1025px) {
       #art > div ul li > div {
         height: 50vh; } }
@@ -1417,6 +1446,9 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 768px) {
+        #art > div ul li > div h4 {
+          font-size: 1.5625rem; } }
       @media (min-width: 1440px) {
         #art > div ul li > div h4 {
           font-size: 1.875rem; } }
@@ -1428,6 +1460,9 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media (min-width: 768px) {
+        #art > div ul li > div p {
+          font-size: 1.3125rem; } }
       @media (min-width: 1440px) {
         #art > div ul li > div p {
           font-size: 1.25rem; } }
@@ -1442,9 +1477,6 @@ footer {
 
 #art > div li:nth-child(3) > div {
   background-image: url("../img/art-1/portraits/portrait-hero-1.jpg"); }
-  @media (min-width: 768px) {
-    #art > div li:nth-child(3) > div {
-      background-position: -40px 0px; } }
   @media (min-width: 1025px) {
     #art > div li:nth-child(3) > div {
       background-position: -20px 0px; } }
@@ -2241,10 +2273,10 @@ footer {
     grid-template-rows: repeat(2, 29vh); }
     @media (min-width: 768px) {
       #home-kitchen #home-kitchen-main-screenshot > div ul {
-        grid-template-rows: repeat(2, 43vh); } }
+        grid-template-rows: repeat(2, 49vh); } }
     @media (min-width: 1025px) {
       #home-kitchen #home-kitchen-main-screenshot > div ul {
-        grid-template-rows: repeat(3, 42vh); } }
+        grid-template-rows: repeat(2, 100vh); } }
     @media (min-width: 1440px) {
       #home-kitchen #home-kitchen-main-screenshot > div ul {
         grid-template-rows: repeat(2, 115vh); } }
@@ -2268,7 +2300,7 @@ footer {
   @media (min-width: 1025px) {
     #home-kitchen #home-kitchen-gallery > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 42vh);
+      grid-template-rows: repeat(3, 43vh);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "p1 p2" "p3 p4" "p5 p6" "p7 p7";
       column-gap: 25px; } }
@@ -2313,7 +2345,7 @@ footer {
     grid-template-rows: repeat(3, 32vh); }
     @media (min-width: 768px) {
       #home-kitchen #home-kitchen-gallery-process > div ul {
-        grid-template-rows: repeat(3, 45vh); } }
+        grid-template-rows: repeat(3, 43vh); } }
     @media (min-width: 1025px) {
       #home-kitchen #home-kitchen-gallery-process > div ul {
         display: grid;
@@ -2388,7 +2420,7 @@ footer {
   #gustav-mahler #gustav-mahler-main-work > div ul li img {
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 35vh;
     width: 100%; }
     @media (min-width: 768px) {
       #gustav-mahler #gustav-mahler-main-work > div ul li img {
@@ -2525,7 +2557,7 @@ footer {
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-product-intro > div ul {
         display: grid;
-        grid-template-rows: repeat(1, 350px);
+        grid-template-rows: repeat(1, 330px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 25px; } }
     @media (min-width: 1440px) {
@@ -2549,7 +2581,7 @@ footer {
   @media (min-width: 1025px) {
     #highland-orchards #highland-orchards-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(7, 650px); } }
+      grid-template-rows: repeat(7, 680px); } }
   @media (min-width: 1440px) {
     #highland-orchards #highland-orchards-touchpoint > div ul {
       display: grid;
@@ -2844,7 +2876,7 @@ footer {
     @media (min-width: 1025px) {
       #cinegraph #cinegraph-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(6, 600px); } }
+        grid-template-rows: repeat(6, 630px); } }
     @media (min-width: 1440px) {
       #cinegraph #cinegraph-gallery > div ul {
         display: grid;
@@ -2860,7 +2892,7 @@ footer {
   grid-template-rows: repeat(8, 320px); }
   @media (min-width: 768px) {
     #cinegraph #cinegraph-applications > div ul {
-      grid-template-rows: repeat(8, 600px); } }
+      grid-template-rows: repeat(8, 620px); } }
   @media (min-width: 1025px) {
     #cinegraph #cinegraph-applications > div ul {
       display: grid;
@@ -3069,7 +3101,7 @@ footer {
     @media (min-width: 1025px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 600px); } }
+        grid-template-rows: repeat(13, 630px); } }
     @media (min-width: 1440px) {
       #artspaceh #artspaceh-gallery > div ul {
         display: grid;
@@ -3137,7 +3169,7 @@ footer {
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-hero {
       height: 50vh; } }
-  @media (min-width: 1025px) {
+  @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-hero {
       height: 100vh;
       background-position: 0px -200px; } }
@@ -3180,7 +3212,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior-intro > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 400px);
+      grid-template-rows: repeat(5, 330px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7";
       column-gap: 25px; } }
@@ -3214,7 +3246,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 400px);
+      grid-template-rows: repeat(9, 330px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
       column-gap: 25px; } }
@@ -3281,7 +3313,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(8, 400px);
+      grid-template-rows: repeat(8, 330px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8";
       column-gap: 25px; } }
@@ -3330,7 +3362,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior-cartons > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 250px);
+      grid-template-rows: repeat(2, 200px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
       column-gap: 25px; } }
@@ -3438,18 +3470,18 @@ footer {
   background-color: #f9f9f9; }
   #book-covers #orlando > div ul {
     display: grid;
-    grid-template-rows: repeat(11, 250px); }
+    grid-template-rows: repeat(8, 250px); }
     @media (min-width: 768px) {
       #book-covers #orlando > div ul {
-        grid-template-rows: repeat(11, 500px); } }
+        grid-template-rows: repeat(8, 500px); } }
     @media (min-width: 1025px) {
       #book-covers #orlando > div ul {
         display: grid;
-        grid-template-rows: repeat(11, 600px); } }
+        grid-template-rows: repeat(8, 650px); } }
     @media (min-width: 1440px) {
       #book-covers #orlando > div ul {
         display: grid;
-        grid-template-rows: repeat(11, 800px); } }
+        grid-template-rows: repeat(8, 800px); } }
     #book-covers #orlando > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3465,7 +3497,7 @@ footer {
   @media (min-width: 1025px) {
     #book-covers #white-teeth > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 600px); } }
+      grid-template-rows: repeat(5, 650px); } }
   @media (min-width: 1440px) {
     #book-covers #white-teeth > div ul {
       display: grid;
@@ -3478,18 +3510,18 @@ footer {
 
 #book-covers #book-total > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 250px); }
+  grid-template-rows: repeat(4, 250px); }
   @media (min-width: 768px) {
     #book-covers #book-total > div ul {
-      grid-template-rows: repeat(6, 500px); } }
+      grid-template-rows: repeat(4, 500px); } }
   @media (min-width: 1025px) {
     #book-covers #book-total > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 600px); } }
+      grid-template-rows: repeat(4, 650px); } }
   @media (min-width: 1440px) {
     #book-covers #book-total > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 800px); } }
+      grid-template-rows: repeat(4, 800px); } }
   #book-covers #book-total > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3525,7 +3557,9 @@ footer {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-hero {
-      height: 100vh;
+      height: 100vh; } }
+  @media (min-width: 1440px) {
+    #morning-again #morning-again-hero {
       background-position: 0px -200px; } }
 #morning-again #morning-again-main {
   position: relative;
@@ -3566,7 +3600,7 @@ footer {
   @media (min-width: 1025px) {
     #morning-again #morning-again-intro > div ul {
       display: grid;
-      grid-template-rows: repeat(7, 350px);
+      grid-template-rows: repeat(7, 330px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g4" "g4 g4" "g5 g5" "g5 g5";
       column-gap: 25px; } }
@@ -3599,14 +3633,14 @@ footer {
       grid-area: g5; } }
 #morning-again #morning-again-exterior > div ul {
   display: grid;
-  grid-template-rows: repeat(12, 250px); }
+  grid-template-rows: repeat(12, 280px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-exterior > div ul {
-      grid-template-rows: repeat(12, 500px); } }
+      grid-template-rows: repeat(12, 550px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(11, 300px);
+      grid-template-rows: repeat(11, 350px);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px;
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12"; } }
@@ -3666,14 +3700,14 @@ footer {
       grid-area: g14; } }
 #morning-again #morning-again-interior > div ul {
   display: grid;
-  grid-template-rows: repeat(7, 250px); }
+  grid-template-rows: repeat(7, 280px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-interior > div ul {
-      grid-template-rows: repeat(7, 500px); } }
+      grid-template-rows: repeat(7, 550px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(10, 300px);
+      grid-template-rows: repeat(10, 350px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g7 g7" "g7 g7 g7";
       column-gap: 25px; } }
@@ -3713,14 +3747,14 @@ footer {
       grid-area: g7; } }
 #morning-again #morning-again-products > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 250px); }
+  grid-template-rows: repeat(5, 280px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-products > div ul {
-      grid-template-rows: repeat(5, 500px); } }
+      grid-template-rows: repeat(5, 550px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-products > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 300px);
+      grid-template-rows: repeat(6, 200px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g2 g2" "g1 g1 g2 g2" "g3 g3 g4 g4" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5";
       column-gap: 25px; } }
@@ -3792,7 +3826,9 @@ footer {
       height: 50vh; } }
   @media (min-width: 1025px) {
     #frank-auerbach #frank-auerbach-hero {
-      height: 100vh;
+      height: 100vh; } }
+  @media (min-width: 1440px) {
+    #frank-auerbach #frank-auerbach-hero {
       background-position: 0px -250px; } }
 #frank-auerbach #frank-auerbach-main {
   position: relative;
@@ -3829,18 +3865,18 @@ footer {
   background-color: #f9f9f9; }
   #frank-auerbach #frank-auerbach-start > div ul {
     display: grid;
-    grid-template-rows: repeat(3, 250px); }
+    grid-template-rows: repeat(2, 250px); }
     @media (min-width: 768px) {
       #frank-auerbach #frank-auerbach-start > div ul {
-        grid-template-rows: repeat(3, 500px); } }
+        grid-template-rows: repeat(2, 500px); } }
     @media (min-width: 1025px) {
       #frank-auerbach #frank-auerbach-start > div ul {
         display: grid;
-        grid-template-rows: repeat(3, 600px); } }
+        grid-template-rows: repeat(2, 600px); } }
     @media (min-width: 1440px) {
       #frank-auerbach #frank-auerbach-start > div ul {
         display: grid;
-        grid-template-rows: repeat(3, 1000px); } }
+        grid-template-rows: repeat(2, 1000px); } }
     #frank-auerbach #frank-auerbach-start > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -3856,7 +3892,7 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #frank > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 300px);
+      grid-template-rows: repeat(1, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g2";
       column-gap: 25px; } }
@@ -3887,7 +3923,7 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #estella > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 300px);
+      grid-template-rows: repeat(5, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
       column-gap: 25px; } }
@@ -3924,7 +3960,7 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #juliet > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 300px);
+      grid-template-rows: repeat(3, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
@@ -3951,38 +3987,28 @@ footer {
       grid-area: g3; } }
 #frank-auerbach #david > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 250px); }
+  grid-template-rows: repeat(2, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #david > div ul {
-      grid-template-rows: repeat(3, 500px); } }
+      grid-template-rows: repeat(2, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #david > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 250px);
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g2 g3";
+      grid-template-rows: repeat(1, 350px);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #david > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 300px);
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g2 g3";
+      grid-template-rows: repeat(1, 400px);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #frank-auerbach #david > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
     width: 100%; }
-  @media (min-width: 1025px) {
-    #frank-auerbach #david > div ul li:nth-child(1) {
-      grid-area: g1; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #david > div ul li:nth-child(2) {
-      grid-area: g2; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #david > div ul li:nth-child(3) {
-      grid-area: g3; } }
+
 #frank-auerbach #julia > div ul {
   display: grid;
   grid-template-rows: repeat(3, 250px); }
@@ -3992,7 +4018,7 @@ footer {
   @media (min-width: 1025px) {
     #frank-auerbach #julia > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 300px);
+      grid-template-rows: repeat(3, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
       column-gap: 25px; } }
@@ -4089,17 +4115,17 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-strategy > div ul {
         display: grid;
-        grid-template-rows: repeat(9, 350px);
+        grid-template-rows: repeat(12, 310px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 25px;
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g12"; } }
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-strategy > div ul {
         display: grid;
-        grid-template-rows: repeat(9, 400px);
+        grid-template-rows: repeat(12, 400px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 25px;
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g12"; } }
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
     #the-sleepground #the-sleepground-strategy > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -4138,16 +4164,19 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-strategy > div ul li:nth-child(11) {
         grid-area: g11; } }
+    @media (min-width: 1025px) {
+      #the-sleepground #the-sleepground-strategy > div ul li:nth-child(12) {
+        grid-area: g12; } }
 #the-sleepground #the-sleepground-prearrival > div ul {
   display: grid;
-  grid-template-rows: repeat(8, 320px); }
+  grid-template-rows: repeat(8, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
-      grid-template-rows: repeat(8, 560px); } }
+      grid-template-rows: repeat(8, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 350px);
+      grid-template-rows: repeat(6, 330px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px;
       grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8"; } }
@@ -4192,14 +4221,14 @@ footer {
   background-color: #f9f9f9; }
   #the-sleepground #the-sleepground-visitors-kit > div ul {
     display: grid;
-    grid-template-rows: repeat(22, 250px); }
+    grid-template-rows: repeat(22, 260px); }
     @media (min-width: 768px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
-        grid-template-rows: repeat(22, 500px); } }
+        grid-template-rows: repeat(22, 530px); } }
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
-        grid-template-rows: repeat(2, 350px);
+        grid-template-rows: repeat(2, 330px);
         column-gap: 25px;
         grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g5 g5" "g6 g6 g7" "g6 g6 g8" "g9 g10 g11" "g12 g13 g14" "g15 g15 g15" "g15 g15 g15" "g16 g16 g17" "g16 g16 g18" "g19 g19 g19" "g19 g19 g19" "g20 g21 g22"; } }
     @media (min-width: 1440px) {
@@ -4281,14 +4310,14 @@ footer {
         grid-area: g22; } }
 #the-sleepground #the-sleepground-arrival > div ul {
   display: grid;
-  grid-template-rows: repeat(9, 320px); }
+  grid-template-rows: repeat(9, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-arrival > div ul {
-      grid-template-rows: repeat(9, 560px); } }
+      grid-template-rows: repeat(9, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-arrival > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 350px);
+      grid-template-rows: repeat(9, 330px);
       column-gap: 25px;
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
   @media (min-width: 1440px) {
@@ -4331,10 +4360,10 @@ footer {
       grid-area: g9; } }
 #the-sleepground #the-sleepground-exposures > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 320px); }
+  grid-template-rows: repeat(3, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-exposures > div ul {
-      grid-template-rows: repeat(3, 560px); } }
+      grid-template-rows: repeat(3, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exposures > div ul {
       display: grid;
@@ -4368,10 +4397,10 @@ footer {
       grid-area: g4; } }
 #the-sleepground #the-sleepground-online > div ul {
   display: grid;
-  grid-template-rows: repeat(2, 320px); }
+  grid-template-rows: repeat(2, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-online > div ul {
-      grid-template-rows: repeat(2, 560px); } }
+      grid-template-rows: repeat(2, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
@@ -4399,14 +4428,14 @@ footer {
       grid-area: g2; } }
 #the-sleepground #the-sleepground-online-2 > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 320px); }
+  grid-template-rows: repeat(4, 570px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-online-2 > div ul {
-      grid-template-rows: repeat(4, 560px); } }
+      grid-template-rows: repeat(4, 1200px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online-2 > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 500px);
+      grid-template-rows: repeat(2, 800px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 25px;
       grid-template-areas: "g1 g2" "g3 g4"; } }
@@ -4436,10 +4465,10 @@ footer {
       grid-area: g4; } }
 #the-sleepground #the-sleepground-exit > div ul {
   display: grid;
-  grid-template-rows: repeat(2, 320px); }
+  grid-template-rows: repeat(2, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-exit > div ul {
-      grid-template-rows: repeat(2, 560px); } }
+      grid-template-rows: repeat(2, 450px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exit > div ul {
       display: grid;
@@ -4460,8 +4489,8 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-process > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 25px; } }
   #the-sleepground #the-sleepground-process > div ul li img {
     object-fit: cover;

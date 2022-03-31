@@ -235,6 +235,11 @@ a:visited {
 
     @include lg{
         // margin: 0px 0px 25px 0px;
+        margin: 0px 45px 20px 45px;
+    }
+
+    @include xl{
+        // margin: 0px 0px 25px 0px;
         margin: 0px 0px 20px 0px;
     }
 }
@@ -254,6 +259,11 @@ a:visited {
     }
 
     @include lg{
+        // margin: 0px 0px 25px 0px;
+        margin: 0px 45px 40px 45px;
+    }
+
+    @include xl{
         // margin: 0px 0px 50px 0px;
         margin: 0px 0px 40px 0px;
     }

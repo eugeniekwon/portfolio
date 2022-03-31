@@ -20,14 +20,37 @@
                 object-position: center;
                 object-fit: contain;
                 width: 100%;
+
+                @include md{
+                    object-fit: cover;
+                }
+
+                @include lg{
+                    object-fit: contain;
+                }
             }
 
             @include md{
-                margin: 0px 394px 0px 25px;
+                // margin: 0px 394px 0px 25px;
+                // margin: 0px 25px;
+                
+                img{
+                    height: 55vh;
+                }
             }
 
             @include lg{
+                // margin: 0px 50px 150px 45px;
+                margin: 0px 0px 150px 45px;
+                
+                img{
+                    height: 100%;
+                }
+            }
+
+            @include xl{
                 margin: 0px 50px 150px 45px;
+            
             }
         }
 
@@ -41,7 +64,8 @@
 
             @include md {
                 // margin: 40px 106px 125px 300px;
-                margin: 40px 350px 125px 40px;
+                // margin: 40px 350px 125px 40px;
+                margin: 40px 40px 125px 350px;
             }
 
 
@@ -111,11 +135,11 @@
                     }
 
                     i{
-                        font-size: rem-calc(20);
+                        font-size: rem-calc(25);
                         // color: $black;
 
                         @include md{
-                            font-size: rem-calc(22); 
+                            font-size: rem-calc(25); 
                         }
 
                         @include lg{
@@ -151,7 +175,7 @@
 
                     p{
                         font-family: 'Inter', sans-serif;
-                        font-size: rem-calc(14);
+                        font-size: rem-calc(16);
                         font-weight: 400;
                         display: inline-block;
                     }

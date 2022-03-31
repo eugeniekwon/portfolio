@@ -101,15 +101,15 @@
                 grid-template-rows: repeat(2, 29vh);
 
                 @include md {
-                    grid-template-rows: repeat(2, 43vh);
+                    grid-template-rows: repeat(2, 49vh);
                 }
 
                 @include lg {
-                    grid-template-rows: repeat(3,42vh);
+                    grid-template-rows: repeat(2, 100vh);
                 }
 
                 @include xl {
-                    grid-template-rows: repeat(2,115vh);
+                    grid-template-rows: repeat(2, 115vh);
                 }
 
                 li {
@@ -153,7 +153,7 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(3,42vh);
+                    grid-template-rows: repeat(3, 43vh);
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
                         "p1 p2"
@@ -258,7 +258,7 @@
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(3, 45vh);
+                    grid-template-rows: repeat(3, 43vh);
                 }
 
                 @include lg {

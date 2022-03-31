@@ -15,7 +15,7 @@ footer {
             color: $gray;
     
             @include md{
-                margin: 0px 60px;
+                margin: 0px 30px;
             }
             
             @include xl{
@@ -94,7 +94,7 @@ footer {
     
             #copyright {
                 font-family: 'Inter', sans-serif;
-                font-size: rem-calc(10);
+                font-size: rem-calc(11);
                 color: $gray;
                 margin-bottom: 30px;
             }
