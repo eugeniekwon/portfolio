@@ -3286,6 +3286,9 @@ footer {
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-hero {
       height: 50vh; } }
+  @media (min-width: 1025px) {
+    #deeply-fruit #deeply-fruit-hero {
+      height: 100vh; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-hero {
       height: 100vh;

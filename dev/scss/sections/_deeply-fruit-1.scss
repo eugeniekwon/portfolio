@@ -16,6 +16,10 @@
             height: 50vh;
         }
 
+        @include lg{
+            height: 100vh;
+        }
+
         @include xl {
             height: 100vh;
             background-position: 0px -200px;
