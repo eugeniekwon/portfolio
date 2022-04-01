@@ -8457,9 +8457,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging.jpg" : {
+    "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging-other.jpg" : {
       "ft" : 16384,
       "iS" : 107266,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging-other.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging.jpg" : {
+      "ft" : 16384,
+      "iS" : 104088,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/woodmere\/product\/gift-packaging.jpg",
