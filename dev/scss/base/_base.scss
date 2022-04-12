@@ -337,11 +337,13 @@ a:visited {
            
             >div{
                 display: none;
-                transition: 0.25s; 
+                // transition: 0.25s;
+                transition: 0.15s; 
             }
     
             &:hover, &:active{
-                background-color:rgba(0,0,0,0.3);
+                // background-color:rgba(0,0,0,0.3);
+                background-color:$light-blue;
                 >div{
                     display: block;
                     

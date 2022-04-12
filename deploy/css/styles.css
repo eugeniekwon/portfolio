@@ -512,9 +512,9 @@ a:visited {
     background-color: rgba(0, 0, 0, 0); }
     .image-container a > div {
       display: none;
-      transition: 0.25s; }
+      transition: 0.15s; }
     .image-container a:hover, .image-container a:active {
-      background-color: rgba(0, 0, 0, 0.3); }
+      background-color: #7fb1b2; }
       .image-container a:hover > div, .image-container a:active > div {
         display: block; }
 
