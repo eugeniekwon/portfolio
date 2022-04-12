@@ -149,9 +149,22 @@
       "oAP" : "\/deploy\/home.html",
       "oF" : 0
     },
-    "\/deploy\/img\/about-1\/me.jpg" : {
+    "\/deploy\/img\/about-1\/me__.jpg" : {
       "ft" : 16384,
       "iS" : 138817,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about-1\/me__.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about-1\/me.jpg" : {
+      "ft" : 16384,
+      "iS" : 321418,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about-1\/me.jpg",
