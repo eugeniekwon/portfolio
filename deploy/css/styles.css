@@ -1455,25 +1455,25 @@ footer {
     width: 100%; }
 
 /* =============
-    art-1
+    play-1
 ============= */
-#art > div ul {
+#play > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 10px; }
   @media (min-width: 768px) {
-    #art > div ul {
+    #play > div ul {
       display: grid;
       grid-template-rows: repeat(5, 1fr);
       gap: 15px; } }
   @media (min-width: 1025px) {
-    #art > div ul {
+    #play > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
       gap: 15px; } }
-  #art > div ul li > div {
+  #play > div ul li > div {
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1483,15 +1483,15 @@ footer {
     justify-content: center;
     text-align: center; }
     @media (min-width: 768px) {
-      #art > div ul li > div {
+      #play > div ul li > div {
         height: 48vh; } }
     @media (min-width: 1025px) {
-      #art > div ul li > div {
+      #play > div ul li > div {
         height: 50vh; } }
     @media (min-width: 1440px) {
-      #art > div ul li > div {
+      #play > div ul li > div {
         height: 65vh; } }
-    #art > div ul li > div h4 {
+    #play > div ul li > div h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.25rem;
@@ -1501,18 +1501,18 @@ footer {
       justify-content: left;
       padding: 25px 0px 5px 25px; }
       @media (min-width: 768px) {
-        #art > div ul li > div h4 {
+        #play > div ul li > div h4 {
           font-size: 1.875rem;
           padding: 40px 0px 5px 40px; } }
       @media (min-width: 1025px) {
-        #art > div ul li > div h4 {
+        #play > div ul li > div h4 {
           font-size: 1.875rem;
           padding: 40px 0px 5px 40px; } }
       @media (min-width: 1440px) {
-        #art > div ul li > div h4 {
+        #play > div ul li > div h4 {
           font-size: 2rem;
           padding: 50px 0px 5px 50px; } }
-    #art > div ul li > div p {
+    #play > div ul li > div p {
       font-family: 'Inter', sans-serif;
       font-weight: 400;
       font-size: 0.9375rem;
@@ -1522,48 +1522,48 @@ footer {
       justify-content: left;
       padding: 0px 0px 25px 25px; }
       @media (min-width: 768px) {
-        #art > div ul li > div p {
+        #play > div ul li > div p {
           font-size: 1.125rem;
           padding: 0px 0px 40px 40px; } }
       @media (min-width: 1025px) {
-        #art > div ul li > div p {
+        #play > div ul li > div p {
           font-size: 1rem;
           padding: 0px 0px 40px 40px; } }
       @media (min-width: 1440px) {
-        #art > div ul li > div p {
+        #play > div ul li > div p {
           font-size: 1.125rem;
           padding: 0px 0px 50px 50px; } }
-    #art > div ul li > div span {
+    #play > div ul li > div span {
       display: block; }
 
-#art > div li:nth-child(1) > div {
-  background-image: url("../img/art-1/independent/ID-hero.jpg"); }
+#play > div li:nth-child(1) > div {
+  background-image: url("../img/play-1/independent/ID-hero.jpg"); }
 
-#art > div li:nth-child(2) > div {
-  background-image: url("../img/art-1/street/motion-hero-1.jpg"); }
+#play > div li:nth-child(2) > div {
+  background-image: url("../img/play-1/street/motion-hero-1.jpg"); }
 
-#art > div li:nth-child(3) > div {
-  background-image: url("../img/art-1/portraits/portrait-hero-1.jpg"); }
+#play > div li:nth-child(3) > div {
+  background-image: url("../img/play-1/portraits/portrait-hero-1.jpg"); }
   @media (min-width: 1025px) {
-    #art > div li:nth-child(3) > div {
+    #play > div li:nth-child(3) > div {
       background-position: -20px 0px; } }
   @media (min-width: 1440px) {
-    #art > div li:nth-child(3) > div {
+    #play > div li:nth-child(3) > div {
       background-position: 0px 0px; } }
-#art > div li:nth-child(4) > div {
-  background-image: url("../img/art-1/light/light-hero-1.jpg"); }
+#play > div li:nth-child(4) > div {
+  background-image: url("../img/play-1/light/light-hero-1.jpg"); }
 
-#art > div li:nth-child(5) > div {
-  background-image: url("../img/art-1/home/home-12.jpg"); }
+#play > div li:nth-child(5) > div {
+  background-image: url("../img/play-1/home/home-12.jpg"); }
 
-#art > div li:nth-child(6) > div {
-  background-image: url("../img/art-1/seoul/seoul_6.jpeg"); }
+#play > div li:nth-child(6) > div {
+  background-image: url("../img/play-1/seoul/seoul_6.jpeg"); }
 
 /* =============
     little-joys-1
 ============= */
 #little-joys #joy-hero {
-  background-image: url("../img/art-1/independent/ID-hero.jpg");
+  background-image: url("../img/play-1/independent/ID-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1627,7 +1627,7 @@ footer {
     street-photo-1
 ============= */
 #street-photo #street-hero {
-  background-image: url("../img/art-1/street/motion-hero-1.jpg");
+  background-image: url("../img/play-1/street/motion-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1686,7 +1686,7 @@ footer {
     portraits-1
 ============= */
 #portraits #portraits-hero {
-  background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
+  background-image: url("../img/play-1/portraits/portrait-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1745,7 +1745,7 @@ footer {
     light-photo-1
 ============= */
 #light-photo #light-hero {
-  background-image: url("../img/art-1/light/light-hero-1.jpg");
+  background-image: url("../img/play-1/light/light-hero-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1807,7 +1807,7 @@ footer {
     seoul-2021-1
 ============= */
 #seoul-2021 #seoul-2021-hero {
-  background-image: url("../img/art-1/seoul/seoul_6.jpeg");
+  background-image: url("../img/play-1/seoul/seoul_6.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2856,7 +2856,7 @@ footer {
     neighbourhood-1
 ============= */
 #home-photo #home-hero {
-  background-image: url("../img/art-1/home/home-hero.jpg");
+  background-image: url("../img/play-1/home/home-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;

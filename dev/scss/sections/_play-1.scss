@@ -1,8 +1,8 @@
 /* =============
-    art-1
+    play-1
 ============= */
 
-#art {
+#play {
 
     >div {
 
@@ -166,19 +166,19 @@
 
             li:nth-child(1) {
                 >div {
-                    background-image: url("../img/art-1/independent/ID-hero.jpg");
+                    background-image: url("../img/play-1/independent/ID-hero.jpg");
                 }
             }
 
             li:nth-child(2) {
                 >div {
-                    background-image: url("../img/art-1/street/motion-hero-1.jpg");
+                    background-image: url("../img/play-1/street/motion-hero-1.jpg");
                 }
             }
 
             li:nth-child(3) {
                 >div {
-                    background-image: url("../img/art-1/portraits/portrait-hero-1.jpg");
+                    background-image: url("../img/play-1/portraits/portrait-hero-1.jpg");
 
                     @include lg {
                         background-position: -20px 0px;
@@ -192,7 +192,7 @@
 
             li:nth-child(4) {
                 >div {
-                    background-image: url("../img/art-1/light/light-hero-1.jpg");
+                    background-image: url("../img/play-1/light/light-hero-1.jpg");
                     // margin-bottom: 90px;
 
                     // @include md {
@@ -204,7 +204,7 @@
 
             li:nth-child(5) {
                 >div {
-                    background-image: url("../img/art-1/home/home-12.jpg");
+                    background-image: url("../img/play-1/home/home-12.jpg");
                     // margin-bottom: 90px;
 
                     // @include md {
@@ -216,7 +216,7 @@
 
             li:nth-child(6) {
                 >div {
-                    background-image: url("../img/art-1/seoul/seoul_6.jpeg");
+                    background-image: url("../img/play-1/seoul/seoul_6.jpeg");
                     // margin-bottom: 90px;
 
                     // @include md {
