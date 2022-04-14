@@ -73,38 +73,67 @@
                             h4 {
                                 font-family: 'Inter', sans-serif;
                                 font-weight: 500;
-                                font-size: rem-calc(20);
+                                // font-size: rem-calc(20);
+                                font-size: rem-calc(22);
                                 color: $white;
 
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
+                                // align-items: center;
+                                align-items: flex-start;
+                                // justify-content: center;
+                                justify-content: left;
+
+                                padding: 25px 0px 5px 25px;
 
                                 @include md{
-                                    font-size: rem-calc(25);
+                                    font-size: rem-calc(30);
+                                    padding: 40px 0px 5px 40px;
+                                }
+
+                                @include lg{
+                                    // font-size: rem-calc(30);
+                                    font-size: rem-calc(30);
+                                    padding: 40px 0px 5px 40px;
                                 }
 
                                 @include xl{
-                                    font-size: rem-calc(30);
+                                    // font-size: rem-calc(30);
+                                    font-size: rem-calc(32);
+                                    padding: 50px 0px 5px 50px;
                                 }
                             }
 
                             p {
                                 font-family: 'Inter', sans-serif;
-                                font-weight: 500;
-                                font-size: rem-calc(16);
+                                // font-weight: 500;
+                                font-weight: 400;
+                                // font-size: rem-calc(16);
+                                font-size: rem-calc(15);
                                 color: $white;
 
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
+                                // align-items: center;
+                                align-items: flex-start;
+                                // justify-content: center;
+                                justify-content: left;
+
+                                padding: 0px 0px 25px 25px;
 
                                 @include md{
-                                    font-size: rem-calc(21);
+                                    font-size: rem-calc(18);
+                                    padding: 0px 0px 40px 40px;
+                                }
+
+                                @include lg{
+                                    // font-size: rem-calc(20);
+                                    font-size: rem-calc(16);
+                                    padding: 0px 0px 40px 40px;
                                 }
 
                                 @include xl{
-                                    font-size: rem-calc(20);
+                                    // font-size: rem-calc(20);
+                                    font-size: rem-calc(18);
+                                    padding: 0px 0px 50px 50px;
                                 }
                             }
 
