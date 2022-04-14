@@ -1556,6 +1556,9 @@ footer {
 #art > div li:nth-child(5) > div {
   background-image: url("../img/art-1/home/home-12.jpg"); }
 
+#art > div li:nth-child(6) > div {
+  background-image: url("../img/art-1/seoul/seoul_6.jpeg"); }
+
 /* =============
     little-joys-1
 ============= */
@@ -1795,6 +1798,70 @@ footer {
     #light-photo #light-gallery > div ul {
       margin: 0px; } }
   #light-photo #light-gallery > div ul li img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    width: 100%; }
+
+/* =============
+    seoul-2021-1
+============= */
+#seoul-2021 #seoul-2021-hero {
+  background-image: url("../img/art-1/seoul/seoul_6.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #seoul-2021 #seoul-2021-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #seoul-2021 #seoul-2021-hero {
+      height: 100vh; } }
+#seoul-2021 #seoul-2021-main {
+  position: relative;
+  background-color: #f9f9f9; }
+  #seoul-2021 #seoul-2021-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #seoul-2021 #seoul-2021-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #seoul-2021 #seoul-2021-main > div h3 span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #seoul-2021 #seoul-2021-main > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #seoul-2021 #seoul-2021-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  @media (min-width: 1440px) {
+    #seoul-2021 #seoul-2021-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  #seoul-2021 #seoul-2021-main > div ul li span {
+    font-weight: 500; }
+  @media (min-width: 768px) {
+    #seoul-2021 #seoul-2021-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #seoul-2021 #seoul-2021-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #seoul-2021 #seoul-2021-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#seoul-2021 #seoul-2021-gallery {
+  position: relative;
+  background-color: #f9f9f9; }
+  @media (min-width: 1025px) {
+    #seoul-2021 #seoul-2021-gallery > div ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 25px; } }
+  @media (min-width: 1440px) {
+    #seoul-2021 #seoul-2021-gallery > div ul {
+      margin: 0px; } }
+  #seoul-2021 #seoul-2021-gallery > div ul li img {
     height: 100%;
     object-fit: contain;
     object-position: center;

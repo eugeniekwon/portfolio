@@ -20,6 +20,7 @@ if(art){
                 .from("#art div ul li:nth-child(3)", {duration:artTime, alpha:0, x:-10}, "-=0.08")
                 .from("#art div ul li:nth-child(4)", {duration:artTime, alpha:0, x:-10}, "-=0.08")
                 .from("#art div ul li:nth-child(5)", {duration:artTime, alpha:0, x:-10}, "-=0.08")
+                .from("#art div ul li:nth-child(6)", {duration:artTime, alpha:0, x:-10}, "-=0.08")
 }
 
   

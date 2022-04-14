@@ -747,6 +747,110 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/art-1\/seoul\/seoul_1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 263342,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 289120,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 279591,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_4.jpeg" : {
+      "ft" : 16384,
+      "iS" : 353075,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 251367,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_6.jpeg" : {
+      "ft" : 16384,
+      "iS" : 368169,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_7.jpeg" : {
+      "ft" : 16384,
+      "iS" : 237079,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/art-1\/seoul\/seoul_8.jpeg" : {
+      "ft" : 16384,
+      "iS" : 464732,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/art-1\/seoul\/seoul_8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/art-1\/street\/motion-hero-1.jpg" : {
       "ft" : 16384,
       "iS" : 151780,
@@ -8740,6 +8844,14 @@
       "oAP" : "\/deploy\/portraits.html",
       "oF" : 0
     },
+    "\/deploy\/seoul-2021.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/seoul-2021.html",
+      "oF" : 0
+    },
     "\/deploy\/street-photo.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8899,6 +9011,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/art\/portraits-1.html",
       "oF" : 1
+    },
+    "\/dev\/content\/art\/seoul-2021-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/art\/seoul-2021-1.html",
+      "oF" : 0
     },
     "\/dev\/content\/art\/street-photo-1.kit" : {
       "cB" : 0,
@@ -9925,6 +10045,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/_seoul-2021-1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_seoul-2021-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/_street-photo-1.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -10014,6 +10149,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/dev\/seoul-2021.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/seoul-2021.html",
+      "oF" : 2
     },
     "\/dev\/street-photo.kit" : {
       "cB" : 0,

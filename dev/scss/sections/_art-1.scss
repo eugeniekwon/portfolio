@@ -213,5 +213,17 @@
                 }
 
             }
+
+            li:nth-child(6) {
+                >div {
+                    background-image: url("../img/art-1/seoul/seoul_6.jpeg");
+                    // margin-bottom: 90px;
+
+                    // @include md {
+                    //     margin-bottom: 125px;
+                    // }
+                }
+
+            }
     }
 }
