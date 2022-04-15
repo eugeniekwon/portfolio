@@ -213,6 +213,46 @@ if(homePhotoPages){
 }
 
 
+/* =============
+    pages - art - seoul 2021
+============= */
+
+var seoul2021Pages = document.querySelector("#seoul-2021");
+
+if(seoul2021Pages){
+    var seoul2021PagesTimeline = gsap.timeline();
+    const pageIntroTime = 0.6;
+    const pageTime = 0.8;
+
+
+    seoul2021PagesTimeline.from("#seoul-2021 #seoul-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#seoul-2021 #seoul-2021-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#seoul-2021 #seoul-2021-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#seoul-2021 #seoul-2021-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#seoul-2021 #seoul-2021-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.1")
+                .from("#seoul-2021 #seoul-2021-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.1")
+
+     ScrollTrigger.create({
+      trigger: "#seoul-2021",
+      start: "top 50%",
+      end: "bottom 50%",
+      animation: seoul2021PagesTimeline,
+      toggleActions: "restart none none none"
+      // scrub: 1
+    //   id: ".page",
+    //   markers: true
+    });
+
+}
+
+
 
 
 /* =============

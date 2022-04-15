@@ -1,6 +1,6 @@
 
 import {} from './scrollTrigger/work'
-import {} from './scrollTrigger/art'
+import {} from './scrollTrigger/play'
 import {} from './scrollTrigger/parallax'
 import {} from './scrollTrigger/pages'
 import {} from './scrollTrigger/about'
