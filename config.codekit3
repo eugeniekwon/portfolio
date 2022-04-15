@@ -827,7 +827,20 @@
     },
     "\/deploy\/img\/play-1\/seoul\/seoul_6.jpeg" : {
       "ft" : 16384,
-      "iS" : 368169,
+      "iS" : 422601,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg" : {
+      "ft" : 16384,
+      "iS" : 488132,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg",
@@ -8836,6 +8849,14 @@
       "oAP" : "\/deploy\/philly-flower-show.html",
       "oF" : 0
     },
+    "\/deploy\/play.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/play.html",
+      "oF" : 0
+    },
     "\/deploy\/portraits.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8906,6 +8927,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/aesop.html",
+      "oF" : 2
+    },
+    "\/dev\/art.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/play.html",
       "oF" : 2
     },
     "\/dev\/artspaceh.kit" : {
@@ -8986,7 +9015,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/play\/home-1.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/play\/light-photo-1.kit" : {
       "cB" : 0,
@@ -9472,14 +9501,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/philly-flower-show.html",
-      "oF" : 2
-    },
-    "\/dev\/play.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/play.html",
       "oF" : 2
     },
     "\/dev\/portraits.kit" : {
