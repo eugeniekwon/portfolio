@@ -4370,6 +4370,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/map-1_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 604362,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/map-1_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/map-1.jpg" : {
       "ft" : 16384,
       "iS" : 604362,
@@ -4519,6 +4532,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/van-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/welcome-signage_.jpg" : {
+      "ft" : 16384,
+      "iS" : 375755,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/touchpoint\/welcome-signage_.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
