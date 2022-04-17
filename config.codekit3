@@ -33,14 +33,6 @@
       "oAP" : "\/deploy\/aesop.html",
       "oF" : 0
     },
-    "\/deploy\/art.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/art.html",
-      "oF" : 0
-    },
     "\/deploy\/artspaceh.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8955,14 +8947,6 @@
       "oAP" : "\/deploy\/aesop.html",
       "oF" : 2
     },
-    "\/dev\/art.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/play.html",
-      "oF" : 2
-    },
     "\/dev\/artspaceh.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -9527,6 +9511,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/philly-flower-show.html",
+      "oF" : 2
+    },
+    "\/dev\/play.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/play.html",
       "oF" : 2
     },
     "\/dev\/portraits.kit" : {

@@ -1490,15 +1490,15 @@ footer {
         height: 50vh; } }
     @media (min-width: 1440px) {
       #play > div ul li > div {
-        height: 65vh; } }
+        height: 70vh; } }
     #play > div ul li > div h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 500;
-      font-size: 1.25rem;
       color: #fff;
       display: flex;
       align-items: flex-start;
       justify-content: left;
+      font-size: 1.375rem;
       padding: 25px 0px 5px 25px; }
       @media (min-width: 768px) {
         #play > div ul li > div h4 {

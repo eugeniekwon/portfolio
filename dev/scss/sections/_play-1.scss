@@ -66,13 +66,13 @@
 
                     @include xl {
                         // height: 45vh;
-                        height: 65vh;
+                        height: 70vh;
                     }
 
                         h4 {
                             font-family: 'Inter', sans-serif;
                             font-weight: 500;
-                            font-size: rem-calc(20);
+                            // font-size: rem-calc(20);
                             color: $white;
 
                             display: flex;
@@ -89,6 +89,7 @@
                             //     font-size: rem-calc(30);
                             // }
 
+                            font-size: rem-calc(22);
                             padding: 25px 0px 5px 25px;
 
                                 @include md{
