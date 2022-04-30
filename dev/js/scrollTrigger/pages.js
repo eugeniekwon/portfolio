@@ -871,6 +871,7 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-intro div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-intro div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-intro div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-intro div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -883,7 +884,7 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-exterior div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#morning-again #morning-again-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#morning-again #morning-again-exterior div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#morning-again #morning-again-exterior div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#morning-again #morning-again-exterior div ul li:nth-child(14)", {duration:pageTime, alpha:0},"-=0.01")
 
@@ -1146,7 +1147,7 @@ if(gustavMahlerPage){
 
                         .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0},"-=0.01")
                         .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0},"-=0.01")
-                        .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0},"-=0.01")
+                        // .from("#gustav-mahler #gustav-mahler-main-work div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0},"-=0.01")
 
                         // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                         // .from("#gustav-mahler #gustav-mahler-gallery div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -1400,7 +1401,7 @@ if(woodmerePage){
         
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#woodmere #woodmere-touchpoint div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#woodmere #woodmere-touchpoint div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")

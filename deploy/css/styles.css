@@ -1280,18 +1280,18 @@ footer {
 
 #woodmere #woodmere-touchpoint > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 320px); }
+  grid-template-rows: repeat(2, 320px); }
   @media (min-width: 768px) {
     #woodmere #woodmere-touchpoint > div ul {
-      grid-template-rows: repeat(3, 600px); } }
+      grid-template-rows: repeat(2, 600px); } }
   @media (min-width: 1025px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 700px); } }
+      grid-template-rows: repeat(2, 700px); } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-touchpoint > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 900px); } }
+      grid-template-rows: repeat(2, 900px); } }
   #woodmere #woodmere-touchpoint > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3693,14 +3693,7 @@ footer {
     #book-covers #book-covers-main > div ul {
       margin: 0px 500px 0px 0px; } }
   #book-covers #book-covers-main > div ul li span {
-    display: block;
-    margin-bottom: 15px; }
-    @media (min-width: 768px) {
-      #book-covers #book-covers-main > div ul li span {
-        margin-bottom: 20px; } }
-    @media (min-width: 1025px) {
-      #book-covers #book-covers-main > div ul li span {
-        margin-bottom: 25px; } }
+    font-style: italic; }
   @media (min-width: 768px) {
     #book-covers #book-covers-main > div ul li:nth-child(1) {
       grid-area: objective; } }
@@ -3847,23 +3840,23 @@ footer {
       grid-area: process; } }
 #morning-again #morning-again-intro > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 250px); }
+  grid-template-rows: repeat(6, 250px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-intro > div ul {
-      grid-template-rows: repeat(5, 500px); } }
+      grid-template-rows: repeat(6, 500px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-intro > div ul {
       display: grid;
-      grid-template-rows: repeat(7, 330px);
+      grid-template-rows: repeat(9, 330px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g4" "g4 g4" "g5 g5" "g5 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g5" "g5 g5" "g6 g6" "g6 g6";
       column-gap: 25px; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-intro > div ul {
       display: grid;
-      grid-template-rows: repeat(7, 400px);
+      grid-template-rows: repeat(9, 410px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g4" "g4 g4" "g5 g5" "g5 g5";
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g5" "g5 g5" "g6 g6" "g6 g6";
       column-gap: 25px; } }
   #morning-again #morning-again-intro > div ul li img {
     object-fit: cover;
@@ -3885,25 +3878,28 @@ footer {
   @media (min-width: 1025px) {
     #morning-again #morning-again-intro > div ul li:nth-child(5) {
       grid-area: g5; } }
+  @media (min-width: 1025px) {
+    #morning-again #morning-again-intro > div ul li:nth-child(6) {
+      grid-area: g6; } }
 #morning-again #morning-again-exterior > div ul {
   display: grid;
-  grid-template-rows: repeat(12, 280px); }
+  grid-template-rows: repeat(11, 280px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-exterior > div ul {
-      grid-template-rows: repeat(12, 550px); } }
+      grid-template-rows: repeat(11, 550px); } }
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(11, 350px);
+      grid-template-rows: repeat(9, 350px);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 25px;
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12"; } }
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g3" "g2 g2 g4" "g5 g5 g5" "g5 g5 g5" "g6 g7 g8" "g9 g11 g11" "g10 g11 g11"; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(11, 410px);
+      grid-template-rows: repeat(9, 410px);
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g4" "g3 g3 g5" "g6 g6 g6" "g6 g6 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12";
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g3" "g2 g2 g4" "g5 g5 g5" "g5 g5 g5" "g6 g7 g8" "g9 g11 g11" "g10 g11 g11";
       column-gap: 25px; } }
   #morning-again #morning-again-exterior > div ul li img {
     object-fit: cover;
@@ -3943,15 +3939,6 @@ footer {
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul li:nth-child(11) {
       grid-area: g11; } }
-  @media (min-width: 1025px) {
-    #morning-again #morning-again-exterior > div ul li:nth-child(12) {
-      grid-area: g12; } }
-  @media (min-width: 1025px) {
-    #morning-again #morning-again-exterior > div ul li:nth-child(13) {
-      grid-area: g13; } }
-  @media (min-width: 1025px) {
-    #morning-again #morning-again-exterior > div ul li:nth-child(14) {
-      grid-area: g14; } }
 #morning-again #morning-again-interior > div ul {
   display: grid;
   grid-template-rows: repeat(7, 280px); }

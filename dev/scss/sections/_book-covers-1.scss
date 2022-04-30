@@ -72,16 +72,18 @@
 
                 li {
                     span {
-                        display: block;
-                        margin-bottom: 15px;
+                        // display: block;
+                        // margin-bottom: 15px;
 
-                        @include md {
-                            margin-bottom: 20px;
-                        }
+                        // @include md {
+                        //     margin-bottom: 20px;
+                        // }
 
-                        @include lg {
-                            margin-bottom: 25px;
-                        }
+                        // @include lg {
+                        //     margin-bottom: 25px;
+                        // }
+
+                        font-style: italic;
 
                     }
                 }

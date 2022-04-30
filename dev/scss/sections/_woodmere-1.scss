@@ -232,24 +232,24 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(3, 320px);
+                grid-template-rows: repeat(2, 320px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(3, 600px);
+                    grid-template-rows: repeat(2, 600px);
                 }
 
                 @include lg {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(3, 700px);
+                    grid-template-rows: repeat(2, 700px);
 
                 }
 
                 @include xl {
                     display: grid;
                     // grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(3, 900px);
+                    grid-template-rows: repeat(2, 900px);
 
                 }
 
