@@ -17,7 +17,8 @@
 
         aside {
             img{
-                object-position: center;
+                // object-position: center;
+                object-position: top;
                 object-fit: contain;
                 width: 100%;
 
@@ -35,7 +36,7 @@
                 // margin: 0px 25px;
                 
                 img{
-                    height: 60vh;
+                    height: 80vh;
                 }
             }
 
@@ -60,6 +61,7 @@
             font-weight: 300;
             line-height: rem-calc(23);
             margin: 30px 20px 90px 20px;
+            // margin: 30px 20px;
             text-align: left;
 
             @include md {
@@ -206,6 +208,40 @@
                     }
                 }
                 
+            }
+
+            hr{
+                background-color: $light-blue;
+                height: 1.5px;
+                border: none;
+            }
+
+            #resume-listing{
+            font-family: 'Inter', sans-serif;
+            font-size: rem-calc(14.5);
+            font-weight: 300;
+            line-height: rem-calc(23);
+            text-align: left;
+
+            span {
+                display: block;
+
+            }
+
+            p:nth-child(1){
+                font-weight: 500;
+                color: $light-blue;
+            }
+
+            p:nth-child(3){
+                font-weight: 500;
+                color: $light-blue;
+            }
+
+
+            
+
+
             }
 
         }

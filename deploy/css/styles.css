@@ -830,7 +830,7 @@ footer {
     grid-template-columns: 50% auto; } }
 
 #about > div aside img {
-  object-position: center;
+  object-position: top;
   object-fit: contain;
   width: 100%; }
   @media (min-width: 768px) {
@@ -841,7 +841,7 @@ footer {
       object-fit: contain; } }
 @media (min-width: 768px) {
   #about > div aside img {
-    height: 60vh; } }
+    height: 80vh; } }
 
 @media (min-width: 1025px) {
   #about > div aside {
@@ -948,6 +948,24 @@ footer {
     font-size: 1rem;
     font-weight: 400;
     display: inline-block; }
+  #about > div article hr {
+    background-color: #7fb1b2;
+    height: 1.5px;
+    border: none; }
+  #about > div article #resume-listing {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.90625rem;
+    font-weight: 300;
+    line-height: 1.4375rem;
+    text-align: left; }
+    #about > div article #resume-listing span {
+      display: block; }
+    #about > div article #resume-listing p:nth-child(1) {
+      font-weight: 500;
+      color: #7fb1b2; }
+    #about > div article #resume-listing p:nth-child(3) {
+      font-weight: 500;
+      color: #7fb1b2; }
 
 /* =============
     work-1
