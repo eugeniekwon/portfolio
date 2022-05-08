@@ -130,7 +130,8 @@
                     display: grid;
                     grid-template-rows: repeat(12, 310px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
 
@@ -160,7 +161,8 @@
                     display: grid;
                     grid-template-rows: repeat(12, 400px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
 
@@ -328,7 +330,8 @@
                     display: grid;
                     grid-template-rows: repeat(6, 330px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     grid-template-areas:
                         "g1 g1"
 
@@ -346,7 +349,8 @@
                     display: grid;
                     grid-template-rows: repeat(6, 400px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     grid-template-areas:
                         "g1 g1"
 
@@ -455,7 +459,8 @@
                 @include lg {
                     display: grid;
                     grid-template-rows: repeat(2, 330px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
 
@@ -493,7 +498,8 @@
                 @include xl {
                     display: grid;
                     grid-template-rows: repeat(2, 400px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     // row-gap: 25px;
                     // margin: 0px 25px;
 
@@ -721,7 +727,8 @@
                     // grid-template-columns: repeat(1, 1fr);
                     grid-template-rows: repeat(9, 330px);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                         "g1 g1"
@@ -745,7 +752,8 @@
                     // grid-template-columns: repeat(1, 1fr);
                     grid-template-rows: repeat(9, 400px);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                     "g1 g1"
@@ -868,7 +876,8 @@
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(4, 350px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                         "g1 g1 g1"
@@ -884,7 +893,8 @@
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(4, 400px);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                         "g1 g1 g1"
@@ -964,7 +974,8 @@
                     grid-template-rows: repeat(3, 400px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                     "g1 g1"
@@ -980,7 +991,8 @@
                     grid-template-rows: repeat(3, 450px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                     "g1 g1"
@@ -1042,7 +1054,8 @@
                     grid-template-rows: repeat(2, 800px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                     "g1 g2"
@@ -1055,7 +1068,8 @@
                     grid-template-rows: repeat(2, 850px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                     grid-template-areas:
                     "g1 g2"
@@ -1163,7 +1177,8 @@
                     grid-template-rows: repeat(4, 1fr);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                 }
 

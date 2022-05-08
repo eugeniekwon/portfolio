@@ -382,21 +382,21 @@ ul {
     .big-spacing {
       margin-bottom: 150px; } }
 .medium-spacing {
-  margin-bottom: 30px; }
-  @media (min-width: 768px) {
-    .medium-spacing {
-      margin-bottom: 40px; } }
-  @media (min-width: 1025px) {
-    .medium-spacing {
-      margin-bottom: 50px; } }
-.small-spacing {
   margin-bottom: 15px; }
   @media (min-width: 768px) {
-    .small-spacing {
+    .medium-spacing {
       margin-bottom: 20px; } }
   @media (min-width: 1025px) {
-    .small-spacing {
+    .medium-spacing {
       margin-bottom: 25px; } }
+.small-spacing {
+  margin-bottom: 7px; }
+  @media (min-width: 768px) {
+    .small-spacing {
+      margin-bottom: 10px; } }
+  @media (min-width: 1025px) {
+    .small-spacing {
+      margin-bottom: 15px; } }
 .xs-spacing {
   margin-bottom: 10px; }
 
@@ -1283,13 +1283,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 350px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-product > div ul {
       display: grid;
       grid-template-rows: repeat(2, 450px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #woodmere #woodmere-product > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1327,13 +1327,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #woodmere #woodmere-applications > div ul {
       display: grid;
       grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #woodmere #woodmere-applications > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1348,7 +1348,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #woodmere #woodmere-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -1479,12 +1479,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 10px; }
+  gap: 5px; }
   @media (min-width: 768px) {
     #play > div ul {
       display: grid;
       grid-template-rows: repeat(5, 1fr);
-      gap: 15px; } }
+      gap: 10px; } }
   @media (min-width: 1025px) {
     #play > div ul {
       display: grid;
@@ -1631,7 +1631,7 @@ footer {
     #little-joys #joy-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #little-joys #joy-gallery > div ul {
       margin: 0px; } }
@@ -1693,7 +1693,7 @@ footer {
     #street-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #street-gallery > div ul li img {
     height: 100%;
     object-fit: contain;
@@ -1752,7 +1752,7 @@ footer {
     #portraits #portraits-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #portraits #portraits-gallery > div ul li img {
     height: 100%;
     object-fit: contain;
@@ -1811,7 +1811,7 @@ footer {
     #light-photo #light-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #light-photo #light-gallery > div ul {
       margin: 0px; } }
@@ -1875,7 +1875,7 @@ footer {
     #seoul-2021 #seoul-2021-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #seoul-2021 #seoul-2021-gallery > div ul {
       margin: 0px; } }
@@ -2500,14 +2500,14 @@ footer {
       grid-template-rows: repeat(3, 43vh);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "p1 p2" "p3 p4" "p5 p6" "p7 p7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #home-kitchen #home-kitchen-gallery > div ul {
       display: grid;
       grid-template-rows: repeat(3, 49vh);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "p1 p2" "p3 p4" "p5 p6" "p7 p7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #home-kitchen #home-kitchen-gallery > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2546,7 +2546,7 @@ footer {
     @media (min-width: 1025px) {
       #home-kitchen #home-kitchen-gallery-process > div ul {
         display: grid;
-        column-gap: 25px;
+        column-gap: 15px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 40vh);
         grid-template-areas: "ps1 ps2 ps3"; } }
@@ -2648,13 +2648,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #gustav-mahler #gustav-mahler-sketches > div ul {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #gustav-mahler #gustav-mahler-sketches > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2728,12 +2728,12 @@ footer {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
         grid-template-rows: repeat(10, 600px);
-        column-gap: 25px; } }
+        column-gap: 15px; } }
     @media (min-width: 1440px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
         grid-template-rows: repeat(10, 800px);
-        column-gap: 25px; } }
+        column-gap: 15px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -2774,13 +2774,13 @@ footer {
         display: grid;
         grid-template-rows: repeat(1, 330px);
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 25px; } }
+        column-gap: 15px; } }
     @media (min-width: 1440px) {
       #highland-orchards #highland-orchards-product-intro > div ul {
         display: grid;
         grid-template-rows: repeat(1, 380px);
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 25px; } }
+        column-gap: 15px; } }
     #highland-orchards #highland-orchards-product-intro > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -2818,13 +2818,13 @@ footer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(1, 250px);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #highland-orchards #highland-orchards-vans > div ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(1, 300px);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #highland-orchards #highland-orchards-vans > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2842,13 +2842,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(4, 350px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #highland-orchards #highland-orchards-applications > div ul {
       display: grid;
       grid-template-rows: repeat(4, 450px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #highland-orchards #highland-orchards-applications > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2863,7 +2863,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #highland-orchards #highland-orchards-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -2922,7 +2922,7 @@ footer {
     #home-photo #home-gallery > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #home-photo #home-gallery > div ul {
       margin: 0px; } }
@@ -3131,13 +3131,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(4, 420px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #cinegraph #cinegraph-applications > div ul {
       display: grid;
       grid-template-rows: repeat(4, 530px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #cinegraph #cinegraph-applications > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3152,7 +3152,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #cinegraph #cinegraph-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3243,13 +3243,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 500px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #concert-band #concert-band-applications > div ul {
       display: grid;
       grid-template-rows: repeat(2, 550px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #concert-band #concert-band-applications > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3264,7 +3264,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(1, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #concert-band #concert-band-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3365,13 +3365,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(3, 420px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #artspaceh #artspaceh-applications > div ul {
       display: grid;
       grid-template-rows: repeat(3, 530px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #artspaceh #artspaceh-applications > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3386,7 +3386,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(1, 1fr);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #artspaceh #artspaceh-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3469,14 +3469,14 @@ footer {
       grid-template-rows: repeat(5, 330px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-exterior-intro > div ul {
       display: grid;
       grid-template-rows: repeat(5, 400px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-exterior-intro > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3515,14 +3515,14 @@ footer {
       grid-template-rows: repeat(9, 330px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
       grid-template-rows: repeat(9, 400px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-exterior > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3582,14 +3582,14 @@ footer {
       grid-template-rows: repeat(8, 330px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
       grid-template-rows: repeat(8, 400px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-interior > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3631,14 +3631,14 @@ footer {
       grid-template-rows: repeat(2, 200px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-interior-cartons > div ul {
       display: grid;
       grid-template-rows: repeat(2, 250px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-interior-cartons > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3679,7 +3679,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(1, 1fr);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3804,7 +3804,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #book-covers #book-covers-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3880,14 +3880,14 @@ footer {
       grid-template-rows: repeat(9, 330px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g5" "g5 g5" "g6 g6" "g6 g6";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-intro > div ul {
       display: grid;
       grid-template-rows: repeat(9, 410px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g5" "g5 g5" "g6 g6" "g6 g6";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #morning-again #morning-again-intro > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3922,7 +3922,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(9, 350px);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g3" "g2 g2 g4" "g5 g5 g5" "g5 g5 g5" "g6 g7 g8" "g9 g11 g11" "g10 g11 g11"; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-exterior > div ul {
@@ -3930,7 +3930,7 @@ footer {
       grid-template-rows: repeat(9, 410px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g3" "g2 g2 g4" "g5 g5 g5" "g5 g5 g5" "g6 g7 g8" "g9 g11 g11" "g10 g11 g11";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #morning-again #morning-again-exterior > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -3981,14 +3981,14 @@ footer {
       grid-template-rows: repeat(10, 350px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g7 g7" "g7 g7 g7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-interior > div ul {
       display: grid;
       grid-template-rows: repeat(10, 400px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g7 g7" "g7 g7 g7";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #morning-again #morning-again-interior > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4028,14 +4028,14 @@ footer {
       grid-template-rows: repeat(6, 200px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g2 g2" "g1 g1 g2 g2" "g3 g3 g4 g4" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #morning-again #morning-again-products > div ul {
       display: grid;
       grid-template-rows: repeat(6, 250px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g2 g2" "g1 g1 g2 g2" "g3 g3 g4 g4" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #morning-again #morning-again-products > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4076,7 +4076,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #morning-again #morning-again-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4175,14 +4175,14 @@ footer {
       grid-template-rows: repeat(1, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g2";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #frank > div ul {
       display: grid;
       grid-template-rows: repeat(1, 400px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g2";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #frank > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4206,14 +4206,14 @@ footer {
       grid-template-rows: repeat(5, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #estella > div ul {
       display: grid;
       grid-template-rows: repeat(5, 400px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #estella > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4243,14 +4243,14 @@ footer {
       grid-template-rows: repeat(3, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #juliet > div ul {
       display: grid;
       grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #juliet > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4276,13 +4276,13 @@ footer {
       display: grid;
       grid-template-rows: repeat(1, 350px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #david > div ul {
       display: grid;
       grid-template-rows: repeat(1, 400px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #david > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4301,14 +4301,14 @@ footer {
       grid-template-rows: repeat(3, 350px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   @media (min-width: 1440px) {
     #frank-auerbach #julia > div ul {
       display: grid;
       grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #julia > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4331,7 +4331,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(1, 1fr);
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #frank-auerbach #frank-auerbach-process > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4406,14 +4406,14 @@ footer {
         display: grid;
         grid-template-rows: repeat(12, 310px);
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 25px;
+        column-gap: 15px;
         grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-strategy > div ul {
         display: grid;
         grid-template-rows: repeat(12, 400px);
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 25px;
+        column-gap: 15px;
         grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
     #the-sleepground #the-sleepground-strategy > div ul li img {
       object-fit: cover;
@@ -4467,14 +4467,14 @@ footer {
       display: grid;
       grid-template-rows: repeat(6, 330px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
       grid-template-rows: repeat(6, 400px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8"; } }
   #the-sleepground #the-sleepground-prearrival > div ul li img {
     object-fit: cover;
@@ -4518,13 +4518,13 @@ footer {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
         grid-template-rows: repeat(2, 330px);
-        column-gap: 25px;
+        column-gap: 15px;
         grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g5 g5" "g6 g6 g7" "g6 g6 g8" "g9 g10 g11" "g12 g13 g14" "g15 g15 g15" "g15 g15 g15" "g16 g16 g17" "g16 g16 g18" "g19 g19 g19" "g19 g19 g19" "g20 g21 g22"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
         grid-template-rows: repeat(2, 400px);
-        column-gap: 25px;
+        column-gap: 15px;
         grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g5 g5" "g6 g6 g7" "g6 g6 g8" "g9 g10 g11" "g12 g13 g14" "g15 g15 g15" "g15 g15 g15" "g16 g16 g17" "g16 g16 g18" "g19 g19 g19" "g19 g19 g19" "g20 g21 g22"; } }
     #the-sleepground #the-sleepground-visitors-kit > div ul li img {
       object-fit: cover;
@@ -4607,13 +4607,13 @@ footer {
     #the-sleepground #the-sleepground-arrival > div ul {
       display: grid;
       grid-template-rows: repeat(9, 330px);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-arrival > div ul {
       display: grid;
       grid-template-rows: repeat(9, 400px);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
   #the-sleepground #the-sleepground-arrival > div ul li img {
     object-fit: cover;
@@ -4658,14 +4658,14 @@ footer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 350px);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-exposures > div ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 400px);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4"; } }
   #the-sleepground #the-sleepground-exposures > div ul li img {
     object-fit: cover;
@@ -4695,14 +4695,14 @@ footer {
       display: grid;
       grid-template-rows: repeat(3, 400px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
       grid-template-rows: repeat(3, 450px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
   #the-sleepground #the-sleepground-online > div ul li img {
     object-fit: cover;
@@ -4726,14 +4726,14 @@ footer {
       display: grid;
       grid-template-rows: repeat(2, 800px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g2" "g3 g4"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-online-2 > div ul {
       display: grid;
       grid-template-rows: repeat(2, 850px);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px;
+      column-gap: 15px;
       grid-template-areas: "g1 g2" "g3 g4"; } }
   #the-sleepground #the-sleepground-online-2 > div ul li img {
     object-fit: cover;
@@ -4780,7 +4780,7 @@ footer {
       display: grid;
       grid-template-rows: repeat(4, 1fr);
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 25px; } }
+      column-gap: 15px; } }
   #the-sleepground #the-sleepground-process > div ul li img {
     object-fit: cover;
     object-position: center;

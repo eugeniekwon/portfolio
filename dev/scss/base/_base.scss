@@ -99,26 +99,32 @@ ul {
 }
 
 .medium-spacing {
-    margin-bottom: 30px;
-
-    @include md {
-        margin-bottom: 40px;
-    }
-
-    @include lg {
-        margin-bottom: 50px;
-    }
-}
-
-.small-spacing {
+    // margin-bottom: 30px;
     margin-bottom: 15px;
 
     @include md {
+        // margin-bottom: 40px;
         margin-bottom: 20px;
     }
 
     @include lg {
+        // margin-bottom: 50px;
         margin-bottom: 25px;
+    }
+}
+
+.small-spacing {
+    // margin-bottom: 15px;
+    margin-bottom: 7px;
+
+    @include md {
+        // margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    @include lg {
+        // margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
 

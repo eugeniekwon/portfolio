@@ -177,7 +177,8 @@
                         "p5 p6"
                         "p7 p7";
 
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                 }
 
                 @include xl {
@@ -190,7 +191,8 @@
                         "p5 p6"
                         "p7 p7";
 
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                 }
 
                 li {
@@ -279,7 +281,8 @@
 
                 @include lg {
                     display: grid;
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-rows: repeat(1, 40vh);
                     grid-template-areas:

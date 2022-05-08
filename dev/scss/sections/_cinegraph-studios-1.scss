@@ -200,7 +200,8 @@
                     display: grid;
                     grid-template-rows: repeat(4, 420px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                 }
 
@@ -208,7 +209,8 @@
                     display: grid;
                     grid-template-rows: repeat(4, 530px);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                 }
 
@@ -242,7 +244,8 @@
                     display: grid;
                     grid-template-rows: repeat(2, 1fr);
                     grid-template-columns: repeat(2, 1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
 
                 }
 

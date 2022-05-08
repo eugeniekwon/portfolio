@@ -118,7 +118,8 @@
                 @include lg{
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
-                    column-gap: 25px;
+                    // column-gap: 25px;
+                    column-gap: 15px;
                     // margin: 0px 25px;
                 }
 
