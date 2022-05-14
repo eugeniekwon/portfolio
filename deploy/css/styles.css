@@ -4196,75 +4196,40 @@ footer {
       grid-area: g2; } }
 #frank-auerbach #estella > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 250px); }
+  grid-template-rows: repeat(3, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #estella > div ul {
-      grid-template-rows: repeat(4, 500px); } }
+      grid-template-rows: repeat(3, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #estella > div ul {
-      display: grid;
-      grid-template-rows: repeat(5, 350px);
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
-      column-gap: 15px; } }
+      grid-template-rows: repeat(3, 850px); } }
   @media (min-width: 1440px) {
     #frank-auerbach #estella > div ul {
-      display: grid;
-      grid-template-rows: repeat(5, 400px);
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4";
-      column-gap: 15px; } }
+      grid-template-rows: repeat(3, 850px); } }
   #frank-auerbach #estella > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
     width: 100%; }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(1) {
-      grid-area: g1; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(2) {
-      grid-area: g2; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(3) {
-      grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #estella > div ul li:nth-child(4) {
-      grid-area: g4; } }
+
 #frank-auerbach #juliet > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 250px); }
+  grid-template-rows: repeat(2, 250px); }
   @media (min-width: 768px) {
     #frank-auerbach #juliet > div ul {
-      grid-template-rows: repeat(3, 500px); } }
+      grid-template-rows: repeat(2, 500px); } }
   @media (min-width: 1025px) {
     #frank-auerbach #juliet > div ul {
-      display: grid;
-      grid-template-rows: repeat(3, 350px);
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 15px; } }
+      grid-template-rows: repeat(2, 850px); } }
   @media (min-width: 1440px) {
     #frank-auerbach #juliet > div ul {
-      display: grid;
-      grid-template-rows: repeat(3, 400px);
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3";
-      column-gap: 15px; } }
+      grid-template-rows: repeat(2, 850px); } }
   #frank-auerbach #juliet > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
     width: 100%; }
-  @media (min-width: 1025px) {
-    #frank-auerbach #juliet > div ul li:nth-child(1) {
-      grid-area: g1; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #juliet > div ul li:nth-child(2) {
-      grid-area: g2; } }
-  @media (min-width: 1025px) {
-    #frank-auerbach #juliet > div ul li:nth-child(3) {
-      grid-area: g3; } }
+
 #frank-auerbach #david > div ul {
   display: grid;
   grid-template-rows: repeat(2, 250px); }

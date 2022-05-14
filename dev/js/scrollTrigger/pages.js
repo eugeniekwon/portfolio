@@ -956,11 +956,11 @@ if(frankAuerbachPage){
                  .from("#frank-auerbach #estella div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #estella div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #estella div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #estella div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#frank-auerbach #estella div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #juliet div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #juliet div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #juliet div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#frank-auerbach #juliet div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #david div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #david div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
