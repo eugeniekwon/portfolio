@@ -3461,6 +3461,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/frank-auerbach\/motion\/catherine.gif" : {
+      "ft" : 4194304,
+      "iS" : 5701114,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/frank-auerbach\/motion\/catherine.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/frank-auerbach\/motion\/jym.gif" : {
+      "ft" : 4194304,
+      "iS" : 6239200,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/frank-auerbach\/motion\/jym.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/frank-auerbach\/process\/process_1.jpg" : {
       "ft" : 16384,
       "iS" : 323529,
