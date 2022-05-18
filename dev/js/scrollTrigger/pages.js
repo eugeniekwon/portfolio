@@ -725,8 +725,8 @@ if(deeplyFruitPage){
                  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
