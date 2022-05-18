@@ -422,32 +422,43 @@
             ul {
 
                 display: grid;
-                grid-template-rows: repeat(7, 280px);
+                grid-template-rows: repeat(5, 280px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(7, 550px);
+                    grid-template-rows: repeat(5, 550px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(10, 350px);
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(7, 350px);
+                    grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
-                        "g1 g1 g1"
-                        "g1 g1 g1"
+                        "g1 g1"
+                        "g1 g1"
 
-                        "g2 g2 g2"
-                        "g2 g2 g2"
+                        "g2 g2"
+                        "g2 g2"
 
-                        "g3 g3 g3"
-                        "g3 g3 g3"
+                        "g3 g4"
 
-                        "g4 g4 g5"
-                        "g4 g4 g6"
+                        "g5 g5"
+                        "g5 g5";
 
-                        "g7 g7 g7"
-                        "g7 g7 g7";
+                        // "g1 g1 g1"
+                        // "g1 g1 g1"
+
+                        // "g2 g2 g2"
+                        // "g2 g2 g2"
+
+                        // "g3 g3 g3"
+                        // "g3 g3 g3"
+
+                        // "g4 g4 g5"
+                        // "g4 g4 g6"
+
+                        // "g7 g7 g7"
+                        // "g7 g7 g7";
 
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -455,23 +466,33 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(10, 400px);
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(7, 400px);
+                    grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
-                        "g1 g1 g1"
-                        "g1 g1 g1"
+                        "g1 g1"
+                        "g1 g1"
 
-                        "g2 g2 g2"
-                        "g2 g2 g2"
+                        "g2 g2"
+                        "g2 g2"
 
-                        "g3 g3 g3"
-                        "g3 g3 g3"
+                        "g3 g4"
 
-                        "g4 g4 g5"
-                        "g4 g4 g6"
+                        "g5 g5"
+                        "g5 g5";
+                        // "g1 g1 g1"
+                        // "g1 g1 g1"
 
-                        "g7 g7 g7"
-                        "g7 g7 g7";
+                        // "g2 g2 g2"
+                        // "g2 g2 g2"
+
+                        // "g3 g3 g3"
+                        // "g3 g3 g3"
+
+                        // "g4 g4 g5"
+                        // "g4 g4 g6"
+
+                        // "g7 g7 g7"
+                        // "g7 g7 g7";
 
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -521,24 +542,24 @@
                 li:nth-child(5) {
                     @include lg {
                         grid-area: g5;
-                        position: 0px 200px;
+                        // position: 0px 200px;
                     }
 
                 }
 
-                li:nth-child(6) {
-                    @include lg {
-                        grid-area: g6;
-                    }
+                // li:nth-child(6) {
+                //     @include lg {
+                //         grid-area: g6;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(7) {
-                    @include lg {
-                        grid-area: g7;
-                    }
+                // li:nth-child(7) {
+                //     @include lg {
+                //         grid-area: g7;
+                //     }
 
-                }
+                // }
 
 
 

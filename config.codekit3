@@ -4896,6 +4896,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/morning-again\/interior\/interior_2.gif" : {
+      "ft" : 4194304,
+      "iS" : 869270,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/morning-again\/interior\/interior_2.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/morning-again\/interior\/interior_2.jpg" : {
       "ft" : 16384,
       "iS" : 191432,
@@ -4963,7 +4973,7 @@
     },
     "\/deploy\/img\/work-2\/morning-again\/interior\/interior.gif" : {
       "ft" : 4194304,
-      "iS" : 869270,
+      "iS" : 7335264,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/morning-again\/interior\/interior.gif",
       "oF" : 0,
