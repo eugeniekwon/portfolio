@@ -109,6 +109,14 @@
       "oAP" : "\/deploy\/frank-auerbach.html",
       "oF" : 0
     },
+    "\/deploy\/graphic-design-2022.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/graphic-design-2022.html",
+      "oF" : 0
+    },
     "\/deploy\/gustav-mahler.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -807,19 +815,6 @@
     "\/deploy\/img\/play-1\/seoul\/seoul_6.jpeg" : {
       "ft" : 16384,
       "iS" : 422601,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg" : {
-      "ft" : 16384,
-      "iS" : 488132,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/play-1\/seoul\/seoul_6.jpg",
@@ -8591,6 +8586,14 @@
       "oAP" : "\/dev\/content\/work\/frank-auerbach-1.html",
       "oF" : 0
     },
+    "\/dev\/content\/work\/graphic-design-2022-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/work\/graphic-design-2022-1.html",
+      "oF" : 0
+    },
     "\/dev\/content\/work\/gustav-mahler-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8742,6 +8745,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 1
+    },
+    "\/dev\/graphic-design-2022.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/graphic-design-2022.html",
+      "oF" : 2
     },
     "\/dev\/gustav-mahler.kit" : {
       "cB" : 0,
@@ -9313,6 +9324,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_frank-auerbach-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/_graphic-design-2022-1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_graphic-design-2022-1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -1,0 +1,264 @@
+/* =============
+    graphic-design-2022-1
+============= */
+
+#graphic-design-2022 {
+
+    #graphic-design-2022-hero {
+
+        // background-image: url("../img/work-2/proj-artspaceh.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+
+            @include md {
+                height: 50vh;
+            }
+    
+            @include lg {
+                height: 100vh;
+            }
+        
+    }
+
+    #graphic-design-2022-main {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+             h3{
+                span {
+                    display: block;
+                    margin-bottom: 15px;
+
+                    @include md {
+                        margin-bottom: 20px;
+                    }
+
+                    @include lg {
+                        margin-bottom: 25px;
+                    }
+
+                }
+            }
+
+            ul {
+                @include md {
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
+                }
+
+                @include lg {
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // grid-template-rows: repeat(1, 1fr);
+                    // grid-template-areas: "objective about process";
+                    // column-gap: 25px;
+                    // margin: 0px 45px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                @include xl {
+                    // margin: 0px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                li {
+                    span {
+                        display: block;
+                        margin-bottom: 15px;
+
+                        @include md {
+                            margin-bottom: 20px;
+                        }
+
+                        @include lg {
+                            margin-bottom: 25px;
+                        }
+
+                    }
+                }
+
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: objective;
+                    }
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: about;
+                    }
+                }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    #graphic-design-2022-gallery {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(13, 250px);
+                // gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(13, 500px);
+                }
+
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(13, 630px);
+                    // column-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(13, 800px);
+                    // column-gap: 25px;
+                    // margin: 0px 25px;
+
+                }
+
+
+                li {
+                    img {
+
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+    #graphic-design-2022-applications {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(6, 320px);
+                // gap: 20px;
+
+                @include md {
+                    grid-template-rows: repeat(6, 600px);
+                }
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(3, 420px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // column-gap: 25px;
+                    column-gap: 15px;
+
+                }
+
+                @include xl {
+                    display: grid;
+                    grid-template-rows: repeat(3, 530px);
+                    grid-template-columns: repeat(2, 1fr);
+                    // column-gap: 25px;
+                    column-gap: 15px;
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+
+    #graphic-design-2022-process {
+        >div {
+
+            ul {
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                // gap: 20px;
+
+                @include lg {
+                    display: grid;
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+                    // column-gap: 25px;
+                    column-gap: 15px;
+
+                }
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+            
+            }
+
+        }
+    }
+
+    #graphic-design-2022-credits{
+        >div {
+            ul {
+                // gap: 20px;
+
+                li {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            
+            }
+
+        }
+    }
+
+
+}

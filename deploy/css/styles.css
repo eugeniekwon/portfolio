@@ -4074,7 +4074,7 @@ footer {
     frank-auerbach-1
 ============= */
 #frank-auerbach #frank-auerbach-hero {
-  background-image: url("../img/work-2/proj-auerbach.jpg");
+  background-image: url("../img/work-2/frank-auerbach/julia/julia_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4738,6 +4738,127 @@ footer {
     object-position: center;
     height: 100%;
     width: 100%; }
+
+/* =============
+    graphic-design-2022-1
+============= */
+#graphic-design-2022 #graphic-design-2022-hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-hero {
+      height: 50vh; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-hero {
+      height: 100vh; } }
+#graphic-design-2022 #graphic-design-2022-main {
+  position: relative;
+  background-color: #f9f9f9; }
+  #graphic-design-2022 #graphic-design-2022-main > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #graphic-design-2022 #graphic-design-2022-main > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-main > div h3 span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  @media (min-width: 1440px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul {
+      margin: 0px 500px 0px 0px; } }
+  #graphic-design-2022 #graphic-design-2022-main > div ul li span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #graphic-design-2022 #graphic-design-2022-main > div ul li span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-main > div ul li span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-main > div ul li:nth-child(3) {
+      grid-area: process; } }
+#graphic-design-2022 #graphic-design-2022-gallery {
+  position: relative;
+  background-color: #f9f9f9; }
+  #graphic-design-2022 #graphic-design-2022-gallery > div ul {
+    display: grid;
+    grid-template-rows: repeat(13, 250px); }
+    @media (min-width: 768px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul {
+        grid-template-rows: repeat(13, 500px); } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 630px); } }
+    @media (min-width: 1440px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul {
+        display: grid;
+        grid-template-rows: repeat(13, 800px); } }
+    #graphic-design-2022 #graphic-design-2022-gallery > div ul li img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+
+#graphic-design-2022 #graphic-design-2022-applications > div ul {
+  display: grid;
+  grid-template-rows: repeat(6, 320px); }
+  @media (min-width: 768px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul {
+      grid-template-rows: repeat(6, 600px); } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 420px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 15px; } }
+  @media (min-width: 1440px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul {
+      display: grid;
+      grid-template-rows: repeat(3, 530px);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 15px; } }
+  #graphic-design-2022 #graphic-design-2022-applications > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#graphic-design-2022 #graphic-design-2022-process > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-process > div ul {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 15px; } }
+  #graphic-design-2022 #graphic-design-2022-process > div ul li img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%; }
+
+#graphic-design-2022 #graphic-design-2022-credits > div ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%; }
 
 /* =============
     404-error-1
