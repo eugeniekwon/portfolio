@@ -389,3 +389,16 @@ a:visited {
     }
 
 }
+
+
+
+/*change color of text highlight*/
+::-moz-selection {
+    color: $white;
+    background: $light-blue;
+  }
+  
+  ::selection {
+    color: $bkgd-gray;
+    background: $light-blue;
+  }
