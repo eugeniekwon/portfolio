@@ -439,6 +439,25 @@ a:visited {
   @media (min-width: 1440px) {
     .portfolio-title {
       margin: 50px 0px 15px 0px; } }
+.portfolio-second-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 600;
+  line-height: 2.625rem;
+  margin: 30px 20px 5px 20px;
+  color: #3F3F3F; }
+  @media (min-width: 768px) {
+    .portfolio-second-title {
+      font-size: 1.75rem;
+      line-height: 2.9375rem;
+      margin: 40px 25px 10px 25px; } }
+  @media (min-width: 1025px) {
+    .portfolio-second-title {
+      font-size: 1.875rem;
+      margin: 50px 45px 15px 45px; } }
+  @media (min-width: 1440px) {
+    .portfolio-second-title {
+      margin: 50px 0px 15px 0px; } }
 .portfolio-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
@@ -3707,37 +3726,46 @@ footer {
   @media (min-width: 1025px) {
     #book-covers #book-covers-hero {
       height: 100vh; } }
-#book-covers #book-covers-main {
+#book-covers #book-covers-main-1 {
   position: relative;
   background-color: #f9f9f9; }
-  #book-covers #book-covers-main > div h3 span {
+  #book-covers #book-covers-main-1 > div h2 span {
     display: block;
     margin-bottom: 15px; }
     @media (min-width: 768px) {
-      #book-covers #book-covers-main > div h3 span {
+      #book-covers #book-covers-main-1 > div h2 span {
         margin-bottom: 20px; } }
     @media (min-width: 1025px) {
-      #book-covers #book-covers-main > div h3 span {
+      #book-covers #book-covers-main-1 > div h2 span {
+        margin-bottom: 25px; } }
+  #book-covers #book-covers-main-1 > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #book-covers #book-covers-main-1 > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #book-covers #book-covers-main-1 > div h3 span {
         margin-bottom: 25px; } }
   @media (min-width: 768px) {
-    #book-covers #book-covers-main > div ul {
+    #book-covers #book-covers-main-1 > div ul {
       margin: 0px 300px 0px 25px; } }
   @media (min-width: 1025px) {
-    #book-covers #book-covers-main > div ul {
+    #book-covers #book-covers-main-1 > div ul {
       margin: 0px 500px 0px 0px; } }
   @media (min-width: 1440px) {
-    #book-covers #book-covers-main > div ul {
+    #book-covers #book-covers-main-1 > div ul {
       margin: 0px 500px 0px 0px; } }
-  #book-covers #book-covers-main > div ul li span {
+  #book-covers #book-covers-main-1 > div ul li span {
     font-style: italic; }
   @media (min-width: 768px) {
-    #book-covers #book-covers-main > div ul li:nth-child(1) {
+    #book-covers #book-covers-main-1 > div ul li:nth-child(1) {
       grid-area: objective; } }
   @media (min-width: 768px) {
-    #book-covers #book-covers-main > div ul li:nth-child(2) {
+    #book-covers #book-covers-main-1 > div ul li:nth-child(2) {
       grid-area: about; } }
   @media (min-width: 768px) {
-    #book-covers #book-covers-main > div ul li:nth-child(3) {
+    #book-covers #book-covers-main-1 > div ul li:nth-child(3) {
       grid-area: process; } }
 #book-covers #orlando {
   position: relative;
@@ -3762,6 +3790,47 @@ footer {
       height: 100%;
       width: 100%; }
 
+#book-covers #book-covers-main-2 {
+  position: relative;
+  background-color: #f9f9f9; }
+  #book-covers #book-covers-main-2 > div h2 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #book-covers #book-covers-main-2 > div h2 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #book-covers #book-covers-main-2 > div h2 span {
+        margin-bottom: 25px; } }
+  #book-covers #book-covers-main-2 > div h3 span {
+    display: block;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #book-covers #book-covers-main-2 > div h3 span {
+        margin-bottom: 20px; } }
+    @media (min-width: 1025px) {
+      #book-covers #book-covers-main-2 > div h3 span {
+        margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main-2 > div ul {
+      margin: 0px 300px 0px 25px; } }
+  @media (min-width: 1025px) {
+    #book-covers #book-covers-main-2 > div ul {
+      margin: 0px 500px 0px 0px; } }
+  @media (min-width: 1440px) {
+    #book-covers #book-covers-main-2 > div ul {
+      margin: 0px 500px 0px 0px; } }
+  #book-covers #book-covers-main-2 > div ul li span {
+    font-style: italic; }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main-2 > div ul li:nth-child(1) {
+      grid-area: objective; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main-2 > div ul li:nth-child(2) {
+      grid-area: about; } }
+  @media (min-width: 768px) {
+    #book-covers #book-covers-main-2 > div ul li:nth-child(3) {
+      grid-area: process; } }
 #book-covers #white-teeth > div ul {
   display: grid;
   grid-template-rows: repeat(4, 250px); }

@@ -797,11 +797,13 @@ if(bookCoversPage){
     const pageIntroTime = 0.6;
     const pageTime = 0.65;
 
-    bookCoversTimeline.from("#book-covers #book-covers-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
-                 .from("#book-covers #book-covers-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
-                 .from("#book-covers #book-covers-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
-                 .from("#book-covers #book-covers-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
-                 .from("#book-covers #book-covers-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+    bookCoversTimeline.from("#book-covers #book-covers-main-1 div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                
+                .from("#book-covers #book-covers-main-1 div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                .from("#book-covers #book-covers-main-1 div h2", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#book-covers #book-covers-main-1 div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#book-covers #book-covers-main-1 div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#book-covers #book-covers-main-1 div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
                  .from("#book-covers #orlando div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -811,6 +813,13 @@ if(bookCoversPage){
                  .from("#book-covers #orlando div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#book-covers #orlando div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+
+                .from("#book-covers #book-covers-main-2 div h2", {duration:pageIntroTime, alpha:0}, "+=0.3")
+                 .from("#book-covers #book-covers-main-2 div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#book-covers #book-covers-main-2 div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#book-covers #book-covers-main-2 div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
+                 .from("#book-covers #book-covers-main-2 div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
+
 
                  .from("#book-covers #white-teeth div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #white-teeth div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")

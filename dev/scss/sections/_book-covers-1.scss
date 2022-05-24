@@ -22,11 +22,27 @@
         
     }
 
-    #book-covers-main {
+    #book-covers-main-1 {
         position: relative;
         background-color: $bkgd-gray;
 
         >div {
+
+            h2{
+                span {
+                    display: block;
+                    margin-bottom: 15px;
+
+                    @include md {
+                        margin-bottom: 20px;
+                    }
+
+                    @include lg {
+                        margin-bottom: 25px;
+                    }
+
+                }
+            }
 
             h3{
                 span {
@@ -158,6 +174,113 @@
             }
 
         }
+
+    }
+
+    #book-covers-main-2 {
+        position: relative;
+        background-color: $bkgd-gray;
+
+        >div {
+
+            h2{
+                span {
+                    display: block;
+                    margin-bottom: 15px;
+
+                    @include md {
+                        margin-bottom: 20px;
+                    }
+
+                    @include lg {
+                        margin-bottom: 25px;
+                    }
+
+                }
+            }
+
+
+            h3{
+                span {
+                    display: block;
+                    margin-bottom: 15px;
+
+                    @include md {
+                        margin-bottom: 20px;
+                    }
+
+                    @include lg {
+                        margin-bottom: 25px;
+                    }
+
+                }
+            }
+
+            ul {
+                @include md {
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
+                }
+
+                @include lg {
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // grid-template-rows: repeat(1, 1fr);
+                    // grid-template-areas: "objective about process";
+                    // column-gap: 25px;
+                    // margin: 0px 45px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                @include xl {
+                    // margin: 0px;
+                    margin: 0px 500px 0px 0px;
+                }
+
+                li {
+                    span {
+                        // display: block;
+                        // margin-bottom: 15px;
+
+                        // @include md {
+                        //     margin-bottom: 20px;
+                        // }
+
+                        // @include lg {
+                        //     margin-bottom: 25px;
+                        // }
+
+                        font-style: italic;
+
+                    }
+                }
+
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: objective;
+                    }
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: about;
+                    }
+                }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: process;
+                    }
+                }
+            }
+        }
+
 
     }
     

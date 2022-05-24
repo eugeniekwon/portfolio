@@ -217,6 +217,42 @@ a:visited {
 
 }
 
+
+.portfolio-second-title{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(25);
+    // font-size: rem-calc(30);
+    font-weight: 600;
+    line-height: rem-calc(42);
+    // margin: 30px 20px 15px 20px;
+    margin: 30px 20px 5px 20px;
+    
+    color: $gray;
+
+    @include md{
+        font-size: rem-calc(28);
+        // font-size: rem-calc(35);
+        line-height: rem-calc(47);
+        // margin: 40px 25px 20px 25px;
+        margin: 40px 25px 10px 25px;
+    }
+
+    @include lg{
+        font-size: rem-calc(30);
+        // font-size: rem-calc(40);
+        // margin: 50px 45px 25px 45px;
+        margin: 50px 45px 15px 45px;
+    }
+
+    @include xl{
+        // margin: 50px 0px 25px 0px;
+        margin: 50px 0px 15px 0px;
+    }
+
+
+}
+
+
 .portfolio-subtitle{
     font-family: 'Inter', sans-serif;
     font-size: rem-calc(15);
