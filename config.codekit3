@@ -3515,9 +3515,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work-2\/graphic-design-2022\/gd2022-poster.jpg" : {
+    "\/deploy\/img\/work-2\/graphic-design-2022\/four-logos.gif" : {
+      "ft" : 4194304,
+      "iS" : 2926656,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/four-logos.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/graphic-design-2022\/gd2022-poster-.jpg" : {
       "ft" : 16384,
       "iS" : 1178314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/gd2022-poster-.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/graphic-design-2022\/gd2022-poster.jpg" : {
+      "ft" : 16384,
+      "iS" : 143858,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/gd2022-poster.jpg",

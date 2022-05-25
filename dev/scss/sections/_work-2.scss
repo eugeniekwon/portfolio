@@ -210,16 +210,9 @@
             }
 
             
+            
+
             li:nth-child(4) {
-                >div {
-                    background-image: url("../img/work-2/graphic-design-2022/gd2022-poster.jpg");
-                    // margin-bottom: 30px;
-                }
-
-
-            }
-
-            li:nth-child(5) {
                 >div {
                     // background-image: url("../img/work-2/proj-morning.jpg");
                     background-image: url("../img/work-2/morning-again/exterior/motion.gif");
@@ -233,6 +226,15 @@
                     //     margin: 0;
                     // }
 
+                }
+
+
+            }
+
+            li:nth-child(5) {
+                >div {
+                    background-image: url("../img/work-2/graphic-design-2022/gd2022-poster.jpg");
+                    // margin-bottom: 30px;
                 }
 
 
