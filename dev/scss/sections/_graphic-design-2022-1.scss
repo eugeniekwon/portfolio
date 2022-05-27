@@ -6,7 +6,7 @@
 
     #graphic-design-2022-hero {
 
-        background-image: url("../img/work-2/graphic-design-2022/main-motion.gif");
+        background-image: url("../img/work-2/graphic-design-2022/motion/main-motion.gif");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -118,40 +118,169 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(13, 250px);
+                grid-template-rows: repeat(11, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(13, 500px);
+                    grid-template-rows: repeat(11, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(13, 630px);
+                    grid-template-rows: repeat(13, 330px);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                    "g1 g1"
+                    "g1 g1"
+
+                    "g2 g2"
+                    "g2 g2"
+
+                    "g3 g3"
+                    "g3 g3"
+
+                    "g4 g4"
+                    "g4 g4"
+
+                    "g5 g6"
+                    "g7 g8"
+
+                    "g9 g10"
+                    
+                    "g11 g11"
+                    "g11 g11";
+
                     // column-gap: 25px;
-                    // margin: 0px 25px;
+                    column-gap: 15px;
 
                 }
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(13, 800px);
+                    grid-template-rows: repeat(13, 400px);
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                    "g1 g1"
+                    "g1 g1"
+
+                    "g2 g2"
+                    "g2 g2"
+
+                    "g3 g3"
+                    "g3 g3"
+
+                    "g4 g4"
+                    "g4 g4"
+
+                    "g5 g6"
+                    "g7 g8"
+
+                    "g9 g10"
+                    
+                    "g11 g11"
+                    "g11 g11";
+
                     // column-gap: 25px;
-                    // margin: 0px 25px;
+                    column-gap: 15px;
 
                 }
 
-
                 li {
                     img {
-
                         object-fit: cover;
                         object-position: center;
                         height: 100%;
                         width: 100%;
+                    }
+
+                }
+
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
 
                     }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                
+                    }
+
+                }
+
+                li:nth-child(6) {
+                    @include lg {
+                        grid-area: g6;
+                
+                    }
+
+                }
+
+                li:nth-child(7) {
+                    @include lg {
+                        grid-area: g7;
+                
+                    }
+
+                }
+
+                li:nth-child(8) {
+                    @include lg {
+                        grid-area: g8;
+                
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    @include lg {
+                        grid-area: g9;
+                
+                    }
+
+                }
+
+                li:nth-child(10) {
+                    @include lg {
+                        grid-area: g10;
+                
+                    }
+
+                }
+
+                li:nth-child(11) {
+                    @include lg {
+                        grid-area: g11;
+                
+                    }
+
                 }
             }
 
@@ -173,10 +302,17 @@
                     grid-template-rows: repeat(6, 600px);
                 }
 
+                
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(3, 420px);
+                    grid-template-rows: repeat(4, 330px);
                     grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                    "g1 g2"
+                    "g3 g4"
+                    "g5 g5"
+                    "g5 g5";
+
                     // column-gap: 25px;
                     column-gap: 15px;
 
@@ -184,8 +320,14 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(3, 530px);
+                    grid-template-rows: repeat(4, 400px);
                     grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                    "g1 g2"
+                    "g3 g4"
+                    "g5 g5"
+                    "g5 g5";
+
                     // column-gap: 25px;
                     column-gap: 15px;
 
@@ -201,6 +343,94 @@
 
                 }
 
+                li:nth-child(1) {
+
+                    @include lg {
+                        grid-area: g1;
+
+                    }
+
+                }
+
+                li:nth-child(2) {
+
+                    @include lg {
+                        grid-area: g2;
+                    }
+
+                }
+
+                li:nth-child(3) {
+                    @include lg {
+                        grid-area: g3;
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    @include lg {
+                        grid-area: g4;
+                    }
+
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                
+                    }
+
+                }
+
+                // li:nth-child(6) {
+                //     @include lg {
+                //         grid-area: g6;
+                
+                //     }
+
+                // }
+
+                // li:nth-child(7) {
+                //     @include lg {
+                //         grid-area: g7;
+                
+                //     }
+
+                // }
+
+                // li:nth-child(8) {
+                //     @include lg {
+                //         grid-area: g8;
+                
+                //     }
+
+                // }
+
+                // li:nth-child(9) {
+                //     @include lg {
+                //         grid-area: g9;
+                
+                //     }
+
+                // }
+
+                // li:nth-child(10) {
+                //     @include lg {
+                //         grid-area: g10;
+                
+                //     }
+
+                // }
+
+                // li:nth-child(11) {
+                //     @include lg {
+                //         grid-area: g11;
+                
+                //     }
+
+                // }
+
+
             
             }
 
@@ -213,12 +443,12 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(3, 1fr);
+                grid-template-rows: repeat(6, 1fr);
                 // gap: 20px;
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
                     grid-template-columns: repeat(3, 1fr);
                     // column-gap: 25px;
                     column-gap: 15px;

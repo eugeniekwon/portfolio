@@ -1206,7 +1206,7 @@ footer {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
 
 #work-2 > div li:nth-child(4) > div {
-  background-image: url("../img/work-2/graphic-design-2022/main-motion.gif");
+  background-image: url("../img/work-2/graphic-design-2022/motion/main-motion.gif");
   background-size: 150%; }
 
 #work-2 > div li:nth-child(5) > div {
@@ -4756,7 +4756,7 @@ footer {
     graphic-design-2022-1
 ============= */
 #graphic-design-2022 #graphic-design-2022-hero {
-  background-image: url("../img/work-2/graphic-design-2022/main-motion.gif");
+  background-image: url("../img/work-2/graphic-design-2022/motion/main-motion.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4811,24 +4811,62 @@ footer {
   background-color: #f9f9f9; }
   #graphic-design-2022 #graphic-design-2022-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(13, 250px); }
+    grid-template-rows: repeat(11, 250px); }
     @media (min-width: 768px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
-        grid-template-rows: repeat(13, 500px); } }
+        grid-template-rows: repeat(11, 500px); } }
     @media (min-width: 1025px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 630px); } }
+        grid-template-rows: repeat(13, 330px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
+        column-gap: 15px; } }
     @media (min-width: 1440px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 800px); } }
+        grid-template-rows: repeat(13, 400px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
+        column-gap: 15px; } }
     #graphic-design-2022 #graphic-design-2022-gallery > div ul li img {
       object-fit: cover;
       object-position: center;
       height: 100%;
       width: 100%; }
-
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(1) {
+        grid-area: g1; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(2) {
+        grid-area: g2; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(3) {
+        grid-area: g3; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(4) {
+        grid-area: g4; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(5) {
+        grid-area: g5; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(6) {
+        grid-area: g6; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(7) {
+        grid-area: g7; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(8) {
+        grid-area: g8; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(9) {
+        grid-area: g9; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(10) {
+        grid-area: g10; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(11) {
+        grid-area: g11; } }
 #graphic-design-2022 #graphic-design-2022-applications > div ul {
   display: grid;
   grid-template-rows: repeat(6, 320px); }
@@ -4838,28 +4876,44 @@ footer {
   @media (min-width: 1025px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 420px);
+      grid-template-rows: repeat(4, 330px);
       grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5";
       column-gap: 15px; } }
   @media (min-width: 1440px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 530px);
+      grid-template-rows: repeat(4, 400px);
       grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5";
       column-gap: 15px; } }
   #graphic-design-2022 #graphic-design-2022-applications > div ul li img {
     object-fit: cover;
     object-position: center;
     height: 100%;
     width: 100%; }
-
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(1) {
+      grid-area: g1; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(2) {
+      grid-area: g2; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(3) {
+      grid-area: g3; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(4) {
+      grid-area: g4; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(5) {
+      grid-area: g5; } }
 #graphic-design-2022 #graphic-design-2022-process > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(6, 1fr); }
   @media (min-width: 1025px) {
     #graphic-design-2022 #graphic-design-2022-process > div ul {
       display: grid;
-      grid-template-rows: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 15px; } }
   #graphic-design-2022 #graphic-design-2022-process > div ul li img {
