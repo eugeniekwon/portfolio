@@ -119,17 +119,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(10, 250px);
+                grid-template-rows: repeat(9, 250px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(10, 500px);
+                    grid-template-rows: repeat(9, 500px);
                     // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(10, 600px);
+                    grid-template-rows: repeat(9, 600px);
                     // column-gap: 25px;
                     column-gap: 15px;
                     // row-gap: 25px;
@@ -139,7 +139,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(10, 800px);
+                    grid-template-rows: repeat(9, 800px);
                     // column-gap: 25px;
                     column-gap: 15px;
                     // row-gap: 25px;
@@ -354,53 +354,53 @@
         }
     }
 
-    #highland-orchards-vans{
-        >div {
+    // #highland-orchards-vans{
+    //     >div {
 
-            ul {
-                display: grid;
-                grid-template-rows: repeat(3, 320px);
-                // row-gap: 20px;
+    //         ul {
+    //             display: grid;
+    //             grid-template-rows: repeat(3, 320px);
+    //             // row-gap: 20px;
 
-                @include md {
-                    grid-template-rows: repeat(3, 560px);
-                    // row-gap: 20px;
-                }
+    //             @include md {
+    //                 grid-template-rows: repeat(3, 560px);
+    //                 // row-gap: 20px;
+    //             }
 
-                @include lg {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 250px);
-                    // column-gap: 25px;
-                    column-gap: 15px;
+    //             @include lg {
+    //                 display: grid;
+    //                 grid-template-columns: repeat(3, 1fr);
+    //                 grid-template-rows: repeat(1, 250px);
+    //                 // column-gap: 25px;
+    //                 column-gap: 15px;
 
-                }
+    //             }
 
-                @include xl {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: repeat(1, 300px);
-                    // column-gap: 25px;
-                    column-gap: 15px;
+    //             @include xl {
+    //                 display: grid;
+    //                 grid-template-columns: repeat(3, 1fr);
+    //                 grid-template-rows: repeat(1, 300px);
+    //                 // column-gap: 25px;
+    //                 column-gap: 15px;
 
-                }
+    //             }
 
-                li {
-                    img {
+    //             li {
+    //                 img {
 
-                        object-fit: cover;
-                        object-position: center;
-                        height: 100%;
-                        width: 100%;
+    //                     object-fit: cover;
+    //                     object-position: center;
+    //                     height: 100%;
+    //                     width: 100%;
 
-                    }
+    //                 }
 
-                }
+    //             }
             
-            }
+    //         }
 
-        }
-    }
+    //     }
+    // }
 
 
     #highland-orchards-applications {
@@ -408,17 +408,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 320px);
+                grid-template-rows: repeat(6, 320px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 560px);
+                    grid-template-rows: repeat(6, 560px);
                     // row-gap: 20px;
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 350px);
+                    grid-template-rows: repeat(3, 350px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
                     // column-gap: 25px;
@@ -428,7 +428,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(4, 450px);
+                    grid-template-rows: repeat(3, 450px);
                     grid-template-columns: repeat(2, 1fr);
                     // row-gap: 25px;
                     // column-gap: 25px;

@@ -501,7 +501,7 @@ if(highlandOrchardsPage){
                  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(11)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(12)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-gallery div ul li:nth-child(13)", {duration:pageTime, alpha:0},"-=0.01")
@@ -534,9 +534,9 @@ if(highlandOrchardsPage){
                 //  .from("#highland-orchards #highland-orchards-touchpoint div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-touchpoint div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
 
-                 .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-vans div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
@@ -544,8 +544,8 @@ if(highlandOrchardsPage){
                  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#highland-orchards #highland-orchards-applications div ul li:nth-child(10)", {duration:pageTime, alpha:0},"-=0.01")
 
