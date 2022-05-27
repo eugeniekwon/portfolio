@@ -812,7 +812,7 @@ if(bookCoversPage){
                  .from("#book-covers #orlando div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#book-covers #orlando div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#book-covers #orlando div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#book-covers #orlando div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#book-covers #orlando div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
 
                 .from("#book-covers #book-covers-main-2 div h2", {duration:pageIntroTime, alpha:0}, "+=0.3")
