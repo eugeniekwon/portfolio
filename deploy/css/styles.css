@@ -976,24 +976,37 @@ footer {
     font-size: 1rem;
     font-weight: 400;
     display: inline-block; }
-  #about > div article hr {
-    background-color: #7fb1b2;
-    height: 1.5px;
-    border: none; }
-  #about > div article #resume-listing {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.90625rem;
-    font-weight: 300;
-    line-height: 1.4375rem;
-    text-align: left; }
-    #about > div article #resume-listing span {
-      display: block; }
-    #about > div article #resume-listing p:nth-child(1) {
-      font-weight: 500;
-      color: #7fb1b2; }
-    #about > div article #resume-listing p:nth-child(3) {
-      font-weight: 500;
-      color: #7fb1b2; }
+
+#resume-listing > div hr {
+  background-color: #7fb1b2;
+  height: 2px;
+  border: none; }
+
+#resume-listing > div article {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.90625rem;
+  font-weight: 300;
+  line-height: 1.4375rem;
+  text-align: left;
+  margin: 30px 20px 90px 20px; }
+  @media (min-width: 768px) {
+    #resume-listing > div article {
+      margin: 40px 40px 125px 350px; } }
+  @media (min-width: 1025px) {
+    #resume-listing > div article {
+      grid-area: article;
+      margin: 0px 45px 150px 50px; } }
+  #resume-listing > div article span {
+    display: block; }
+  #resume-listing > div article p:nth-child(1) {
+    font-weight: 500;
+    color: #7fb1b2; }
+  #resume-listing > div article p:nth-child(3) {
+    font-weight: 500;
+    color: #7fb1b2; }
+  #resume-listing > div article p:nth-child(5) {
+    font-weight: 500;
+    color: #7fb1b2; }
 
 /* =============
     work-1
