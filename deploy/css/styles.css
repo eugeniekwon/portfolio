@@ -3611,23 +3611,23 @@ footer {
       grid-area: g14; } }
 #deeply-fruit #deeply-fruit-interior > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 250px); }
+  grid-template-rows: repeat(9, 250px); }
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
-      grid-template-rows: repeat(5, 500px); } }
+      grid-template-rows: repeat(9, 500px); } }
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(8, 330px);
+      grid-template-rows: repeat(10, 330px);
       grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8";
+      grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
       column-gap: 15px; } }
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(8, 400px);
+      grid-template-rows: repeat(10, 400px);
       grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8";
+      grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
       column-gap: 15px; } }
   #deeply-fruit #deeply-fruit-interior > div ul li img {
     object-fit: cover;
@@ -3658,57 +3658,8 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(8) {
       grid-area: g8; } }
-#deeply-fruit #deeply-fruit-interior-cartons > div ul {
-  display: grid;
-  grid-template-rows: repeat(9, 250px); }
-  @media (min-width: 768px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul {
-      grid-template-rows: repeat(9, 500px); } }
   @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul {
-      display: grid;
-      grid-template-rows: repeat(2, 200px);
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
-      column-gap: 15px; } }
-  @media (min-width: 1440px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul {
-      display: grid;
-      grid-template-rows: repeat(2, 250px);
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
-      column-gap: 15px; } }
-  #deeply-fruit #deeply-fruit-interior-cartons > div ul li img {
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
-    width: 100%; }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(1) {
-      grid-area: g1; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(2) {
-      grid-area: g2; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(3) {
-      grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(4) {
-      grid-area: g4; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(5) {
-      grid-area: g5; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(6) {
-      grid-area: g6; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(7) {
-      grid-area: g7; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(8) {
-      grid-area: g8; } }
-  @media (min-width: 1025px) {
-    #deeply-fruit #deeply-fruit-interior-cartons > div ul li:nth-child(9) {
+    #deeply-fruit #deeply-fruit-interior > div ul li:nth-child(9) {
       grid-area: g9; } }
 #deeply-fruit #deeply-fruit-process > div ul {
   display: grid;
