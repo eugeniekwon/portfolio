@@ -958,7 +958,7 @@ if(frankAuerbachPage){
 
                  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#frank-auerbach #frank-auerbach-start div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
 
                  .from("#frank-auerbach #frank div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#frank-auerbach #frank div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
