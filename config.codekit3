@@ -2978,9 +2978,19 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work-2\/deeply-fruit\/motion.gif" : {
+    "\/deploy\/img\/work-2\/deeply-fruit\/motion-main.gif" : {
       "ft" : 4194304,
       "iS" : 59008634,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/motion-main.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/deeply-fruit\/motion.gif" : {
+      "ft" : 4194304,
+      "iS" : 37314473,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/motion.gif",
       "oF" : 0,

@@ -1252,12 +1252,8 @@ footer {
   background-image: url("../img/work-2/sleepground/thumbnail.gif"); }
 
 #work-2 > div li:nth-child(2) > div {
-  background-image: url("../img/work-2/deeply-fruit/motion.gif");
-  background-size: 120%; }
-  @media (min-width: 1440px) {
-    #work-2 > div li:nth-child(2) > div {
-      background-size: 158%;
-      background-position: -60px -150px; } }
+  background-image: url("../img/work-2/deeply-fruit/motion.gif"); }
+
 #work-2 > div li:nth-child(3) > div {
   background-image: url("../img/work-2/proj-orchards.jpg"); }
 
@@ -3480,7 +3476,7 @@ footer {
     deeply-fruit-1
 ============= */
 #deeply-fruit #deeply-fruit-hero {
-  background-image: url("../img/work-2/deeply-fruit/motion.gif");
+  background-image: url("../img/work-2/deeply-fruit/motion-main.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4444,7 +4440,7 @@ footer {
         grid-template-rows: repeat(12, 400px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g12" "g11 g11" "g12 g12" "g12 g12"; } }
     #the-sleepground #the-sleepground-strategy > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -4488,24 +4484,24 @@ footer {
         grid-area: g12; } }
 #the-sleepground #the-sleepground-prearrival > div ul {
   display: grid;
-  grid-template-rows: repeat(8, 260px); }
+  grid-template-rows: repeat(6, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
-      grid-template-rows: repeat(8, 530px); } }
+      grid-template-rows: repeat(6, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 330px);
+      grid-template-rows: repeat(5, 330px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8"; } }
+      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
-      grid-template-rows: repeat(6, 400px);
+      grid-template-rows: repeat(5, 400px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8"; } }
+      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6"; } }
   #the-sleepground #the-sleepground-prearrival > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4529,33 +4525,27 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-prearrival > div ul li:nth-child(6) {
       grid-area: g6; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-prearrival > div ul li:nth-child(7) {
-      grid-area: g7; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-prearrival > div ul li:nth-child(8) {
-      grid-area: g8; } }
 #the-sleepground #the-sleepground-visitors-kit {
   position: relative;
   background-color: #f9f9f9; }
   #the-sleepground #the-sleepground-visitors-kit > div ul {
     display: grid;
-    grid-template-rows: repeat(19, 260px); }
+    grid-template-rows: repeat(16, 260px); }
     @media (min-width: 768px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
-        grid-template-rows: repeat(19, 530px); } }
+        grid-template-rows: repeat(16, 530px); } }
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
-        grid-template-rows: repeat(2, 330px);
+        grid-template-rows: repeat(11, 330px);
         column-gap: 15px;
-        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g5 g5" "g6 g6 g7" "g6 g6 g8" "g9 g10 g11" "g12 g13 g14" "g15 g15 g15" "g15 g15 g15" "g16 g16 g17" "g16 g16 g18" "g19 g19 g19" "g19 g19 g19"; } }
+        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4" "g5 g5 g6" "g5 g5 g7" "g8 g9 g10" "g11 g13 g13" "g12 g13 g13" "g14 g14 g15" "g14 g14 g16"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
         grid-template-rows: repeat(2, 400px);
         column-gap: 15px;
-        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g3 g3" "g3 g3 g3" "g4 g5 g5" "g6 g6 g7" "g6 g6 g8" "g9 g10 g11" "g12 g13 g14" "g15 g15 g15" "g15 g15 g15" "g16 g16 g17" "g16 g16 g18" "g19 g19 g19" "g19 g19 g19"; } }
+        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4" "g5 g5 g6" "g5 g5 g7" "g8 g9 g10" "g11 g13 g13" "g12 g13 g13" "g14 g14 g15" "g14 g14 g16"; } }
     #the-sleepground #the-sleepground-visitors-kit > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -4609,33 +4599,24 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(16) {
         grid-area: g16; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(17) {
-        grid-area: g17; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(18) {
-        grid-area: g18; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(19) {
-        grid-area: g19; } }
 #the-sleepground #the-sleepground-arrival > div ul {
   display: grid;
-  grid-template-rows: repeat(9, 260px); }
+  grid-template-rows: repeat(5, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-arrival > div ul {
-      grid-template-rows: repeat(9, 530px); } }
+      grid-template-rows: repeat(5, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-arrival > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 330px);
+      grid-template-rows: repeat(4, 330px);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-arrival > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 400px);
+      grid-template-rows: repeat(4, 400px);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5"; } }
   #the-sleepground #the-sleepground-arrival > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4656,24 +4637,12 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-arrival > div ul li:nth-child(5) {
       grid-area: g5; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-arrival > div ul li:nth-child(6) {
-      grid-area: g6; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-arrival > div ul li:nth-child(7) {
-      grid-area: g7; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-arrival > div ul li:nth-child(8) {
-      grid-area: g8; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-arrival > div ul li:nth-child(9) {
-      grid-area: g9; } }
 #the-sleepground #the-sleepground-exposures > div ul {
   display: grid;
-  grid-template-rows: repeat(3, 260px); }
+  grid-template-rows: repeat(4, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-exposures > div ul {
-      grid-template-rows: repeat(3, 530px); } }
+      grid-template-rows: repeat(4, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exposures > div ul {
       display: grid;
@@ -4775,18 +4744,18 @@ footer {
       grid-area: g4; } }
 #the-sleepground #the-sleepground-exit > div ul {
   display: grid;
-  grid-template-rows: repeat(2, 260px); }
+  grid-template-rows: repeat(1, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-exit > div ul {
-      grid-template-rows: repeat(2, 450px); } }
+      grid-template-rows: repeat(1, 450px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exit > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 550px); } }
+      grid-template-rows: repeat(1, 550px); } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-exit > div ul {
       display: grid;
-      grid-template-rows: repeat(2, 600px); } }
+      grid-template-rows: repeat(1, 600px); } }
   #the-sleepground #the-sleepground-exit > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4799,8 +4768,8 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-process > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       column-gap: 15px; } }
   #the-sleepground #the-sleepground-process > div ul li img {
     object-fit: cover;
