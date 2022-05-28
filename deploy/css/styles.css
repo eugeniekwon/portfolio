@@ -588,7 +588,7 @@ i {
   .button a:visited {
     background-color: #fff;
     border: 2px solid #7fb1b2;
-    border-radius: 5px;
+    border-radius: 30px;
     color: #7fb1b2;
     padding: 10px 20px;
     transition: 0.25s; }
@@ -866,35 +866,36 @@ footer {
       object-fit: cover; } }
   @media (min-width: 1025px) {
     #about > div aside img {
-      object-fit: contain; } }
+      object-fit: cover; } }
 @media (min-width: 768px) {
   #about > div aside img {
     height: 80vh; } }
 
 @media (min-width: 1025px) {
   #about > div aside {
-    margin: 0px 0px 150px 45px; }
+    margin: 0px 0px 25px 45px; }
     #about > div aside img {
-      height: 100%; } }
+      height: 85vh; } }
 
 @media (min-width: 1440px) {
   #about > div aside {
-    margin: 0px 50px 150px 45px; } }
+    margin: 0px 50px 25px 45px; } }
 
 #about > div article {
   font-family: 'Inter', sans-serif;
   font-size: 0.90625rem;
-  font-weight: 300;
   line-height: 1.4375rem;
-  margin: 30px 20px 90px 20px;
-  text-align: left; }
+  font-weight: 300;
+  margin: 30px 20px 15px 20px;
+  text-align: left;
+  color: #3F3F3F; }
   @media (min-width: 768px) {
     #about > div article {
-      margin: 40px 40px 125px 350px; } }
+      margin: 40px 40px 20px 350px; } }
   @media (min-width: 1025px) {
     #about > div article {
       grid-area: article;
-      margin: 0px 45px 150px 50px; } }
+      margin: 0px 45px 200px 50px; } }
   #about > div article #me p {
     margin-bottom: 15px; }
     @media (min-width: 768px) {
@@ -914,8 +915,8 @@ footer {
         line-height: 2.3125rem; } }
     @media (min-width: 1025px) {
       #about > div article #me p:nth-child(1) {
-        font-size: 2.5rem;
-        line-height: 2.6875rem; } }
+        font-size: 3.125rem;
+        line-height: 3.3125rem; } }
   #about > div article #me span {
     display: block;
     font-weight: 600; }
@@ -941,6 +942,9 @@ footer {
     justify-content: flex-start; }
     #about > div article #contact-section li {
       margin-right: 15px; }
+      @media (min-width: 1025px) {
+        #about > div article #contact-section li {
+          margin-right: 20px; } }
       #about > div article #contact-section li a:link,
       #about > div article #contact-section li a:visited {
         color: #000;
@@ -955,58 +959,102 @@ footer {
             font-size: 1.5625rem; } }
         @media (min-width: 1025px) {
           #about > div article #contact-section li i {
-            font-size: 1.5625rem; } }
-  #about > div article #resume li a:link,
-  #about > div article #resume li a:visited {
-    color: #3F3F3F;
-    background-color: #fff;
-    transition: 0.25s;
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: solid 2px #3F3F3F; }
-  #about > div article #resume li a:hover,
-  #about > div article #resume li a:active {
-    background-color: #7fb1b2;
-    color: #fff;
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: solid 2px #7fb1b2; }
-  #about > div article #resume li p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    display: inline-block; }
-
+            font-size: 1.75rem; } }
 #resume-listing > div hr {
   background-color: #7fb1b2;
   height: 2px;
-  border: none; }
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px; }
+  @media (min-width: 768px) {
+    #resume-listing > div hr {
+      margin-left: 25px;
+      margin-right: 25px; } }
+  @media (min-width: 1025px) {
+    #resume-listing > div hr {
+      margin-left: 0px;
+      margin-right: 0px; } }
+@media (min-width: 768px) {
+  #resume-listing > div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "g1 g2" "g3 g4" ". g5"; } }
 
-#resume-listing > div article {
+@media (min-width: 768px) {
+  #resume-listing > div ul li:nth-child(1) {
+    grid-area: g1; } }
+
+@media (min-width: 768px) {
+  #resume-listing > div ul li:nth-child(2) {
+    grid-area: g2; } }
+
+@media (min-width: 768px) {
+  #resume-listing > div ul li:nth-child(3) {
+    grid-area: g3; } }
+
+@media (min-width: 768px) {
+  #resume-listing > div ul li:nth-child(4) {
+    grid-area: g4; } }
+
+@media (min-width: 768px) {
+  #resume-listing > div ul li:nth-child(5) {
+    grid-area: g5; } }
+
+#resume-listing > div ul li {
   font-family: 'Inter', sans-serif;
   font-size: 0.90625rem;
   font-weight: 300;
   line-height: 1.4375rem;
   text-align: left;
-  margin: 30px 20px 90px 20px; }
+  color: #3F3F3F;
+  margin: 30px 20px 15px 20px; }
   @media (min-width: 768px) {
-    #resume-listing > div article {
-      margin: 40px 40px 125px 350px; } }
+    #resume-listing > div ul li {
+      margin: 40px 40px 20px 40px; } }
   @media (min-width: 1025px) {
-    #resume-listing > div article {
+    #resume-listing > div ul li {
       grid-area: article;
-      margin: 0px 45px 150px 50px; } }
-  #resume-listing > div article span {
+      margin: 0px 45px 25px 50px; } }
+  #resume-listing > div ul li span {
     display: block; }
-  #resume-listing > div article p:nth-child(1) {
+  #resume-listing > div ul li .resume-font {
+    font-size: 1.0625rem;
     font-weight: 500;
     color: #7fb1b2; }
-  #resume-listing > div article p:nth-child(3) {
-    font-weight: 500;
-    color: #7fb1b2; }
-  #resume-listing > div article p:nth-child(5) {
-    font-weight: 500;
-    color: #7fb1b2; }
+    @media (min-width: 768px) {
+      #resume-listing > div ul li .resume-font {
+        font-size: 1.25rem; } }
+#resume-listing > div ul #resume {
+  margin: 0px 20px;
+  padding: 20px 0px; }
+  @media (min-width: 768px) {
+    #resume-listing > div ul #resume {
+      margin: 0px 40px; } }
+  @media (min-width: 1025px) {
+    #resume-listing > div ul #resume {
+      margin: 0px 45px; } }
+  #resume-listing > div ul #resume span {
+    display: block; }
+  #resume-listing > div ul #resume a:link,
+  #resume-listing > div ul #resume a:visited {
+    color: #3F3F3F;
+    background-color: #fff;
+    transition: 0.25s;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 2px #3F3F3F; }
+  #resume-listing > div ul #resume a:hover,
+  #resume-listing > div ul #resume a:active {
+    background-color: #7fb1b2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 2px #7fb1b2; }
+  #resume-listing > div ul #resume p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block; }
 
 /* =============
     work-1
