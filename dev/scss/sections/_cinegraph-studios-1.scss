@@ -189,16 +189,16 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(8, 320px);
+                grid-template-rows: repeat(6, 320px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(8, 620px);
+                    grid-template-rows: repeat(6, 620px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 420px);
+                    grid-template-rows: repeat(3, 420px);
                     grid-template-columns: repeat(2, 1fr);
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -207,7 +207,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(4, 530px);
+                    grid-template-rows: repeat(3, 530px);
                     grid-template-columns: repeat(2, 1fr);
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -265,23 +265,71 @@
         }
     }
 
-    #cinegraph-credits{
+    // #cinegraph-credits{
+    //     >div {
+    //         ul {
+    //             // gap: 20px;
+
+    //             li {
+    //                 img {
+    //                     object-fit: cover;
+    //                     object-position: center;
+    //                     height: 100%;
+    //                     width: 100%;
+    //                 }
+    //             }
+            
+    //         }
+
+    //     }
+    // }
+
+
+
+
+    #cinegraph-credits {
+        position: relative;
+        background-color: $bkgd-gray;
+
         >div {
+
             ul {
-                // gap: 20px;
+                @include md {
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    // grid-template-rows: repeat(2, 1fr);
+                    // grid-template-areas: "objective about"". process";
+                    // column-gap: 75px;
+                    // margin: 0px 25px;
+                    margin: 0px 300px 0px 25px;
+                }
+
+                @include lg {
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // grid-template-rows: repeat(1, 1fr);
+                    // grid-template-areas: "objective about process";
+                    // column-gap: 25px;
+                    // margin: 0px 45px;
+                    margin: 0px 400px 0px 0px;
+                }
+
+                @include xl {
+                    // margin: 0px;
+                    margin: 0px 500px 0px 0px;
+                }
 
                 li {
-                    img {
-                        object-fit: cover;
-                        object-position: center;
-                        height: 100%;
-                        width: 100%;
+                    span {
+                        // display: block;
+                        font-weight: 500;
+
                     }
                 }
-            
             }
-
         }
+
+
     }
 
 

@@ -4168,7 +4168,7 @@
     },
     "\/deploy\/img\/work-2\/highland-orchards\/main\/colour-type.jpg" : {
       "ft" : 16384,
-      "iS" : 98643,
+      "iS" : 88299,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/main\/colour-type.jpg",
@@ -4181,7 +4181,7 @@
     },
     "\/deploy\/img\/work-2\/highland-orchards\/main\/graphic-elements.jpg" : {
       "ft" : 16384,
-      "iS" : 101775,
+      "iS" : 100748,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/main\/graphic-elements.jpg",
@@ -4360,7 +4360,7 @@
     },
     "\/deploy\/img\/work-2\/highland-orchards\/main\/subbrands.jpg" : {
       "ft" : 16384,
-      "iS" : 122774,
+      "iS" : 112044,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/main\/subbrands.jpg",
@@ -4455,6 +4455,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/product\/box-flat-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/highland-orchards\/product\/box-flat.jpg" : {
+      "ft" : 16384,
+      "iS" : 150025,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/highland-orchards\/product\/box-flat.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

@@ -120,22 +120,22 @@
         >div{
             ul{
                 display: grid;
-                grid-template-rows: repeat(5, 250px);
+                grid-template-rows: repeat(3, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(5, 500px);
+                    grid-template-rows: repeat(3, 500px);
                 }
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(4, 330px);
+                    grid-template-rows: repeat(3, 330px);
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
                     "g1 g1"
                     "g1 g1"
-                    "g2 g3"
-                    "g4 g5";
+                    "g2 g3";
+                    // "g4 g5";
                     // "g6 g7";
 
                     // column-gap: 25px;
@@ -145,14 +145,14 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(4, 400px);
+                    grid-template-rows: repeat(3, 400px);
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
 
                     "g1 g1"
                     "g1 g1"
-                    "g2 g3"
-                    "g4 g5";
+                    "g2 g3";
+                    // "g4 g5";
                     // "g6 g7";
 
                     // column-gap: 25px;
@@ -193,19 +193,19 @@
 
                 }
 
-                li:nth-child(4) {
-                    @include lg {
-                        grid-area: g4;
-                    }
+                // li:nth-child(4) {
+                //     @include lg {
+                //         grid-area: g4;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(5) {
-                    @include lg {
-                        grid-area: g5;
-                    }
+                // li:nth-child(5) {
+                //     @include lg {
+                //         grid-area: g5;
+                //     }
 
-                }
+                // }
 
                 // li:nth-child(6) {
                 //     @include lg {
@@ -234,11 +234,11 @@
             ul {
 
                 display: grid;
-                grid-template-rows: repeat(14, 250px);
+                grid-template-rows: repeat(12, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(14, 500px);
+                    grid-template-rows: repeat(12, 500px);
                 }
 
                 @include lg {
@@ -246,20 +246,35 @@
                     grid-template-rows: repeat(9, 300px);
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-areas:
-                        "g1 g2 g3"
+                        // "g1 g2 g3"
 
-                        "g4 g4 g5"
-                        "g4 g4 g6"
+                        // "g4 g4 g5"
+                        // "g4 g4 g6"
 
-                        "g7 g8 g9"
+                        // "g7 g8 g9"
 
-                        "g10 g10 g10"
-                        "g10 g10 g10"
+                        // "g10 g10 g10"
+                        // "g10 g10 g10"
 
-                        "g11 g11 g11"
-                        "g11 g11 g11"
+                        // "g11 g11 g11"
+                        // "g11 g11 g11"
 
-                        "g12 g13 g14";
+                        // "g12 g12 g12"
+                        // "g12 g12 g12";
+
+                        "g1 g1 g2"
+                        "g1 g1 g3"
+
+                        "g4 g5 g6"
+
+                        "g7 g7 g7"
+                        "g7 g7 g7"
+
+                        "g8 g8 g8"
+                        "g8 g8 g8"
+
+                        "g9 g9 g9"
+                        "g9 g9 g9";
 
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -267,24 +282,56 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(9, 400px);
+                    grid-template-rows: repeat(9, 350px);
                     grid-template-columns: repeat(3, 1fr);
                     grid-template-areas:
 
-                        "g1 g2 g3"
+                        "g1 g1 g2"
+                        "g1 g1 g3"
 
-                        "g4 g4 g5"
-                        "g4 g4 g6"
+                        "g4 g5 g6"
 
-                        "g7 g8 g9"
+                        "g7 g7 g7"
+                        "g7 g7 g7"
 
-                        "g10 g10 g10"
-                        "g10 g10 g10"
+                        "g8 g8 g8"
+                        "g8 g8 g8"
 
-                        "g11 g11 g11"
-                        "g11 g11 g11"
+                        "g9 g9 g9"
+                        "g9 g9 g9";
 
-                        "g12 g13 g14";
+                        // "g1 g2 g3"
+
+                        // "g4 g4 g5"
+                        // "g4 g4 g6"
+
+                        // "g7 g8 g9"
+
+                        // "g10 g10 g10"
+                        // "g10 g10 g10"
+
+                        // "g11 g11 g11"
+                        // "g11 g11 g11"
+
+                        // "g12 g12 g12"
+                        // "g12 g12 g12";
+
+
+
+                        // "g1 g2 g3"
+
+                        // "g4 g4 g5"
+                        // "g4 g4 g6"
+
+                        // "g7 g8 g9"
+
+                        // "g10 g10 g10"
+                        // "g10 g10 g10"
+
+                        // "g11 g11 g11"
+                        // "g11 g11 g11"
+
+                        // "g12 g13 g14";
 
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -366,40 +413,40 @@
 
                 }
 
-                li:nth-child(10) {
-                    @include lg {
-                        grid-area: g10;
-                    }
+                // li:nth-child(10) {
+                //     @include lg {
+                //         grid-area: g10;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(11) {
-                    @include lg {
-                        grid-area: g11;
-                    }
+                // li:nth-child(11) {
+                //     @include lg {
+                //         grid-area: g11;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(12) {
-                    @include lg {
-                        grid-area: g12;
-                    }
+                // li:nth-child(12) {
+                //     @include lg {
+                //         grid-area: g12;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(13) {
-                    @include lg {
-                        grid-area: g13;
-                    }
+                // li:nth-child(13) {
+                //     @include lg {
+                //         grid-area: g13;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(14) {
-                    @include lg {
-                        grid-area: g14;
-                    }
+                // li:nth-child(14) {
+                //     @include lg {
+                //         grid-area: g14;
+                //     }
 
-                }
+                // }
 
 
             }
@@ -424,27 +471,21 @@
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(10, 300px);
-                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(8, 300px);
+                    grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
-                    "g1 g1 g1 g1"
-                    "g1 g1 g1 g1"
+                    "g1 g1"
+                    "g1 g1"
 
-                    "g2 g2 g2 g2"
-                    "g2 g2 g2 g2"
+                    "g2 g3"
 
-                    "g3 g3 g4 g4"
+                    "g4 g4"
+                    "g4 g4"
 
-                    "g5 g5 g5 g5"
-                    "g5 g5 g5 g5"
+                    "g5 g6"
 
-                    "g6 g6 g6 g6"
-                    "g6 g6 g6 g6"
-                    
-                    "g7 g7 g8 g8"
-
-                    "g9 g9 g9 g9"
-                    "g9 g9 g9 g9";
+                    "g7 g7"
+                    "g7 g7";
 
                     // column-gap: 25px;
                     column-gap: 15px;
@@ -452,27 +493,41 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(10, 400px);
-                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(8, 400px);
+                    grid-template-columns: repeat(2, 1fr);
                     grid-template-areas:
-                    "g1 g1 g1 g1"
-                    "g1 g1 g1 g1"
 
-                    "g2 g2 g2 g2"
-                    "g2 g2 g2 g2"
+                    "g1 g1"
+                    "g1 g1"
 
-                    "g3 g3 g4 g4"
+                    "g2 g3"
 
-                    "g5 g5 g5 g5"
-                    "g5 g5 g5 g5"
-
-                    "g6 g6 g6 g6"
-                    "g6 g6 g6 g6"
+                    "g4 g4"
+                    "g4 g4"
                     
-                    "g7 g7 g8 g8"
+                    "g5 g6"
+
+                    "g7 g7"
+                    "g7 g7";
+
+                    // "g1 g1 g1 g1"
+                    // "g1 g1 g1 g1"
+
+                    // "g2 g2 g2 g2"
+                    // "g2 g2 g2 g2"
+
+                    // "g3 g3 g4 g4"
+
+                    // "g5 g5 g5 g5"
+                    // "g5 g5 g5 g5"
+
+                    // "g6 g6 g6 g6"
+                    // "g6 g6 g6 g6"
                     
-                    "g9 g9 g9 g9"
-                    "g9 g9 g9 g9";
+                    // "g7 g7 g8 g8"
+                    
+                    // "g9 g9 g9 g9"
+                    // "g9 g9 g9 g9";
 
                     // column-gap: 25px;
                     column-gap: 15px;
