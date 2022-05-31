@@ -3525,6 +3525,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 360434,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 240744,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 194639,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/extra\/social-media-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/graphic-design-2022\/app\/ideation.jpg" : {
       "ft" : 16384,
       "iS" : 196160,
@@ -3553,7 +3592,7 @@
     },
     "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-1.jpg" : {
       "ft" : 16384,
-      "iS" : 360434,
+      "iS" : 361843,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-1.jpg",
@@ -3566,7 +3605,7 @@
     },
     "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-2.jpg" : {
       "ft" : 16384,
-      "iS" : 240744,
+      "iS" : 242986,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-2.jpg",
@@ -3579,7 +3618,7 @@
     },
     "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-3.jpg" : {
       "ft" : 16384,
-      "iS" : 194639,
+      "iS" : 236608,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/graphic-design-2022\/app\/social-media-3.jpg",

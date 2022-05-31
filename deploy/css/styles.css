@@ -586,7 +586,7 @@ i {
   justify-content: center; }
   .button a:link,
   .button a:visited {
-    background-color: #fff;
+    background-color: #f9f9f9;
     border: 2px solid #7fb1b2;
     border-radius: 30px;
     color: #7fb1b2;
@@ -1046,7 +1046,7 @@ footer {
   #resume-listing > div ul #resume a:link,
   #resume-listing > div ul #resume a:visited {
     color: #3F3F3F;
-    background-color: #fff;
+    background-color: #f9f9f9;
     transition: 0.25s;
     padding: 10px 20px;
     border-radius: 30px;
@@ -1193,7 +1193,7 @@ footer {
     display: flex;
     height: 40vh;
     justify-content: center;
-    text-align: center; }
+    text-align: left; }
     @media (min-width: 768px) {
       #work-2 > div ul li > div {
         height: 48vh; } }
@@ -3579,7 +3579,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 330px);
+      grid-template-rows: repeat(9, 300px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g2 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g10 g10" "g10 g10 g10" "g11 g11 g11" "g11 g11 g11" "g12 g13 g14";
       column-gap: 15px; } }
@@ -3646,7 +3646,7 @@ footer {
   @media (min-width: 1025px) {
     #deeply-fruit #deeply-fruit-interior > div ul {
       display: grid;
-      grid-template-rows: repeat(10, 330px);
+      grid-template-rows: repeat(10, 300px);
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "g1 g1 g1 g1" "g1 g1 g1 g1" "g2 g2 g2 g2" "g2 g2 g2 g2" "g3 g3 g4 g4" "g5 g5 g5 g5" "g5 g5 g5 g5" "g6 g6 g6 g6" "g6 g6 g6 g6" "g7 g7 g8 g8" "g9 g9 g9 g9" "g9 g9 g9 g9";
       column-gap: 15px; } }
@@ -3938,7 +3938,7 @@ footer {
       grid-area: process; } }
 #morning-again #morning-again-intro > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 250px); }
+  grid-template-rows: repeat(6, 280px); }
   @media (min-width: 768px) {
     #morning-again #morning-again-intro > div ul {
       grid-template-rows: repeat(6, 500px); } }
@@ -3988,7 +3988,7 @@ footer {
   @media (min-width: 1025px) {
     #morning-again #morning-again-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 350px);
+      grid-template-rows: repeat(9, 300px);
       grid-template-columns: repeat(3, 1fr);
       column-gap: 15px;
       grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g2 g3" "g2 g2 g4" "g5 g5 g5" "g5 g5 g5" "g6 g7 g8" "g9 g11 g11" "g10 g11 g11"; } }
@@ -4537,7 +4537,7 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
-        grid-template-rows: repeat(11, 330px);
+        grid-template-rows: repeat(11, 300px);
         column-gap: 15px;
         grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4" "g5 g5 g6" "g5 g5 g7" "g8 g9 g10" "g11 g13 g13" "g12 g13 g13" "g14 g14 g15" "g14 g14 g16"; } }
     @media (min-width: 1440px) {
@@ -4836,10 +4836,10 @@ footer {
   background-color: #f9f9f9; }
   #graphic-design-2022 #graphic-design-2022-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(11, 250px); }
+    grid-template-rows: repeat(11, 260px); }
     @media (min-width: 768px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
-        grid-template-rows: repeat(11, 500px); } }
+        grid-template-rows: repeat(11, 530px); } }
     @media (min-width: 1025px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
         display: grid;
@@ -4894,10 +4894,10 @@ footer {
         grid-area: g11; } }
 #graphic-design-2022 #graphic-design-2022-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 320px); }
+  grid-template-rows: repeat(5, 260px); }
   @media (min-width: 768px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
-      grid-template-rows: repeat(6, 600px); } }
+      grid-template-rows: repeat(5, 530px); } }
   @media (min-width: 1025px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
       display: grid;

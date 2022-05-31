@@ -225,7 +225,7 @@ if(seoul2021Pages){
     const pageTime = 0.8;
 
 
-    seoul2021PagesTimeline.from("#seoul-2021 #seoul-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
+    seoul2021PagesTimeline.from("#seoul-2021 #seoul-2021-main div h1", {duration:pageIntroTime, alpha:0}, "+=0.3")
                  .from("#seoul-2021 #seoul-2021-main div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
                  .from("#seoul-2021 #seoul-2021-main div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#seoul-2021 #seoul-2021-main div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
