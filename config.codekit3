@@ -162,11 +162,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/logo.png" : {
+    "\/deploy\/img\/personal-logo.png" : {
       "ft" : 32768,
       "iS" : 261,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/logo.png",
+      "oAP" : "\/deploy\/img\/personal-logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2967,7 +2967,7 @@
     },
     "\/deploy\/img\/work-2\/deeply-fruit\/main\/single_fruit.jpg" : {
       "ft" : 16384,
-      "iS" : 83805,
+      "iS" : 76413,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work-2\/deeply-fruit\/main\/single_fruit.jpg",
