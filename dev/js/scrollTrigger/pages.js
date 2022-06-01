@@ -297,7 +297,8 @@ if(graphicDesign2022Page){
                  .from("#graphic-design-2022 #graphic-design-2022-process div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#graphic-design-2022 #graphic-design-2022-process div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  
-                 .from("#graphic-design-2022 #graphic-design-2022-credits div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#graphic-design-2022 #graphic-design-2022-credits div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
+                .from("#graphic-design-2022 #graphic-design-2022-credits", {duration:pageTime, alpha:0},"-=0.01")
 
 
      ScrollTrigger.create({
@@ -655,7 +656,7 @@ if(cinegraphStudiosPage){
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
-                 .from("#cinegraph #cinegraph-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
+                //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#cinegraph #cinegraph-gallery div ul li:nth-child(9)", {duration:pageTime, alpha:0},"-=0.01")

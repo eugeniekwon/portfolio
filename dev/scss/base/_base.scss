@@ -337,13 +337,63 @@ a:visited {
 
 
 
-.credits-description{
+.credits-subtitle{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(16);
+    font-weight: 500;
+    // margin: 0px 20px 30px 20px;
+    margin: 0px 20px 10px 20px;
+    color: $gray;
+
+    @include md{
+        // margin: 0px 25px 40px 25px;
+        margin: 0px 25px 15px 25px;
+    }
+
+    @include lg{
+        // margin: 0px 45px 50px 45px;
+        margin: 0px 45px 20px 45px;
+    }
+
+    @include xl{
+        // margin: 0px 0px 50px 0px;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+
+.credits-category{
     font-family: 'Inter', sans-serif;
     font-size: rem-calc(15);
-    font-weight: 300;
-    line-height: rem-calc(20);
+    font-weight: 500;
     // margin: 0px 20px 30px 20px;
-    margin: 0px 20px 3px 20px;
+    margin: 0px 20px 10px 20px;
+    color: $gray;
+
+    @include md{
+        // margin: 0px 25px 40px 25px;
+        margin: 0px 25px 10px 25px;
+    }
+
+    @include lg{
+        // margin: 0px 45px 50px 45px;
+        margin: 0px 45px 10px 45px;
+    }
+
+    @include xl{
+        // margin: 0px 0px 50px 0px;
+        margin: 0px 0px 10px 0px;
+    }
+}
+
+
+.credits-description{
+    font-family: 'Inter', sans-serif;
+    font-size: rem-calc(14);
+    font-weight: 300;
+    line-height: rem-calc(19);
+    // margin: 0px 20px 30px 20px;
+    margin: 0px 20px 5px 20px;
     color: $gray;
     text-align: left;
 
@@ -368,30 +418,8 @@ a:visited {
 }
 
 
-.credits-subtitle{
-    font-family: 'Inter', sans-serif;
-    font-size: rem-calc(15);
-    font-weight: 500;
-    // margin: 0px 20px 30px 20px;
-    margin: 0px 20px 10px 20px;
-    line-height: rem-calc(22);
-    color: $gray;
 
-    @include md{
-        // margin: 0px 25px 40px 25px;
-        margin: 0px 25px 15px 25px;
-    }
 
-    @include lg{
-        // margin: 0px 45px 50px 45px;
-        margin: 0px 45px 20px 45px;
-    }
-
-    @include xl{
-        // margin: 0px 0px 50px 0px;
-        margin: 0px 0px 20px 0px;
-    }
-}
 
 
 .pull-quotes{

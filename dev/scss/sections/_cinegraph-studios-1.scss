@@ -6,7 +6,9 @@
 
     #cinegraph-hero {
 
-        background-image: url("../img/work-2/proj-cinegraph.jpg");
+        // background-image: url("../img/work-2/proj-cinegraph.jpg");
+        background-image: url("../img/work-2/cinegraph-studios/main/motion.gif");
+        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -118,17 +120,17 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(6, 250px);
+                grid-template-rows: repeat(5, 250px);
                 // gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(6, 500px);
+                    grid-template-rows: repeat(5, 500px);
                 }
 
 
                 @include lg {
                     display: grid;
-                    grid-template-rows: repeat(6, 630px);
+                    grid-template-rows: repeat(5, 630px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
@@ -136,7 +138,7 @@
 
                 @include xl {
                     display: grid;
-                    grid-template-rows: repeat(6, 800px);
+                    grid-template-rows: repeat(5, 800px);
                     // column-gap: 25px;
                     // margin: 0px 25px;
 
