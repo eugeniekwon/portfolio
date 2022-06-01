@@ -3642,7 +3642,7 @@ footer {
   @media (min-width: 1440px) {
     #deeply-fruit #deeply-fruit-exterior > div ul {
       display: grid;
-      grid-template-rows: repeat(9, 350px);
+      grid-template-rows: repeat(9, 400px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "g1 g1 g2" "g1 g1 g3" "g4 g5 g6" "g7 g7 g7" "g7 g7 g7" "g8 g8 g8" "g8 g8 g8" "g9 g9 g9" "g9 g9 g9";
       column-gap: 15px; } }
