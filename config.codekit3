@@ -7344,6 +7344,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work-2\/sleepground\/main\/problem_question.gif" : {
+      "ft" : 4194304,
+      "iS" : 2987735,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work-2\/sleepground\/main\/problem_question.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work-2\/sleepground\/main\/question.jpg" : {
       "ft" : 16384,
       "iS" : 50968,

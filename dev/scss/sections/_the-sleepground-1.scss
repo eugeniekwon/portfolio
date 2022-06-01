@@ -118,11 +118,11 @@
 
             ul {
                 display: grid;
-                grid-template-rows: repeat(12, 260px);
+                grid-template-rows: repeat(9, 260px);
                 // row-gap: 20px;
 
                 @include md {
-                    grid-template-rows: repeat(12, 500px);
+                    grid-template-rows: repeat(9, 500px);
                     // row-gap: 20px;
                 }
 
@@ -136,24 +136,23 @@
                     // margin: 0px 25px;
 
                     grid-template-areas:
-                        "g1 g1"
-                        "g1 g1"
-                        "g2 g3"
-                        // "g2 g2"
+                    "g1 g1"
+                    "g1 g1"
 
-                        "g4 g5"
-                        "g6 g7"
+                    "g2 g2"
+                    "g2 g2"
 
-                        "g8 g9"
+                    "g3 g4"
+                    "g5 g6"
 
-                        "g10 g10"
-                        "g10 g10"
+                    "g7 g7"
+                    "g7 g7"
 
-                        "g11 g11"
-                        "g11 g11"
+                    "g8 g8"
+                    "g8 g8"
 
-                        "g12 g12"
-                        "g12 g12";
+                    "g9 g9"
+                    "g9 g9";
 
                 }
 
@@ -167,23 +166,41 @@
                     // margin: 0px 25px;
 
                     grid-template-areas:
+                        // "g1 g1"
+                        // "g1 g1"
+                        // "g2 g3"
+
+                        // "g4 g5"
+                        // "g6 g7"
+
+                        // "g8 g9"
+
+                        // "g10 g10"
+                        // "g10 g10"
+
+                        // "g11 g12"
+                        // "g11 g11"
+
+                        // "g12 g12"
+                        // "g12 g12";
+
                         "g1 g1"
                         "g1 g1"
-                        "g2 g3"
 
-                        "g4 g5"
-                        "g6 g7"
+                        "g2 g2"
+                        "g2 g2"
 
-                        "g8 g9"
+                        "g3 g4"
+                        "g5 g6"
 
-                        "g10 g10"
-                        "g10 g10"
+                        "g7 g7"
+                        "g7 g7"
 
-                        "g11 g12"
-                        "g11 g11"
+                        "g8 g8"
+                        "g8 g8"
 
-                        "g12 g12"
-                        "g12 g12";
+                        "g9 g9"
+                        "g9 g9";
 
                 }
 
@@ -266,26 +283,26 @@
 
                 }
 
-                li:nth-child(10) {
-                    @include lg {
-                        grid-area: g10;
-                    }
+                // li:nth-child(10) {
+                //     @include lg {
+                //         grid-area: g10;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(11) {
-                    @include lg {
-                        grid-area: g11;
-                    }
+                // li:nth-child(11) {
+                //     @include lg {
+                //         grid-area: g11;
+                //     }
 
-                }
+                // }
 
-                li:nth-child(12) {
-                    @include lg {
-                        grid-area: g12;
-                    }
+                // li:nth-child(12) {
+                //     @include lg {
+                //         grid-area: g12;
+                //     }
 
-                }
+                // }
 
 
 

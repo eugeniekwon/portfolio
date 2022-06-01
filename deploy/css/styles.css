@@ -4464,24 +4464,24 @@ footer {
   background-color: #f9f9f9; }
   #the-sleepground #the-sleepground-strategy > div ul {
     display: grid;
-    grid-template-rows: repeat(12, 260px); }
+    grid-template-rows: repeat(9, 260px); }
     @media (min-width: 768px) {
       #the-sleepground #the-sleepground-strategy > div ul {
-        grid-template-rows: repeat(12, 500px); } }
+        grid-template-rows: repeat(9, 500px); } }
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-strategy > div ul {
         display: grid;
         grid-template-rows: repeat(12, 310px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g11" "g11 g11" "g12 g12" "g12 g12"; } }
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g6" "g7 g7" "g7 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-strategy > div ul {
         display: grid;
         grid-template-rows: repeat(12, 400px);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g3" "g4 g5" "g6 g7" "g8 g9" "g10 g10" "g10 g10" "g11 g12" "g11 g11" "g12 g12" "g12 g12"; } }
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g4" "g5 g6" "g7 g7" "g7 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9"; } }
     #the-sleepground #the-sleepground-strategy > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -4514,15 +4514,6 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-strategy > div ul li:nth-child(9) {
         grid-area: g9; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-strategy > div ul li:nth-child(10) {
-        grid-area: g10; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-strategy > div ul li:nth-child(11) {
-        grid-area: g11; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-strategy > div ul li:nth-child(12) {
-        grid-area: g12; } }
 #the-sleepground #the-sleepground-prearrival > div ul {
   display: grid;
   grid-template-rows: repeat(6, 260px); }
