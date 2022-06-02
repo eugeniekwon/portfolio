@@ -298,7 +298,7 @@ if(graphicDesign2022Page){
                  .from("#graphic-design-2022 #graphic-design-2022-process div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                  
                 //  .from("#graphic-design-2022 #graphic-design-2022-credits div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
-                .from("#graphic-design-2022 #graphic-design-2022-credits", {duration:pageTime, alpha:0},"-=0.01")
+                .from("#graphic-design-2022 #graphic-design-2022-credits", {duration:pageTime, alpha:0, x:-30},"-=0.01")
 
 
      ScrollTrigger.create({
@@ -878,7 +878,6 @@ if(bookCoversPage){
                 //  .from("#book-covers #orlando div ul li:nth-child(8)", {duration:pageTime, alpha:0},"-=0.01")
 
                 .from("#book-covers #book-covers-main-2 div h2", {duration:pageIntroTime, alpha:0}, "+=0.3")
-                 .from("#book-covers #book-covers-main-2 div h3", {duration:pageIntroTime, alpha:0},"-=0.08")
                  .from("#book-covers #book-covers-main-2 div ul li:nth-child(1)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#book-covers #book-covers-main-2 div ul li:nth-child(2)", {duration:pageIntroTime, alpha:0, x:-30})
                  .from("#book-covers #book-covers-main-2 div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
@@ -964,7 +963,7 @@ if(morningAgainPage){
                  .from("#morning-again #morning-again-interior div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-interior div ul li:nth-child(3)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#morning-again #morning-again-interior div ul li:nth-child(4)", {duration:pageTime, alpha:0},"-=0.01")
-                //  .from("#morning-again #morning-again-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
+                 .from("#morning-again #morning-again-interior div ul li:nth-child(5)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#morning-again #morning-again-interior div ul li:nth-child(6)", {duration:pageTime, alpha:0},"-=0.01")
                 //  .from("#morning-again #morning-again-interior div ul li:nth-child(7)", {duration:pageTime, alpha:0},"-=0.01")
 
