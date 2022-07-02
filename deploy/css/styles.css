@@ -969,7 +969,6 @@ footer {
         font-size: 3.125rem;
         line-height: 3.3125rem; } }
   #about > div article #me span {
-    display: block;
     font-weight: 600; }
     #about > div article #me span a:link,
     #about > div article #me span a:visited {
@@ -4868,23 +4867,23 @@ footer {
   background-color: #f9f9f9; }
   #graphic-design-2022 #graphic-design-2022-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(11, 260px); }
+    grid-template-rows: repeat(16, 260px); }
     @media (min-width: 768px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
-        grid-template-rows: repeat(11, 530px); } }
+        grid-template-rows: repeat(16, 530px); } }
     @media (min-width: 1025px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 330px);
+        grid-template-rows: repeat(20, 330px);
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g5" "g5 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9" "g10 g11" "g12 g13" "g14 g15" "g16 g16" "g16 g16";
         column-gap: 15px; } }
     @media (min-width: 1440px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(13, 400px);
+        grid-template-rows: repeat(20, 400px);
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g2" "g2 g2" "g3 g3" "g3 g3" "g4 g4" "g4 g4" "g5 g5" "g5 g5" "g6 g7" "g8 g8" "g8 g8" "g9 g9" "g9 g9" "g10 g11" "g12 g13" "g14 g15" "g16 g16" "g16 g16";
         column-gap: 15px; } }
     #graphic-design-2022 #graphic-design-2022-gallery > div ul li img {
       object-fit: cover;
@@ -4924,25 +4923,40 @@ footer {
     @media (min-width: 1025px) {
       #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(11) {
         grid-area: g11; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(12) {
+        grid-area: g12; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(13) {
+        grid-area: g13; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(14) {
+        grid-area: g14; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(15) {
+        grid-area: g15; } }
+    @media (min-width: 1025px) {
+      #graphic-design-2022 #graphic-design-2022-gallery > div ul li:nth-child(16) {
+        grid-area: g16; } }
 #graphic-design-2022 #graphic-design-2022-applications > div ul {
   display: grid;
-  grid-template-rows: repeat(5, 260px); }
+  grid-template-rows: repeat(11, 260px); }
   @media (min-width: 768px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
-      grid-template-rows: repeat(5, 530px); } }
+      grid-template-rows: repeat(11, 530px); } }
   @media (min-width: 1025px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 330px);
+      grid-template-rows: repeat(7, 330px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5";
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
       column-gap: 15px; } }
   @media (min-width: 1440px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul {
       display: grid;
-      grid-template-rows: repeat(4, 400px);
+      grid-template-rows: repeat(7, 400px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5";
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g6" "g7 g8" "g9 g10" "g11 g11" "g11 g11";
       column-gap: 15px; } }
   #graphic-design-2022 #graphic-design-2022-applications > div ul li img {
     object-fit: cover;
@@ -4964,6 +4978,24 @@ footer {
   @media (min-width: 1025px) {
     #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(5) {
       grid-area: g5; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(6) {
+      grid-area: g6; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(7) {
+      grid-area: g7; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(8) {
+      grid-area: g8; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(9) {
+      grid-area: g9; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(10) {
+      grid-area: g10; } }
+  @media (min-width: 1025px) {
+    #graphic-design-2022 #graphic-design-2022-applications > div ul li:nth-child(11) {
+      grid-area: g11; } }
 #graphic-design-2022 #graphic-design-2022-process > div ul {
   display: grid;
   grid-template-rows: repeat(6, 1fr); }
