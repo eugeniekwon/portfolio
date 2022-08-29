@@ -19,14 +19,14 @@
             ul {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(12, 1fr);
+                grid-template-rows: repeat(10, 1fr);
                 // gap: 20px;
                 gap: 10px;
 
                 @include md {
                     display: grid;
                     // grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(12, 1fr);
+                    grid-template-rows: repeat(10, 1fr);
                     // gap: 20px;
                     gap: 10px;
                 }
@@ -34,7 +34,7 @@
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(6, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
                     // gap: 25px;
                     gap: 15px;
                 }
@@ -265,7 +265,7 @@
             li:nth-child(7) {
                 >div {
                     // background-image: url("../img/work-2/proj-woodmere.jpg");
-                    background-image: url("../img/work-2/woodmere/product/gift-packaging-2.png");
+                    background-image: url("../img/work-2/woodmere/app/notebook.jpg");
                     
                     // margin-bottom: 30px;
                     // background-size: 140%;
@@ -324,20 +324,20 @@
 
             }
 
-            li:nth-child(11) {
-                >div {
-                    background-image: url("../img/work-2/frank-auerbach/julia/julia_2.jpg");
+            // li:nth-child(11) {
+            //     >div {
+            //         background-image: url("../img/work-2/frank-auerbach/julia/julia_2.jpg");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
 
-                }
+            //     }
 
 
-            }
+            // }
 
             
 
@@ -356,22 +356,24 @@
 
             // }
 
-            li:nth-child(12) {
-                >div {
-                    background-image: url("../img/work-2/home-kitchen/motion.gif");
+
+
+            // li:nth-child(12) {
+            //     >div {
+            //         background-image: url("../img/work-2/home-kitchen/motion.gif");
                     
-                    // margin-bottom: 30px;
-                    // background-size: 90%;
-                    // background-position: -145px -50px;
-                    background-position: left;
+            //         // margin-bottom: 30px;
+            //         // background-size: 90%;
+            //         // background-position: -145px -50px;
+            //         background-position: left;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
-                }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
+            //     }
 
 
-            }
+            // }
 
 
 

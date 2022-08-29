@@ -1218,18 +1218,18 @@ footer {
 #work-2 > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   gap: 10px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
-      grid-template-rows: repeat(12, 1fr);
+      grid-template-rows: repeat(10, 1fr);
       gap: 10px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(6, 1fr);
+      grid-template-rows: repeat(5, 1fr);
       gap: 15px; } }
   #work-2 > div ul li > div {
     align-items: center;
@@ -1315,7 +1315,7 @@ footer {
     #work-2 > div li:nth-child(6) > div {
       margin: 0; } }
 #work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/woodmere/product/gift-packaging-2.png"); }
+  background-image: url("../img/work-2/woodmere/app/notebook.jpg"); }
   @media (min-width: 768px) {
     #work-2 > div li:nth-child(7) > div {
       margin: 0; } }
@@ -1328,18 +1328,11 @@ footer {
 #work-2 > div li:nth-child(10) > div {
   background-image: url("../img/work-2/gustav-mahler/motion.gif"); }
 
-#work-2 > div li:nth-child(11) > div {
-  background-image: url("../img/work-2/frank-auerbach/julia/julia_2.jpg"); }
-
-#work-2 > div li:nth-child(12) > div {
-  background-image: url("../img/work-2/home-kitchen/motion.gif");
-  background-position: left; }
-
 /* =============
     woodmere-1
 ============= */
 #woodmere #woodmere-hero {
-  background-image: url("../img/work-2/woodmere/product/gift-packaging-2.png");
+  background-image: url("../img/work-2/woodmere/app/notebook.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2864,19 +2857,19 @@ footer {
   background-color: #f9f9f9; }
   #highland-orchards #highland-orchards-gallery > div ul {
     display: grid;
-    grid-template-rows: repeat(9, 250px); }
+    grid-template-rows: repeat(8, 250px); }
     @media (min-width: 768px) {
       #highland-orchards #highland-orchards-gallery > div ul {
-        grid-template-rows: repeat(9, 500px); } }
+        grid-template-rows: repeat(8, 500px); } }
     @media (min-width: 1025px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(9, 600px);
+        grid-template-rows: repeat(8, 600px);
         column-gap: 15px; } }
     @media (min-width: 1440px) {
       #highland-orchards #highland-orchards-gallery > div ul {
         display: grid;
-        grid-template-rows: repeat(9, 800px);
+        grid-template-rows: repeat(8, 800px);
         column-gap: 15px; } }
     #highland-orchards #highland-orchards-gallery > div ul li img {
       object-fit: cover;
@@ -4515,24 +4508,24 @@ footer {
         grid-area: g9; } }
 #the-sleepground #the-sleepground-prearrival > div ul {
   display: grid;
-  grid-template-rows: repeat(6, 260px); }
+  grid-template-rows: repeat(5, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
-      grid-template-rows: repeat(6, 530px); } }
+      grid-template-rows: repeat(5, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 330px);
+      grid-template-rows: repeat(4, 330px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6"; } }
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-prearrival > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 400px);
+      grid-template-rows: repeat(4, 400px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g3" "g4 g5" "g6 g6" "g6 g6"; } }
+      grid-template-areas: "g1 g2" "g3 g4" "g5 g5" "g5 g5"; } }
   #the-sleepground #the-sleepground-prearrival > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4553,30 +4546,27 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-prearrival > div ul li:nth-child(5) {
       grid-area: g5; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-prearrival > div ul li:nth-child(6) {
-      grid-area: g6; } }
 #the-sleepground #the-sleepground-visitors-kit {
   position: relative;
   background-color: #f9f9f9; }
   #the-sleepground #the-sleepground-visitors-kit > div ul {
     display: grid;
-    grid-template-rows: repeat(16, 260px); }
+    grid-template-rows: repeat(15, 260px); }
     @media (min-width: 768px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
-        grid-template-rows: repeat(16, 530px); } }
+        grid-template-rows: repeat(15, 530px); } }
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
-        grid-template-rows: repeat(11, 300px);
+        grid-template-rows: repeat(10, 300px);
         column-gap: 15px;
-        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4" "g5 g5 g6" "g5 g5 g7" "g8 g9 g10" "g11 g13 g13" "g12 g13 g13" "g14 g14 g15" "g14 g14 g16"; } }
+        grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14" "g13 g13 g15"; } }
     @media (min-width: 1440px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul {
         display: grid;
         grid-template-rows: repeat(2, 400px);
         column-gap: 15px;
-        grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4" "g5 g5 g6" "g5 g5 g7" "g8 g9 g10" "g11 g13 g13" "g12 g13 g13" "g14 g14 g15" "g14 g14 g16"; } }
+        grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g3 g3" "g4 g4 g5" "g4 g4 g6" "g7 g8 g9" "g10 g12 g12" "g11 g12 g12" "g13 g13 g14" "g13 g13 g15"; } }
     #the-sleepground #the-sleepground-visitors-kit > div ul li img {
       object-fit: cover;
       object-position: center;
@@ -4627,9 +4617,6 @@ footer {
     @media (min-width: 1025px) {
       #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(15) {
         grid-area: g15; } }
-    @media (min-width: 1025px) {
-      #the-sleepground #the-sleepground-visitors-kit > div ul li:nth-child(16) {
-        grid-area: g16; } }
 #the-sleepground #the-sleepground-arrival > div ul {
   display: grid;
   grid-template-rows: repeat(5, 260px); }
@@ -4670,24 +4657,24 @@ footer {
       grid-area: g5; } }
 #the-sleepground #the-sleepground-exposures > div ul {
   display: grid;
-  grid-template-rows: repeat(4, 260px); }
+  grid-template-rows: repeat(3, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-exposures > div ul {
-      grid-template-rows: repeat(4, 530px); } }
+      grid-template-rows: repeat(3, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exposures > div ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(4, 350px);
+      grid-template-rows: repeat(3, 350px);
       column-gap: 15px;
-      grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4"; } }
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g3 g3"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-exposures > div ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(4, 400px);
+      grid-template-rows: repeat(3, 400px);
       column-gap: 15px;
-      grid-template-areas: "g1 g1 g1" "g2 g2 g2" "g2 g2 g2" "g3 g4 g4"; } }
+      grid-template-areas: "g1 g1 g1" "g1 g1 g1" "g2 g3 g3"; } }
   #the-sleepground #the-sleepground-exposures > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4702,29 +4689,26 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-exposures > div ul li:nth-child(3) {
       grid-area: g3; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-exposures > div ul li:nth-child(4) {
-      grid-area: g4; } }
 #the-sleepground #the-sleepground-online > div ul {
   display: grid;
-  grid-template-rows: repeat(2, 260px); }
+  grid-template-rows: repeat(1, 260px); }
   @media (min-width: 768px) {
     #the-sleepground #the-sleepground-online > div ul {
-      grid-template-rows: repeat(2, 530px); } }
+      grid-template-rows: repeat(1, 530px); } }
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 400px);
+      grid-template-rows: repeat(2, 400px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
+      grid-template-areas: "g1 g1" "g1 g1"; } }
   @media (min-width: 1440px) {
     #the-sleepground #the-sleepground-online > div ul {
       display: grid;
-      grid-template-rows: repeat(3, 450px);
+      grid-template-rows: repeat(2, 450px);
       grid-template-columns: repeat(2, 1fr);
       column-gap: 15px;
-      grid-template-areas: "g1 g1" "g2 g2" "g2 g2"; } }
+      grid-template-areas: "g1 g1" "g1 g1"; } }
   #the-sleepground #the-sleepground-online > div ul li img {
     object-fit: cover;
     object-position: center;
@@ -4733,9 +4717,6 @@ footer {
   @media (min-width: 1025px) {
     #the-sleepground #the-sleepground-online > div ul li:nth-child(1) {
       grid-area: g1; } }
-  @media (min-width: 1025px) {
-    #the-sleepground #the-sleepground-online > div ul li:nth-child(2) {
-      grid-area: g2; } }
 #the-sleepground #the-sleepground-online-2 > div ul {
   display: grid;
   grid-template-rows: repeat(4, 570px); }
