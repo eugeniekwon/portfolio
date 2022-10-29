@@ -3584,6 +3584,10 @@ footer {
   @media (min-width: 768px) {
     #deeply-fruit #deeply-fruit-main > div ul li:nth-child(3) {
       grid-area: process; } }
+#deeply-fruit #deeply-fruit-button {
+  position: relative;
+  background-color: #f9f9f9; }
+
 #deeply-fruit #deeply-fruit-exterior-intro > div ul {
   display: grid;
   grid-template-rows: repeat(3, 250px); }
