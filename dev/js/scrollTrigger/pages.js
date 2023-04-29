@@ -793,6 +793,7 @@ if(deeplyFruitPage){
                  .from("#deeply-fruit #deeply-fruit-main div ul li:nth-child(3)", {duration:pageIntroTime, alpha:0, x:-30})
 
                  .from("#deeply-fruit #deeply-fruit-button a", {duration:pageIntroTime, alpha:0},"-=0.08")
+                 .from("#deeply-fruit #deeply-fruit-button-2 a", {duration:pageIntroTime, alpha:0},"-=0.08")
 
                  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(1)", {duration:pageTime, alpha:0},"-=0.01")
                  .from("#deeply-fruit #deeply-fruit-exterior-intro div ul li:nth-child(2)", {duration:pageTime, alpha:0},"-=0.01")
