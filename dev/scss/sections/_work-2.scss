@@ -19,29 +19,39 @@
             ul {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(10, 1fr);
+                grid-template-rows: repeat(5, 1fr);
                 // gap: 20px;
                 gap: 10px;
+                margin: 10px;
+                
 
                 @include md {
                     display: grid;
                     // grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(10, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
                     // gap: 20px;
                     gap: 10px;
+                    margin: 10px;
                 }
 
                 @include lg {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
                     // gap: 25px;
                     gap: 15px;
+                    margin: 15px;
+                }
+
+                @include xl {
+                    display: grid;
+                    gap: 15px;
+                    margin: 15px;
                 }
 
 
                 li {
-                    
+
                     >div {
                         align-items: center;
                         background-repeat: no-repeat;
@@ -51,7 +61,10 @@
                         height: 40vh;
                         justify-content: center;
                         text-align: left;
+
+                        border-radius: 10px;
                         
+
                         // a:hover{
                         //     transition: .25s;
                         //     transform: scale(1.1);
@@ -193,23 +206,23 @@
 
             }
 
+            // li:nth-child(3) {
+            //     >div {
+            //         background-image: url("../img/work-2/proj-orchards.jpg");
+                    
+            //         // margin-bottom: 30px;
+                    
+
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
+
+            //     }
+
+
+            // }
+
             li:nth-child(3) {
-                >div {
-                    background-image: url("../img/work-2/proj-orchards.jpg");
-                    
-                    // margin-bottom: 30px;
-                    
-
-                    // @include md {
-                    //     margin: 0;
-                    // }
-
-                }
-
-
-            }
-
-            li:nth-child(4) {
                 >div {
                     // background-image: url("../img/work-2/graphic-design-2022/gd2022-poster.jpg");
                     background-image: url("../img/work-2/graphic-design-2022/motion/main-motion.gif");
@@ -223,30 +236,30 @@
             
             
 
-            li:nth-child(5) {
-                >div {
-                    // background-image: url("../img/work-2/proj-morning.jpg");
-                    background-image: url("../img/work-2/morning-again/exterior/motion.gif");
-                    // background-size: 130%;
-                    // background-position: -100px -120px;
+            // li:nth-child(5) {
+            //     >div {
+            //         // background-image: url("../img/work-2/proj-morning.jpg");
+            //         background-image: url("../img/work-2/morning-again/exterior/motion.gif");
+            //         // background-size: 130%;
+            //         // background-position: -100px -120px;
                     
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
 
-                }
+            //     }
 
 
-            }
+            // }
             
             
 
             
 
-            li:nth-child(6) {
+            li:nth-child(4) {
                 >div {
                     background-image: url("../img/work-2/proj-books.jpg");
                     // margin-bottom: 30px;
@@ -262,24 +275,24 @@
             
 
             
-            li:nth-child(7) {
-                >div {
-                    // background-image: url("../img/work-2/proj-woodmere.jpg");
-                    background-image: url("../img/work-2/woodmere/app/notebook.jpg");
+            // li:nth-child(7) {
+            //     >div {
+            //         // background-image: url("../img/work-2/proj-woodmere.jpg");
+            //         background-image: url("../img/work-2/woodmere/app/notebook.jpg");
                     
-                    // margin-bottom: 30px;
-                    // background-size: 140%;
+            //         // margin-bottom: 30px;
+            //         // background-size: 140%;
 
-                    @include md {
-                        margin: 0;
-                    }
-                }
+            //         @include md {
+            //             margin: 0;
+            //         }
+            //     }
 
 
-            }
+            // }
 
             
-            li:nth-child(8) {
+            li:nth-child(5) {
                 >div {
                     background-image: url("../img/work-2/artspaceh/main/motion.gif");
                     
@@ -294,35 +307,42 @@
 
             }
 
-            li:nth-child(9) {
-                >div {
-                    background-image: url("../img/work-2/cinegraph-studios/main/motion.gif");
+            // li:nth-child(9) {
+            //     >div {
+            //         background-image: url("../img/work-2/cinegraph-studios/main/motion.gif");
                     
-                    // margin-bottom: 30px;
-                    // background-size: 130%;
+            //         // margin-bottom: 30px;
+            //         // background-size: 130%;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
-                }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
+            //     }
 
 
-            }
+            // }
 
-            li:nth-child(10) {
-                >div {
-                    // background-image: url("../img/work-2/proj-mahler.jpg");
-                    background-image: url("../img/work-2/gustav-mahler/motion.gif");
+            // li:nth-child(10) {
+            //     >div {
+            //         // background-image: url("../img/work-2/proj-mahler.jpg");
+            //         background-image: url("../img/work-2/gustav-mahler/motion.gif");
                     
-                    // margin-bottom: 30px;
+            //         // margin-bottom: 30px;
 
-                    // @include md {
-                    //     margin: 0;
-                    // }
-                }
+            //         // @include md {
+            //         //     margin: 0;
+            //         // }
+            //     }
 
 
-            }
+            // }
+
+
+
+
+
+
+
 
             // li:nth-child(11) {
             //     >div {

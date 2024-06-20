@@ -21,7 +21,9 @@
             grid-template-rows: repeat(5, 1fr);
             // gap: 20px;
             // gap: 10px;
-            gap: 5px;
+            gap: 10px;
+            margin: 10px;
+        
 
             @include md {
                 display: grid;
@@ -29,6 +31,7 @@
                 grid-template-rows: repeat(5, 1fr);
                 // gap: 20px;
                 gap: 10px;
+                margin: 10px;
             }
 
             @include lg {
@@ -37,6 +40,14 @@
                 grid-template-rows: repeat(3, 1fr);
                 // gap: 25px;
                 gap: 15px;
+                margin: 15px;
+            }
+
+            @include xl{
+                display: grid;
+                gap: 15px;
+                margin: 15px;
+
             }
 
 
@@ -51,6 +62,8 @@
                     height: 40vh;
                     justify-content: center;
                     text-align: center;
+
+                    border-radius: 10px;
                     
                     // a:hover{
                     //     transition: .25s;

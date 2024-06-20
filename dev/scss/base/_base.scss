@@ -466,6 +466,9 @@ a:visited {
             align-items: flex-start;
             
             background-color:rgba(0,0,0,0);
+
+            
+            border-radius: 10px;
            
             >div{
                 display: none;
@@ -476,6 +479,8 @@ a:visited {
             &:hover, &:active{
                 // background-color:rgba(0,0,0,0.3);
                 background-color:$light-blue;
+
+
                 >div{
                     display: block;
                     

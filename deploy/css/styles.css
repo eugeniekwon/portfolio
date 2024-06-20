@@ -575,7 +575,8 @@ a:visited {
     display: flex;
     justify-content: left;
     align-items: flex-start;
-    background-color: rgba(0, 0, 0, 0); }
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px; }
     .image-container a > div {
       display: none;
       transition: 0.15s; }
@@ -1218,19 +1219,27 @@ footer {
 #work-2 > div ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  gap: 10px; }
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  margin: 10px; }
   @media (min-width: 768px) {
     #work-2 > div ul {
       display: grid;
-      grid-template-rows: repeat(10, 1fr);
-      gap: 10px; } }
+      grid-template-rows: repeat(5, 1fr);
+      gap: 10px;
+      margin: 10px; } }
   @media (min-width: 1025px) {
     #work-2 > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      gap: 15px; } }
+      grid-template-rows: repeat(3, 1fr);
+      gap: 15px;
+      margin: 15px; } }
+  @media (min-width: 1440px) {
+    #work-2 > div ul {
+      display: grid;
+      gap: 15px;
+      margin: 15px; } }
   #work-2 > div ul li > div {
     align-items: center;
     background-repeat: no-repeat;
@@ -1239,7 +1248,8 @@ footer {
     display: flex;
     height: 40vh;
     justify-content: center;
-    text-align: left; }
+    text-align: left;
+    border-radius: 10px; }
     @media (min-width: 768px) {
       #work-2 > div ul li > div {
         height: 48vh; } }
@@ -1301,32 +1311,15 @@ footer {
   background-image: url("../img/work-2/deeply-fruit/motion.gif"); }
 
 #work-2 > div li:nth-child(3) > div {
-  background-image: url("../img/work-2/proj-orchards.jpg"); }
-
-#work-2 > div li:nth-child(4) > div {
   background-image: url("../img/work-2/graphic-design-2022/motion/main-motion.gif"); }
 
-#work-2 > div li:nth-child(5) > div {
-  background-image: url("../img/work-2/morning-again/exterior/motion.gif"); }
-
-#work-2 > div li:nth-child(6) > div {
+#work-2 > div li:nth-child(4) > div {
   background-image: url("../img/work-2/proj-books.jpg"); }
   @media (min-width: 768px) {
-    #work-2 > div li:nth-child(6) > div {
+    #work-2 > div li:nth-child(4) > div {
       margin: 0; } }
-#work-2 > div li:nth-child(7) > div {
-  background-image: url("../img/work-2/woodmere/app/notebook.jpg"); }
-  @media (min-width: 768px) {
-    #work-2 > div li:nth-child(7) > div {
-      margin: 0; } }
-#work-2 > div li:nth-child(8) > div {
+#work-2 > div li:nth-child(5) > div {
   background-image: url("../img/work-2/artspaceh/main/motion.gif"); }
-
-#work-2 > div li:nth-child(9) > div {
-  background-image: url("../img/work-2/cinegraph-studios/main/motion.gif"); }
-
-#work-2 > div li:nth-child(10) > div {
-  background-image: url("../img/work-2/gustav-mahler/motion.gif"); }
 
 /* =============
     woodmere-1
@@ -1612,18 +1605,26 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 5px; }
+  gap: 10px;
+  margin: 10px; }
   @media (min-width: 768px) {
     #play > div ul {
       display: grid;
       grid-template-rows: repeat(5, 1fr);
-      gap: 10px; } }
+      gap: 10px;
+      margin: 10px; } }
   @media (min-width: 1025px) {
     #play > div ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
-      gap: 15px; } }
+      gap: 15px;
+      margin: 15px; } }
+  @media (min-width: 1440px) {
+    #play > div ul {
+      display: grid;
+      gap: 15px;
+      margin: 15px; } }
   #play > div ul li > div {
     align-items: center;
     background-repeat: no-repeat;
@@ -1632,7 +1633,8 @@ footer {
     display: flex;
     height: 40vh;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    border-radius: 10px; }
     @media (min-width: 768px) {
       #play > div ul li > div {
         height: 48vh; } }
