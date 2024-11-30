@@ -908,7 +908,8 @@ footer {
 #about > div aside img {
   object-position: top;
   object-fit: contain;
-  width: 100%; }
+  width: 100%;
+  border-radius: 10px; }
   @media (min-width: 768px) {
     #about > div aside img {
       object-fit: cover; } }

@@ -21,6 +21,8 @@
                 object-fit: contain;
                 width: 100%;
 
+                border-radius: 10px;
+
                 @include md {
                     object-fit: cover;
                 }
